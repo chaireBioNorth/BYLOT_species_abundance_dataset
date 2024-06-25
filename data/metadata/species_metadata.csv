@@ -1,0 +1,36 @@
+functional_group,scientific,species,species_code,annual_strategy
+ducks and loons ,Somateria spectabilis,king eider,kiei,migrant
+ducks and loons ,Clangula hyemalis,long tailed duck,ltdu,migrant
+ducks and loons ,Gavia pacifica,pacific loon,palo,migrant
+ducks and loons ,Gavia stellata,red throated loon,rtlo,migrant
+geese and swans ,Branta hutchinsii,cackling goose,cacg,migrant
+geese and swans ,Anser caerulescens,snow goose,sngo,migrant
+geese and swans ,Cygnus columbianus,tundra swan,tusw,migrant
+raptors ,Buteo lagopus,rough legged hawk,rlha,migrant
+raptors ,Falco peregrinus,peregrine falcon,pefa,migrant
+raptors ,Bubo scandiacus,snowy owl,snow,migrant
+ptarmigans ,Lagopus muta,rock ptarmigan,ropt,resident
+cranes ,Antigone canadensis,sandhill crane,sacr,migrant
+shorebirds ,Pluvialis dominica,american golden plover,amgp,migrant
+shorebirds ,Pluvialis squatarola,black bellied plover,bbpl,migrant
+shorebirds ,Charadrius hiaticula,common ringed plover,crpl,migrant
+shorebirds ,Arenaria interpres,ruddy turnstone,rutu,migrant
+shorebirds ,Calidris canutus,red knot,rekn,migrant
+shorebirds ,Calidris melanotos,pectoral sandpiper,pesa,migrant
+shorebirds ,Calidris bairdii,bairds sandpiper,basa,migrant
+shorebirds ,Calidris fuscicollis,white rumped sandpiper,wrsa,migrant
+shorebirds ,Calidris subruficollis,buff breasted sandpiper,bbsa,migrant
+shorebirds ,Phalaropus fulicarius,red phalarope,reph,migrant
+gulls ,Larus hyperboreus,glaucous gull,glgu,migrant
+jaegers ,Stercorarius longicaudus,long tailed jaeger,ltja,migrant
+jaegers ,Stercorarius parasiticus,parasitic jaeger,paja,migrant
+ravens ,Corvus corax,common raven,cora,partial migrant
+passerines ,Eremophila alpestris,horned lark,hola,migrant
+passerines ,Anthus rubescens,american pipit,ampi,migrant
+passerines ,Calcarius lapponicus,lapland longspur,lalo,migrant
+passerines ,Plectrophenax nivalis,snow bunting,snbu,migrant
+lemmings ,Lemmus trimucronatus,brown lemming,brle,resident
+lemmings ,Dicrostonyx groenlandicus,collared lemming,cole,resident
+hares ,Lepus arcticus,arctic hare,arha,resident
+ermines ,Mustela richardsonii,ermine,ermi,resident
+foxes ,Vulpes lagopus,arctic fox,arfo,partial migrant

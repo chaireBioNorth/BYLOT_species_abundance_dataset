@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: manuscript.aux
+The style file: abbrvnat.bst
+Database file #1: references.bib
+Repeated entry---line 382 of file references.bib
+ : @article{fauteux2018
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 551 of file references.bib
+ : @article{seyer2020
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 653 of file references.bib
+ : @article{david2017
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 830 of file references.bib
+ : @article{gauthier2011
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 862 of file references.bib
+ : @article{leandri2019
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 894 of file references.bib
+ : @article{gauthier2015
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in bilodeau2013
+Warning--there's a number but no volume in gauthier2024a
+Warning--there's a number but no series in parmelee1967
+You've used 58 entries,
+            2773 wiz_defined-function locations,
+            949 strings with 18915 characters,
+and the built_in function-call counts, 33513 in all, are:
+= -- 2809
+> -- 2727
+< -- 14
++ -- 918
+- -- 858
+* -- 3160
+:= -- 5343
+add.period$ -- 182
+call.type$ -- 58
+change.case$ -- 449
+chr.to.int$ -- 56
+cite$ -- 119
+duplicate$ -- 1199
+empty$ -- 2230
+format.name$ -- 921
+if$ -- 6766
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 53
+newline$ -- 303
+num.names$ -- 232
+pop$ -- 838
+preamble$ -- 1
+purify$ -- 395
+quote$ -- 0
+skip$ -- 997
+stack$ -- 0
+substring$ -- 1147
+swap$ -- 81
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 628
+warning$ -- 3
+while$ -- 252
+width$ -- 0
+write$ -- 766
+(There were 6 error messages)

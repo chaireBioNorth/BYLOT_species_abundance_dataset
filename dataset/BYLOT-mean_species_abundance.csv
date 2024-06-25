@@ -1,0 +1,50 @@
+"species","data","mean_abundance","sd_abundance","n","min_abundance","max_abundance"
+"american golden plover","distance sampling",774,275,8,306,1040
+"brown lemming","trapping",54043,93530,27,0,447630
+"cackling goose","nest sampling",50,59,28,2,214
+"collared lemming","trapping",8128,10334,27,0,39302
+"common ringed plover","nest sampling",55,9,3,44,62
+"ermine","testimonials",40,37,27,8,156
+"glaucous gull","nest sampling",73,7,17,59,80
+"long tailed jaeger","nest sampling",272,285,17,0,900
+"pacific loon","nest sampling",4,3,4,0,6
+"peregrine falcon","nest sampling",10,1,8,8,12
+"red throated loon","nest sampling",64,15,4,42,76
+"rough legged hawk","nest sampling",25,24,16,0,66
+"snow goose","combined methods",25289,13327,23,2505,49076
+"snowy owl","nest sampling",16,33,26,0,144
+"tundra swan","nest sampling",1,1,4,0,2
+"american pipit","transects (relative abundance)",53,NA,NA,NA,NA
+"american pipit","incidental observations (relative abundance)",87,NA,NA,NA,NA
+"arctic fox","individual home range",53,NA,NA,NA,NA
+"arctic hare","incidental observations (relative abundance)",6,NA,NA,NA,NA
+"bairds sandpiper","nest sampling (extrapolation transects)",2495,NA,NA,NA,NA
+"black bellied plover","transects (relative abundance)",22,NA,NA,NA,NA
+"black bellied plover","incidental observations (relative abundance)",61,NA,NA,NA,NA
+"buff breasted sandpiper","transects (relative abundance)",41,NA,NA,NA,NA
+"buff breasted sandpiper","incidental observations (relative abundance)",8,NA,NA,NA,NA
+"common raven","transects (relative abundance)",14,NA,NA,NA,NA
+"common raven","incidental observations (relative abundance)",31,NA,NA,NA,NA
+"horned lark","transects (relative abundance)",362,NA,NA,NA,NA
+"horned lark","incidental observations (relative abundance)",411,NA,NA,NA,NA
+"king eider","nest sampling (extrapolation habitat)",25,NA,NA,NA,NA
+"king eider","incidental observations (relative abundance)",106,NA,NA,NA,NA
+"lapland longspur","nest sampling (extrapolation transects)",7110,NA,NA,NA,NA
+"long tailed duck","nest sampling (extrapolation habitat)",20,NA,NA,NA,NA
+"long tailed duck","incidental observations (relative abundance)",191,NA,NA,NA,NA
+"parasitic jaeger","banding",17,NA,NA,NA,NA
+"parasitic jaeger","nest sampling",8,NA,NA,NA,NA
+"pectoral sandpiper","transects (relative abundance)",79,NA,NA,NA,NA
+"pectoral sandpiper","incidental observations (relative abundance)",260,NA,NA,NA,NA
+"red knot","transects (relative abundance)",64,NA,NA,NA,NA
+"red knot","incidental observations (relative abundance)",237,NA,NA,NA,NA
+"red phalarope","transects (relative abundance)",156,NA,NA,NA,NA
+"red phalarope","incidental observations (relative abundance)",276,NA,NA,NA,NA
+"rock ptarmigan","nest sampling (extrapolation habitat)",24,NA,NA,NA,NA
+"ruddy turnstone","transects (relative abundance)",40,NA,NA,NA,NA
+"ruddy turnstone","incidental observations (relative abundance)",54,NA,NA,NA,NA
+"sandhill crane","nest sampling (extrapolation transects)",34,NA,NA,NA,NA
+"snow bunting","transects (relative abundance)",18,NA,NA,NA,NA
+"snow bunting","incidental observations (relative abundance)",276,NA,NA,NA,NA
+"white rumped sandpiper","transects (relative abundance)",1135,NA,NA,NA,NA
+"white rumped sandpiper","incidental observations (relative abundance)",1156,NA,NA,NA,NA

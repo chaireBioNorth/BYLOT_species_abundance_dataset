@@ -1,0 +1,33 @@
+species,zone,year,number_years,monitoring,reference
+snow goose,camp 2,"1999-2019, 2023",22,systematic,"Gauthier et Cadieux, 2020"
+snowy owl,camp 1,"1996-2019, 2023",25,systematic,"Gauthier et al., 2020"
+brown lemming,trapping grids,"1995-2019, 2021-2022",27,systematic,"Gauthier, 2020"
+collared lemming,trapping grids,"1995-2019, 2021-2022",27,systematic,"Gauthier, 2020"
+peregrine falcon,qarlikturvik valley,"2007-2019, 2022",15,systematic,"Gauthier et al., 2020"
+rough legged hawk,qarlikturvik valley,"2007-2019, 2022",15,systematic,"Gauthier et al., 2020"
+cackling goose,qarlikturvik valley,"2004-2019, 2022-2023",18,systematic,unpublished data
+tundra swan,qarlikturvik valley,"2004-2019, 2022",17,systematic,unpublished data
+pacific loon,qarlikturvik valley,"2004-2019, 2022",17,systematic,unpublished data
+red throated loon,qarlikturvik valley,"2004-2019, 2022",17,systematic,unpublished data
+glaucous gull,qarlikturvik valley,"2004-2019, 2022",17,systematic,"Gauthier et al., 2020"
+long tailed jaeger,camp 1,"2004-2019, 2022",17,systematic,"Gauthier et al., 2020"
+parasitic jaeger,camp 1,"2004-2019, 2022",17,systematic,unpublished data
+lapland longspur,2x1km plot,"2005-2019, 2022-2023",17,systematic,"Gauthier and Bêty, 2020"
+bairds sandpiper,2x1km plot,"2005-2019, 2022-2023",17,systematic,"Bêty, 2020"
+sandhill crane,4x2km plot,"2005-2019, 2022",16,opportunistic,unpublished data
+long tailed duck,4x2km plot,"2005-2019, 2022",16,opportunistic,unpublished data
+king eider,4x2km plot,"2005-2019, 2022",16,opportunistic,unpublished data
+rock ptarmigan,4x2km plot,"2005-2019, 2022",16,opportunistic,unpublished data
+snowy owl,study area,"2012-2019, 2022-2023",10,systematic,"Gauthier et al., 2020"
+peregrine falcon,study area,"2013-2019, 2022 ",8,systematic,"Gauthier et al., 2020"
+rough legged hawk,study area,"2013-2019, 2022",8,systematic,"Gauthier et al., 2020"
+common raven,study area,"2013-2019, 2022",8,systematic,unpublished data
+cackling goose,study area,"2017-2019, 2022-2023",5,systematic,"Duchesne et al., 2021"
+tundra swan,study area,"2017-2019, 2022",4,systematic,"Duchesne et al., 2021"
+pacific loon,study area,"2017-2019, 2022",4,systematic,"Duchesne et al., 2021"
+red throated loon,study area,"2017-2019, 2022",4,systematic,"Duchesne et al., 2021"
+glaucous gull,study area,"2017-2019, 2022",4,systematic,"Gauthier et al., 2020"
+parasitic jaeger,study area,"2009-2019, 2022",12,opportunistic,unpublished data
+common ringed plover,study area,2015-2017,3,systematic,"Bêty, 2020"
+ermine,study area,1993-2019,27,opportunistic,"Bolduc et al., 2023"
+arctic fox,study area,2008-2016,9,systematic,"Dulude-de Broin et al., 2023"
