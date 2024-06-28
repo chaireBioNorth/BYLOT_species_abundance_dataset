@@ -63,6 +63,7 @@ table <- abundance_series %>%
 sp_metadata <- read.csv("data/metadata/species_metadata.csv") %>% 
   dplyr::mutate(indice=1:nrow(.)) %>% 
   dplyr::select(species, indice)
+
 # Reorder df1 based on the indices
 table <- table %>% 
   dplyr::left_join(sp_metadata, by= c("Species"= "species")) %>% 
@@ -92,7 +93,8 @@ print(table_mean_abundance_latex,
 #### Export as .csv for the data set ####
 #---------------------------------------#
 abundance_dataset <- abundance_series %>% 
-rbind(mean_abundance)
+rbind(mean_abundance)%>% 
+  dplyr::mutate(species= dplyr::recode(species,"bairds sandpiper"="Baird's sandpiper", "long tailed duck"= "long-tailed duck", "long tailed jaeger"= "long-tailed jaeger", "red throated loon"= "red-throated loon", "pacific loon"= "Pacific loon","rough legged hawk"= "rough-legged hawk", "arctic hare"= "Arctic hare", "black bellied plover"= "black-bellied plover", "buff breasted sandpiper"= "buff-breasted sandpiper", "american pipit"= "American pipit", "arctic fox"="Arctic fox", "common ringed plover"= "common-ringed plover", "american golden plover"= "American golden-plover", "white rumped sandpiper"= "white-rumped sandpiper", "lapland longspur"= "Lapland longspur"))
 
 write.csv(abundance_dataset,"dataset/BYLOT-mean_species_abundance.csv",row.names = FALSE)
 

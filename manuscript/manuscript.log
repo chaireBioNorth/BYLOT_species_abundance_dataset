@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  25 JUN 2024 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  26 JUN 2024 07:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,7 +689,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<figures/food_web.pdf, id=247, 426.79132pt x 256.0748pt>
+<figures/food_web.pdf, id=248, 426.79132pt x 256.0748pt>
 File: figures/food_web.pdf Graphic file (type pdf)
 <use figures/food_web.pdf>
 Package pdftex.def Info: figures/food_web.pdf  used on input line 90.
@@ -700,7 +700,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<figures/zones_study_area.pdf, id=444, 511.9125pt x 710.655pt>
+<figures/zones_study_area.pdf, id=445, 511.9125pt x 710.655pt>
 File: figures/zones_study_area.pdf Graphic file (type pdf)
 <use figures/zones_study_area.pdf>
 Package pdftex.def Info: figures/zones_study_area.pdf  used on input line 106.
@@ -716,7 +716,7 @@ Overfull \hbox (26.83412pt too wide) in alignment at lines 45--45
  []
 
 ) [8] [9]
-<figures/qarlikturvik_valley.pdf, id=521, 568.1225pt x 511.9125pt>
+<figures/qarlikturvik_valley.pdf, id=522, 568.1225pt x 511.9125pt>
 File: figures/qarlikturvik_valley.pdf Graphic file (type pdf)
 <use figures/qarlikturvik_valley.pdf>
 Package pdftex.def Info: figures/qarlikturvik_valley.pdf  used on input line 14
@@ -729,7 +729,7 @@ Underfull \hbox (badness 10000) in alignment at lines 31--31
  []
 
 ) [11]
-<figures/transects.pdf, id=551, 511.9125pt x 710.655pt>
+<figures/transects.pdf, id=552, 511.9125pt x 710.655pt>
 File: figures/transects.pdf Graphic file (type pdf)
 <use figures/transects.pdf>
 Package pdftex.def Info: figures/transects.pdf  used on input line 170.
@@ -739,24 +739,24 @@ Underfull \hbox (badness 10000) in alignment at lines 29--29
 [][][][] 
  []
 
-) [12] [13 <./figures/transects.pdf>] [14] [15]
-Overfull \hbox (3.33832pt too wide) in paragraph at lines 202--203
-\T1/lmr/m/n/10 pub-lished data), snowy owl ([]Ther-rien et al.[], []2012[]; []R
-o-bil-lard et al.[], []2018[]), American-golden plovers([]Lamarre
- []
-
-(./tables/body_mass.tex
+) [12] [13 <./figures/transects.pdf>] [14] [15] (./tables/body_mass.tex
 Overfull \hbox (1.01744pt too wide) in alignment at lines 49--49
 [][][][] 
  []
 
-) [16] [17] (./tables/table_summary_methods.tex
+) [16]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+11.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [17]
+(./tables/table_summary_methods.tex
 Overfull \hbox (10.76144pt too wide) in alignment at lines 64--64
 [][][][][] 
  []
 
 ) [18]
-<figures/cackling_goose_nest_exponential.pdf, id=677, 505.89pt x 505.89pt>
+<figures/cackling_goose_nest_exponential.pdf, id=680, 505.89pt x 505.89pt>
 File: figures/cackling_goose_nest_exponential.pdf Graphic file (type pdf)
 <use figures/cackling_goose_nest_exponential.pdf>
 Package pdftex.def Info: figures/cackling_goose_nest_exponential.pdf  used on i
@@ -775,8 +775,11 @@ File: figures/snow_goose_mesic_density.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/snow_goose_mesic_density.pdf  used on input li
 ne 243.
 (pdftex.def)             Requested size: 455.24411pt x 252.6143pt.
- [20] [21 <./figures/map_geese_colony_2017.pdf>]
-<figures/sandhill_crane_nest_transects.pdf, id=725, 505.89pt x 505.89pt>
+ [20 <./figures/map_geese_colony_2017.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./figures/snow_goose_mesic_density.pdf>]
+<figures/sandhill_crane_nest_transects.pdf, id=729, 505.89pt x 505.89pt>
 File: figures/sandhill_crane_nest_transects.pdf Graphic file (type pdf)
 <use figures/sandhill_crane_nest_transects.pdf>
 Package pdftex.def Info: figures/sandhill_crane_nest_transects.pdf  used on inp
@@ -785,7 +788,7 @@ ut line 266.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./figures/snow_goose_mesic_density.pdf>]
+ [22]
 Underfull \vbox (badness 5245) has occurred while \output is active []
 
  [23 <./figures/sandhill_crane_nest_transects.pdf>]
@@ -939,26 +942,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--112
 v. 1.0 (2007-2019).
  []
 
-[34]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-02.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [35] [36]) [37]
-(./manuscript.aux)
+[34] [35] [36]) [37] (./manuscript.aux)
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: 83AA0C3024AF840E2D92B9181FAD8345;6572.
  ) 
 Here is how much of TeX's memory you used:
  15500 strings out of 480204
  257205 string characters out of 5895010
- 602814 words of memory out of 5000000
+ 603430 words of memory out of 5000000
  32974 multiletter control sequences out of 15000+600000
  534092 words of font info for 71 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,12n,106p,2327b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
 m-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.
@@ -969,10 +966,10 @@ c/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmtt10.pfb>
-Output written on manuscript.pdf (37 pages, 4801996 bytes).
+Output written on manuscript.pdf (37 pages, 4738746 bytes).
 PDF statistics:
- 1083 PDF objects out of 1200 (max. 8388607)
- 883 compressed objects within 9 object streams
+ 1082 PDF objects out of 1200 (max. 8388607)
+ 884 compressed objects within 9 object streams
  163 named destinations out of 1000 (max. 500000)
  399 words of extra memory for PDF output out of 10000 (max. 10000000)
 

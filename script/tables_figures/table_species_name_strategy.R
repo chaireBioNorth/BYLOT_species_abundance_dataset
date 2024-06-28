@@ -30,7 +30,7 @@ print(sp_name_latex,
 table_name %>% 
   dplyr::rename(functional_group= `Functional group`,
                 scientific_name= `Scientific name`,
-                name= Name,
+                species= Name,
                 annual_cycle_strategy=`Annual cycle strategy`) %>% 
   write.csv("dataset/BYLOT-community_composition.csv", row.names = FALSE)
 

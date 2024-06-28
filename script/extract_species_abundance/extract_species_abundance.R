@@ -94,6 +94,23 @@ cack_extend <- data.frame(
   dplyr::mutate(ind_density_km2=nb_nest*2/study_area[study_area$zone=="study area",]$area_km2, status= "breeding", data= "nest sampling (extrapolation nests)") %>% 
   dplyr::select(species, zone, year, ind_density_km2, status, data)
 
+#--- extract figure nest cackling goose and fit with model
+all_cack_nests <- get_nest_density(
+  nest_data= nest_data,
+  zone_sf= study_area,
+  species_list = "cackling goose",
+  zone_list= "study area",
+  year_list= c(1990:2019, 2022,2023))
+
+pdf(file= "manuscript/figures/cackling_goose_nest_exponential.pdf")
+plot(all_cack_nests$year, all_cack_nests$nb_nest, 
+     xlab= "Years",
+     ylab= "Number of nests",
+     main= "cackling goose",
+     cex= 1.5, pch= 16, col= "steelblue4", cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5) +
+  lines(c(1996: 2023), exp(predict(cack_model, list(year=c(1996:2023)))), col = "red", lwd= 3)
+dev.off()
+
 
 #--- Extrapolate density of glaucous gull based on density between 2004 - 2016 measured in the qarlikturvik valley
 glgu_extend <- extend_temporal_series_from_single_zone_nest(
@@ -738,6 +755,7 @@ write.csv(abundances,"data/clean/species_abundance.csv", row.names = FALSE)
 abundances_dataset <- abundances %>% 
   dplyr::select(-zone) %>% 
   dplyr::rename(method= data) %>% 
-  dplyr::arrange(year)
+  dplyr::arrange(year) %>% 
+  dplyr::mutate(species= dplyr::recode(species,"bairds sandpiper"="Baird's sandpiper", "long tailed duck"= "long-tailed duck", "long tailed jaeger"= "long-tailed jaeger", "red throated loon"= "red-throated loon", "pacific loon"= "Pacific loon","rough legged hawk"= "rough-legged hawk", "arctic hare"= "Arctic hare", "black bellied plover"= "black-bellied plover", "buff breasted sandpiper"= "buff-breasted sandpiper", "american pipit"= "American pipit", "arctic fox"="Arctic fox", "common ringed plover"= "common-ringed plover", "american golden plover"= "American golden-plover", "white rumped sandpiper"= "white-rumped sandpiper", "lapland longspur"= "Lapland longspur"))
 
 write.csv(abundances_dataset,"dataset/BYLOT-species_abundance.csv",row.names = FALSE)
