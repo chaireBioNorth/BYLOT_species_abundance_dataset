@@ -107,7 +107,7 @@ plot(all_cack_nests$year, all_cack_nests$nb_nest,
      xlab= "Years",
      ylab= "Number of nests",
      main= "cackling goose",
-     cex= 1.5, pch= 16, col= "steelblue4", cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5) +
+     cex= 1.5, pch= 16, col= "steelblue4", cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5)+
   lines(c(1996: 2023), exp(predict(cack_model, list(year=c(1996:2023)))), col = "red", lwd= 3)
 dev.off()
 
