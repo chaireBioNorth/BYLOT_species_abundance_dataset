@@ -23,31 +23,31 @@
 "cackling goose",1999,"breeding","nest sampling (extrapolation nests)",4
 "collared lemming",1999,"undetermined","trapping",2026
 "ermine",1999,"undertermined","testimonials",39
-"snow goose",1999,"breeding","combined methods",8175
+"snow goose",1999,"breeding","nest sampling (extrapolation colony)",8175
 "snowy owl",1999,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2000,"undetermined","trapping",137110
 "cackling goose",2000,"breeding","nest sampling (extrapolation nests)",4
 "collared lemming",2000,"undetermined","trapping",16327
 "ermine",2000,"undertermined","testimonials",21
-"snow goose",2000,"breeding","combined methods",15412
+"snow goose",2000,"breeding","nest sampling (extrapolation colony)",15412
 "snowy owl",2000,"breeding","nest sampling (extrapolation nests)",67
 "brown lemming",2001,"undetermined","trapping",9441
 "cackling goose",2001,"breeding","nest sampling (extrapolation nests)",5
 "collared lemming",2001,"undetermined","trapping",8350
 "ermine",2001,"undertermined","testimonials",111
-"snow goose",2001,"breeding","combined methods",35404
+"snow goose",2001,"breeding","nest sampling (extrapolation colony)",35404
 "snowy owl",2001,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2002,"undetermined","trapping",2026
 "cackling goose",2002,"breeding","nest sampling (extrapolation nests)",6
 "collared lemming",2002,"undetermined","trapping",2372
 "ermine",2002,"undertermined","testimonials",59
-"snow goose",2002,"breeding","combined methods",25715
+"snow goose",2002,"breeding","nest sampling (extrapolation colony)",25715
 "snowy owl",2002,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2003,"undetermined","trapping",2026
 "cackling goose",2003,"breeding","nest sampling (extrapolation nests)",7
 "collared lemming",2003,"undetermined","trapping",2026
 "ermine",2003,"undertermined","testimonials",8
-"snow goose",2003,"breeding","combined methods",33532
+"snow goose",2003,"breeding","nest sampling (extrapolation colony)",33532
 "snowy owl",2003,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2004,"undetermined","trapping",68378
 "cackling goose",2004,"breeding","nest sampling (extrapolation nests)",9
@@ -56,7 +56,7 @@
 "glaucous gull",2004,"breeding","nest sampling (extrapolation nests)",61
 "long-tailed jaeger",2004,"breeding","nest sampling (extrapolation habitat)",270
 "rough-legged hawk",2004,"breeding","nest sampling (extrapolation nests)",11
-"snow goose",2004,"breeding","combined methods",2505
+"snow goose",2004,"breeding","nest sampling (extrapolation colony)",2505
 "snowy owl",2004,"breeding","nest sampling (extrapolation nests)",60
 "brown lemming",2005,"undetermined","trapping",3276
 "cackling goose",2005,"breeding","nest sampling (extrapolation nests)",10
@@ -64,7 +64,7 @@
 "ermine",2005,"undertermined","testimonials",8
 "glaucous gull",2005,"breeding","nest sampling (extrapolation nests)",68
 "long-tailed jaeger",2005,"breeding","nest sampling (extrapolation habitat)",158
-"snow goose",2005,"breeding","combined methods",12773
+"snow goose",2005,"breeding","nest sampling (extrapolation colony)",12773
 "snowy owl",2005,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2006,"undetermined","trapping",4336
 "cackling goose",2006,"breeding","nest sampling (extrapolation nests)",12
@@ -73,7 +73,7 @@
 "glaucous gull",2006,"breeding","nest sampling (extrapolation nests)",73
 "long-tailed jaeger",2006,"breeding","nest sampling (extrapolation habitat)",68
 "rough-legged hawk",2006,"breeding","nest sampling (extrapolation nests)",11
-"snow goose",2006,"breeding","combined methods",7402
+"snow goose",2006,"breeding","nest sampling (extrapolation colony)",7402
 "snowy owl",2006,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2007,"undetermined","trapping",4373
 "cackling goose",2007,"breeding","nest sampling (extrapolation nests)",14
@@ -82,7 +82,7 @@
 "glaucous gull",2007,"breeding","nest sampling (extrapolation nests)",77
 "long-tailed jaeger",2007,"breeding","nest sampling (extrapolation habitat)",293
 "rough-legged hawk",2007,"breeding","nest sampling (extrapolation nests)",3
-"snow goose",2007,"breeding","combined methods",10778
+"snow goose",2007,"breeding","nest sampling (extrapolation colony)",10778
 "snowy owl",2007,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2008,"undetermined","trapping",44827
 "cackling goose",2008,"breeding","nest sampling (extrapolation nests)",17
@@ -91,7 +91,7 @@
 "glaucous gull",2008,"breeding","nest sampling (extrapolation nests)",77
 "long-tailed jaeger",2008,"breeding","nest sampling (extrapolation habitat)",900
 "rough-legged hawk",2008,"breeding","nest sampling (extrapolation nests)",10
-"snow goose",2008,"breeding","combined methods",21523
+"snow goose",2008,"breeding","nest sampling (extrapolation colony)",21523
 "snowy owl",2008,"breeding","nest sampling (extrapolation nests)",33
 "brown lemming",2009,"undetermined","trapping",1945
 "cackling goose",2009,"breeding","nest sampling (extrapolation nests)",20
@@ -100,7 +100,7 @@
 "glaucous gull",2009,"breeding","nest sampling (extrapolation nests)",74
 "long-tailed jaeger",2009,"breeding","nest sampling (extrapolation habitat)",0
 "rough-legged hawk",2009,"breeding","nest sampling (extrapolation nests)",7
-"snow goose",2009,"breeding","combined methods",26199
+"snow goose",2009,"breeding","nest sampling (extrapolation colony)",26199
 "snowy owl",2009,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2010,"undetermined","trapping",95615
 "cackling goose",2010,"breeding","nest sampling (extrapolation nests)",24

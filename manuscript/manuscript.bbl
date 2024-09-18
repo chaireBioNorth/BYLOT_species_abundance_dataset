@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,6 +31,11 @@ D.~Bolduc, D.~Fauteux, C.~A. Gagnon, G.~Gauthier, J.~B{\^e}ty, and
   P.~Legagneux.
 \newblock Testimonials to reconstruct past abundances of wildlife populations.
 \newblock \emph{Basic and Applied Ecology}, 68:\penalty0 23--34, 2023.
+
+\bibitem[Brown and Heske(1990)]{brown1990}
+J.~H. Brown and E.~J. Heske.
+\newblock Temporal changes in a chihuahuan desert rodent community.
+\newblock \emph{Oikos}, pages 290--302, 1990.
 
 \bibitem[Christin et~al.(2015)Christin, St-Laurent, and Berteaux]{christin2015}
 S.~Christin, M.-H. St-Laurent, and D.~Berteaux.
@@ -401,6 +406,13 @@ Y.~Seyer, G.~Gauthier, D.~Fauteux, and J.-F. Therrien.
 \newblock Resource partitioning among avian predators of the arctic tundra.
 \newblock \emph{Journal of Animal Ecology}, 89\penalty0 (12):\penalty0
   2934--2945, 2020.
+
+\bibitem[Snyder and Tartowski(2006)]{snyder2006}
+K.~Snyder and S.~Tartowski.
+\newblock Multi-scale temporal variation in water availability: implications
+  for vegetation dynamics in arid and semi-arid ecosystems.
+\newblock \emph{Journal of Arid Environments}, 65\penalty0 (2):\penalty0
+  219--234, 2006.
 
 \bibitem[Taylor(1974)]{taylor1974}
 P.~S. Taylor.

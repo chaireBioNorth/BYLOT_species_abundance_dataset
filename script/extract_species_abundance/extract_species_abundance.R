@@ -141,6 +141,7 @@ sngo <- sngo %>%
   dplyr::mutate(species= "snow goose", zone= "study area", status= "breeding",data= "nest sampling") %>% 
   dplyr::select(species, zone, year, abundance, status, data)
 sngo[sngo$year %in% c(2010:2019, 2022, 2023),]$data <- "combined methods"
+sngo[sngo$year %in% c(1999:2009),]$data <- "nest sampling (extrapolation colony)"
 
 
 #-------------------------------------------#

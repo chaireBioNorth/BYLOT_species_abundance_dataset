@@ -77,6 +77,7 @@ transects_sngo <- transects_2010_2013_sngo %>%
 transects_sngo_wet <- transects_sngo %>% 
   dplyr::filter(habitat== "wetland")
   
+
 #Point counts
 sngo_point <- sf::st_read("data/raw/shapefiles/sampling/snow_goose_point_counts_2010_2023.shp")
 #Identify point counts that are located in wet habitat

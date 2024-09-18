@@ -20,6 +20,7 @@
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{makecell}
+\usepackage{pdflscape}
 %bibliography
 \usepackage[round]{natbib}
 \bibliographystyle{abbrvnat}
@@ -28,6 +29,7 @@
     colorlinks=false,
     pdfborder={0 0 0} % Removes the border
 }
+\usepackage{geometry}
 
 %% Math Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath}
@@ -52,18 +54,19 @@
 \endgroup
 
 \textbf{Authors}:\\
- Louis Moisan\textsuperscript{1,2}, Azenor Bideault\textsuperscript{2,3}, Pierre Legagneux\textsuperscript{3,4}, Gilles Gauthier\textsuperscript{5}, Éliane Duchesne\textsuperscript{1}, Marie-Christine Cadieux \textsuperscript{3}, Dominique Berteaux\textsuperscript{1}, Dominique Fauteux\textsuperscript{6} and Joël Bêty\textsuperscript{1}\\[1.5em]
+Louis Moisan\textsuperscript{1,2}, Azenor Bideault\textsuperscript{2,3}, Gilles Gauthier\textsuperscript{4}, Éliane Duchesne\textsuperscript{1},
+Dominique Fauteux\textsuperscript{5}, Dominique Berteaux\textsuperscript{1}, Pierre Legagneux\textsuperscript{3,6}, Marie-Christine Cadieux \textsuperscript{3} and Joël Bêty\textsuperscript{1}\\[1.5em]
 
 \textbf{Author Affiliations}:\\
 \textsuperscript{1} Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de biologie, chimie et géographie, Université du Québec à Rimouski, Rimouski, QC, Canada\\
 \textsuperscript{2} Chaire de Recherche du Canada en Écologie Intégrative, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de Biologie, Université de Sherbrooke, Sherbrooke, QC, Canada\\
 \textsuperscript{3} Chaire de Recherche Sentinelle Nord sur l’impact des migrations animales sur les écosystèmes nordiques, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de Biologie, Université Laval, Québec, QC, Canada\\
-\textsuperscript{4} Centre d’Études Biologiques de Chizé (CEBC-CNRS), Université de La Rochelle, France \\
-\textsuperscript{5} Centre d’études nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
-\textsuperscript{6} Centre d’études nordiques, Centre de connaissance et d’exploration de l’Arctique, Musée canadien de la nature, Ottawa, ON, Canada
+\textsuperscript{4} Centre d’études nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
+\textsuperscript{5} Centre d’études nordiques, Centre de connaissance et d’exploration de l’Arctique, Musée canadien de la nature, Ottawa, ON, Canada\\
+\textsuperscript{6} Centre d’Études Biologiques de Chizé (CEBC-CNRS), Université de La Rochelle, France 
 \\[1.5em]
 
-\textbf{Corresponding Author}:\\
+\textbf{Corresponding Authors}:\\
 \textit{\href{mailto:louis.moisan.bio@gmail.com}{louis.moisan.bio@gmail.com}}\\
 \textit{\href{mailto:joel_bety@uqar.ca}{joel{\textunderscore}bety@uqar.ca}}
 \\[1.5em]
@@ -75,9 +78,9 @@ Arctic ecosystems present unique opportunities for community-wide monitoring, in
 \section*{Introduction}
 The composition of ecological communities, defined as the abundance of each species within a given community, is fundamental for understanding patterns and processes in community ecology. Variations in community composition can help to detect spatial patterns linked to environmental variations \citep{kemp1990}, assess temporal trends of different groups of species after disturbances \citep{philippi1998, magurran2007}, and understand food web structures \citep{cohen2003}. Additionally, community composition is essential for modeling the dynamics of ecological communities. Dynamic community modelling allows addressing important issues and questions in ecology, such as: determining the relative strength of top-down versus bottom-up forces in communities \citep{krebs2003,legagneux2014}, assessing the ecological resilience of communities under climate change \citep{griffith2019} and evaluating the cascading effects of invasive species in food web \citep{david2017, goto2020}. Dynamic community modelling can also be applied to address practical challenges, including fishery management (Plagányi, 2007) and the planning of protected areas \citep{okey2004, dahood2020}. 
 
-Modeling ecological communities requires adjusting trophic flows based on the functional responses of species, which necessitates time series data on the abundance of all species within a community. However, accurately determining the abundance of all species is rarely achievable. Consequently, empirical community models often reduce taxonomic resolution by grouping species into large functional or taxonomic categories. Additionally, food webs consist of species with varying body sizes depending on their trophic level, with top-level species often being highly mobile and having large home ranges \citep{mccann2005}. Therefore, community models must use landscape-wide estimates of species abundance to accurately represent trophic fluxes. Due to these constraints, empirical datasets with high taxonomic resolution that cover entire communities at broad spatial and temporal scales are rare and often include incomplete or rough estimates.
+Modeling food webs requires adjusting trophic flows based on the functional responses of species, which necessitates time series data on the abundance of all species within a community. However, accurately determining the abundance of all species is rarely achievable. Consequently, empirical community models often reduce taxonomic resolution by grouping species into large functional or taxonomic categories. Additionally, food webs consist of species with varying body sizes depending on their trophic level, with top-level species often being highly mobile and having large home ranges \citep{mccann2005}. Therefore, community models must use landscape-wide estimates of species abundance to accurately represent trophic fluxes. Due to these constraints, empirical datasets with high taxonomic resolution that cover entire communities at broad spatial and temporal scales are rare and often include incomplete or rough estimates.
 
-The composition of ecological communities is influenced by various factors acting at different temporal and spatial scales, leading to noisy data and emphasizing the need for long-term data sets \citep{magurran2010, lindenmayer2012}. Species abundances are influenced by stochastic effects \citep{hubbell2001}, environmental changes (e.g., climate warming), and species interactions, contributing to data variability. For instance, the composition of a community could be driven simultaneously by the intra-annual seasonal variations in the environment, the multi-year cyclic dynamics of an important prey or predator and a relatively slow but directional climate warming. Therefore, long-term data series are required to untangle the relative effects of diverse abiotic and biotic factors on community composition \citep{magurran2010, lindenmayer2012}.
+The composition of ecological communities is influenced by various factors acting at different temporal and spatial scales, leading to noisy data and emphasizing the need for long-term data sets \citep{magurran2010, lindenmayer2012}. Species abundances are influenced by stochastic effects \citep{hubbell2001}, environmental changes (e.g., climate warming), and species interactions, contributing to data variability. For instance, the composition of a community could be driven simultaneously by intra-annual seasonal variations, multi-year cyclic variations (e.g., El Niño) and slow but directional long-term variations in the environment \citep{brown1990, snyder2006}. Therefore, long-term data series are required to untangle the relative effects of diverse abiotic and biotic factors on community composition \citep{magurran2010, lindenmayer2012}.
 
 Arctic environments are highly valuable systems for studying community patterns and processes due to their relatively low species richness \citep{payer2013, legagneux2014}. However, logistical challenges in the Arctic limit the number of long-term biodiversity monitoring programs. Hence, the small number of Arctic communities with long-term monitoring serve as highly valuable sites for holistic and empirical community studies. Datasets on terrestrial communities are notably scarce, and this scarcity extends to Arctic communities as well \citep{ims2013}. 
 
@@ -132,7 +135,7 @@ Since 2004, systematic searches of wetland areas have been conducted on the sout
 Snow geese nest in a large colony in the study area (\textbf{Figure \ref{figure:zones}}), but also in small aggregations distributed on the island, especially in years when snowy owls are nesting \citep{lepage1996,reed2002}. Since 1994, goose nests were systematically monitored on a 0.24 km\textsuperscript{2} wetland at the center of the colony. Since 1999, nests were also systematically monitored on a variable number of plots, measuring 0.01 km\textsuperscript{2} in wetland habitat and 0.04 km\textsuperscript{2} in mesic habitat, randomly distributed throughout the goose colony \citep{gauthier2020goose}. The total area covered by the randomly distributed plots averaged 0.79 \textpm{0.37} km\textsuperscript{2} per year. From 2010 onwards, except in 2020 and 2021, we traced the approximate boundary of the goose colony using a GPS receiver aboard a helicopter flying along the colony border \citep{duchesne2021}.
 
 \subsubsection*{Rough-legged hawk, peregrine falcon and common raven}
-Peregrine falcons, rough-legged hawks and common ravens nest on cliffs, near ravines, and on large rocky outcrops and tend to reuse the same nesting sites from one year to the next \citep{beardsell2016}. Systematic monitoring of every known or potential nesting site has been carried out in the Qarlikturvik valley, Black plateau and Southern plateau since 2007 and throughout the study area since 2013 \citep{beardsell2016, gauthier2020avianpred}. Observers walked along ridges and scan surrounding areas from vantage points to detect nesting birds. These large species can be seen from a relatively long distance sitting on the nest or when flushing from the nest. They can also reveal their presence with alarm calls or nest defense displays. We are confident that nest detection probability was high for these species. Each year the observers use slightly different paths to sample the areas, but locate the nests in the same positions, which supports a high probability of detection for these species. Most nesting sites were located in the upland zones of the study area, which include the Black Plateau, Southern Plateau and Camp 3 Plateau.
+Peregrine falcons, rough-legged hawks and common ravens nest on cliffs, near ravines, and on large rocky outcrops and tend to reuse the same nesting sites from one year to the next \citep{beardsell2016}. Systematic monitoring of every known or potential nesting site has been carried out in the Qarlikturvik valley, Black plateau and Southern plateau since 2007 and throughout the study area since 2013 \citep{beardsell2016, gauthier2020avianpred}. Observers walked along ridges and scanned surrounding areas from vantage points to detect nesting birds. These large species can be seen from a relatively long distance sitting on the nest or when flushing from the nest. They can also reveal their presence with alarm calls or nest defense displays. We are confident that nest detection probability was high for these species. Each year the observers use slightly different paths to sample the areas, but locate the nests in the same positions, which supports a high probability of detection for these species. Most nesting sites were located in the upland zones of the study area, which include the Black Plateau, Southern Plateau and Camp 3 Plateau.
 
 \subsubsection*{Snowy owl}
 Snowy owls predominantly nest in habitats similar to other raptors, favoring ridges in mountainous or hilly regions, although they can occasionally be found nesting on mounds in lowland areas \citep{seyer2020}. Since 1996, searches for snowy owl nests have been conducted concurrently with searches for other raptor nests in the Black and Southern plateaus, as well as during searches for jaeger nests on the southern side of the glacial river in the Qarlikturvik Valley. Additionally, since 2012, nests have been recorded across the entire study area by scanning the landscape from hills and ridges during the nesting period \citep{duchesne2021}. Given that snowy owls nest on elevated mounds, exhibit contrasting colors with the landscape, emit alarm calls, and display defensive behaviors, active nesting sites have a high probability of detection.
@@ -211,9 +214,6 @@ We estimated the abundance of breeding individuals for most species, but there w
 R software (version 4.3.2) was used to process the data on a linux-gnu machine. Most of data manipulation was carried out with the \textit{dplyr} \citep{dplyr} and \textit{sf} packages \citep{sf}. All codes are available in the following repository \url{https://github.com/chaireBioNorth/BYLOT_species_abundance_dataset.git}.
 \newpage
 
-\input{tables/table_summary_methods.tex}
-%label-> table:summary_methods
-\newpage
 
 \subsection{Pacific loon, red-throated loon, cackling goose, tundra swan and glaucous gull}
 Based on the systematic and intensive search for the glaucous gull, cackling goose, tundra swan, red- throated loon and Pacific loon nests in wetlands, we are confident that we have found nearly all nests across the study area from 2017 to 2019 and in 2022. We transformed the number of nests to abundance of individuals by multiplying it by a factor of two. 
@@ -327,21 +327,21 @@ We estimated the abundance of Arctic foxes in the study area based on their esti
 \newpage
 
 
+
+\newgeometry{top=0.5cm, bottom=1.5cm, left=0.5cm, right=0.5cm}
+\begin{landscape}
 \section{Species abundance}
-
-\subsection{Uncertainty on estimates}
-We did not quantitatively assessed uncertainty on each estimate of species abundance. However, we provide a qualitative measure of uncertainty based on the level of confidence derived from field experts, and in some cases, the fit of statistical models to estimate density (\textbf{Table \ref{table:confidence_estimate_abundance}}).
-
-\input{tables/confidence_estimate_abundance.tex}
-%label -> table:confidence_estimate_abundance
+\input{tables/table_summary_methods.tex}
+%label-> table:summary_methods
+\end{landscape}
+\restoregeometry
 \newpage
 
-\subsection{Abundance estimates}
 \input{tables/species_mean_abudance.tex}
 %label -> table:species_mean_abudance
 \newpage
 
-The following figures present the time series of species abundances. If different methods were used, we present the estimates derived from each method with different colors (see \textbf{Table \ref{table:confidence_estimate_abundance}} for the corresponding method and confidence in estimates).
+
 
 \begin{figure}[h]
   \centering

@@ -30,45 +30,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in bilodeau2013
 Warning--there's a number but no volume in gauthier2024a
 Warning--there's a number but no series in parmelee1967
-You've used 58 entries,
+You've used 60 entries,
             2773 wiz_defined-function locations,
-            949 strings with 18915 characters,
-and the built_in function-call counts, 33513 in all, are:
-= -- 2809
-> -- 2727
-< -- 14
-+ -- 918
-- -- 858
-* -- 3160
-:= -- 5343
-add.period$ -- 182
-call.type$ -- 58
-change.case$ -- 449
-chr.to.int$ -- 56
-cite$ -- 119
-duplicate$ -- 1199
-empty$ -- 2230
-format.name$ -- 921
-if$ -- 6766
+            961 strings with 19230 characters,
+and the built_in function-call counts, 34516 in all, are:
+= -- 2909
+> -- 2769
+< -- 17
++ -- 932
+- -- 870
+* -- 3231
+:= -- 5485
+add.period$ -- 188
+call.type$ -- 60
+change.case$ -- 459
+chr.to.int$ -- 58
+cite$ -- 123
+duplicate$ -- 1248
+empty$ -- 2315
+format.name$ -- 939
+if$ -- 6987
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 53
-newline$ -- 303
-num.names$ -- 232
-pop$ -- 838
+missing$ -- 55
+newline$ -- 313
+num.names$ -- 240
+pop$ -- 856
 preamble$ -- 1
-purify$ -- 395
+purify$ -- 403
 quote$ -- 0
-skip$ -- 997
+skip$ -- 1041
 stack$ -- 0
-substring$ -- 1147
-swap$ -- 81
-text.length$ -- 4
+substring$ -- 1208
+swap$ -- 92
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 628
+type$ -- 650
 warning$ -- 3
-while$ -- 252
+while$ -- 263
 width$ -- 0
-write$ -- 766
+write$ -- 792
 (There were 6 error messages)
