@@ -1,4 +1,4 @@
-"Species","Method","Mean","sd","n"
+"species","method","mean_abundance","sd_abundance","sample_size_abundance"
 "king eider","incidental observations (relative abundance)","106",NA,NA
 "long-tailed duck","incidental observations (relative abundance)","191",NA,NA
 "Pacific loon","nest sampling","4","3",4

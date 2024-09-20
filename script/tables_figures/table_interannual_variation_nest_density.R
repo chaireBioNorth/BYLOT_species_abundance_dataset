@@ -118,10 +118,10 @@ table_dataset <- table %>%
   dplyr::rename(species= Species,
                 zone= Zone,
                 mean= `Mean ± SD`,
-                n=`Number of years`) %>% 
-  dplyr::mutate(mean= as.numeric(gsub(" ±.*","",table$`Mean ± SD`)),
-                sd= as.numeric(gsub(".* ±","",table$`Mean ± SD`))) %>% 
-  dplyr::select(species, zone, mean, sd, n)
+                sample_size_nest_density_km2=`Number of years`) %>% 
+  dplyr::mutate(mean_nest_density_km2= as.numeric(gsub(" ±.*","",table$`Mean ± SD`)),
+                sd_nest_density_km2= as.numeric(gsub(".* ±","",table$`Mean ± SD`))) %>% 
+  dplyr::select(species, zone, mean_nest_density_km2, sd_nest_density_km2, sample_size_nest_density_km2)
 
 
 write.csv(table_dataset,"dataset/BYLOT-interannual_variation_nest_density.csv",row.names = FALSE)

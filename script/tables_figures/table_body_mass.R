@@ -62,9 +62,9 @@ df_body_mass_dataset <- df_body_mass %>%
   dplyr::select(-n) %>% 
   dplyr::rename(species= Species, study_area=`Body mass g (study area)`, literature= `Body mass g (literature)`) %>% 
   tidyr::pivot_longer(cols = c(study_area, literature),
-                      names_to = "data",
+                      names_to = "source",
                       values_to = "body_mass_g") %>% 
   na.omit()
 
 
-write.csv(df_body_mass_dataset, "dataset/BYLOT-species_mean_body_mass.csv", row.names = FALSE)
+write.csv(df_body_mass_dataset, "dataset/BYLOT-mean_species_body_mass.csv", row.names = FALSE)

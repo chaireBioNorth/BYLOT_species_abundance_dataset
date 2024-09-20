@@ -1,0 +1,19 @@
+"species","zone","mean_nest_density_km2","sd_nest_density_km2","sample_size_nest_density_km2"
+"Baird's sandpiper","qarlikturvik (2x1 km plot)",5,3.558,17
+"Lapland longspur","qarlikturvik (2x1 km plot)",13.559,5.849,17
+"king eider","qarlikturvik (4x2 km plot)",0.115,0.138,16
+"long-tailed duck","qarlikturvik (4x2 km plot)",0.092,0.138,16
+"rock ptarmigan","qarlikturvik (4x2 km plot)",0.031,0.055,16
+"sandhill crane","qarlikturvik (4x2 km plot)",0.161,0.087,16
+"long-tailed jaeger","qarlikturvik valley",0.362,0.38,17
+"Pacific loon","whole study area",0.005,0.004,4
+"red-throated loon","whole study area",0.082,0.019,4
+"cackling goose","whole study area",0.177,0.064,5
+"tundra swan","whole study area",0.001,0.001,4
+"rough-legged hawk","whole study area",0.157,0.151,8
+"peregrine falcon","whole study area",0.053,0.007,8
+"snowy owl","whole study area",0.022,0.058,10
+"common ringed plover","whole study area",0.07,0.012,3
+"glaucous gull","whole study area",0.091,0.011,4
+"parasitic jaeger","whole study area",0.01,0.004,12
+"common raven","whole study area",0.003,0.003,8

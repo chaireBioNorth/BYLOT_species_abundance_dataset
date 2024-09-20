@@ -1,4 +1,4 @@
-"species","zone","mean","sd","n"
+"species","zone","mean_nest_density_km2","sd_nest_density_km2","sample_size_nest_density_km2"
 "Baird's sandpiper","qarlikturvik (2x1 km plot)",5,3.558,17
 "Lapland longspur","qarlikturvik (2x1 km plot)",13.559,5.849,17
 "king eider","qarlikturvik (4x2 km plot)",0.115,0.138,16

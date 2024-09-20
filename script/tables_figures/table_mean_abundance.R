@@ -72,7 +72,7 @@ print(table_latex,
 #### Export as .csv for the data set ####
 #---------------------------------------#
 table_abundance <- table %>% 
-  dplyr::rename(species= Species, method= Method, mean_abundance= Mean, sd_abundance= sd, sample_size= n)
+  dplyr::rename(species= Species, method= Method, mean_abundance= Mean, sd_abundance= sd, sample_size_abundance= n)
 
-write.csv(table,"dataset/BYLOT-mean_species_abundance.csv",row.names = FALSE)
+write.csv(table_abundance,"dataset/BYLOT-mean_species_abundance.csv",row.names = FALSE)
 

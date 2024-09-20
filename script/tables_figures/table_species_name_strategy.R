@@ -32,5 +32,5 @@ table_name %>%
                 scientific_name= `Scientific name`,
                 species= Name,
                 annual_cycle_strategy=`Annual cycle strategy`) %>% 
-  write.csv("dataset/BYLOT-community_composition.csv", row.names = FALSE)
+  write.csv("dataset/BYLOT-species_taxonomy.csv", row.names = FALSE)
 
