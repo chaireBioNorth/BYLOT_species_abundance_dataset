@@ -103,33 +103,33 @@
 "common ringed plover","study area",2015,"breeding","nest sampling",58
 "common ringed plover","study area",2016,"breeding","nest sampling",62
 "common ringed plover","study area",2017,"breeding","nest sampling",44
-"ermine","study area",1993,"undertermined","testimonials",59
-"ermine","study area",1994,"undertermined","testimonials",46
-"ermine","study area",1995,"undertermined","testimonials",8
-"ermine","study area",1996,"undertermined","testimonials",33
-"ermine","study area",1997,"undertermined","testimonials",33
-"ermine","study area",1998,"undertermined","testimonials",8
-"ermine","study area",1999,"undertermined","testimonials",39
-"ermine","study area",2000,"undertermined","testimonials",21
-"ermine","study area",2001,"undertermined","testimonials",111
-"ermine","study area",2002,"undertermined","testimonials",59
-"ermine","study area",2003,"undertermined","testimonials",8
-"ermine","study area",2004,"undertermined","testimonials",49
-"ermine","study area",2005,"undertermined","testimonials",8
-"ermine","study area",2006,"undertermined","testimonials",8
-"ermine","study area",2007,"undertermined","testimonials",59
-"ermine","study area",2008,"undertermined","testimonials",59
-"ermine","study area",2009,"undertermined","testimonials",30
-"ermine","study area",2010,"undertermined","testimonials",78
-"ermine","study area",2011,"undertermined","testimonials",156
-"ermine","study area",2012,"undertermined","testimonials",40
-"ermine","study area",2013,"undertermined","testimonials",8
-"ermine","study area",2014,"undertermined","testimonials",8
-"ermine","study area",2015,"undertermined","testimonials",8
-"ermine","study area",2016,"undertermined","testimonials",104
-"ermine","study area",2017,"undertermined","testimonials",31
-"ermine","study area",2018,"undertermined","testimonials",8
-"ermine","study area",2019,"undertermined","testimonials",8
+"ermine","study area",1993,"undetermined","testimonials",59
+"ermine","study area",1994,"undetermined","testimonials",46
+"ermine","study area",1995,"undetermined","testimonials",8
+"ermine","study area",1996,"undetermined","testimonials",33
+"ermine","study area",1997,"undetermined","testimonials",33
+"ermine","study area",1998,"undetermined","testimonials",8
+"ermine","study area",1999,"undetermined","testimonials",39
+"ermine","study area",2000,"undetermined","testimonials",21
+"ermine","study area",2001,"undetermined","testimonials",111
+"ermine","study area",2002,"undetermined","testimonials",59
+"ermine","study area",2003,"undetermined","testimonials",8
+"ermine","study area",2004,"undetermined","testimonials",49
+"ermine","study area",2005,"undetermined","testimonials",8
+"ermine","study area",2006,"undetermined","testimonials",8
+"ermine","study area",2007,"undetermined","testimonials",59
+"ermine","study area",2008,"undetermined","testimonials",59
+"ermine","study area",2009,"undetermined","testimonials",30
+"ermine","study area",2010,"undetermined","testimonials",78
+"ermine","study area",2011,"undetermined","testimonials",156
+"ermine","study area",2012,"undetermined","testimonials",40
+"ermine","study area",2013,"undetermined","testimonials",8
+"ermine","study area",2014,"undetermined","testimonials",8
+"ermine","study area",2015,"undetermined","testimonials",8
+"ermine","study area",2016,"undetermined","testimonials",104
+"ermine","study area",2017,"undetermined","testimonials",31
+"ermine","study area",2018,"undetermined","testimonials",8
+"ermine","study area",2019,"undetermined","testimonials",8
 "glaucous gull","study area",2004,"breeding","nest sampling (extrapolation nests)",61
 "glaucous gull","study area",2005,"breeding","nest sampling (extrapolation nests)",68
 "glaucous gull","study area",2006,"breeding","nest sampling (extrapolation nests)",73
@@ -150,10 +150,10 @@
 "horned lark","study area",NA,"breeding","transects (relative abundance)",362
 "horned lark","study area",NA,"breeding","incidental observations (relative abundance)",411
 "king eider","study area",NA,"breeding","nest sampling (extrapolation habitat)",25
-"king eider","study area",NA,"undertermined","incidental observations (relative abundance)",106
+"king eider","study area",NA,"undetermined","incidental observations (relative abundance)",106
 "lapland longspur","study area",NA,"breeding","nest sampling (extrapolation transects)",7110
 "long tailed duck","study area",NA,"breeding","nest sampling (extrapolation habitat)",20
-"long tailed duck","study area",NA,"undertermined","incidental observations (relative abundance)",191
+"long tailed duck","study area",NA,"undetermined","incidental observations (relative abundance)",191
 "long tailed jaeger","study area",2004,"breeding","nest sampling (extrapolation habitat)",270
 "long tailed jaeger","study area",2005,"breeding","nest sampling (extrapolation habitat)",158
 "long tailed jaeger","study area",2006,"breeding","nest sampling (extrapolation habitat)",68

@@ -27,46 +27,48 @@ Repeated entry---line 894 of file references.bib
  : @article{gauthier2015
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--empty journal in bilodeau2013
 Warning--there's a number but no volume in gauthier2024a
-You've used 51 entries,
+Warning--there's a number but no series in parmelee1967
+You've used 62 entries,
             2773 wiz_defined-function locations,
-            917 strings with 17487 characters,
-and the built_in function-call counts, 30384 in all, are:
-= -- 2543
-> -- 2488
-< -- 12
-+ -- 836
-- -- 783
-* -- 2886
-:= -- 4817
-add.period$ -- 158
-call.type$ -- 51
-change.case$ -- 406
-chr.to.int$ -- 49
-cite$ -- 103
-duplicate$ -- 1069
-empty$ -- 2020
-format.name$ -- 842
-if$ -- 6145
+            972 strings with 19517 characters,
+and the built_in function-call counts, 35165 in all, are:
+= -- 2957
+> -- 2790
+< -- 19
++ -- 940
+- -- 876
+* -- 3273
+:= -- 5581
+add.period$ -- 192
+call.type$ -- 62
+change.case$ -- 467
+chr.to.int$ -- 60
+cite$ -- 127
+duplicate$ -- 1287
+empty$ -- 2391
+format.name$ -- 946
+if$ -- 7125
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 49
-newline$ -- 266
-num.names$ -- 204
-pop$ -- 760
+missing$ -- 59
+newline$ -- 321
+num.names$ -- 248
+pop$ -- 887
 preamble$ -- 1
-purify$ -- 357
+purify$ -- 410
 quote$ -- 0
-skip$ -- 898
+skip$ -- 1066
 stack$ -- 0
-substring$ -- 1104
-swap$ -- 77
-text.length$ -- 4
+substring$ -- 1228
+swap$ -- 94
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 551
-warning$ -- 1
-while$ -- 227
+type$ -- 662
+warning$ -- 3
+while$ -- 270
 width$ -- 0
-write$ -- 673
+write$ -- 813
 (There were 6 error messages)

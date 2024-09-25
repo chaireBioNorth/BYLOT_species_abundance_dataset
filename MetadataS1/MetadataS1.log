@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  20 SEP 2024 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  24 SEP 2024 06:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -533,19 +533,37 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count307
+\output=\toks39
+\linenoprevgraf=\count308
+\linenumbersep=\dimen193
+\linenumberwidth=\dimen194
+\c@linenumber=\count309
+\c@pagewiselinenumber=\count310
+\c@LN@truepage=\count311
+\c@internallinenumber=\count312
+\c@internallinenumbers=\count313
+\quotelinenumbersep=\dimen195
+\bframerule=\dimen196
+\bframesep=\dimen197
+\bframebox=\box62
+LaTeX Info: Redefining \\ on input line 3056.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box62
+\ttl@box=\box63
 \beforetitleunit=\skip66
 \aftertitleunit=\skip67
-\ttl@plus=\dimen193
-\ttl@minus=\dimen194
-\ttl@toksa=\toks39
-\titlewidth=\dimen195
-\titlewidthlast=\dimen196
-\titlewidthfirst=\dimen197
+\ttl@plus=\dimen198
+\ttl@minus=\dimen199
+\ttl@toksa=\toks40
+\titlewidth=\dimen256
+\titlewidthlast=\dimen257
+\titlewidthfirst=\dimen258
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 59
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 61
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -553,30 +571,30 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
-\l__pdf_internal_box=\box63
+\l__color_backend_stack_int=\count314
+\l__pdf_internal_box=\box64
 )
 (./MetadataS1.aux)
 \openout1 = `MetadataS1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -597,12 +615,12 @@ LaTeX Font Info:    ... okay on input line 59.
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=111.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -614,17 +632,17 @@ LaTeX Font Info:    ... okay on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen198
-\scratchbox=\box64
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen199
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count315
+\scratchdimen=\dimen259
+\scratchbox=\box65
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen260
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -643,7 +661,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -654,148 +672,170 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./MetadataS1.out) (./MetadataS1.out)
 \@outlinefile=\write3
 \openout3 = `MetadataS1.out'.
 
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
+6.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-7.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+9.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-7.
+9.
+
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-67.
+69.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-67.
+69.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 67.
+(Font)              <12> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 67.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 67.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+(Font)              <6> on input line 69.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-7.
+9.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<figures/food_web.pdf, id=113, 426.79132pt x 256.0748pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 4582) has occurred while \output is active []
+
+ [2]
+<figures/food_web.pdf, id=111, 426.79132pt x 256.0748pt>
 File: figures/food_web.pdf Graphic file (type pdf)
 <use figures/food_web.pdf>
-Package pdftex.def Info: figures/food_web.pdf  used on input line 108.
+Package pdftex.def Info: figures/food_web.pdf  used on input line 110.
 (pdftex.def)             Requested size: 341.43307pt x 204.86401pt.
- [3 <./figures/food_web.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4 <./figures/food_web.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
 
  []
 
-[4] [5] [6] [7] (./tables/species_name_strategy.tex
+[5] [6] [7] [8] (./tables/species_name_strategy.tex
 Overfull \hbox (7.5756pt too wide) in alignment at lines 48--48
 [][][][] 
  []
 
-) [8]
+) [9] [10]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-77.
+79.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [9]
-<figures/zones_study_area.pdf, id=344, 511.9125pt x 710.655pt>
+) [11]
+<figures/zones_study_area.pdf, id=360, 511.9125pt x 710.655pt>
 File: figures/zones_study_area.pdf Graphic file (type pdf)
 <use figures/zones_study_area.pdf>
-Package pdftex.def Info: figures/zones_study_area.pdf  used on input line 186.
+Package pdftex.def Info: figures/zones_study_area.pdf  used on input line 188.
 (pdftex.def)             Requested size: 364.19667pt x 505.58789pt.
-<figures/qarlikturvik_valley.pdf, id=345, 568.1225pt x 511.9125pt>
+<figures/qarlikturvik_valley.pdf, id=361, 568.1225pt x 511.9125pt>
 File: figures/qarlikturvik_valley.pdf Graphic file (type pdf)
 <use figures/qarlikturvik_valley.pdf>
 Package pdftex.def Info: figures/qarlikturvik_valley.pdf  used on input line 19
-3.
+5.
 (pdftex.def)             Requested size: 364.19667pt x 328.17747pt.
- [10] [11 <./figures/zones_study_area.pdf>] (./tables/species_year_monitoring.t
+ [12] [13 <./figures/zones_study_area.pdf>] (./tables/species_year_monitoring.t
 ex
 Overfull \hbox (26.83412pt too wide) in alignment at lines 45--45
 [][][][][] 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
-
- []
-
-[12 <./figures/qarlikturvik_valley.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 
  []
 
 
-Underfull \vbox (badness 1158) has occurred while \output is active []
+Underfull \vbox (badness 3838) has occurred while \output is active []
 
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
+ [14 <./figures/qarlikturvik_valley.pdf>]
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [15]
+Overfull \hbox (2.1222pt too wide) in paragraph at lines 216--218
+\T1/lmr/m/n/12 Peregrine fal-cons, rough-legged hawks and com-mon ravens nest o
+n cliffs, near ravines,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--228
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
-[14] (./tables/interannual_nest_density_variation.tex
+(./tables/interannual_nest_density_variation.tex
 Underfull \hbox (badness 10000) in alignment at lines 31--31
 [][][][] 
  []
 
-) [15]
-<figures/transects.pdf, id=432, 511.9125pt x 710.655pt>
+) [17]
+<figures/transects.pdf, id=452, 511.9125pt x 710.655pt>
 File: figures/transects.pdf Graphic file (type pdf)
 <use figures/transects.pdf>
-Package pdftex.def Info: figures/transects.pdf  used on input line 244.
+Package pdftex.def Info: figures/transects.pdf  used on input line 246.
 (pdftex.def)             Requested size: 318.66948pt x 442.39076pt.
- [16 <./figures/transects.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 251--254
+ [18] [19 <./figures/transects.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 253--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
 
  []
 
@@ -804,63 +844,247 @@ Underfull \hbox (badness 10000) in alignment at lines 29--29
 [][][][] 
  []
 
-) [17]
-Underfull \hbox (badness 10000) in paragraph at lines 269--272
+) [20]
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--276
+Underfull \hbox (badness 10000) in paragraph at lines 275--278
 
  []
 
-[18] [19] [20]
-Underfull \vbox (badness 2617) has occurred while \output is active []
+[21] [22]
 
- [21]
-[22] [23] (./MetadataS1.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 84--89
-[]\T1/lmr/m/n/10 G. Gau-thier.  Lem-ming mon-i-tor-ing on by-lot is-land, nunav
+LaTeX Warning: Reference `table:summary_methods' on page 23 undefined on input 
+line 291.
+
+[23]
+<figures/cackling_goose_nest_exponential.pdf, id=571, 505.89pt x 505.89pt>
+File: figures/cackling_goose_nest_exponential.pdf Graphic file (type pdf)
+<use figures/cackling_goose_nest_exponential.pdf>
+Package pdftex.def Info: figures/cackling_goose_nest_exponential.pdf  used on i
+nput line 303.
+(pdftex.def)             Requested size: 227.62206pt x 227.62523pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [24]
+<figures/map_geese_colony_2017.pdf, id=586, 284.06125pt x 511.9125pt>
+File: figures/map_geese_colony_2017.pdf Graphic file (type pdf)
+<use figures/map_geese_colony_2017.pdf>
+Package pdftex.def Info: figures/map_geese_colony_2017.pdf  used on input line 
+314.
+(pdftex.def)             Requested size: 227.62206pt x 410.21794pt.
+<figures/snow_goose_mesic_density.pdf, id=587, 511.9125pt x 284.06125pt>
+File: figures/snow_goose_mesic_density.pdf Graphic file (type pdf)
+<use figures/snow_goose_mesic_density.pdf>
+Package pdftex.def Info: figures/snow_goose_mesic_density.pdf  used on input li
+ne 321.
+(pdftex.def)             Requested size: 455.24411pt x 252.6143pt.
+
+[25 <./figures/cackling_goose_nest_exponential.pdf>]
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [26]
+<figures/sandhill_crane_nest_transects.pdf, id=614, 505.89pt x 505.89pt>
+File: figures/sandhill_crane_nest_transects.pdf Graphic file (type pdf)
+<use figures/sandhill_crane_nest_transects.pdf>
+Package pdftex.def Info: figures/sandhill_crane_nest_transects.pdf  used on inp
+ut line 343.
+(pdftex.def)             Requested size: 227.62206pt x 227.62523pt.
+
+[27 <./figures/sandhill_crane_nest_transects.pdf>] [28]
+<figures/lapland_longspur_nest_transect.pdf, id=644, 505.89pt x 505.89pt>
+File: figures/lapland_longspur_nest_transect.pdf Graphic file (type pdf)
+<use figures/lapland_longspur_nest_transect.pdf>
+Package pdftex.def Info: figures/lapland_longspur_nest_transect.pdf  used on in
+put line 363.
+(pdftex.def)             Requested size: 216.24025pt x 216.23933pt.
+<figures/bairds_sandpiper_nest_transect.pdf, id=645, 505.89pt x 505.89pt>
+File: figures/bairds_sandpiper_nest_transect.pdf Graphic file (type pdf)
+<use figures/bairds_sandpiper_nest_transect.pdf>
+Package pdftex.def Info: figures/bairds_sandpiper_nest_transect.pdf  used on in
+put line 367.
+(pdftex.def)             Requested size: 216.24025pt x 216.23933pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 362--370
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./figures/lapland_longspur_nest_transect.pdf> <./figures/bairds_sandpiper
+_nest_transect.pdf>]
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [30]
+[31]
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [32]
+[33] [34] [35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 456--461
+
+ []
+
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 472.
+[37]
+Overfull \hbox (57.8221pt too wide) in paragraph at lines 485--486
+[]\T1/lmtt/m/n/12 species\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 zone\T1/lmr/m/n/12 ; 
+\T1/lmtt/m/n/12 mean_nest_density_km2\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 sd_nest_d
+ensity_km2\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 sample_size_nest_density_km2 
+ []
+
+
+Overfull \hbox (18.49983pt too wide) in paragraph at lines 492--497
+\T1/lmr/m/n/12 e. \T1/lmtt/m/n/12 BYLOT-interannual_variation_nest_density.csv\
+T1/lmr/m/n/12 : mean_nest_density_km2= 19.991;
+ []
+
+(./tables/table_summary_variables.tex
+Overfull \hbox (4.00262pt too wide) in paragraph at lines 26--26
+[]|\T1/lmr/m/n/8 individuals| 
+ []
+
+
+Overfull \hbox (4.00262pt too wide) in paragraph at lines 32--32
+[]|\T1/lmr/m/n/8 individuals| 
+ []
+
+
+Overfull \hbox (4.00262pt too wide) in paragraph at lines 34--34
+[]|\T1/lmr/m/n/8 individuals| 
+ []
+
+
+Overfull \hbox (2.20819pt too wide) in paragraph at lines 34--35
+[]|\T1/lmr/m/n/8 numeric| 
+ []
+
+
+Overfull \hbox (2.20819pt too wide) in paragraph at lines 42--43
+[]|\T1/lmr/m/n/8 numeric| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\T1/lmr/m/n/8 square
+ []
+
+
+Overfull \hbox (2.20819pt too wide) in paragraph at lines 49--50
+[]|\T1/lmr/m/n/8 numeric| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+\T1/lmr/m/n/8 square
+ []
+
+
+Overfull \hbox (2.20819pt too wide) in paragraph at lines 52--53
+[]|\T1/lmr/m/n/8 numeric| 
+ []
+
+
+Overfull \hbox (12.32278pt too wide) in alignment at lines 4--58
+ [] [] [] [] [] 
+ []
+
+[38] [39])
+Overfull \hbox (8.7999pt too wide) in paragraph at lines 525--525
+|\T1/lmr/bx/n/17.28 C. Data anoma-lies: De-scrip-tion of miss-ing data, anoma-
+ []
+
+[40]
+Overfull \hbox (4.43881pt too wide) in paragraph at lines 539--539
+|\T1/lmr/bx/n/17.28 D. Com-puter pro-grams and data-processing al-go-rithms| 
+ []
+
+[41] [42] [43 <./figures/map_geese_colony_2017.pdf>] [44 <./figures/snow_goose_
+mesic_density.pdf>] (./MetadataS1.bbl [45
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
+[]\T1/lmr/m/n/12 G. Gau-thier.  Lem-ming mon-i-tor-ing on by-lot is-land, nunav
 ut, canada.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
-[]\T1/lmr/m/n/10 G. Gau-thier and M. Cadieux.  Rel-a-tive abun-dance of tun-dra
- bird and mam-mal
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
+[]\T1/lmr/m/n/12 https://nordicana.cen.ulaval.ca/dpage.aspx?doi=45400AW-9891BD7
+6704C4CE2[],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
-\T1/lmr/m/n/10 species en-coun-tered daily on by-lot is-land, nunavut, canada, 
-v. 1.0 (2007-2019).
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
+[]\T1/lmr/m/n/12 https://nordicana.cen.ulaval.ca/dpage.aspx?doi=45645CE-A24D883
+A6676492E[],
  []
 
-[24
 
-] [25] [26]) [27] (./MetadataS1.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
+[]\T1/lmr/m/n/12 G. Gau-thier, M. Cadieux, Y. Seyer, and J. Ther-rien.  Mon-i-t
+or-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
+\T1/lmr/m/n/12 ing of avian preda-tor re-pro-duc-tion on by-lot is-land, nunavu
+t, canada.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
+[]\T1/lmr/m/n/12 https://nordicana.cen.ulaval.ca/dpage.aspx?doi=45591AW-F9B906C
+C647948E0[],
+ []
+
+[46]
+Underfull \hbox (badness 1057) in paragraph at lines 179--184
+[]\T1/lmr/m/n/12 G. Gau-thier, M.-C. Cadieux, D. Berteaux, J. Bêty, D. Fau-teux
+, P. Legag-neux,
+ []
+
+[47] [48] [49]) [50] (./MetadataS1.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `MetadataS1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15989 strings out of 480204
- 260419 string characters out of 5895010
- 610191 words of memory out of 5000000
- 33505 multiletter control sequences out of 15000+600000
- 523477 words of font info for 67 fonts, out of 8000000 for 9000
+ 16373 strings out of 480204
+ 268184 string characters out of 5895010
+ 638956 words of memory out of 5000000
+ 33852 multiletter control sequences out of 15000+600000
+ 548786 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 108i,9n,106p,2139b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,10n,106p,2139b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmtt10.pfb>
-Output written on MetadataS1.pdf (27 pages, 4254794 bytes).
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on MetadataS1.pdf (50 pages, 4737647 bytes).
 PDF statistics:
- 691 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 137 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 966 PDF objects out of 1000 (max. 8388607)
+ 776 compressed objects within 8 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

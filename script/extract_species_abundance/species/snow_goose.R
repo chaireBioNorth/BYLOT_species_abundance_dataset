@@ -14,7 +14,6 @@ library(sf)
 sf::sf_use_s2(FALSE)
 #Visualization
 library(ggplot2)
-library(ggpubr)
 
 
 #-------------------#

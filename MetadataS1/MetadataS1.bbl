@@ -1,9 +1,15 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Andersson(1971)]{andersson1971}
+M.~Andersson.
+\newblock Breeding behaviour of the long-tailed skua stercorarius longicaudus
+  (vieillot).
+\newblock \emph{Ornis Scandinavica}, pages 35--54, 1971.
 
 \bibitem[Beardsell et~al.(2016)Beardsell, Gauthier, Therrien, and
   B{\^e}ty]{beardsell2016}
@@ -12,6 +18,12 @@ A.~Beardsell, G.~Gauthier, J.-F. Therrien, and J.~B{\^e}ty.
   output in an arctic-nesting raptor, the rough-legged hawk.
 \newblock \emph{The Auk: Ornithological Advances}, 133\penalty0 (4):\penalty0
   718--732, 2016.
+
+\bibitem[Bilodeau(2013)]{bilodeau2013}
+F.~Bilodeau.
+\newblock Effet du couvert nival, de la nourriture et de la pr{\'e}dation
+  hivernale sur la dynamique de population des lemmings.
+\newblock 2013.
 
 \bibitem[Bolduc et~al.(2023)Bolduc, Fauteux, Gagnon, Gauthier, B{\^e}ty, and
   Legagneux]{bolduc2023}
@@ -31,12 +43,27 @@ S.~Christin, M.-H. St-Laurent, and D.~Berteaux.
   implications for the estimation of home-range size.
 \newblock \emph{PLoS One}, 10\penalty0 (11):\penalty0 e0141999, 2015.
 
+\bibitem[Clermont et~al.(2021)Clermont, Grenier-Potvin, Duchesne, Couchoux,
+  Dulude-de Broin, Beardsell, B{\^e}ty, and Berteaux]{clermont2021}
+J.~Clermont, A.~Grenier-Potvin, {\'E}.~Duchesne, C.~Couchoux, F.~Dulude-de
+  Broin, A.~Beardsell, J.~B{\^e}ty, and D.~Berteaux.
+\newblock The predator activity landscape predicts the anti-predator behavior
+  and distribution of prey in a tundra community.
+\newblock \emph{Ecosphere}, 12\penalty0 (12):\penalty0 e03858, 2021.
+
 \bibitem[Cohen et~al.(2003)Cohen, Jonsson, and Carpenter]{cohen2003}
 J.~E. Cohen, T.~Jonsson, and S.~R. Carpenter.
 \newblock Ecological community description using the food web, species
   abundance, and body size.
 \newblock \emph{Proceedings of the national academy of sciences}, 100\penalty0
   (4):\penalty0 1781--1786, 2003.
+
+\bibitem[Colella et~al.(2021)Colella, Frederick, Talbot, and Cook]{colella2021}
+J.~P. Colella, L.~M. Frederick, S.~L. Talbot, and J.~A. Cook.
+\newblock Extrinsically reinforced hybrid speciation within holarctic ermine
+  (mustela spp.) produces an insular endemic.
+\newblock \emph{Diversity and Distributions}, 27\penalty0 (4):\penalty0
+  747--762, 2021.
 
 \bibitem[Dahood et~al.(2020)Dahood, de~Mutsert, and Watters]{dahood2020}
 A.~Dahood, K.~de~Mutsert, and G.~M. Watters.
@@ -155,6 +182,10 @@ G.~Gauthier, M.-C. Cadieux, D.~Berteaux, J.~B{\^e}ty, D.~Fauteux, P.~Legagneux,
   biodiversity, the bylot island field station.
 \newblock \emph{Arctic Science}, \penalty0 (ja), 2024{\natexlab{b}}.
 
+\bibitem[Gill et~al.(2024)Gill, Donsker, and Rasmussen]{gill2024}
+F.~Gill, D.~Donsker, and P.~Rasmussen.
+\newblock Ioc world bird list (v14. 2), 2024.
+
 \bibitem[Goto et~al.(2020)Goto, Dunlop, Young, and Jackson]{goto2020}
 D.~Goto, E.~S. Dunlop, J.~D. Young, and D.~A. Jackson.
 \newblock Shifting trophic control of fishery--ecosystem dynamics following
@@ -253,6 +284,12 @@ D.-J. L{\'e}andri-Breton, J.-F. Lamarre, and J.~B{\^e}ty.
   barriers in a nearctic migrant wintering in africa.
 \newblock \emph{Journal of Avian Biology}, 50\penalty0 (6), 2019.
 
+\bibitem[Lecomte et~al.(2008)Lecomte, Gauthier, and Giroux]{lecomte2008}
+N.~Lecomte, G.~Gauthier, and J.-F. Giroux.
+\newblock Breeding dispersal in a heterogeneous landscape: the influence of
+  habitat and nesting success in greater snow geese.
+\newblock \emph{Oecologia}, 155:\penalty0 33--41, 2008.
+
 \bibitem[Legagneux et~al.(2012)Legagneux, Gauthier, Berteaux, B{\^e}ty,
   Cadieux, Bilodeau, Bolduc, McKinnon, Tarroux, Therrien,
   et~al.]{legagneux2012}
@@ -304,6 +341,14 @@ K.~S. McCann, J.~Rasmussen, and J.~Umbanhowar.
 \newblock The dynamics of spatially coupled food webs.
 \newblock \emph{Ecology letters}, 8\penalty0 (5):\penalty0 513--523, 2005.
 
+\bibitem[Miller et~al.(2019)Miller, Rexstad, Thomas, Marshall, and
+  Laake]{miller2019}
+D.~L. Miller, E.~Rexstad, L.~Thomas, L.~Marshall, and J.~L. Laake.
+\newblock Distance sampling in {R}.
+\newblock \emph{Journal of Statistical Software}, 89\penalty0 (1):\penalty0
+  1--28, 2019.
+\newblock \doi{10.18637/jss.v089.i01}.
+
 \bibitem[Moisan et~al.(2023)Moisan, Gravel, Legagneux, Gauthier,
   L{\'e}andri-Breton, Somveille, Therrien, Lamarre, and B{\^e}ty]{moisan2023}
 L.~Moisan, D.~Gravel, P.~Legagneux, G.~Gauthier, D.-J. L{\'e}andri-Breton,
@@ -321,6 +366,12 @@ T.~A. Okey, S.~Banks, A.~F. Born, R.~H. Bustamante, M.~Calvopi{\~n}a, G.~J.
   fisheries and conservation strategies.
 \newblock \emph{Ecological Modelling}, 172\penalty0 (2-4):\penalty0 383--401,
   2004.
+
+\bibitem[Parmelee et~al.(1967)Parmelee, Stephens, and Schmidt]{parmelee1967}
+D.~F. Parmelee, H.~Stephens, and R.~H. Schmidt.
+\newblock \emph{The birds of southeastern Victoria Island and adjacent small
+  islands}.
+\newblock Number~78. Queen's Printer, 1967.
 
 \bibitem[Payer et~al.(2013)Payer, Josefson, and Fjeldsa]{payer2013}
 D.~C. Payer, A.~B. Josefson, and J.~Fjeldsa.
@@ -349,6 +400,12 @@ A.~Robillard, G.~Gauthier, J.-F. Therrien, and J.~B{\^e}ty.
 \newblock \emph{Journal of Avian Biology}, 49\penalty0 (5):\penalty0
   jav--01707, 2018.
 
+\bibitem[Royer-Boutin(2015)]{royerboutin2015}
+P.~Royer-Boutin.
+\newblock \emph{Effets des cycles de lemmings sur le succ{\`e}s de nidification
+  d'oiseaux diff{\'e}rant par leur taille corporelle et leur comportement}.
+\newblock PhD thesis, Universit{\'e} du Qu{\'e}bec {\`a} Rimouski, 2015.
+
 \bibitem[Seyer et~al.(2019)Seyer, Gauthier, Bernatchez, and
   Therrien]{seyer2019}
 Y.~Seyer, G.~Gauthier, L.~Bernatchez, and J.-F. Therrien.
@@ -369,6 +426,12 @@ K.~Snyder and S.~Tartowski.
 \newblock \emph{Journal of Arid Environments}, 65\penalty0 (2):\penalty0
   219--234, 2006.
 
+\bibitem[Taylor(1974)]{taylor1974}
+P.~S. Taylor.
+\newblock Summer population and food ecology of jaegers and snowy owls on
+  bathurst island, nwt emphasizing the long-tailed jaeger.
+\newblock Master's thesis, University of Alberta, Edmonton, Alberta, 1974.
+
 \bibitem[Therrien et~al.(2012)Therrien, Gauthier, and B{\^e}ty]{therrien2012}
 J.-F. Therrien, G.~Gauthier, and J.~B{\^e}ty.
 \newblock Survival and reproduction of adult snowy owls tracked by satellite.
@@ -382,5 +445,11 @@ H.~Wilman, J.~Belmaker, J.~Simpson, C.~de~la Rosa, M.~M. Rivadeneira, and
 \newblock Eltontraits 1.0: Species-level foraging attributes of the world's
   birds and mammals: Ecological archives e095-178.
 \newblock \emph{Ecology}, 95\penalty0 (7):\penalty0 2027--2027, 2014.
+
+\bibitem[Wilson(2005)]{wilson2005}
+D.~Wilson.
+\newblock \emph{Mammal species of the world: a taxonomic and geographic
+  reference}.
+\newblock Johns Hopkins University Press, 2005.
 
 \end{thebibliography}

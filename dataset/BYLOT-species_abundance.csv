@@ -1,58 +1,58 @@
 "species","year","status","method","abundance"
-"ermine",1993,"undertermined","testimonials",59
-"ermine",1994,"undertermined","testimonials",46
+"ermine",1993,"undetermined","testimonials",59
+"ermine",1994,"undetermined","testimonials",46
 "brown lemming",1995,"undetermined","trapping",2026
 "collared lemming",1995,"undetermined","trapping",2026
-"ermine",1995,"undertermined","testimonials",8
+"ermine",1995,"undetermined","testimonials",8
 "brown lemming",1996,"undetermined","trapping",100080
 "cackling goose",1996,"breeding","nest sampling (extrapolation nests)",2
 "collared lemming",1996,"undetermined","trapping",9982
-"ermine",1996,"undertermined","testimonials",33
+"ermine",1996,"undetermined","testimonials",33
 "snowy owl",1996,"breeding","nest sampling (extrapolation nests)",40
 "brown lemming",1997,"undetermined","trapping",14225
 "cackling goose",1997,"breeding","nest sampling (extrapolation nests)",3
 "collared lemming",1997,"undetermined","trapping",2026
-"ermine",1997,"undertermined","testimonials",33
+"ermine",1997,"undetermined","testimonials",33
 "snowy owl",1997,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",1998,"undetermined","trapping",26590
 "cackling goose",1998,"breeding","nest sampling (extrapolation nests)",3
 "collared lemming",1998,"undetermined","trapping",24063
-"ermine",1998,"undertermined","testimonials",8
+"ermine",1998,"undetermined","testimonials",8
 "snowy owl",1998,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",1999,"undetermined","trapping",2640
 "cackling goose",1999,"breeding","nest sampling (extrapolation nests)",4
 "collared lemming",1999,"undetermined","trapping",2026
-"ermine",1999,"undertermined","testimonials",39
+"ermine",1999,"undetermined","testimonials",39
 "snow goose",1999,"breeding","nest sampling (extrapolation colony)",8175
 "snowy owl",1999,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2000,"undetermined","trapping",137110
 "cackling goose",2000,"breeding","nest sampling (extrapolation nests)",4
 "collared lemming",2000,"undetermined","trapping",16327
-"ermine",2000,"undertermined","testimonials",21
+"ermine",2000,"undetermined","testimonials",21
 "snow goose",2000,"breeding","nest sampling (extrapolation colony)",15412
 "snowy owl",2000,"breeding","nest sampling (extrapolation nests)",67
 "brown lemming",2001,"undetermined","trapping",9441
 "cackling goose",2001,"breeding","nest sampling (extrapolation nests)",5
 "collared lemming",2001,"undetermined","trapping",8350
-"ermine",2001,"undertermined","testimonials",111
+"ermine",2001,"undetermined","testimonials",111
 "snow goose",2001,"breeding","nest sampling (extrapolation colony)",35404
 "snowy owl",2001,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2002,"undetermined","trapping",2026
 "cackling goose",2002,"breeding","nest sampling (extrapolation nests)",6
 "collared lemming",2002,"undetermined","trapping",2372
-"ermine",2002,"undertermined","testimonials",59
+"ermine",2002,"undetermined","testimonials",59
 "snow goose",2002,"breeding","nest sampling (extrapolation colony)",25715
 "snowy owl",2002,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2003,"undetermined","trapping",2026
 "cackling goose",2003,"breeding","nest sampling (extrapolation nests)",7
 "collared lemming",2003,"undetermined","trapping",2026
-"ermine",2003,"undertermined","testimonials",8
+"ermine",2003,"undetermined","testimonials",8
 "snow goose",2003,"breeding","nest sampling (extrapolation colony)",33532
 "snowy owl",2003,"breeding","nest sampling (extrapolation nests)",0
 "brown lemming",2004,"undetermined","trapping",68378
 "cackling goose",2004,"breeding","nest sampling (extrapolation nests)",9
 "collared lemming",2004,"undetermined","trapping",12431
-"ermine",2004,"undertermined","testimonials",49
+"ermine",2004,"undetermined","testimonials",49
 "glaucous gull",2004,"breeding","nest sampling (extrapolation nests)",61
 "long-tailed jaeger",2004,"breeding","nest sampling (extrapolation habitat)",270
 "rough-legged hawk",2004,"breeding","nest sampling (extrapolation nests)",11
@@ -61,7 +61,7 @@
 "brown lemming",2005,"undetermined","trapping",3276
 "cackling goose",2005,"breeding","nest sampling (extrapolation nests)",10
 "collared lemming",2005,"undetermined","trapping",4089
-"ermine",2005,"undertermined","testimonials",8
+"ermine",2005,"undetermined","testimonials",8
 "glaucous gull",2005,"breeding","nest sampling (extrapolation nests)",68
 "long-tailed jaeger",2005,"breeding","nest sampling (extrapolation habitat)",158
 "snow goose",2005,"breeding","nest sampling (extrapolation colony)",12773
@@ -69,7 +69,7 @@
 "brown lemming",2006,"undetermined","trapping",4336
 "cackling goose",2006,"breeding","nest sampling (extrapolation nests)",12
 "collared lemming",2006,"undetermined","trapping",13817
-"ermine",2006,"undertermined","testimonials",8
+"ermine",2006,"undetermined","testimonials",8
 "glaucous gull",2006,"breeding","nest sampling (extrapolation nests)",73
 "long-tailed jaeger",2006,"breeding","nest sampling (extrapolation habitat)",68
 "rough-legged hawk",2006,"breeding","nest sampling (extrapolation nests)",11
@@ -78,7 +78,7 @@
 "brown lemming",2007,"undetermined","trapping",4373
 "cackling goose",2007,"breeding","nest sampling (extrapolation nests)",14
 "collared lemming",2007,"undetermined","trapping",667
-"ermine",2007,"undertermined","testimonials",59
+"ermine",2007,"undetermined","testimonials",59
 "glaucous gull",2007,"breeding","nest sampling (extrapolation nests)",77
 "long-tailed jaeger",2007,"breeding","nest sampling (extrapolation habitat)",293
 "rough-legged hawk",2007,"breeding","nest sampling (extrapolation nests)",3
@@ -87,7 +87,7 @@
 "brown lemming",2008,"undetermined","trapping",44827
 "cackling goose",2008,"breeding","nest sampling (extrapolation nests)",17
 "collared lemming",2008,"undetermined","trapping",6026
-"ermine",2008,"undertermined","testimonials",59
+"ermine",2008,"undetermined","testimonials",59
 "glaucous gull",2008,"breeding","nest sampling (extrapolation nests)",77
 "long-tailed jaeger",2008,"breeding","nest sampling (extrapolation habitat)",900
 "rough-legged hawk",2008,"breeding","nest sampling (extrapolation nests)",10
@@ -96,7 +96,7 @@
 "brown lemming",2009,"undetermined","trapping",1945
 "cackling goose",2009,"breeding","nest sampling (extrapolation nests)",20
 "collared lemming",2009,"undetermined","trapping",0
-"ermine",2009,"undertermined","testimonials",30
+"ermine",2009,"undetermined","testimonials",30
 "glaucous gull",2009,"breeding","nest sampling (extrapolation nests)",74
 "long-tailed jaeger",2009,"breeding","nest sampling (extrapolation habitat)",0
 "rough-legged hawk",2009,"breeding","nest sampling (extrapolation nests)",7
@@ -105,7 +105,7 @@
 "brown lemming",2010,"undetermined","trapping",95615
 "cackling goose",2010,"breeding","nest sampling (extrapolation nests)",24
 "collared lemming",2010,"undetermined","trapping",39302
-"ermine",2010,"undertermined","testimonials",78
+"ermine",2010,"undetermined","testimonials",78
 "glaucous gull",2010,"breeding","nest sampling (extrapolation nests)",76
 "long-tailed jaeger",2010,"breeding","nest sampling (extrapolation habitat)",743
 "rough-legged hawk",2010,"breeding","nest sampling (extrapolation nests)",59
@@ -114,7 +114,7 @@
 "brown lemming",2011,"undetermined","trapping",154805
 "cackling goose",2011,"breeding","nest sampling (extrapolation nests)",28
 "collared lemming",2011,"undetermined","trapping",0
-"ermine",2011,"undertermined","testimonials",156
+"ermine",2011,"undetermined","testimonials",156
 "glaucous gull",2011,"breeding","nest sampling (extrapolation nests)",80
 "long-tailed jaeger",2011,"breeding","nest sampling (extrapolation habitat)",585
 "rough-legged hawk",2011,"breeding","nest sampling (extrapolation nests)",35
@@ -123,7 +123,7 @@
 "brown lemming",2012,"undetermined","trapping",518
 "cackling goose",2012,"breeding","nest sampling (extrapolation nests)",34
 "collared lemming",2012,"undetermined","trapping",967
-"ermine",2012,"undertermined","testimonials",40
+"ermine",2012,"undetermined","testimonials",40
 "glaucous gull",2012,"breeding","nest sampling (extrapolation nests)",76
 "long-tailed jaeger",2012,"breeding","nest sampling (extrapolation habitat)",0
 "rough-legged hawk",2012,"breeding","nest sampling (extrapolation nests)",21
@@ -132,7 +132,7 @@
 "brown lemming",2013,"undetermined","trapping",0
 "cackling goose",2013,"breeding","nest sampling (extrapolation nests)",40
 "collared lemming",2013,"undetermined","trapping",967
-"ermine",2013,"undertermined","testimonials",8
+"ermine",2013,"undetermined","testimonials",8
 "glaucous gull",2013,"breeding","nest sampling (extrapolation nests)",59
 "long-tailed jaeger",2013,"breeding","nest sampling (extrapolation habitat)",0
 "peregrine falcon",2013,"breeding","nest sampling",10
@@ -143,7 +143,7 @@
 "brown lemming",2014,"undetermined","trapping",153753
 "cackling goose",2014,"breeding","nest sampling (extrapolation nests)",48
 "collared lemming",2014,"undetermined","trapping",16924
-"ermine",2014,"undertermined","testimonials",8
+"ermine",2014,"undetermined","testimonials",8
 "glaucous gull",2014,"breeding","nest sampling (extrapolation nests)",76
 "long-tailed jaeger",2014,"breeding","nest sampling (extrapolation habitat)",495
 "peregrine falcon",2014,"breeding","nest sampling",12
@@ -155,7 +155,7 @@
 "cackling goose",2015,"breeding","nest sampling (extrapolation nests)",56
 "collared lemming",2015,"undetermined","trapping",11440
 "common-ringed plover",2015,"breeding","nest sampling",58
-"ermine",2015,"undertermined","testimonials",8
+"ermine",2015,"undetermined","testimonials",8
 "glaucous gull",2015,"breeding","nest sampling (extrapolation nests)",77
 "long-tailed jaeger",2015,"breeding","nest sampling (extrapolation habitat)",383
 "peregrine falcon",2015,"breeding","nest sampling",8
@@ -167,7 +167,7 @@
 "cackling goose",2016,"breeding","nest sampling (extrapolation nests)",67
 "collared lemming",2016,"undetermined","trapping",33439
 "common-ringed plover",2016,"breeding","nest sampling",62
-"ermine",2016,"undertermined","testimonials",104
+"ermine",2016,"undetermined","testimonials",104
 "glaucous gull",2016,"breeding","nest sampling (extrapolation nests)",76
 "long-tailed jaeger",2016,"breeding","nest sampling (extrapolation habitat)",428
 "peregrine falcon",2016,"breeding","nest sampling",10
@@ -179,7 +179,7 @@
 "cackling goose",2017,"breeding","nest sampling",80
 "collared lemming",2017,"undetermined","trapping",142
 "common-ringed plover",2017,"breeding","nest sampling",44
-"ermine",2017,"undertermined","testimonials",31
+"ermine",2017,"undetermined","testimonials",31
 "glaucous gull",2017,"breeding","nest sampling",76
 "long-tailed jaeger",2017,"breeding","nest sampling (extrapolation habitat)",0
 "Pacific loon",2017,"breeding","nest sampling",0
@@ -193,7 +193,7 @@
 "brown lemming",2018,"undetermined","trapping",125
 "cackling goose",2018,"breeding","nest sampling",122
 "collared lemming",2018,"undetermined","trapping",0
-"ermine",2018,"undertermined","testimonials",8
+"ermine",2018,"undetermined","testimonials",8
 "glaucous gull",2018,"breeding","nest sampling",80
 "long-tailed jaeger",2018,"breeding","nest sampling (extrapolation habitat)",0
 "Pacific loon",2018,"breeding","nest sampling",6
@@ -207,7 +207,7 @@
 "brown lemming",2019,"undetermined","trapping",24844
 "cackling goose",2019,"breeding","nest sampling",152
 "collared lemming",2019,"undetermined","trapping",4686
-"ermine",2019,"undertermined","testimonials",8
+"ermine",2019,"undetermined","testimonials",8
 "glaucous gull",2019,"breeding","nest sampling",68
 "long-tailed jaeger",2019,"breeding","nest sampling (extrapolation habitat)",293
 "Pacific loon",2019,"breeding","nest sampling",6
@@ -252,10 +252,10 @@
 "horned lark",NA,"breeding","transects (relative abundance)",362
 "horned lark",NA,"breeding","incidental observations (relative abundance)",411
 "king eider",NA,"breeding","nest sampling (extrapolation habitat)",25
-"king eider",NA,"undertermined","incidental observations (relative abundance)",106
+"king eider",NA,"undetermined","incidental observations (relative abundance)",106
 "Lapland longspur",NA,"breeding","nest sampling (extrapolation transects)",7110
 "long-tailed duck",NA,"breeding","nest sampling (extrapolation habitat)",20
-"long-tailed duck",NA,"undertermined","incidental observations (relative abundance)",191
+"long-tailed duck",NA,"undetermined","incidental observations (relative abundance)",191
 "parasitic jaeger",NA,"undetermined","banding",17
 "parasitic jaeger",NA,"breeding","nest sampling",8
 "pectoral sandpiper",NA,"breeding","transects (relative abundance)",79

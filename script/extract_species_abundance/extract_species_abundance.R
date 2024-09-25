@@ -12,11 +12,8 @@ library(dplyr)
 #spatial data manipulation
 library(sf)
 sf_use_s2(FALSE) #prevent geoprocessing errors
-#Export tables as .tex
-library(xtable)
 #Personnal functions to estimate species abundance
 source("script/functions/FUNS.R")
-
 
 
 #-------------------#
@@ -185,7 +182,7 @@ kiei_ltdu_alt <-relative_abundance_gauthier %>%
   #Cross-multiplication to determine absolute abundance from relative abundance 
   dplyr::mutate(year= NA,
     ind_density_km2= ref_ind_density_km2*(index_sp/index_ref_sp),
-    status= "undertermined",
+    status= "undetermined",
     data= "incidental observations (relative abundance)") %>% 
   dplyr::select(species, zone, year, ind_density_km2, status, data)
 
@@ -677,7 +674,7 @@ ermine <- df_data_final %>%
 #return "ermine" object with estimated density at the scale of the study area
 ermine <- ermine %>% 
   dplyr::filter(zone == "study area") %>% 
-  dplyr::mutate(status= "undertermined", data= "testimonials") %>% 
+  dplyr::mutate(status= "undetermined", data= "testimonials") %>% 
   dplyr::select(-sd_ind_density_km2)
 
 

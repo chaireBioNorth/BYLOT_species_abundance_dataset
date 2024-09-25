@@ -1,0 +1,26 @@
+Data file,Variable identity,Storage type,Definition variable codes,Range,Number digits
+a.,functional_group,string,NA,NA,NA
+a.,scientific_name,string,NA,NA,NA
+a.,species,string,NA,NA,NA
+a.,annual_cycle_strategy,string,"Resident:
+Partially migratory:
+Migratory:",NA,NA
+b.,species,string,NA,NA,NA
+b.,year,integer,NA,,0
+b.,status,string,"Undetermined:
+Breeding:",NA,NA
+b.,method,string,,NA,NA
+b.,abundance,integer,NA,,0
+c.,species,string,NA,NA,NA
+c.,method,string,,NA,NA
+c.,mean_abundance,integer,NA,,0
+c.,sd_abundance,numeric,NA,,
+c.,sample_size_abundance,integer,NA,,0
+d.,species,string,NA,NA,NA
+d.,source,string,,NA,NA
+d.,body_mass_g,numeric,NA,,
+e.,species,string,NA,NA,NA
+e.,zone,string,,NA,NA
+e.,mean_nest_density_km2,numeric,NA,,
+e.,sd_nest_density_km2,numeric,NA,,
+e.,sample_size_nest_density_km2,integer,NA,,NA
