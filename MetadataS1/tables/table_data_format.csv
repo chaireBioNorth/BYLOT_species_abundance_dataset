@@ -2,25 +2,40 @@ Data file,Variable identity,Storage type,Definition variable codes,Range,Number 
 a.,functional_group,string,NA,NA,NA
 a.,scientific_name,string,NA,NA,NA
 a.,species,string,NA,NA,NA
-a.,annual_cycle_strategy,string,"Resident:
-Partially migratory:
-Migratory:",NA,NA
+a.,annual_cycle_strategy,string,"resident:;
+partial migrant:;
+Migrant:",NA,NA
 b.,species,string,NA,NA,NA
 b.,year,integer,NA,,0
-b.,status,string,"Undetermined:
-Breeding:",NA,NA
-b.,method,string,,NA,NA
+b.,status,string,"undetermined: Individuals present on the study area during the breeding period (June to August) that might have breed or not;
+Breeding: Individuals that ",NA,NA
+b.,method,string,"testimonials:;
+Trapping:;
+nest sampling (extrapolation nests):;
+nest sampling (extrapolation colony):;
+nest sampling (extrapolation habitat):;
+combined methods:;
+nest sampling:;
+distance sampling:;
+transects (relative abundance):;
+incidental observations (relative abundance):;
+individual home range:;
+nest sampling (extrapolation transects): Extrapolation of nest density measured in a given zone to all other zones of the study area based on the ratio of relative abundance derived from the mean number of individuals observed per transect.;
+Banding: Maximum number of individuals banded in a single year.
+
+
+
+",NA,NA
 b.,abundance,integer,NA,,0
 c.,species,string,NA,NA,NA
-c.,method,string,,NA,NA
-c.,mean_abundance,integer,NA,,0
-c.,sd_abundance,numeric,NA,,
-c.,sample_size_abundance,integer,NA,,0
+c.,source,string,"literature:;
+study_area:",NA,NA
+c.,body_mass_g,integer,NA,,
 d.,species,string,NA,NA,NA
-d.,source,string,,NA,NA
-d.,body_mass_g,numeric,NA,,
-e.,species,string,NA,NA,NA
-e.,zone,string,,NA,NA
-e.,mean_nest_density_km2,numeric,NA,,
-e.,sd_nest_density_km2,numeric,NA,,
-e.,sample_size_nest_density_km2,integer,NA,,NA
+d.,zone,string,"qarlikturvik (2x1 km plot):;
+qarlikturvik (4x2 km plot):;
+qarlikturvik valley:;
+Whole study area:",NA,NA
+d.,mean_nest_density_km2,numeric,NA,,
+d.,sd_nest_density_km2,numeric,NA,,
+d.,sample_size_nest_density_km2,integer,NA,,NA

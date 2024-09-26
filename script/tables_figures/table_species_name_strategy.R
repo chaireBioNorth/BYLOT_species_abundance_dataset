@@ -20,7 +20,7 @@ print(sp_name_latex,
       width="0.95\\textwidth",
       align="rXXXXXX",
       size="\\fontsize{10pt}{10pt}\\selectfont",
-      file = "manuscript/tables/species_name_strategy.tex",
+      file = "MetadataS1/tables/species_name_strategy.tex",
       caption.placement = "top")
 
 

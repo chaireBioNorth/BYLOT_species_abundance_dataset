@@ -30,7 +30,9 @@ nest_data <-  sf::st_read("data/raw/shapefiles/sampling/nests_2004-2023.shp")
 nest_data_csv <- read.csv("data/raw/sampling/nests_2004-2023.csv")
 
 #transects
-transect_data <- sf::st_read("data/raw/shapefiles/sampling/vertebrate_count_transects_2010_2023.shp")
+transect_data <- sf::st_read("data/raw/shapefiles/sampling/vertebrate_count_transects_2010_2023.shp") %>% 
+  #remove groups of shorebirds (>4 individuals) on transects
+  dplyr::filter(!c(nb_ind> 4 & species %in% c("white rumped sandpiper", "bairds sandpiper", "pectoral sandpiper", "buff breasted sandpiper", "red knot", "red phalarope", "ruddy turnstone","black bellied plover", "american golden plover") & status == "inconnu"))
 
 #incidental observation
 incidental_obs <- read.csv("data/raw/sampling/incidental_obs_2007_2019.csv") %>%
@@ -99,7 +101,7 @@ all_cack_nests <- get_nest_density(
   zone_list= "study area",
   year_list= c(1990:2019, 2022,2023))
 
-pdf(file= "manuscript/figures/cackling_goose_nest_exponential.pdf")
+pdf(file= "MetadataS1/figures/cackling_goose_nest_exponential.pdf")
 plot(all_cack_nests$year, all_cack_nests$nb_nest, 
      xlab= "Years",
      ylab= "Number of nests",
@@ -267,7 +269,7 @@ ropt <- ropt_density %>%
 #### 3.6 Sandhill crane ####
 #--------------------------#
 #Define location to save figure regression nest density and transect
-pdf("manuscript/figures/sandhill_crane_nest_transects.pdf")
+pdf("MetadataS1/figures/sandhill_crane_nest_transects.pdf")
 
 #Estimate a mean annual abundance of sandhill cranes based on the mean number of individuals observed per transect in each zone.
 sacr<- spatial_extrapolation_species_density(
@@ -298,9 +300,7 @@ dev.off()
 #-----------------------------------------------------#
 #--- Extract density of breeding individual abundance with distance sampling
 amgp <- extract_density_distance_sampling(
-    transect_data= transect_data %>% 
-      #Remove transects with more than 4 individuals pointing towards group of non-breeding individuals
-      dplyr::filter(nb_ind<=4), 
+    transect_data= transect_data , 
     distance_data= read.csv("data/raw/sampling/american_golden_plover_distance.csv"), 
     sp= "american golden plover", 
     zone_list= zones, 
@@ -367,7 +367,7 @@ crpl <- get_nest_density(
 #### 3.9 Lapland longpsur ####
 #----------------------------#
 #Define location to save figure regression nest density and transect
-pdf("manuscript/figures/lapland_longspur_nest_transect.pdf")
+pdf("MetadataS1/figures/lapland_longspur_nest_transect.pdf")
 
 #Correlation of lapland longpsur local nest density and mean number of individuals observed per transect
 lalo<- spatial_extrapolation_species_density(
@@ -396,7 +396,7 @@ dev.off()
 #### 3.9 Baird's sandpiper ####
 #-----------------------------#
 #Define location to save figure regression nest density and transect
-pdf("manuscript/figures/bairds_sandpiper_nest_transect.pdf")
+pdf("MetadataS1/figures/bairds_sandpiper_nest_transect.pdf")
 
 #Correlation of Baird's sandpiper local nest density and proportion of transects with at least one individual observed
 basa<- spatial_extrapolation_species_density(

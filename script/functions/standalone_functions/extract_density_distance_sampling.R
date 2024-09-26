@@ -76,6 +76,7 @@ sampled_year_zone <- data.frame(zone= rep(transect_area$zone, times= length(year
 sp_abundance <- data.frame()
 
 #for each year and zone combination (e.g., camp 2 in 2017)
+i= 1
 for (i in 1:nrow(sampled_year_zone)){
   #Extract the year of interest as an object
   year_select= sampled_year_zone$year[i]
@@ -96,7 +97,8 @@ obs <- transects %>%
 #--- If presence of observation estimate density
 if (nrow(obs) >0){
   #Create a object id containing a unique id for each observation
-obs_table <-  obs %>% 
+  #repeat the row of transects with multiple individuals observed the number of times corresponding to the number of individuals. Since each row correpond to a given individual detected.
+obs_table <- obs[rep(1:nrow(obs), times = obs$nb_ind), ] %>% 
   dplyr::mutate(Sample.Label= paste(transect, year), object= 1:length(year)) %>% 
   dplyr::rename(Region.Label= zone) %>% 
   sf::st_drop_geometry() %>% 

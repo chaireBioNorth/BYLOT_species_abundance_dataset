@@ -176,7 +176,7 @@ ggplot(data= mesic_density, aes(x= year, y= ind_density_km2, col= data))+
   geom_line(linewidth=0.75)+
   scale_x_continuous(breaks = seq(1999, 2023, by = 3))+
   theme_classic()
-ggsave(units= "cm",width = 18,height = 10,dpi= 500, "manuscript/figures/snow_goose_mesic_density.pdf")
+ggsave(units= "cm",width = 18,height = 10,dpi= 500, "MetadataS1/figures/snow_goose_mesic_density.pdf")
 
 
 #-------------------------------#
@@ -273,4 +273,4 @@ map <-
             dplyr::filter(year== 2017, n_oie_125 == 0), aes(geometry= geometry), alpha=1, fill= "#d00000",col= "#d00000")+
   theme_void()
 
-ggsave(plot= map, units = "cm", height= 18, width=10,"manuscript/figures/map_geese_colony_2017.pdf")
+ggsave(plot= map, units = "cm", height= 18, width=10,"MetadataS1/figures/map_geese_colony_2017.pdf")

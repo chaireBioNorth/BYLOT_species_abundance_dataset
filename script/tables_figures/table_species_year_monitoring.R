@@ -50,7 +50,7 @@ table_year_monitoring[table_year_monitoring$Species == "rough-legged hawk" & tab
 table_year_monitoring <- table_year_monitoring[order(table_year_monitoring$Zone), ]
 
 #as tex
-table_year_monitoring_latex <- xtable(table_year_monitoring, caption = "Summary of vertebrate species monitoring in the Bylot Island study area. In this paper, we excluded certain years for specific species due to reduced sampling efforts. As a result, duration of times series presented here may differ slightly from those in in Gauthier et al. (2024b).",
+table_year_monitoring_latex <- xtable(table_year_monitoring, caption = "Summary of vertebrate species monitoring in the Bylot Island study area. In this paper, we excluded certain years for specific species due to reduced sampling efforts. As a result, duration of times series presented here may differ slightly from those in Gauthier et al. (2024b).",
                                       label= "table:species_year_monitoring")
 
 print(table_year_monitoring_latex,
@@ -59,6 +59,6 @@ print(table_year_monitoring_latex,
       width="\\textwidth",
       align="rXXXXXX",
       size="\\fontsize{8pt}{10pt}\\selectfont",
-      file = "manuscript/tables/species_year_monitoring.tex",
+      file = "MetadataS1/tables/species_year_monitoring.tex",
       caption.placement = "top")
 

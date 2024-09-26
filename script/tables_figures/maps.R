@@ -34,6 +34,7 @@ goose_colony <- sf::st_read("data/raw/shapefiles/study_area.shp") %>%
   dplyr::filter(year== 2017, zone== "goose_colony") %>% 
   sf::st_transform(3857)
 
+
 #color palette
 colors_palette <- c("#bd959d","#84a98c", "#94214b", "#463a49","#ad382b","#096377","#63141c", "#003049", "#d4af37", "white")
 
@@ -72,7 +73,7 @@ ggmap(map) +
   geom_sf(data = study_area, aes(fill = zone, color= zone), lwd= 0.8,inherit.aes = FALSE)+
   scale_fill_manual(values= alpha(colors_palette,0.5))+
   scale_color_manual(values= alpha(colors_palette, 0.9),
-                     labels=c("camp 2"=  expression("Camp 2 - 80 km"^2), "goose point"= expression("Goose point - 41 km"^2),"malaview"= expression("Malaview - 60 km"^2),"qarlikturvik valley"= expression("Qarlikturvik valley - 65 km"^2), "camp 3"= expression("Camp 3 - 33 km"^2), "black plateau"= expression("Black plateau - 34 km"^2), "south plateau"= expression("Southern plateau - 12 km"^2), "camp 3 plateau"= expression("Camp 3 plateau - 30 km"^2), "dufour"= expression("Pointe Dufour - 33 km"^2), "goose_colony"= expression("Snow goose colony - 74 km"^2)))+
+                     labels=c("camp 2"=  expression("Camp 2 - 80 km"^2), "goose point"= expression("Goose point - 41 km"^2),"malaview"= expression("Malaview - 60 km"^2),"qarlikturvik valley"= expression("Qarlikturvik valley - 65 km"^2), "camp 3"= expression("Camp 3 - 33 km"^2), "black plateau"= expression("Black plateau - 34 km"^2), "south plateau"= expression("Southern plateau - 12 km"^2), "camp 3 plateau"= expression("Camp 3 plateau - 30 km"^2), "dufour"= expression("Pointe Dufour - 33 km"^2), "goose_colony"= expression("")))+
   geom_sf(data = goose_colony,fill= NA, aes(color=zone), lwd= 0.8, linetype = "twodash", inherit.aes = FALSE)+
   ggplot2::coord_sf(xlim = c(-8822069.645366931, -8926709.966712607), ylim = c(12028963.853099173, 12238691.808127215))+ # set the map lat/lon limits
   ggplot2::xlab("Longitude") + 
@@ -82,14 +83,14 @@ ggmap(map) +
   theme_bw()
 
 #export the plots
-ggsave("manuscript/figures/zones_study_area.pdf", width= 18, height= 25, units = c("cm"), dpi= 500)
+ggsave("MetadataS1/figures/zones_study_area.pdf", width= 18, height= 25, units = c("cm"), dpi= 500)
 
 
 #-------------------------------------------------------#
 #### Map with transects, goose colony and study area ####
 #-------------------------------------------------------#
 #transects
-transects <- sf::st_read("data/raw/shapefiles/sampling/transects_2010_2023.shp") %>% 
+transects <- sf::st_read("data/raw/shapefiles/sampling/vertebrate_count_transects_2010_2023.shp") %>% 
   dplyr::select(transect) %>% 
   unique() %>% 
   sf::st_transform(3857)
@@ -122,7 +123,7 @@ ggmap(map) +
   
 
 #export the plots
-ggsave("manuscript/figures/transects.pdf", width= 18, height= 25, units = c("cm"), dpi= 500)
+ggsave("MetadataS1/figures/transects.pdf", width= 18, height= 25, units = c("cm"), dpi= 500)
 
 
 #----------------------------------#
@@ -163,5 +164,5 @@ ggmap(map_qarlikturvik) +
   theme(legend.text=element_text(size=10))
 
 #export the plots
-ggsave("manuscript/figures/qarlikturvik_valley.pdf", width= 20, height= 18, units = c("cm"), dpi= 500)
+ggsave("MetadataS1/figures/qarlikturvik_valley.pdf", width= 20, height= 18, units = c("cm"), dpi= 500)
 

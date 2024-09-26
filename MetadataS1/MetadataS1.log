@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  24 SEP 2024 06:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  26 SEP 2024 09:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,12 +764,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [11]
-<figures/zones_study_area.pdf, id=360, 511.9125pt x 710.655pt>
+<figures/zones_study_area.pdf, id=358, 511.9125pt x 710.655pt>
 File: figures/zones_study_area.pdf Graphic file (type pdf)
 <use figures/zones_study_area.pdf>
 Package pdftex.def Info: figures/zones_study_area.pdf  used on input line 188.
 (pdftex.def)             Requested size: 364.19667pt x 505.58789pt.
-<figures/qarlikturvik_valley.pdf, id=361, 568.1225pt x 511.9125pt>
+<figures/qarlikturvik_valley.pdf, id=359, 568.1225pt x 511.9125pt>
 File: figures/qarlikturvik_valley.pdf Graphic file (type pdf)
 <use figures/qarlikturvik_valley.pdf>
 Package pdftex.def Info: figures/qarlikturvik_valley.pdf  used on input line 19
@@ -824,7 +824,7 @@ Underfull \hbox (badness 10000) in alignment at lines 31--31
  []
 
 ) [17]
-<figures/transects.pdf, id=452, 511.9125pt x 710.655pt>
+<figures/transects.pdf, id=450, 511.9125pt x 710.655pt>
 File: figures/transects.pdf Graphic file (type pdf)
 <use figures/transects.pdf>
 Package pdftex.def Info: figures/transects.pdf  used on input line 246.
@@ -854,17 +854,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--278
 
  []
 
-[21] [22]
-
-LaTeX Warning: Reference `table:summary_methods' on page 23 undefined on input 
-line 291.
-
-[23]
+[21] [22] [23]
 <figures/cackling_goose_nest_exponential.pdf, id=571, 505.89pt x 505.89pt>
 File: figures/cackling_goose_nest_exponential.pdf Graphic file (type pdf)
 <use figures/cackling_goose_nest_exponential.pdf>
 Package pdftex.def Info: figures/cackling_goose_nest_exponential.pdf  used on i
-nput line 303.
+nput line 302.
 (pdftex.def)             Requested size: 227.62206pt x 227.62523pt.
 
 
@@ -874,17 +869,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
  [24]
-<figures/map_geese_colony_2017.pdf, id=586, 284.06125pt x 511.9125pt>
+<figures/map_geese_colony_2017.pdf, id=587, 284.06125pt x 511.9125pt>
 File: figures/map_geese_colony_2017.pdf Graphic file (type pdf)
 <use figures/map_geese_colony_2017.pdf>
 Package pdftex.def Info: figures/map_geese_colony_2017.pdf  used on input line 
-314.
+313.
 (pdftex.def)             Requested size: 227.62206pt x 410.21794pt.
-<figures/snow_goose_mesic_density.pdf, id=587, 511.9125pt x 284.06125pt>
+<figures/snow_goose_mesic_density.pdf, id=588, 511.9125pt x 284.06125pt>
 File: figures/snow_goose_mesic_density.pdf Graphic file (type pdf)
 <use figures/snow_goose_mesic_density.pdf>
 Package pdftex.def Info: figures/snow_goose_mesic_density.pdf  used on input li
-ne 321.
+ne 320.
 (pdftex.def)             Requested size: 455.24411pt x 252.6143pt.
 
 [25 <./figures/cackling_goose_nest_exponential.pdf>]
@@ -895,7 +890,7 @@ Underfull \vbox (badness 1796) has occurred while \output is active []
 File: figures/sandhill_crane_nest_transects.pdf Graphic file (type pdf)
 <use figures/sandhill_crane_nest_transects.pdf>
 Package pdftex.def Info: figures/sandhill_crane_nest_transects.pdf  used on inp
-ut line 343.
+ut line 342.
 (pdftex.def)             Requested size: 227.62206pt x 227.62523pt.
 
 [27 <./figures/sandhill_crane_nest_transects.pdf>] [28]
@@ -903,16 +898,16 @@ ut line 343.
 File: figures/lapland_longspur_nest_transect.pdf Graphic file (type pdf)
 <use figures/lapland_longspur_nest_transect.pdf>
 Package pdftex.def Info: figures/lapland_longspur_nest_transect.pdf  used on in
-put line 363.
+put line 362.
 (pdftex.def)             Requested size: 216.24025pt x 216.23933pt.
 <figures/bairds_sandpiper_nest_transect.pdf, id=645, 505.89pt x 505.89pt>
 File: figures/bairds_sandpiper_nest_transect.pdf Graphic file (type pdf)
 <use figures/bairds_sandpiper_nest_transect.pdf>
 Package pdftex.def Info: figures/bairds_sandpiper_nest_transect.pdf  used on in
-put line 367.
+put line 366.
 (pdftex.def)             Requested size: 216.24025pt x 216.23933pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 362--370
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 361--369
 []$[]$ $[]$ 
  []
 
@@ -928,23 +923,338 @@ Underfull \vbox (badness 1796) has occurred while \output is active []
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
  [32]
-[33] [34] [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
+[33] [34 <./figures/map_geese_colony_2017.pdf>] [35 <./figures/snow_goose_mesic
+_density.pdf>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 788.14136pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=569.05515pt
+* \textheight=788.14136pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-95.04362pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (./tables/table_summary_methods.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/bx/n/8 Method
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/bx/n/8 Lowest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/bx/n/8 Highest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[]|\T1/lmr/bx/n/8 Mean
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 9--9
+[]|\T1/lmr/m/n/8 Nest mon-i-tor-ing plots ex-trap-o-lated to
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 11--11
+[]|\T1/lmr/m/n/8 Intensive study area-wide mon-i-tor-ing
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 11--12
+[]|\T1/lmr/m/n/8 12 (2010-2019,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 15--16
+[]|\T1/lmr/m/n/8 10 (2012-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]|\T1/lmr/m/n/8 4 (2017-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\T1/lmr/m/n/8 peregrine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]|\T1/lmr/m/n/8 8 (2013-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\T1/lmr/m/n/8 rough-legged
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\T1/lmr/m/n/8 rough-legged
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]|\T1/lmr/m/n/8 8 (2013-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 American
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 27--27
+[]|\T1/lmr/m/n/8 Distance sam-pling through-out low-land
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]|\T1/lmr/m/n/8 8 (2014-2019,
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 29--29
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 29--30
+[]|\T1/lmr/m/n/8 23 (1996-2016,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|\T1/lmr/m/n/8 5 (2017-2019,
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 33--33
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/lmr/m/n/8 collared lem-
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 35--35
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 35--36
+[]|\T1/lmr/m/n/8 27 (1995-2019,
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 37--37
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 37--38
+[]|\T1/lmr/m/n/8 27 (1995-2019,
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 39--39
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T1/lmr/m/n/8 long-tailed
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 41--42
+[]|\T1/lmr/m/n/8 17 (2004-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/lmr/m/n/8 red-throated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]|\T1/lmr/m/n/8 4 (2017-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]|\T1/lmr/m/n/8 4 (2017-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]|\T1/lmr/m/n/8 4 (2017-2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/lmr/m/n/8 common-
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 49--49
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/lmr/m/n/8 black-bellied
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 51--51
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\T1/lmr/m/n/8 black-bellied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/lmr/m/n/8 Lapland
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 55--55
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/lmr/m/n/8 Baird's sand-
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 57--57
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 59--59
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 63--63
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/8 long-tailed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\T1/lmr/m/n/8 long-tailed
+ []
+
+
+Overfull \hbox (0.5742pt too wide) in paragraph at lines 67--67
+[]|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/lmr/m/n/8 ruddy turn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/lmr/m/n/8 ruddy turn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/lmr/m/n/8 white-rumped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\T1/lmr/m/n/8 white-rumped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\T1/lmr/m/n/8 buff-breasted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\T1/lmr/m/n/8 buff-breasted
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 95--95
+[]|\T1/lmr/m/n/8 pectoral sand-
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 97--97
+[]|\T1/lmr/m/n/8 pectoral sand-
+ []
+
+[36
+
+
+] [37] [38]) [39] [40
+
+
+] [41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 463--467
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 472.
-[37]
-Overfull \hbox (57.8221pt too wide) in paragraph at lines 485--486
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 477.
+
+Overfull \hbox (57.8221pt too wide) in paragraph at lines 487--488
 []\T1/lmtt/m/n/12 species\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 zone\T1/lmr/m/n/12 ; 
 \T1/lmtt/m/n/12 mean_nest_density_km2\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 sd_nest_d
 ensity_km2\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 sample_size_nest_density_km2 
  []
 
-
-Overfull \hbox (18.49983pt too wide) in paragraph at lines 492--497
-\T1/lmr/m/n/12 e. \T1/lmtt/m/n/12 BYLOT-interannual_variation_nest_density.csv\
+[43]
+Overfull \hbox (19.80583pt too wide) in paragraph at lines 494--498
+\T1/lmr/m/n/12 d. \T1/lmtt/m/n/12 BYLOT-interannual_variation_nest_density.csv\
 T1/lmr/m/n/12 : mean_nest_density_km2= 19.991;
  []
 
@@ -954,18 +1264,23 @@ Overfull \hbox (4.00262pt too wide) in paragraph at lines 26--26
  []
 
 
-Overfull \hbox (4.00262pt too wide) in paragraph at lines 32--32
-[]|\T1/lmr/m/n/8 individuals| 
- []
-
-
-Overfull \hbox (4.00262pt too wide) in paragraph at lines 34--34
-[]|\T1/lmr/m/n/8 individuals| 
- []
-
-
-Overfull \hbox (2.20819pt too wide) in paragraph at lines 34--35
+Overfull \hbox (2.20819pt too wide) in paragraph at lines 32--33
 []|\T1/lmr/m/n/8 numeric| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T1/lmr/m/n/8 square
+ []
+
+
+Overfull \hbox (2.20819pt too wide) in paragraph at lines 39--40
+[]|\T1/lmr/m/n/8 numeric| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/8 square
  []
 
 
@@ -974,42 +1289,21 @@ Overfull \hbox (2.20819pt too wide) in paragraph at lines 42--43
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-\T1/lmr/m/n/8 square
- []
-
-
-Overfull \hbox (2.20819pt too wide) in paragraph at lines 49--50
-[]|\T1/lmr/m/n/8 numeric| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-\T1/lmr/m/n/8 square
- []
-
-
-Overfull \hbox (2.20819pt too wide) in paragraph at lines 52--53
-[]|\T1/lmr/m/n/8 numeric| 
- []
-
-
-Overfull \hbox (12.32278pt too wide) in alignment at lines 4--58
+Overfull \hbox (12.32278pt too wide) in alignment at lines 4--48
  [] [] [] [] [] 
  []
 
-[38] [39])
-Overfull \hbox (8.7999pt too wide) in paragraph at lines 525--525
+[44]) [45]
+Overfull \hbox (8.7999pt too wide) in paragraph at lines 526--526
 |\T1/lmr/bx/n/17.28 C. Data anoma-lies: De-scrip-tion of miss-ing data, anoma-
  []
 
-[40]
-Overfull \hbox (4.43881pt too wide) in paragraph at lines 539--539
+[46]
+Overfull \hbox (4.43881pt too wide) in paragraph at lines 540--540
 |\T1/lmr/bx/n/17.28 D. Com-puter pro-grams and data-processing al-go-rithms| 
  []
 
-[41] [42] [43 <./figures/map_geese_colony_2017.pdf>] [44 <./figures/snow_goose_
-mesic_density.pdf>] (./MetadataS1.bbl [45
+[47] [48] (./MetadataS1.bbl [49
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 111--116
@@ -1047,24 +1341,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--167
 C647948E0[],
  []
 
-[46]
+[50]
 Underfull \hbox (badness 1057) in paragraph at lines 179--184
 []\T1/lmr/m/n/12 G. Gau-thier, M.-C. Cadieux, D. Berteaux, J. Bêty, D. Fau-teux
 , P. Legag-neux,
  []
 
-[47] [48] [49]) [50] (./MetadataS1.aux)
-
-LaTeX Warning: There were undefined references.
-
+[51] [52] [53]) [54] (./MetadataS1.aux)
 Package rerunfilecheck Info: File `MetadataS1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16373 strings out of 480204
- 268184 string characters out of 5895010
- 638956 words of memory out of 5000000
- 33852 multiletter control sequences out of 15000+600000
+ 16384 strings out of 480204
+ 268387 string characters out of 5895010
+ 756088 words of memory out of 5000000
+ 33855 multiletter control sequences out of 15000+600000
  548786 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,10n,106p,2139b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1081,10 +1372,10 @@ blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
 lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on MetadataS1.pdf (50 pages, 4737647 bytes).
+Output written on MetadataS1.pdf (54 pages, 4457967 bytes).
 PDF statistics:
- 966 PDF objects out of 1000 (max. 8388607)
- 776 compressed objects within 8 object streams
- 149 named destinations out of 1000 (max. 500000)
+ 983 PDF objects out of 1000 (max. 8388607)
+ 791 compressed objects within 8 object streams
+ 154 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

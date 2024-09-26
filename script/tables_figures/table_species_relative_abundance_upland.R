@@ -73,5 +73,5 @@ print(table_latex,
       width="0.55\\textwidth",
       align="rXXXXXX",
       size="\\fontsize{10pt}{10pt}\\selectfont",
-      file = "manuscript/tables/species_relative_abundance_upland.tex",
+      file = "MetadataS1/tables/species_relative_abundance_upland.tex",
       caption.placement = "top")

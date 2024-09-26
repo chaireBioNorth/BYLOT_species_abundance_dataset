@@ -1,64 +1,55 @@
-species	Estimate	method	Method description	Method quality	Justification	Expert based confidence interval
-snow goose	1999-2009	nest sampling (extrapolation colony)	Nest monitoring plots extrapolated to mean goose colony area	low	Relatively small sample size and uncertainty on goose colony area 	several thousands to few tens of thousands
-snow goose	2010-2019, 2022-2023	combined methods	"Intensive study area-wide monitoring based on several
-methods and annual colony outline"	high	Multiple independent methods and annual colony outline	thousands
-snowy owl	1996-2011	nest sampling (extrapolation nests)	"Extrapolation from intensive nest monitoring (111 km2,
-R2=0.99, p<0.0001, n=10)"	high	Strong correlation with study area-wide nest density	units to few tens
-snowy owl	2012-2019, 2022-2023	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	units to few tens
-glaucous gull	2004-2016	nest sampling (extrapolation nests)	"Extrapolation from intensive nest monitoring (111 km2,
-R2=0.84, p=0.16, n=4)"	high	Strong correlation with study area-wide nest density	few tens
-glaucous gull	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	few tens
-peregrine falcon	2013-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	units
-rough-legged hawk	2007-2012	nest sampling (extrapolation nests)	"Extrapolation from intensive nest monitoring (111 km2,
-R2=0.99, p<0.0001, n=8)"	high	Strong correlation with study area-wide nest density	few tens
-rough-legged hawk	2013-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	few tens
-American golden-plover	2014-2019, 2022-2023	distance sampling	Distance sampling throughout lowland (313 km2)	high	Large sample size	hundreds
-cackling goose	1996-2016	nest sampling (extrapolation nests)	"Extrapolation from exponential model of growth (R2=0.74,
-p=0.15, n=5)"	moderate	Strong correlation with opportunistic nest monitoring	units to tens
-cackling goose	2017-2019, 2022-2023	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	few tens
-Arctic fox	mean	individual home range	Derived from extensive fox home range size studies (n=109)	moderate	Indirect indices, but large sample size	few tens
-collared lemming	1995-2019, 2021-2022	trapping	"Rigorous density estimates at small spatial scale
-(0.22 km2) extrapolated by habitat"	moderate	Intensive sampling, but small spatial coverage and extrapolation by habitat	few thousands to tens of thousands
-brown lemming	1995-2019, 2021-2022	trapping	"Rigorous density estimates at small spatial scale
-(0.22 km2) extrapolated by habitat"	moderate	Intensive sampling, but small spatial coverage and extrapolation by habitat	few thousands to few hundreds of thousands
-ermine	1993-2019	testimonials	Indices of relative abundance derived from testimonials converted to abundance using home range size	moderate	Indirect indices and uncertainty on ermine home range size estimates	tens
-long-tailed jaeger	2004-2019, 2022	nest sampling (extrapolation habitat)	Intensive nest monitoring (33 km2) extrapolated by habitat	high	Relatively large spatial coverage of sampling	units to few hundreds
-red-throated loon	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	few tens
-Pacific loon	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	units
-tundra swan	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation	units
-common-ringed plover	2015-2017	nest sampling	Nest monitoring on the main breeding sites	moderate	Intensive monitoring, but not exhaustive to study area	few tens
-black-bellied plover	mean	transects (relative abundance)	Derived from the abundance estimate of American golden-plover using transects observations	moderate	Derived from high quality estimate of another species	few tens
-black-bellied plover	mean	incidental observations (relative abundance)	Derived from the abundance estimate of American golden-plover using incidental observations	moderate	Derived from high quality estimate of another species	few tens
-Lapland longspur	mean	nest sampling (extrapolation transects)	"Extrapolation from intensive nest monitoring (2 km2)
-and transects observations (R2=0.62, p=0.1, n=8)"	moderate	Uncertain relation with large scale indices	few thousands
-Baird's sandpiper	mean	nest sampling (extrapolation transects)	"Extrapolation from intensive nest monitoring (2 km2)
-and transects observations (R2=0.38, p=0.35, n=8)"	moderate	Uncertain relation with large scale indices	several hundreds to few thousands
-sandhill crane	mean	nest sampling (extrapolation transects)	Extrapolation from intensive nest monitoring (8 km2) and transect observations	moderate	Uncertain relation with large scale indices	few tens
-king eider	mean	nest sampling (extrapolation habitat)	Intensive, but opportunistic nest monitoring (8 km2) extrapolated by habitat	moderate	Intensive, but opportunistic monitoring at relatively small spatial scale	tens
-king eider	mean	incidental observations (relative abundance)	Derived from the abundance estimate of red-throated loon using incidental observations	moderate	Derived from high quality estimate of another species	tens
-long-tailed duck	mean	nest sampling (extrapolation habitat)	Intensive, but opportunistic nest monitoring (8 km2) extrapolated by habitat	moderate	Intensive, but opportunistic monitoring at relatively small spatial scale	tens
-long-tailed duck	mean	incidental observations (relative abundance)	Derived from the abundance estimate of red-throated loon using incidental observations	moderate	Derived from high quality estimate of another species	tens
-rock ptarmigan	mean	nest sampling (extrapolation habitat)	Intensive, but opportunistic nest monitoring (8 km2) extrapolated to study area	low	Intensive, but opportunistic monitoring at relatively small spatial scale and prime nesting habitat not well sampled	tens
-horned lark	mean	transects (relative abundance)	Derived from the abundance estimate of Lapland longspur using transects observations	low	Derived from moderate quality estimate of another species	few hundreds
-horned lark	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Lapland longspur using incidental observations	low	Derived from moderate quality estimate of another species	few hundreds
-ruddy turnstone	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species	tens
-ruddy turnstone	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	low	Derived from moderate quality estimate of another species	tens
-red phalarope	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species	tens
-red phalarope	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	low	Derived from moderate quality estimate of another species	tens
-red knot	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species	tens
-red knot	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	low	Derived from moderate quality estimate of another species	tens
-white-rumped sandpiper	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species	hundreds
-white-rumped sandpiper	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	low	Derived from moderate quality estimate of another species	hundreds
-buff-breasted sandpiper	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species	tens
-buff-breasted sandpiper	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	low	Derived from moderate quality estimate of another species	tens
-pectoral sandpiper	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species	tens
-pectoral sandpiper	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	low	Derived from moderate quality estimate of another species	tens
-parasitic jaeger	mean	banding	Maximum number of nest found annually during study area-wide opportunistic nest monitoring	low	Uncertainty about number of non-breeding individuals 	few tens
-parasitic jaeger	mean	nest sampling	Maximum number of individuals banded in a year	low	Based on a single year and potentially not all individuals were captured	few tens
-common raven	mean	transects (relative abundance)	Derived from the abundance estimate of glaucous gull using transects observations	low	Derived from moderate quality estimate of another species, but potential difference in detectability between species	few tens
-common raven	mean	incidental observations (relative abundance)	Derived from the abundance estimate of glaucous gull using incidental observations	low	Derived from moderate quality estimate of another species, but potential difference in detectability between species	few tens
-American pipit	mean	transects (relative abundance)	Derived from the abundance estimate of Lapland longspur using transects observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled	tens to few hundreds
-American pipit	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Lapland longspur using incidental observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled	tens to few hundreds
-snow bunting	mean	transects (relative abundance)	Derived from the abundance estimate of Lapland longspur using transects observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled	few hundreds
-snow bunting	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Lapland longspur using incidental observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled	few hundreds
-Arctic hare	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Arctic fox using incidental observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled	few tens
+species	Estimate	method	Method description	Method quality	Justification
+snow goose	1999-2009	nest sampling (extrapolation colony)	Nest monitoring plots extrapolated to mean goose colony area	low	Relatively small sample size and uncertainty on goose colony area 
+snow goose	2010-2019, 2022-2023	combined methods	Intensive study area-wide monitoring based on a combination of methods (transects, point counts and nest monitoring plots) and annual colony outline	high	Multiple independent methods and annual colony outline
+snowy owl	1996-2011	nest sampling (extrapolation nests)	Extrapolation from intensive nest monitoring (111 km2, R2=0.99, p<0.0001, n=10)	high	Strong correlation with study area-wide nest density
+snowy owl	2012-2019, 2022-2023	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+glaucous gull	2004-2016	nest sampling (extrapolation nests)	Extrapolation from intensive nest monitoring (111 km2, R2=0.84, p=0.16, n=4)	high	Strong correlation with study area-wide nest density
+glaucous gull	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+peregrine falcon	2013-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+rough-legged hawk	2007-2012	nest sampling (extrapolation nests)	Extrapolation from intensive nest monitoring (111 km2, R2=0.99, p<0.0001, n=8)	high	Strong correlation with study area-wide nest density
+rough-legged hawk	2013-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+American golden-plover	2014-2019, 2022-2023	distance sampling	Distance sampling throughout lowland (313 km2)	high	Large sample size
+cackling goose	1996-2016, 2020-2021	nest sampling (extrapolation nests)	Extrapolation from exponential model of growth (R2=0.74, p=0.15, n=5)	moderate	Strong correlation with opportunistic nest monitoring
+cackling goose	2017-2019, 2022-2023	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+Arctic fox	mean	individual home range	Derived from extensive fox home range size studies (n=109)	moderate	Indirect indices, but large sample size
+collared lemming	1995-2019, 2021-2022	trapping	Rigorous density estimates at small spatial scale (0.22 km2) extrapolated by habitat	moderate	Intensive sampling, but small spatial coverage and extrapolation by habitat
+brown lemming	1995-2019, 2021-2022	trapping	Rigorous density estimates at small spatial scale (0.22 km2) extrapolated by habitat	moderate	Intensive sampling, but small spatial coverage and extrapolation by habitat
+ermine	1993-2019	testimonials	Indices of relative abundance derived from testimonials converted to abundance using home range size	moderate	Indirect indices and uncertainty on ermine home range size estimates
+long-tailed jaeger	2004-2019, 2022	nest sampling (extrapolation habitat)	Intensive nest monitoring (33 km2) extrapolated by habitat	high	Relatively large spatial coverage of sampling
+red-throated loon	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+Pacific loon	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+tundra swan	2017-2019, 2022	nest sampling	Intensive study area-wide nest monitoring (389 km2)	high	No extrapolation
+common-ringed plover	2015-2017	nest sampling	Nest monitoring on the main breeding sites	moderate	Intensive monitoring, but not exhaustive to study area
+black-bellied plover	mean	transects (relative abundance)	Derived from the abundance estimate of American golden-plover using transects observations	moderate	Derived from high quality estimate of another species
+black-bellied plover	mean	incidental observations (relative abundance)	Derived from the abundance estimate of American golden-plover using incidental observations	low	Derived from high quality estimate of another species, but potentially includes transient migratory individuals
+Lapland longspur	mean	nest sampling (extrapolation transects)	Extrapolation from intensive nest monitoring (2 km2) and transects observations (R2=0.62, p=0.1, n=8)	moderate	Uncertain relation with large scale indices
+Baird's sandpiper	mean	nest sampling (extrapolation transects)	Extrapolation from intensive nest monitoring (2 km2) and transects observations (R2=0.38, p=0.35, n=8)	moderate	Uncertain relation with large scale indices
+sandhill crane	mean	nest sampling (extrapolation transects)	Extrapolation from intensive nest monitoring (8 km2) and transect observations	moderate	Uncertain relation with large scale indices
+king eider	mean	nest sampling (extrapolation habitat)	Intensive, but opportunistic nest monitoring (8 km2) extrapolated by habitat	low	Intensive, but opportunistic monitoring at relatively small spatial scale, but does not include potential non-breeding individuals
+king eider	mean	incidental observations (relative abundance)	Derived from the abundance estimate of red-throated loon using incidental observations	moderate	Derived from high quality estimate of another species
+long-tailed duck	mean	nest sampling (extrapolation habitat)	Intensive, but opportunistic nest monitoring (8 km2) extrapolated by habitat	low	Intensive, but opportunistic monitoring at relatively small spatial scale, but does not include potential non-breeding individuals
+long-tailed duck	mean	incidental observations (relative abundance)	Derived from the abundance estimate of red-throated loon using incidental observations	moderate	Derived from high quality estimate of another species
+rock ptarmigan	mean	nest sampling (extrapolation habitat)	Intensive, but opportunistic nest monitoring (8 km2) extrapolated to study area	low	Intensive, but opportunistic monitoring at relatively small spatial scale and prime nesting habitat not well sampled
+horned lark	mean	transects (relative abundance)	Derived from the abundance estimate of Lapland longspur using transects observations	low	Derived from moderate quality estimate of another species
+horned lark	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Lapland longspur using incidental observations	low	Derived from moderate quality estimate of another species
+ruddy turnstone	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species
+ruddy turnstone	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	very low	Derived from moderate quality estimate of another species, but potentially includes transient migratory individuals
+red phalarope	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species
+red phalarope	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	very low	Derived from moderate quality estimate of another species, but potentially includes transient migratory individuals
+red knot	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species
+red knot	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	very low	Derived from moderate quality estimate of another species, but potentially includes transient migratory individuals
+white-rumped sandpiper	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species
+white-rumped sandpiper	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	very low	Derived from moderate quality estimate of another species, but potentially includes transient migratory individuals
+buff-breasted sandpiper	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species
+buff-breasted sandpiper	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	very low	Derived from moderate quality estimate of another species, but potentially includes transient migratory individuals
+pectoral sandpiper	mean	transects (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using transects observations	low	Derived from moderate quality estimate of another species
+pectoral sandpiper	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Bairds sandpiper using incidental observations	very low	Derived from moderate quality estimate of another species, but potentially includes transient migratory individuals
+parasitic jaeger	mean	banding	Maximum number of individuals banded in a year	low	Based on a single year and potentially not all individuals were captured
+parasitic jaeger	mean	nest sampling	Maximum number of nest found annually during study area-wide opportunistic nest monitoring	very low	Monitoring does not include potential non-breeding individuals
+common raven	mean	transects (relative abundance)	Derived from the abundance estimate of glaucous gull using transects observations	very low	Derived from moderate quality estimate of another species, but potential difference in detectability between species
+common raven	mean	incidental observations (relative abundance)	Derived from the abundance estimate of glaucous gull using incidental observations	very low	Derived from moderate quality estimate of another species, but potential difference in detectability between species
+American pipit	mean	transects (relative abundance)	Derived from the abundance estimate of Lapland longspur using transects observations	very low	Derived from moderate quality estimate of another species and prime nesting habitat not sampled
+American pipit	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Lapland longspur using incidental observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled
+snow bunting	mean	transects (relative abundance)	Derived from the abundance estimate of Lapland longspur using transects observations	very low	Derived from moderate quality estimate of another species and prime nesting habitat not sampled
+snow bunting	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Lapland longspur using incidental observations	low	Derived from moderate quality estimate of another species and prime nesting habitat not well sampled
+Arctic hare	mean	incidental observations (relative abundance)	Derived from the abundance estimate of Arctic fox using incidental observations	very low	Derived from moderate quality estimate of another species, prime nesting habitat not well sampled and difference in detectability between species

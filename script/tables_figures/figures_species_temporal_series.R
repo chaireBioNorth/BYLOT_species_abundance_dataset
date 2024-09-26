@@ -73,7 +73,7 @@ plot <-
         axis.title = element_text(size = 9, color = "black"),
         plot.title = element_text(face = "bold"))
 
-ggsave(plot= plot, filename = paste("manuscript/figures/species_temporal_series/",gsub(" ","_",sp),".pdf", sep=""), units = "cm", height = 8, width = 10)
+ggsave(plot= plot, filename = paste("MetadataS1/figures/species_temporal_series/",gsub(" ","_",sp),".pdf", sep=""), units = "cm", height = 8, width = 10)
 }
 
 
@@ -101,4 +101,4 @@ legend <- ggplot(data= legend_df, aes(x= x, y=y, label= rev(data)))+
   ylim(1,6)+
   xlim(-0.25, 7)
 
-ggsave(plot= legend, filename = "manuscript/figures/species_temporal_series/legend.pdf", units = "cm", height = 8, width = 10)
+ggsave(plot= legend, filename = "MetadataS1/figures/species_temporal_series/legend.pdf", units = "cm", height = 8, width = 10)

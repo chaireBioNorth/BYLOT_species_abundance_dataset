@@ -106,7 +106,7 @@ print(table_latex,
       width="0.9\\textwidth",
       align="rXXXXXX",
       size="\\fontsize{10pt}{10pt}\\selectfont",
-      file = "manuscript/tables/interannual_nest_density_variation.tex",
+      file = "MetadataS1/tables/interannual_nest_density_variation.tex",
       caption.placement = "top")
 
 

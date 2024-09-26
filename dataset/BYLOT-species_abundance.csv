@@ -139,7 +139,7 @@
 "rough-legged hawk",2013,"breeding","nest sampling",0
 "snow goose",2013,"breeding","combined methods",49076
 "snowy owl",2013,"breeding","nest sampling",0
-"American golden-plover",2014,"breeding","distance sampling",1040
+"American golden-plover",2014,"breeding","distance sampling",1725
 "brown lemming",2014,"undetermined","trapping",153753
 "cackling goose",2014,"breeding","nest sampling (extrapolation nests)",48
 "collared lemming",2014,"undetermined","trapping",16924
@@ -150,7 +150,7 @@
 "rough-legged hawk",2014,"breeding","nest sampling",62
 "snow goose",2014,"breeding","combined methods",42487
 "snowy owl",2014,"breeding","nest sampling",144
-"American golden-plover",2015,"breeding","distance sampling",1008
+"American golden-plover",2015,"breeding","distance sampling",1220
 "brown lemming",2015,"undetermined","trapping",88772
 "cackling goose",2015,"breeding","nest sampling (extrapolation nests)",56
 "collared lemming",2015,"undetermined","trapping",11440
@@ -162,7 +162,7 @@
 "rough-legged hawk",2015,"breeding","nest sampling",40
 "snow goose",2015,"breeding","combined methods",37190
 "snowy owl",2015,"breeding","nest sampling",0
-"American golden-plover",2016,"breeding","distance sampling",828
+"American golden-plover",2016,"breeding","distance sampling",1211
 "brown lemming",2016,"undetermined","trapping",63865
 "cackling goose",2016,"breeding","nest sampling (extrapolation nests)",67
 "collared lemming",2016,"undetermined","trapping",33439
@@ -174,7 +174,7 @@
 "rough-legged hawk",2016,"breeding","nest sampling",60
 "snow goose",2016,"breeding","combined methods",39779
 "snowy owl",2016,"breeding","nest sampling",6
-"American golden-plover",2017,"breeding","distance sampling",968
+"American golden-plover",2017,"breeding","distance sampling",1193
 "brown lemming",2017,"undetermined","trapping",5814
 "cackling goose",2017,"breeding","nest sampling",80
 "collared lemming",2017,"undetermined","trapping",142
@@ -189,7 +189,7 @@
 "snow goose",2017,"breeding","combined methods",32031
 "snowy owl",2017,"breeding","nest sampling",0
 "tundra swan",2017,"breeding","nest sampling",0
-"American golden-plover",2018,"breeding","distance sampling",400
+"American golden-plover",2018,"breeding","distance sampling",548
 "brown lemming",2018,"undetermined","trapping",125
 "cackling goose",2018,"breeding","nest sampling",122
 "collared lemming",2018,"undetermined","trapping",0
@@ -203,7 +203,7 @@
 "snow goose",2018,"breeding","combined methods",27626
 "snowy owl",2018,"breeding","nest sampling",0
 "tundra swan",2018,"breeding","nest sampling",2
-"American golden-plover",2019,"breeding","distance sampling",306
+"American golden-plover",2019,"breeding","distance sampling",397
 "brown lemming",2019,"undetermined","trapping",24844
 "cackling goose",2019,"breeding","nest sampling",152
 "collared lemming",2019,"undetermined","trapping",4686
@@ -221,7 +221,7 @@
 "brown lemming",2021,"undetermined","trapping",447630
 "cackling goose",2021,"breeding","nest sampling (extrapolation nests)",158
 "collared lemming",2021,"undetermined","trapping",4402
-"American golden-plover",2022,"breeding","distance sampling",795
+"American golden-plover",2022,"breeding","distance sampling",1379
 "brown lemming",2022,"undetermined","trapping",111
 "cackling goose",2022,"breeding","nest sampling",120
 "collared lemming",2022,"undetermined","trapping",954
@@ -234,7 +234,7 @@
 "snow goose",2022,"breeding","combined methods",8687
 "snowy owl",2022,"breeding","nest sampling",0
 "tundra swan",2022,"breeding","nest sampling",0
-"American golden-plover",2023,"breeding","distance sampling",846
+"American golden-plover",2023,"breeding","distance sampling",1146
 "cackling goose",2023,"breeding","nest sampling",214
 "snow goose",2023,"breeding","combined methods",34496
 "snowy owl",2023,"breeding","nest sampling",0
@@ -242,10 +242,10 @@
 "American pipit",NA,"breeding","incidental observations (relative abundance)",87
 "Arctic fox",NA,"undetermined","individual home range",53
 "Arctic hare",NA,"undetermined","incidental observations (relative abundance)",6
-"Baird's sandpiper",NA,"breeding","nest sampling (extrapolation transects)",2495
-"black-bellied plover",NA,"breeding","transects (relative abundance)",22
-"black-bellied plover",NA,"breeding","incidental observations (relative abundance)",61
-"buff-breasted sandpiper",NA,"breeding","transects (relative abundance)",41
+"Baird's sandpiper",NA,"breeding","nest sampling (extrapolation transects)",2448
+"black-bellied plover",NA,"breeding","transects (relative abundance)",29
+"black-bellied plover",NA,"breeding","incidental observations (relative abundance)",87
+"buff-breasted sandpiper",NA,"breeding","transects (relative abundance)",6
 "buff-breasted sandpiper",NA,"breeding","incidental observations (relative abundance)",8
 "common raven",NA,"undetermined","transects (relative abundance)",14
 "common raven",NA,"undetermined","incidental observations (relative abundance)",31
@@ -258,17 +258,17 @@
 "long-tailed duck",NA,"undetermined","incidental observations (relative abundance)",191
 "parasitic jaeger",NA,"undetermined","banding",17
 "parasitic jaeger",NA,"breeding","nest sampling",8
-"pectoral sandpiper",NA,"breeding","transects (relative abundance)",79
-"pectoral sandpiper",NA,"breeding","incidental observations (relative abundance)",260
-"red knot",NA,"breeding","transects (relative abundance)",64
-"red knot",NA,"breeding","incidental observations (relative abundance)",237
-"red phalarope",NA,"breeding","transects (relative abundance)",156
-"red phalarope",NA,"breeding","incidental observations (relative abundance)",276
+"pectoral sandpiper",NA,"breeding","transects (relative abundance)",80
+"pectoral sandpiper",NA,"breeding","incidental observations (relative abundance)",255
+"red knot",NA,"breeding","transects (relative abundance)",66
+"red knot",NA,"breeding","incidental observations (relative abundance)",233
+"red phalarope",NA,"breeding","transects (relative abundance)",140
+"red phalarope",NA,"breeding","incidental observations (relative abundance)",270
 "rock ptarmigan",NA,"breeding","nest sampling (extrapolation habitat)",24
 "ruddy turnstone",NA,"breeding","transects (relative abundance)",40
-"ruddy turnstone",NA,"breeding","incidental observations (relative abundance)",54
+"ruddy turnstone",NA,"breeding","incidental observations (relative abundance)",53
 "sandhill crane",NA,"breeding","nest sampling (extrapolation transects)",34
 "snow bunting",NA,"breeding","transects (relative abundance)",18
 "snow bunting",NA,"breeding","incidental observations (relative abundance)",276
-"white-rumped sandpiper",NA,"breeding","transects (relative abundance)",1135
-"white-rumped sandpiper",NA,"breeding","incidental observations (relative abundance)",1156
+"white-rumped sandpiper",NA,"breeding","transects (relative abundance)",991
+"white-rumped sandpiper",NA,"breeding","incidental observations (relative abundance)",1134

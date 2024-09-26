@@ -35,25 +35,31 @@ table <- metadata %>%
 
 #format table
 table <- table %>% 
-  dplyr::select(species, Estimate, Method.description, Method.quality, Justification, min, max, mean, sd, n, Expert.based.confidence.interval) %>% 
-  dplyr::rename(Species= species,  Method= Method.description,  `Method quality`= Method.quality, Min= min, Max= max, Mean= mean,  `Expert based confidence interval`=Expert.based.confidence.interval)
+  dplyr::select(species, Estimate, Method.description, Method.quality, Justification, min, max, mean, sd, n) %>% 
+  #rename columns
+  dplyr::rename(Species= species,  Method= Method.description,  `Method quality`= Method.quality, `Lowest abundance`= min, `Highest abundance`= max, `Mean abundance`= mean) %>% 
+  #Set mean to NA in column estimate
+  dplyr::mutate(Estimate= ifelse(Estimate == "mean", NA,Estimate)) %>% 
+  #Add years to column n (sample size)
+  dplyr::mutate(n= paste0(n, " (",Estimate,")")) %>% 
+  dplyr::mutate(n= ifelse(n== "NA (NA)", NA, n)) %>% 
+  #Remove column Estimate
+  dplyr::select(-Estimate)
 
 
 #as tex
-table_latex <- xtable(table, caption = "Summary of the mean (± standard deviation) and minimum and maximum (when available) annual abundance of vertebrate species for the whole Bylot Island study area (389 km2).  In some cases, several independent approaches have been used to estimate the abundance of a species as a proxy for uncertainty. We did not quantitatively assess uncertainty on each estimate of species abundance. However, we provide a qualitative measure of method quality based on the quality and quantity of data available, method used for extrapolation (if necessary), and in some cases, from the fit of statistical models to estimate density. We also provided coarse confidence intervals derived from consultation with field experts at the study site.",
+table_latex <- xtable(table, caption = "Summary of the lowest, highest, mean and standard deviation of the estimated abundance of each vertebrate species in the vertebrate community of the southern plain of Bylot Island (389 km2). In some cases, two independent approaches have been used to estimate the abundance of the same species as a proxy for uncertainty. We provide a qualitative measure of the method quality based on data available, method used for extrapolation (if necessary), and in some cases, from the fit of statistical models to estimate density.",
                       label= "table:summary_methods",
                       align= c("p{0.00\\textwidth}", 
-                               "|p{0.11\\textwidth}|", #species
-                                "p{0.07\\textwidth}|", #years
-                                "p{0.21\\textwidth}|", #method
+                               "|p{0.10\\textwidth}|", #species
+                                "p{0.27\\textwidth}|", #method
                                 "p{0.06\\textwidth}|", #method quality
-                                "p{0.18\\textwidth}|", #justification
-                                "p{0.035\\textwidth}|", 
-                               "p{0.037\\textwidth}|", #min
-                               "p{0.037\\textwidth}|", #mean
-                               "p{0.035\\textwidth}|", #sd
-                               "p{0.017\\textwidth}|",#n
-                               "p{0.14\\textwidth}|" ) #CI
+                                "p{0.23\\textwidth}|", #justification
+                                "p{0.09\\textwidth}|", #lowest abundance
+                                "p{0.09\\textwidth}|", #highest abundance
+                               "p{0.085\\textwidth}|", #Mean abundance
+                               "p{0.04\\textwidth}|", #sd
+                               "p{0.10\\textwidth}|") #n
                       ) 
 #function to bold column header
 bold <-  function(x) {paste('{\\textbf{',x,'}}', sep ='')}
@@ -64,7 +70,7 @@ print(table_latex,
       tabular.environment = "longtable",
       hline.after= c(-1,0:nrow(table)),
       size="\\fontsize{8pt}{10pt}\\selectfont",
-      file = "manuscript/tables/table_summary_methods.tex",
+      file = "MetadataS1/tables/table_summary_methods.tex",
       sanitize.colnames.function=bold,
       caption.placement = "top")
 

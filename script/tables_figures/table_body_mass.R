@@ -50,7 +50,7 @@ print(df_body_mass_latex,
       width="0.6\\textwidth",
       align="rXXXXXX",
       size="\\fontsize{10pt}{10pt}\\selectfont",
-      file = "manuscript/tables/body_mass.tex",
+      file = "MetadataS1/tables/body_mass.tex",
       caption.placement = "top")
 
 
@@ -67,4 +67,4 @@ df_body_mass_dataset <- df_body_mass %>%
   na.omit()
 
 
-write.csv(df_body_mass_dataset, "dataset/BYLOT-mean_species_body_mass.csv", row.names = FALSE)
+write.csv(df_body_mass_dataset, "dataset/BYLOT-species_body_mass.csv", row.names = FALSE)
