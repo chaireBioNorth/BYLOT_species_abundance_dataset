@@ -1,0 +1,36 @@
+class,order,family,genus,species_scientific,species_en,species_fr,species_code,functional_group,migratory_status
+Aves,Gaviiformes,Gaviidae,Gavia,Gavia pacifica,Pacific loon,Plongeon du Pacifique,palo,Ducks and loons ,migrant
+Aves,Gaviiformes,Gaviidae,Gavia,Gavia stellata,Red-throated loon,Plongeon Catmarin,rtlo,Ducks and loons ,migrant
+Aves,Anseriformes,Anatidae,Somateria,Somateria spectabilis,King eider,Eider à tête grise,kiei,Ducks and loons ,migrant
+Aves,Anseriformes,Anatidae,Clangula,Clangula hyemalis,Long-tailed duck,Harelde Kakawi,ltdu,Ducks and loons ,migrant
+Aves,Anseriformes,Anatidae,Branta,Branta hutchinsii,Cackling goose,Bernache de Hutchins,cacg,Geese and swans ,migrant
+Aves,Anseriformes,Anatidae,Anser,Anser caerulescens,Snow goose,Oie des neiges,sngo,Geese and swans ,migrant
+Aves,Anseriformes,Anatidae,Cygnus,Cygnus columbianus,Tundra swan,Cygne siffleur,tusw,Geese and swans ,migrant
+Aves,Accipitriformes,Accipitridae,Buteo,Buteo lagopus,Rough-legged hawk,Buse pattue,rlha,Raptors ,migrant
+Aves,Falconiformes,Falconidae,Falco,Falco peregrinus,Peregrine falcon,Faucon pèlerin,pefa,Raptors ,migrant
+Aves,Strigiformes,Strigidae,Bubo,Bubo scandiacus,Snowy owl,Harfang des neiges,snow,Raptors ,migrant
+Aves,Galliformes,Phasianidae,Lagopus,Lagopus muta,Rock ptarmigan,Lagopède alpin,ropt,Ptarmigans ,resident
+Aves,Gruiformes,Gruidae,Antigone,Antigone canadensis,Sandhill crane,Grue du Canada,sacr,Cranes ,migrant
+Aves,Charadriiformes,Charadriidae,Pluvialis,Pluvialis dominica,American golden-plover,Pluvier bronzé,amgp,Shorebirds ,migrant
+Aves,Charadriiformes,Charadriidae,Pluvialis,Pluvialis squatarola,Black-bellied plover,Pluvier argenté,bbpl,Shorebirds ,migrant
+Aves,Charadriiformes,Charadriidae,Charadrius,Charadrius hiaticula,Common-ringed plover,Pluvier grand-gravelot,crpl,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Arenaria,Arenaria interpres,Ruddy turnstone,Tournepierre à collier,rutu,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Calidris ,Calidris canutus,Red knot,Bécasseau maubèche,rekn,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Calidris ,Calidris melanotos,Pectoral sandpiper,Bécasseau à poitrine cendrée,pesa,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Calidris,Calidris bairdii,Baird's sandpiper,Bécasseau de Baird,basa,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Calidris,Calidris fuscicollis,White-rumped sandpiper,Bécasseau à croupion blanc,wrsa,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Calidris,Calidris subruficollis,Buff-breasted sandpiper,Bécasseau roussâtre,bbsa,Shorebirds ,migrant
+Aves,Charadriiformes,Scolopacidae,Phalaropus,Phalaropus fulicarius,Red phalarope,Phalarope à bec large,reph,Shorebirds ,migrant
+Aves,Charadriiformes,Laridae,Larus,Larus hyperboreus,Glaucous gull,Goéland bourgmestre,glgu,Gulls ,migrant
+Aves,Charadriiformes,Stercorariidae,Stercorarius,Stercorarius longicaudus,Long-tailed jaeger,Labbe à longue queue,ltja,Jaegers ,migrant
+Aves,Charadriiformes,Stercorariidae,Stercorarius,Stercorarius parasiticus,Parasitic jaeger,Labbe parasite,paja,Jaegers ,migrant
+Aves,Passeriformes,Corvidae,Corvus,Corvus corax,Common raven,Grand Corbeau,cora,Ravens ,partial migrant
+Aves,Passeriformes,Alaudidae,Eremophila,Eremophila alpestris,Horned lark,Alouette hausse-col,hola,Passerines,migrant
+Aves,Passeriformes,Motacillidae,Anthus,Anthus rubescens,American pipit,Pipit d'Amérique,ampi,Passerines,migrant
+Aves,Passeriformes,Calcariidae,Calcarius,Calcarius lapponicus,Lapland longspur,Plectrophane lapon,lalo,Passerines,migrant
+Aves,Passeriformes,Calcariidae,Plectrophenax,Plectrophenax nivalis,Snow bunting,Plectrophane des neiges,snbu,Passerines,migrant
+Mammalia,Rodentia,Cricetidae,Lemmus,Lemmus trimucronatus,Nearctic brown lemming,Lemming brun,brle,Lemmings ,resident
+Mammalia,Rodentia,Cricetidae,Dicrostonyx,Dicrostonyx groenlandicus,Nearctic collared lemming,Lemming à collier,cole,Lemmings ,resident
+Mammalia,Lagomorpha,Leporidae,Lepus,Lepus arcticus,Arctic hare,Lièvre arctique,arha,Hares ,resident
+Mammalia,Carnivora,Mustelidae,Mustela,Mustela richardsonii,Ermine,Ermine,ermi,Ermines ,resident
+Mammalia,Carnivora,Canidae,Vulpes,Vulpes lagopus,Arctic fox,Renard arctique,arfo,Foxes ,partial migrant

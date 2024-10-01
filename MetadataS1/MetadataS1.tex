@@ -1,5 +1,4 @@
 \documentclass[a4paper,twoside,12pt]{article}
-
 %% Language %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -10,7 +9,6 @@
 \usepackage{lmodern} %Type1-font for non-english texts and characters
 \usepackage{parskip}
 \usepackage{enumitem}
-
 %% Packages for Graphics, Figures & Tables %%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{graphicx} %%For loading graphic files
 \usepackage{subcaption}
@@ -22,7 +20,6 @@
 \usepackage{longtable}
 \usepackage{makecell}
 \usepackage{pdflscape}
-
 %bibliography
 \usepackage[round]{natbib}
 \bibliographystyle{abbrvnat}
@@ -32,91 +29,65 @@
     pdfborder={0 0 0} % Removes the border
 }
 \usepackage{geometry}
-
 %% Math Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amsfonts}
-
-
 %% Line Spacing %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{setspace}
 \onehalfspacing       %% 1,5-spacing
 \usepackage{placeins}
 \usepackage{lineno}
 \linenumbers
-
-
 \usepackage{titlesec}
 \titlespacing{\section}{0pt}{*4}{*1.5} 
 \titlespacing{\subsection}{20pt}{*4}{*1.5}
 \titlespacing{\subsubsection}{40pt}{*4}{*1.5} 
 \titlespacing{\paragraph}{60pt}{*4}{*1.5}
 \titlespacing{\subparagraph}{80pt}{*4}{*1.5}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% DOCUMENT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
  
 \begingroup  
   \centering
-\textbf{Title: Long-term abundance time-series of the High Arctic terrestrial vertebrate community of Bylot Island, Nunavut}\\[1.5em]
-
-\textbf{Authors}:\\
+\textbf{Long-term abundance time-series of the High Arctic terrestrial vertebrate community of Bylot Island, Nunavut}\\[1.5em]
  Louis Moisan\textsuperscript{1,2}, Azenor Bideault\textsuperscript{2,3}, Gilles Gauthier\textsuperscript{4}, Éliane Duchesne\textsuperscript{1}, 
  Dominique Fauteux\textsuperscript{5}, Dominique Berteaux\textsuperscript{1}, Pierre Legagneux\textsuperscript{3,6}, Marie-Christine Cadieux \textsuperscript{3} and Joël Bêty\textsuperscript{1}\\[1.5em]
-
 \textbf{Author Affiliations}:\\
-\textsuperscript{1} Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de biologie, chimie et géographie, Université du Québec à Rimouski, Rimouski, QC, Canada\\
-\textsuperscript{2} Chaire de Recherche du Canada en Écologie Intégrative, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de Biologie, Université de Sherbrooke, Sherbrooke, QC, Canada\\
-\textsuperscript{3} Chaire de Recherche Sentinelle Nord sur l’impact des migrations animales sur les écosystèmes nordiques, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de Biologie, Université Laval, Québec, QC, Canada\\
-\textsuperscript{4} Centre d’études nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
-\textsuperscript{5} Centre d’études nordiques, Centre for Arctic Knowledge and Exploration, Canadian Museum of Nature, Ottawa, ON, Canada\\
+\textsuperscript{1} Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la Science de la Biodiversité du Québec, Département de Biologie, Chimie et Géographie, Université du Québec à Rimouski, Rimouski, QC, Canada\\
+\textsuperscript{2} Chaire de Recherche du Canada en Écologie Intégrative, Centre d’Études Nordiques, Centre de la Science de la Biodiversité du Québec, Département de Biologie, Université de Sherbrooke, Sherbrooke, QC, Canada\\
+\textsuperscript{3} Chaire de Recherche Sentinelle Nord sur l’Impact des Migrations Animales sur les Écosystèmes Nordiques, Centre d’Études Nordiques, Centre de la Science de la Biodiversité du Québec, Département de Biologie, Université Laval, Québec, QC, Canada\\
+\textsuperscript{4} Centre d’Études Nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
+\textsuperscript{5} Centre d’Études Nordiques, Centre de Connaissance et d’Exploration de l’Arctique, Musée Canadien de la Nature, Ottawa, ON, Canada\\
 \textsuperscript{6} Centre d’Études Biologiques de Chizé (CEBC-CNRS), Université de La Rochelle, France 
 \\[1.5em]
-
 \textbf{Corresponding Author}:\\
 \textit{\href{mailto:louis.moisan.bio@gmail.com}{louis.moisan.bio@gmail.com}}\\
 \textit{\href{mailto:joel_bety@uqar.ca}{joel{\textunderscore}bety@uqar.ca}}
 \\[1.5em]
-
-\textbf{Open Research statement}:
-
-%%%%%%% !!!! ADD DRYAD and Zenodo adress !!!! %%%%%%%%
-Data are publicly available at \url{https://datadryad.org/}.\\[1.5em]
-Raw data and codes used to extract the presented data set are publicly available at \url{https://zenodo.org/}.
+\textbf{Open Research statement}:\\
+The data set is publicly available at \url{https://datadryad.org/} and the raw data and codes used to extract the data set are publicly available at \url{https://zenodo.org/}.\\
 \endgroup
 \newpage
 
-
 \subsection*{Introduction}
- The composition of ecological communities, defined as the abundance of each species within a given community, is fundamental for understanding patterns and processes in community ecology. Variations in community composition can help to detect spatial patterns linked to environmental variations \citep{kemp1990}, assess temporal trends of different groups of species after disturbances \citep{philippi1998, magurran2007}, and understand food web structures \citep{cohen2003}. Additionally, community composition is essential for modeling the dynamics of ecological communities. Dynamic community modelling allows addressing important issues and questions in ecology, such as: determining the relative strength of top-down versus bottom-up forces in communities \citep{krebs2003,legagneux2014}, assessing the ecological resilience of communities under climate change \citep{griffith2019} and evaluating the cascading effects of invasive species in food web \citep{david2017, goto2020}. Dynamic community modelling can also be applied to address practical challenges, including fishery management (Plagányi, 2007) and the planning of protected areas \citep{okey2004, dahood2020}. 
-
+ The composition of ecological communities, defined as the abundance of each species within a given community, is fundamental for understanding patterns and processes in community ecology. Variations in community composition can help to detect spatial patterns linked to environmental variations \citep{kemp1990}, assess temporal trends of different groups of species after disturbances \citep{philippi1998, magurran2007}, and understand food web structures \citep{cohen2003}. Additionally, community composition is essential for modeling the dynamics of ecological communities. Dynamic community modelling allows addressing important issues and questions in ecology, such as: determining the relative strength of top-down versus bottom-up forces in communities \citep{krebs2003,legagneux2014}, assessing the ecological resilience of communities under climate change \citep{griffith2019} and evaluating the cascading effects of invasive species in food web \citep{david2017, goto2020}. Dynamic community modelling can also be applied to address practical challenges, including fishery management \citep{plaganyi2007} and the planning of protected areas \citep{okey2004, dahood2020}. 
 Modeling food webs requires adjusting trophic flows based on the functional responses of species, which necessitates time series data on the abundance of all species within a community. However, accurately determining the abundance of all species is rarely achievable. Consequently, empirical community models often reduce taxonomic resolution by grouping species into large functional or taxonomic categories. Additionally, food webs consist of species with varying body sizes depending on their trophic level, with top-level species often being highly mobile and having large home ranges \citep{mccann2005}. Therefore, community models must use landscape-wide estimates of species abundance to accurately represent trophic fluxes. Due to these constraints, empirical datasets with high taxonomic resolution that cover entire communities at broad spatial and temporal scales are rare and often include incomplete or rough estimates.
-
 The composition of ecological communities is influenced by various factors acting at different temporal and spatial scales, leading to noisy data and emphasizing the need for long-term data sets \citep{magurran2010, lindenmayer2012}. Species abundances are influenced by stochastic effects \citep{hubbell2001}, environmental changes (e.g., climate warming), and species interactions, contributing to data variability. For instance, the composition of a community could be driven simultaneously by intra-annual seasonal variations, multi-year cyclic variations (e.g., El Niño) and slow but directional long-term variations in the environment \citep{brown1990, snyder2006}. Therefore, long-term data series are required to untangle the relative effects of diverse abiotic and biotic factors on community composition \citep{magurran2010, lindenmayer2012}.
-
 Arctic environments are highly valuable systems for studying community patterns and processes due to their relatively low species richness \citep{payer2013, legagneux2014}. However, logistical challenges in the Arctic limit the number of long-term biodiversity monitoring programs. Hence, the small number of Arctic communities with long-term monitoring serve as highly valuable sites for holistic and empirical community studies. Datasets on terrestrial communities are notably scarce, and this scarcity extends to Arctic communities as well \citep{ims2013}. 
-
 Within terrestrial Arctic sites, the south plain of Bylot Island in the Canadian High Arctic (\textbf{Figure \ref{figure:food_web}}) hosts one of the longest and most intensive biodiversity monitoring programs \citep{gauthier2024a}. Monitoring on Bylot Island began in 1989 with a focus on the snow goose and it gradually expanded to other species over time. Currently, the program encompasses all significant vertebrate species in the community with continuous monitoring spanning more than a decade \citep{gauthier2024a}. Monitoring is also conducted at multiple spatial scales, including intensive and systematic observations conducted across a landscape spanning approximately 400 km\textsuperscript{2}. This approach allows the scaling of local density measurements to the landscape level when required and facilitates the estimation of abundance for less common and rare species. 
-
 Previous work based on the tundra community of Bylot Island  has already produced several influential papers \citep{gauthier2011, legagneux2012, legagneux2014,hutchison2020, duchesne2021, gauthier2024b}. These studies showed that tundra communities may experience stronger top-down regulation than bottom-up regulation \citep{legagneux2012, legagneux2014}. They also revealed a heterogeneous response of trophic levels to climate warming \citep{gauthier2013} and highlighted the effects of indirect trophic interactions on the occurrence of species across the landscape \citep{duchesne2021}. However, those earlier papers were built on data from relatively short time series, they were not always scaled at the landscape level, and some species or functional groups were lacking abundance estimates. With over a decade of additional community-wide monitoring compared to earlier studies, our goal is to synthesize and upscale the data collected on the Bylot Island community since the 1990s to the landscape level. This synthesis aims to provide readily accessible annual time series (or mean values in some cases) of abundance and biomass for all vertebrate species in a tundra landscape, covering approximately 400 km\textsuperscript{2}. 
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.75\linewidth]{figures/food_web.pdf} 
 \caption{Synthetic vertebrate food web of the south plain of Bylot Island.}
 \label{figure:food_web}
 \end{figure}
-
 \subsection*{Objective}
 Our main objective is to provide readily accessible, long-term time series of annual abundances of all vertebrate species within the Arctic terrestrial community of Bylot Island during the breeding season (May to August). This includes both breeding and non-breeding individuals that stay in the study area for a significant period of time, and excludes non-breeding individuals that stop for only a few days during their migration. Our focus extends to estimating abundances at the landscape scale, enabling the study of community and ecosystem dynamics, trophic interactions and the impacts of global changes on high-latitude environments. Additionally, we aim to provide the average body mass for each species in the community, enabling the conversion of abundances into biomasses.
 \newpage
-
-
 \section*{\textcolor{Blue}{Class I. Data Set Descriptors}}
     \section*{A. Data set identity} Long-term abundance time-series of the High Arctic terrestrial vertebrate community of Bylot Island, Nunavut
     \section*{B. Data set identification codes}
@@ -127,32 +98,28 @@ Our main objective is to provide readily accessible, long-term time series of an
      \texttt{BYLOT-interannual\_variation\_nest\_density.csv}\\
      
     \section*{C. Data set description}
-		\subsection*{1. Originators}
-		\textbf{Gilles Gauthier}, Centre d’études nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
-  		\textbf{Joël Bêty},  Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de biologie, chimie et géographie, Université du Québec à Rimouski, Rimouski, QC, Canada \\
-  		\textbf{Pierre Legagneux}, Chaire de Recherche Sentinelle Nord sur l’impact des migrations animales sur les écosystèmes nordiques, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Centre d’Études Biologiques de Chizé (CEBC-CNRS) Département de Biologie, Université Laval, Québec, QC, Canada
-  		
-		\subsection*{2. Abstract}
+                \subsection*{1. Originators}
+                \textbf{Gilles Gauthier}, Centre d’Études Nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
+                \textbf{Joël Bêty},  Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la Science de la Biodiversité du Québec, Département de Biologie, Chimie et Géographie, Université du Québec à Rimouski, Rimouski, QC, Canada \\
+                \textbf{Pierre Legagneux}, Chaire de Recherche Sentinelle Nord sur l’Impact des Migrations Animales sur les Écosystèmes Nordiques, Centre d’Études Nordiques, Centre de la Science de la Biodiversité du Québec, Centre d’Études Biologiques de Chizé (CEBC-CNRS) Département de Biologie, Université Laval, Québec, QC, Canada
+                
+                \subsection*{2. Abstract}
 Arctic ecosystems present unique opportunities for community-wide monitoring, in part due to their relatively low species richness. However, conducting research in these remote environments poses significant logistical challenges, resulting in long-term monitoring being exceedingly rare. Here, we focus on the long-term, intensive ecological monitoring efforts conducted on the south plain of Bylot Island (almost 400 km\textsuperscript{2}, Nunavut, Canada), which has generated a remarkable dataset spanning up to 30 years, a rarity in tundra ecosystems. Our goal is to synthesize this dataset and upscale vertebrate abundance data at the landscape level, a prerequisite to conduct community-level analyses. We have standardized data obtained with different field methods to provide readily usable long-term time series of abundance for 35 vertebrate species (30 birds and 5 mammals) present in the study system. Monitoring data includes intensive capture-mark-recapture density estimates of lemmings on trapping grids, systematic or opportunistic nest monitoring conducted across the entire study area or within specific plots for all bird species, transects of vertebrate counts distributed throughout the study area, daily incidental observations of vertebrates and satellite tracking of fox movements. Annual abundance of species was estimated at the landscape level, accounting for spatial variations. Furthermore, we provide body masses for each species, derived from empirical onsite measurements for 18 species and from the literature for the remaining species. Body mass is essential to convert species abundance into biomass for studies of trophic fluxes and ecosystem processes. Our dataset provides a unique opportunity for holistic empirical studies of ecological communities, allowing a deeper understanding of community structure and dynamics. Considering that the study site is a pristine and protected area that has experienced minimal anthropogenic impact, it can also provide an ideal baseline for investigating the impacts of global changes on high-latitude terrestrial ecosystems.
-
-
    \section*{D. Key words/phrases}
  Bylot Island, Canadian Arctic, Arctic tundra, 1993-2023, long-term monitoring, biodiversity monitoring, community composition, species abundance, species density, species biomass, species body mass, food web
   \newpage
-
   
 \section*{\textcolor{Blue}{Class II. Research origin descriptors}}
     \section*{A. Overall project description}
     \subsection*{1. Identity} Understanding the structure and dynamics of Arctic terrestrial vertebrate communities
-
-	\subsection*{2. Originators:}	
-  	\textbf{Gilles Gauthier}, Centre d’études nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
-  		\textbf{Joël Bêty},  Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de biologie, chimie et géographie, Université du Québec à Rimouski, Rimouski, QC, Canada \\
-  		\textbf{Pierre Legagneux}, Chaire de Recherche Sentinelle Nord sur l’impact des migrations animales sur les écosystèmes nordiques, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Centre d’Études Biologiques de Chizé (CEBC-CNRS) Département de Biologie, Université Laval, Québec, QC, Canada
-	
-	\subsection*{3. Period of study} 1989 - continuing
-	
-	\subsection*{4. Objectives}
+        \subsection*{2. Originators:}   
+        \textbf{Gilles Gauthier}, Centre d’études nordiques, Département de Biologie, Université Laval, Québec, QC, Canada\\
+                \textbf{Joël Bêty},  Chaire de Recherche du Canada en Biodiversité Nordique, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Département de biologie, chimie et géographie, Université du Québec à Rimouski, Rimouski, QC, Canada \\
+                \textbf{Pierre Legagneux}, Chaire de Recherche Sentinelle Nord sur l’impact des migrations animales sur les écosystèmes nordiques, Centre d’Études Nordiques, Centre de la science de la biodiversité du Québec, Centre d’Études Biologiques de Chizé (CEBC-CNRS) Département de Biologie, Université Laval, Québec, QC, Canada
+        
+        \subsection*{3. Period of study} 1989 - continuing
+        
+        \subsection*{4. Objectives}
        i) Understand the factors that shape the structure and drive the dynamics of Arctic terrestrial vertebrate communities.\\
        ii) Predict the effects of current global environmental changes on the structure and dynamics of Arctic terrestrial vertebrate communities.
        
@@ -164,32 +131,29 @@ Natural Sciences and Engineering Research Council of Canada, Fonds Québécois d
 \newpage
         
     \section*{B. Specific subproject description}
-     	\subsection*{1. Site description}
- 			\subsubsection*{a. Site type}
-  The study area (389 km\textsuperscript{2}) represents a relatively productive tundra ecosystem in the eastern Canadian High-Arctic.An important biological characteristic of the area is the presence of a large snow goose (scientific names of most vertebrate species can be found in \textbf{Table \ref{table:species_name_strategy}}) colony of around 25 000 breeding pairs \citep{reed2002} spanning approximately 70 km\textsuperscript{2}. The vertebrate community within the study area comprises 30 bird species, with 29 of them being migratory or partially migratory, along with 5 mammal species (\textbf{Table \ref{table:species_name_strategy}}; \citet{moisan2023, gauthier2024a}). The study area experiences significant temporal fluctuations in the population of small mammals (lemmings), which in turn impact the occurrence and abundance of their avian and mammalian predators such as snowy owls, rough-legged hawks, long-tailed jaegers, ermines and Arctic foxes \citep{legagneux2012, duchesne2021}. We exclude occasional visitors, namely: i) species lacking confirmed breeding occurrences on the study site, ii) species observed solely within a single year, and iii) species primarily breeding and foraging in nearby marine or coastal habitats \citep{moisan2023}. The case of the red fox (\textit{Vulpes vulpes}) was ambiguous. While the presence of breeding pairs has been confirmed in the study area \citep{lai2022}, the extent of population establishment remains unclear and sightings are rare. Therefore, we decided to exclude this species.
-
-         		\input{tables/species_name_strategy.tex}
-%label-> table:species_name_strategy
+        \subsection*{1. Site description}
+                        \subsubsection*{a. Site type}
+  The study area (389 km\textsuperscript{2}) represents a relatively productive tundra ecosystem in the eastern Canadian High-Arctic. An important biological characteristic of the area is the presence of a large snow goose (scientific names of most vertebrate species can be found in \textbf{Table \ref{table:table_species_name_strategy}}) colony of around 25 000 breeding pairs \citep{reed2002} spanning approximately 70 km\textsuperscript{2}. The vertebrate community within the study area comprises 30 bird species, with 29 of them being migratory or partially migratory, along with 5 mammal species (\textbf{Table \ref{table:table_species_name_strategy}}; \citet{moisan2023, gauthier2024a}). The study area experiences significant temporal fluctuations in the population of small mammals (lemmings), which in turn impact the occurrence and abundance of their avian and mammalian predators such as snowy owls, rough-legged hawks, long-tailed jaegers, ermines and Arctic foxes \citep{legagneux2012, duchesne2021}. We exclude occasional visitors, namely: i) species lacking confirmed breeding occurrences on the study site, ii) species observed solely within a single year, and iii) species primarily breeding and foraging in nearby marine or coastal habitats \citep{moisan2023}. The case of the red fox (\textit{Vulpes vulpes}) was ambiguous. While the presence of breeding pairs has been confirmed in the study area \citep{lai2022}, the extent of population establishment remains unclear and sightings are rare. Therefore, we decided to exclude this species.
+                        \input{tables/table_species_name_strategy.tex}
+%label-> table:table_species_name_strategy
 \newpage
-            	\subsubsection*{b. Geography} Our 463 km\textsuperscript{2} study area is located on the southern plain of Bylot Island, Nunavut, Canada (72.889 N, -79.906 W; \textbf{Figure \ref{figure:zones}}).
-            	\subsubsection*{c. Habitat}  The study area comprises a combination of mesic tundra mainly on hills (64 \%), upland plateaus of sedimentary rock with drier/rockier habitat at higher elevation (20 \%), low-lying wetlands interspersed with ponds (10 \%) and larger bodies of water such as lakes and rivers (6 \%).
-            	\subsubsection*{d. Geology} see \citet{klassen1993} for a complete and detailed description of the geology of the study area.
-            	\subsubsection*{e. Hydrology} Wetlands were delineated by photo-interpretation of high-resolution satellite images (30 cm; Ouellet, unpublished data), whereas lakes were delineated with aerial photos and rivers with google satellite images, resulting in a coarser delineation.
-            	\subsubsection*{f. Site history} see \citet{gauthier2024a, gauthier2024b}  for a complete and detailed history of the site.
-            	\subsubsection*{g. Climate} The mean temperature in July is 6°C, and the study area typically remains free of snow from mid-June to late September \citep{gauthier2013}. The climate of the southern plain of Bylot Island is generally milder than that of the surrounding latitudes, as the plain present a southern exposure and the mountains to the north protect the plain from cold northerly winds. \citep{gauthier2024a}.
+                \subsubsection*{b. Geography} Our 463 km\textsuperscript{2} study area is located on the southern plain of Bylot Island, Nunavut, Canada (72.889 N, -79.906 W; \textbf{Figure \ref{figure:zones}}).
+                \subsubsection*{c. Habitat}  The study area comprises a combination of mesic tundra mainly on hills (64 \%), upland plateaus of sedimentary rock with drier/rockier habitat at higher elevation (20 \%), low-lying wetlands interspersed with ponds (10 \%) and larger bodies of water such as lakes and rivers (6 \%).
+                \subsubsection*{d. Geology} See \citet{klassen1993} for a complete and detailed description of the geology of the study area.
+                \subsubsection*{e. Hydrology} Wetlands were delineated by photo-interpretation of high-resolution satellite images (30 cm; Ouellet, unpublished data), whereas lakes were delineated with aerial photos and rivers with google satellite images, resulting in a coarser delineation.
+                \subsubsection*{f. Site history} See \citet{gauthier2024a, gauthier2024b}  for a complete and detailed history of the site.
+                \subsubsection*{g. Climate} The mean temperature in July is 6°C, and the study area typically remains free of snow from mid-June to late September \citep{gauthier2013}. The climate of the southern plain of Bylot Island is generally milder than that of the surrounding latitudes, as the plain present a southern exposure and the mountains to the north protect the plain from cold northerly winds. \citep{gauthier2024a}.
  \newpage
        
-      	\subsection*{2. Experimental or sampling design}
-        		\subsubsection*{a. Permanent plots}
+        \subsection*{2. Experimental or sampling design}
+                        \subsubsection*{a. Permanent plots}
 The study area is divided into 9 zones based on the sampling method and the level of field effort applied in each zone (\textbf{Figure \ref{figure:zones}}). Long-term monitoring of the community began in the 1990s in the Qarlikturvik valley \citep{gauthier2013, gauthier2024a}, which represents the zone of the study area with the highest annual sampling effort. Within the Qarlikturvik valley, the sampling is concentrated on the southern side of the glacial river (\textbf{Figure \ref{figure:qarlikturvik_valley}}), where the main research infrastructure is located. Another zone with extensive sampling efforts is Camp 2, located at the core of the snow goose colony, where the primary focus is to monitor snow goose nests. However, nests of many other avian species are also monitored within and around the colony in this zone. Camp 3, Pointe Dufour, Goose Point, and Malaview are zones where intensive sampling efforts are conducted annually, albeit for a relatively brief period (approximately one week) during the breeding season of most species \citep{gauthier2024a}. The upland zones in the study area (defined as areas approximately 300 meters above sea level or more) are the Black Plateau, Southern Plateau, and Camp 3 Plateau. These zones are primarily visited to assess raptor nesting activity \citep{beardsell2016}. The zone between the Qarlikturvik valley and Camp 3 received very little sampling effort and is therefore excluded from the study area.
-
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth, angle=0]{figures/zones_study_area.pdf}
    \caption{Map of the different zones (colored polygons) of the 463 km\textsuperscript{2} study area located on the southern plain of Bylot Island, Nunavut Canada. The outline of the snow goose colony area is presented with white dash; we used the outline of the colony in 2017 since it represents an average colony area (74 km\textsuperscript{2}).}
   \label{figure:zones}
 \end{figure}
-
 \begin{figure}
 \centering
   \includegraphics[width=0.8\textwidth, angle=0]{figures/qarlikturvik_valley.pdf}
@@ -198,44 +162,38 @@ The study area is divided into 9 zones based on the sampling method and the leve
  \label{figure:qarlikturvik_valley}
 \end{figure}
 \newpage
-
-		\subsubsection*{b. Avian nest monitoring}
+                \subsubsection*{b. Avian nest monitoring}
 Avian nest monitoring was not conducted in 2020 and 2021 due to logistical constraints imposed by the COVID-19 pandemic. Systematic nest monitoring refers here to a systematic sampling approach aimed at documenting all nests within a specified area. Monitoring is considered opportunistic when there is a chance that some nests might not have been detected within a specific area. Nest densities derived from nest sampling could be underestimated due to early nest failure (i.e., failure that happened before our sampling period).
-
-\input{tables/species_year_monitoring.tex}
-%label-> table:species_year_monitoring
-
-
-	\begin{enumerate}[label=\roman*]
-	\item[] \textit{\textbf{Pacific loon, red-throated loon, cackling goose, tundra swan and glaucous gull}}\\
-	Since 2004, systematic searches of wetland areas have been conducted on the southern side of the glacial river in the Qarlikturvik Valley, and since 2017, in other zones of the study area. This sampling aimed to find all nests of the cackling goose and the glaucous gull. Nest locations of other large wetland-nesting species, including the tundra swan, the red-throated loon and the Pacific loon, were also noted, as these species nest in the same habitat \citep{duchesne2021,gauthier2024a}. Each year, all known or potential nesting sites were revisited. Observers detected nests by walking and scanning around ponds and lakeshores to identify any active nesting sites. These large species can be seen from a relatively long distance sitting on the nest or when flushing from the nest. Most of them (geese, swans and gulls) can also reveal their presence with alarm calls or nest defense displays. We are confident that nest detection probability was high for these species given the open landscape.\\
-	
-	\item[] \textit{\textbf{Snow goose}}\\
-	Snow geese nest in a large colony in the study area (\textbf{Figure \ref{figure:zones}}), but also in small aggregations distributed on the island, especially in years when snowy owls are nesting \citep{lepage1996,reed2002}. Since 1994, goose nests were systematically monitored on a 0.24 km\textsuperscript{2} wetland at the center of the colony. Since 1999, nests were also systematically monitored on a variable number of plots, measuring 0.01 km\textsuperscript{2} in wetland habitat and 0.04 km\textsuperscript{2} in mesic habitat, randomly distributed throughout the goose colony \citep{gauthier2020goose}. The total area covered by the randomly distributed plots averaged 0.79 \textpm{0.37} km\textsuperscript{2} per year. From 2010 onwards, except in 2020 and 2021, we traced the approximate boundary of the goose colony using a GPS receiver aboard a helicopter flying along the colony border \citep{duchesne2021}.
-	
-	\item[] \textit{\textbf{Rough-legged hawk, peregrine falcon and common raven}}\\
-	Peregrine falcons, rough-legged hawks and common ravens nest on cliffs, near ravines, and on large rocky outcrops and tend to reuse the same nesting sites from one year to the next \citep{beardsell2016}. Systematic monitoring of every known or potential nesting site has been carried out in the Qarlikturvik valley, Black plateau and Southern plateau since 2007 and throughout the study area since 2013 \citep{beardsell2016, gauthier2020avianpred}. Observers walked along ridges and scanned surrounding areas from vantage points to detect nesting birds. These large species can be seen from a relatively long distance sitting on the nest or when flushing from the nest. They can also reveal their presence with alarm calls or nest defense displays. We are confident that nest detection probability was high for these species. Each year the observers use slightly different paths to sample the areas, but locate the nests in the same positions, which supports a high probability of detection for these species. Most nesting sites were located in the upland zones of the study area, which include the Black Plateau, Southern Plateau and Camp 3 Plateau.
-	
-	\item[] \textit{\textbf{Snowy owl}} \\
-	Snowy owls predominantly nest in habitats similar to other raptors, favoring ridges in mountainous or hilly regions, although they can occasionally be found nesting on mounds in lowland areas \citep{seyer2020}. Since 1996, searches for snowy owl nests have been conducted concurrently with searches for other raptor nests in the Black and Southern plateaus, as well as during searches for jaeger nests on the southern side of the glacial river in the Qarlikturvik Valley. Additionally, since 2012, nests have been recorded across the entire study area by scanning the landscape from hills and ridges during the nesting period \citep{duchesne2021}. Given that snowy owls nest on elevated mounds, exhibit contrasting colors with the landscape, emit alarm calls, and display defensive behaviors, active nesting sites have a high probability of detection.\\
-	
-	\item[] \textit{\textbf{Long-tailed jaeger and parasitic jaeger}} \\
-	Since 2004, observers have walked parallel transects spaced 400 meters apart, covering the entire southern side of the glacial river in the Qarlikturvik Valley (33 km\textsuperscript{2}; \textbf{Figure \ref{figure:qarlikturvik_valley}}), during the nesting period. The aim of those transects was to record nests of long-tailed jaegers, parasitic jaegers, and sandhill cranes. Observers listened for alarm calls to detect territorial birds, and then located nests by observing the birds returning to their nests from elevated vantage points. We consider the sampling to be systematic for long-tailed and parasitic jaeger, since those species tend to leave their nest relatively far from the observer to perform mobbing behavior, and thus increasing their detection probability. We do not consider the sampling to be systematic for sandhill cranes as they only display defensive behaviors near their nests at relatively short distances (see opportunistic nest monitoring below).\\
-	
-	\item[] \textit{\textbf{Common-ringed plover}} \\
-	Between 2015 and 2019, observers conducted surveys of the primary nesting areas of the common-ringed plover. The survey involved walking in stony and sandy shores and gravel bars with scarce vegetation along rivers. Nests were found by detecting individuals exhibiting reproductive behaviors, such as incubation, alarm calls, or distraction displays. The sampling effort was particularly intensive between 2015 and 2017. Small areas along the coast or on the banks of smaller rivers that could potentially serve as nesting sites may have been overlooked.\\
-	
-	\item[] \textit{\textbf{Lapland longspur and Baird's sandpiper}}\\
-	Since 2005, nests of passerines and sandpipers have been extensively monitored across an 8 km\textsuperscript{2} (4x2 km) area in the Qarlikturvik valley. We considered the sampling to be most systematic within a core 2 km\textsuperscript{2} (2x1 km) plot in this area (\textbf{Figure \ref{figure:qarlikturvik_valley}}). We excluded relatively large water bodies (0.26 km\textsuperscript{2}) to calculate nest density in the plot due to the presence of a large lake, which leaves an area of 1.74 km\textsuperscript{2} available for nesting. An observer conducted systematic searches of this plot during the entire breeding season to locate and monitor as many passerine and shorebird nests as possible. Assuming the observer can detect all nests within a 5 or 10 meter radius, analysis of daily GPS tracks shows that the observer covered a minimum area of 0.72 \textpm{0.12} (5 m) or 1.09 \textpm{0.17} km\textsuperscript{2} (10 m) of the core area annually (n= 3 years). Additionally, several other observers conducting related field work in the same zone reported all passerine and shorebird nests found opportunistically.\\
-	
-	\item[] \textit{\textbf{Opportunistic nest monitoring}}\\
-	Since 2005, we also noted the nest location of any other bird species encountered opportunistically during travel or while carrying out the protocols for the previously described species. The sampling was particularly intensive in the defined 8 km\textsuperscript{2} (2x4 km plot) area in the Qarlikturvik valley. The accuracy of nest monitoring in this plot thus depends on the species detection probability. We are confident to obtain a realistic order of magnitude for the number of nests present for relatively large bodied species in this area (i.e., sandhill crane, rock ptarmigan, long-tailed duck and king eider). Additionally, starting in 2009, a significant effort has been made each year, though not systematically, to visit known nesting territories of parasitic jaegers throughout the study area.
-	\end{enumerate}
-
-\input{tables/interannual_nest_density_variation.tex}
-%label-> table:interannual_nest_density_variation
+\input{tables/table_species_year_monitoring.tex}
+%label-> table:table_species_year_monitoring
+        \begin{enumerate}[label=\roman*]
+        \item[] \textit{\textbf{Pacific loon, red-throated loon, cackling goose, tundra swan and glaucous gull}}\\
+        Since 2004, systematic searches of wetland areas have been conducted on the southern side of the glacial river in the Qarlikturvik Valley, and since 2017, in other zones of the study area. This sampling aimed to find all nests of the cackling goose and the glaucous gull. Nest locations of other large wetland-nesting species, including the tundra swan, the red-throated loon and the Pacific loon, were also noted, as these species nest in the same habitat \citep{duchesne2021,gauthier2024a}. Each year, all known or potential nesting sites were revisited. Observers detected nests by walking and scanning around ponds and lakeshores to identify any active nesting sites. These large species can be seen from a relatively long distance sitting on the nest or when flushing from the nest. Most of them (geese, swans and gulls) can also reveal their presence with alarm calls or nest defense displays. We are confident that nest detection probability was high for these species given the open landscape.\\
+        
+        \item[] \textit{\textbf{Snow goose}}\\
+        Snow geese nest in a large colony in the study area (\textbf{Figure \ref{figure:zones}}), but also in small aggregations distributed on the island, especially in years when snowy owls are nesting \citep{lepage1996,reed2002}. Since 1994, goose nests were systematically monitored on a 0.24 km\textsuperscript{2} wetland at the center of the colony. Since 1999, nests were also systematically monitored on a variable number of plots, measuring 0.01 km\textsuperscript{2} in wetland habitat and 0.04 km\textsuperscript{2} in mesic habitat, randomly distributed throughout the goose colony \citep{gauthier2020goose}. The total area covered by the randomly distributed plots averaged 0.79 \textpm{0.37} km\textsuperscript{2} per year. From 2010 onwards, except in 2020 and 2021, we traced the approximate boundary of the goose colony using a GPS receiver aboard a helicopter flying along the colony border \citep{duchesne2021}.
+        
+        \item[] \textit{\textbf{Rough-legged hawk, peregrine falcon and common raven}}\\
+        Peregrine falcons, rough-legged hawks and common ravens nest on cliffs, near ravines, and on large rocky outcrops and tend to reuse the same nesting sites from one year to the next \citep{beardsell2016}. Systematic monitoring of every known or potential nesting site has been carried out in the Qarlikturvik valley, Black plateau and Southern plateau since 2007 and throughout the study area since 2013 \citep{beardsell2016, gauthier2020avianpred}. Observers walked along ridges and scanned surrounding areas from vantage points to detect nesting birds. These large species can be seen from a relatively long distance sitting on the nest or when flushing from the nest. They can also reveal their presence with alarm calls or nest defense displays. We are confident that nest detection probability was high for these species. Each year the observers use slightly different paths to sample the areas, but locate the nests in the same positions, which supports a high probability of detection for these species. Most nesting sites were located in the upland zones of the study area, which include the Black Plateau, Southern Plateau and Camp 3 Plateau.
+        
+        \item[] \textit{\textbf{Snowy owl}} \\
+        Snowy owls predominantly nest in habitats similar to other raptors, favoring ridges in mountainous or hilly regions, although they can occasionally be found nesting on mounds in lowland areas \citep{seyer2020}. Since 1996, searches for snowy owl nests have been conducted concurrently with searches for other raptor nests in the Black and Southern plateaus, as well as during searches for jaeger nests on the southern side of the glacial river in the Qarlikturvik Valley. Additionally, since 2012, nests have been recorded across the entire study area by scanning the landscape from hills and ridges during the nesting period \citep{duchesne2021}. Given that snowy owls nest on elevated mounds, exhibit contrasting colors with the landscape, emit alarm calls, and display defensive behaviors, active nesting sites have a high probability of detection.\\
+        
+        \item[] \textit{\textbf{Long-tailed jaeger and parasitic jaeger}} \\
+        Since 2004, observers have walked parallel transects spaced 400 meters apart, covering the entire southern side of the glacial river in the Qarlikturvik Valley (33 km\textsuperscript{2}; \textbf{Figure \ref{figure:qarlikturvik_valley}}), during the nesting period. The aim of those transects was to record nests of long-tailed jaegers, parasitic jaegers, and sandhill cranes. Observers listened for alarm calls to detect territorial birds, and then located nests by observing the birds returning to their nests from elevated vantage points. We consider the sampling to be systematic for long-tailed and parasitic jaeger, since those species tend to leave their nest relatively far from the observer to perform mobbing behavior, and thus increasing their detection probability. We do not consider the sampling to be systematic for sandhill cranes as they only display defensive behaviors near their nests at relatively short distances (see opportunistic nest monitoring below).\\
+        
+        \item[] \textit{\textbf{Common-ringed plover}} \\
+        Between 2015 and 2019, observers conducted surveys of the primary nesting areas of the common-ringed plover. The survey involved walking in stony and sandy shores and gravel bars with scarce vegetation along rivers. Nests were found by detecting individuals exhibiting reproductive behaviors, such as incubation, alarm calls, or distraction displays. The sampling effort was particularly intensive between 2015 and 2017. Small areas along the coast or on the banks of smaller rivers that could potentially serve as nesting sites may have been overlooked.\\
+        
+        \item[] \textit{\textbf{Lapland longspur and Baird's sandpiper}}\\
+        Since 2005, nests of passerines and sandpipers have been extensively monitored across an 8 km\textsuperscript{2} (4x2 km) area in the Qarlikturvik valley. We considered the sampling to be most systematic within a core 2 km\textsuperscript{2} (2x1 km) plot in this area (\textbf{Figure \ref{figure:qarlikturvik_valley}}). We excluded relatively large water bodies (0.26 km\textsuperscript{2}) to calculate nest density in the plot due to the presence of a large lake, which leaves an area of 1.74 km\textsuperscript{2} available for nesting. An observer conducted systematic searches of this plot during the entire breeding season to locate and monitor as many passerine and shorebird nests as possible. Assuming the observer can detect all nests within a 5 or 10 meter radius, analysis of daily GPS tracks shows that the observer covered a minimum area of 0.72 \textpm{0.12} (5 m) or 1.09 \textpm{0.17} km\textsuperscript{2} (10 m) of the core area annually (n= 3 years). Additionally, several other observers conducting related field work in the same zone reported all passerine and shorebird nests found opportunistically.\\
+        
+        \item[] \textit{\textbf{Opportunistic nest monitoring}}\\
+        Since 2005, we also noted the nest location of any other bird species encountered opportunistically during travel or while carrying out the protocols for the previously described species. The sampling was particularly intensive in the defined 8 km\textsuperscript{2} (2x4 km plot) area in the Qarlikturvik valley. The accuracy of nest monitoring in this plot thus depends on the species detection probability. We are confident to obtain a realistic order of magnitude for the number of nests present for relatively large bodied species in this area (i.e., sandhill crane, rock ptarmigan, long-tailed duck and king eider). Additionally, starting in 2009, a significant effort has been made each year, though not systematically, to visit known nesting territories of parasitic jaegers throughout the study area.
+        \end{enumerate}
+\input{tables/table_interannual_nest_density_variation.tex}
+%label-> table:table_interannual_nest_density_variation
 \newpage
-
 \subsubsection*{c. Observation of individuals}
 \begin{enumerate}[label=\roman*]
 \item[] \textit{\textbf{Vertebrate count transects}}\\
@@ -249,325 +207,340 @@ From 2010 to 2023, observers walked 500-meter linear transects where all vertebr
  \label{figure:transects}
 \end{figure}
 \newpage
-
 \item[] \textit{\textbf{Snow goose point count}}\\
 At the start, middle, and end of each vertebrate count transect, a point count with a radius of 125 meters was conducted to determine the number of snow goose breeding pairs. On average, 613 \textpm{142} point counts were sampled each year, covering an area of 30 \textpm{7} km\textsuperscript{2}.
 \\
-
 \item[] \textit{\textbf{Incidental observations}}\\
-Since 2007, observers have recorded all vertebrate species observed opportunistically during field work and tallied the total number of individuals at the end of each day \citep{gauthier2020daily, gauthier2024a}. The number of hours spent in the field served as a proxy for the sampling effort. We used the number of individuals observed per hour spent in the field calculated by \citet{gauthier2024a} as an index of relative abundance for each species. However, we separated observations made in lowland from those in upland zones to have a relative abundance of each species in each of these two broad categories (\textbf{Table \ref{table:species_relative_abundance_upland}}). Given that incidental observations lacked georeferencing, we opted to extract upland observations by focusing on observations made during visits to rough-legged hawk nests, which are mostly located in uplands. \\
-
-\input{tables/species_relative_abundance_upland.tex}
-%label-> species_relative_abundance_upland
+Since 2007, observers have recorded all vertebrate species observed opportunistically during field work and tallied the total number of individuals at the end of each day \citep{gauthier2020daily, gauthier2024a}. The number of hours spent in the field served as a proxy for the sampling effort. We used the number of individuals observed per hour spent in the field calculated by \citet{gauthier2024a} as an index of relative abundance for each species. However, we separated observations made in lowland from those in upland zones to have a relative abundance of each species in each of these two broad categories (\textbf{Table \ref{table:table_species_relative_abundance_upland}}). Given that incidental observations lacked georeferencing, we opted to extract upland observations by focusing on observations made during visits to rough-legged hawk nests, which are mostly located in uplands. \\
+\input{tables/table_species_relative_abundance_upland.tex}
+%label-> table_species_relative_abundance_upland
 \newpage
-
 \item[] \textit{\textbf{Testimonials of ermine sightings}}\\
 There was no direct estimation of ermine abundance on Bylot Island as they are quite difficult to obtain. The density estimates for ermine were derived from an annual abundance index established by \citet{bolduc2023}, which relied on testimonials provided by observers across the whole study area from 1993 to 2019. The testimonials provided by observers were used to create an abundance index ranging from 0 to 3 \citep{bolduc2023}. In this index, a score of 0 corresponds to the absence of ermine sightings, 1 indicates a single sighting of a lone individual, 2 represents multiple sightings of lone individuals, and 3 signifies at least one sighting of a family group. Scores of individual participants were averaged annually as detailed in \citet{bolduc2023}. 
 \end{enumerate}
-
-
 \subsubsection*{d. Capture of individuals}
 \begin{enumerate}[label=\roman*]
 \item[] \textit{\textbf{Lemming trapping}}\\
 Since 2004, brown and collared lemmings were live-trapped 3 times during the summer (mid-June, mid-July, and mid-August) in two 11 ha grids. Each grid is made of 144 traps separated by 30 m according to a cartesian plane, one in mesic habitat and the other in wet habitat, located in the Qarlikturvik valley \citep{fauteux2015, gauthier2020lemmings}. Density of each species was estimated at each occasion using spatially explicit capture-recapture methods (see \citet{fauteux2015} for details). From 1995 to 2016 snap-trapping was performed once a year (mid-July) along 2 groups of transects located in the same habitats than the trapping grids \citep{gruyer2008}. Index of abundance derived from snap-trapping were transformed in density estimates in each habitat for the period 1995-2003 using the equation provided by \citet{fauteux2018} based on the period of overlap between the two sampling methods (2004 to 2016). 
 \\
-
 \item[] \textit{\textbf{Arctic fox movement tracking}}\\
 In order to assess fox abundance based on the size of their home range, 109 Arctic foxes were fitted with Argos Platform Transmitter Terminals mounted on collars between 2008 and 2016 \citep{lai2015,christin2015, dulude2023}. Foxes were captured between May and August across the study area, within and outside the goose colony \citep{dulude2023}. Sampling of animal locations was set for an interval of 1 or 2 days and only locations between May 1 and October 30 were retained \citep{dulude2023}.
 \\
-
 \item[] \textit{\textbf{Parasitic jaeger banding}}\\
 In 2009, a significant effort was made to band as many parasitic jaegers as possible within the study area. This effort resulted in the banding of 17 adult individuals (Therrien and Gauthier, unpublished data).
 \end{enumerate}
-
 \subsubsection*{e. Species body mass}
-All vertebrate individuals captured for marking purposes were systematically weighed (snow goose (unpublished data), snowy owl \citep{therrien2012, robillard2018}, American-golden plovers \citep{lamarre2021},  common-ringed plovers \citep{leandri2019}, other shorebirds (Bêty, unpublished data), glaucous gulls \citep{gauthier2015}, long-tailed jaeger \citep{seyer2019}, parasitic jaegers (Gauthier and Therrien, unpublished data), Lapland longspurs (Gauthier and Bêty, unpublished data), lemmings \citep{gauthier2020lemmings}, ermine (Bilodeau and Bolduc, unpublished data) and Arctic foxes \citep{lai2015}). Mean body mass of vertebrate species was determined in priority with measurements from Bylot Island. When not available, we extracted mean body mass from the literature \citep{wilman2014}.
+All vertebrate individuals captured for marking purposes were systematically weighed: snow goose (G. Gauthier, M.-C. Cadieux and J. Lefebvre, unpublished data), snowy owl \citep{therrien2012, robillard2018}, American-golden plovers \citep{lamarre2021}, common-ringed plovers \citep{leandri2019}, other shorebirds (J. Bêty, unpublished data), glaucous gulls \citep{gauthier2015}, long-tailed jaeger \citep{seyer2019}, parasitic jaegers (J.-F. Therrien and G. Gauthier, unpublished data), Lapland longspurs (J. Bêty and G. Gauthier, unpublished data), lemmings \citep{gauthier2020lemmings}, ermine (Bilodeau and Bolduc, unpublished data) and Arctic foxes \citep{lai2015}. Mean body mass of vertebrate species was determined in priority with measurements from Bylot Island. When not available, we extracted mean body mass from the literature \citep{wilman2014}.
 \newpage
-        		
-
+                        
     \subsection*{3.  Research methods}
-    		\subsubsection*{a. Field/laboratory}
-We estimated the abundance of breeding individuals for most species, but there were a few exceptions. For common ravens, parasitic jaegers, long-tailed ducks, and king eiders, we suspect the presence of a significant number of non-breeding individuals in the study area. Therefore, the estimates we provided for these species include both breeding and potentially non-breeding individuals. Additionally, we did not distinguish between breeding and non-breeding individuals for mammals such as brown and collared lemmings, Arctic fox, ermine, and Arctic hare. The methods used for each species are summarized in (\textbf{Table \ref{table:summary_methods}}).
+                \subsubsection*{a. Field/laboratory}
+We estimated the abundance of breeding individuals for most species, but there were a few exceptions. For common ravens, parasitic jaegers, long-tailed ducks, and king eiders, we suspect the presence of a significant number of non-breeding individuals in the study area. Therefore, the estimates we provided for these species include both breeding and potentially non-breeding individuals. Additionally, we did not distinguish between breeding and non-breeding individuals for mammals such as brown and collared lemmings, Arctic fox, ermine, and Arctic hare. The methods used for each species are summarized in (\textbf{Table \ref{table:table_summary_methods_and_abundance}}).
 \newpage
-
-    	\begin{enumerate}[label=\alph*.]
-    		
-     \item[] \textit{\textbf{Pacific loon, red-throated loon, cackling goose, tundra swan and glaucous gull}}	\\
+        \begin{enumerate}[label=\alph*.]
+                
+     \item[] \textit{\textbf{Pacific loon, red-throated loon, cackling goose, tundra swan and glaucous gull}}   \\
 Based on the systematic and intensive search for the glaucous gull, cackling goose, tundra swan, red- throated loon and Pacific loon nests in wetlands, we are confident that we have found nearly all nests across the study area from 2017 to 2019 and in 2022. We transformed the number of nests to abundance of individuals by multiplying it by a factor of two. 
-
 We observed a relatively strong correlation between the nest density of glaucous gulls in the Qarlikturvik valley and the nest density across the entire study area (R\textsuperscript{2}= 0.84, p = 0.16, n= 4). Consequently, we estimated the density of glaucous gulls at the scale of the study area between 2004 and 2016 based on the nest density in the Qarlikturvik valley ($y = 0.12406x + 0.13775$). However, we did not observe such strong relationships for loons and swans and thus we did not extend the time series. Regarding cackling geese, we observed signs of an exponential increase over time based on the annual number of nests found in various zones of the study area. We thus fitted an exponential model using the number of nests found annually over two distinct periods: in 1996 when the first nest was discovered, and then from 2017 to 2023 when sampling effort was systematic across the whole study area (\textbf{Figure \ref{figure:cackling}}). We used the fitted model to estimate abundance between 1996 and 2016 when monitoring was less systematic, which could potentially underestimate observed abundance as seen on \textbf{Figure \ref{figure:cackling}}. We multiplied nest density by two to obtain the abundance. 
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.5\linewidth]{figures/cackling_goose_nest_exponential.pdf} 
 \caption{Number of cackling goose nests found across the study area over time. The red line represents the fitted model over the period 1996-2023 ($y= e^{0.1717x-342.684}$), which was used to estimate the annual abundance of cackling goose between 1996 and 2016. The model presents a strong fit with the number of nests found between 2017 and 2023, when nest monitoring was systematic across the study area (R\textsuperscript{2}= 0.74, p= 0.15, n= 5).}
 \label{figure:cackling}
 \end{figure}
-
-
       \item[] \textit{\textbf{Snow goose}}\\
        Between 1999 and 2023, we assessed the abundance of snow geese in the study area through a multi-step process. We calculated the mean annual density of snow goose nests separately in the mesic and wetland habitats of the area occupied by the goose colony annually. We made slight adjustments to the goose colony perimeter defined from helicopter surveys to include all snow goose point counts where at least one breeding pair had been observed (\textbf{Figure \ref{figure:sngo_goose_colony}}). To determine the mean density of nesting geese in wetlands, we divided two times (assuming two individuals per nest) the total number of nests found during systematic nest searches by the total area of wetlands sampled. The density of geese nesting in mesic habitat, a less preferred nesting habitat \citep{lecomte2008}, was averaged from three independent methods: systematic nest searches, vertebrate count transects, and snow goose point counts. Systematic nest searches were highly precise, but covered a relatively small area, whereas transects and snow goose point counts were less precise but covered larger areas. For each method, we calculated the mean density of breeding individuals in mesic habitat by dividing the number of birds (or nests) recorded by the area sampled. Despite methodological differences, the three approaches showed similar inter-annual variations, supporting the use of a mean values to estimate nest density in mesic habitat \textbf{Figure \ref{figure:sngo_interannual_variation}}). Lastly, to transform the densities in total abundance, we determined the annual proportion of wetland and mesic habitats within the goose colony and multiplied the area of each habitat by the density of breeding individuals. For the period 1999 to 2009, we used the average limits of the colony over the period 2010 to 2023 because we did not conduct aerial survey of the colony. Moreover, nest density in the mesic habitat was derived from a single method (\textbf{Figure \ref{figure:sngo_interannual_variation}}). 
-        			
-	\begin{figure}[ht]
-	\centering
-	\includegraphics[width=0.5\linewidth]{figures/map_geese_colony_2017.pdf}
-	\caption{Map showing the region occupied by the snow goose colony in 2017 (green polygon) as an example. The perimeter was first defined from a helicopter surveys and then slightly adjusted to include all snow goose point counts where at least one breeding pair had been observed in that year (green dots). Snow goose point counts where no breeding geese were observed in that year are presented as red dots.}
-	\label{figure:sngo_goose_colony}
-	\end{figure}
-
-	\begin{figure}[ht]
-	\centering
-	\includegraphics[width=\linewidth]{figures/snow_goose_mesic_density.pdf}
-	\caption{Estimates of breeding goose density in mesic habitat of the Bylot Island study area using three independent methods: Nest sampling plot, Snow goose point count, Vertebrate count transect.}
-	\label{figure:sngo_interannual_variation}
-	\end{figure}
-	\newpage
-
-        			
-        	\item[] \textit{\textbf{King eider and long-tailed duck}}\\
-		We estimated the abundance of both king eiders and long-tailed ducks based on the annual nest density of each species found in the 8 km\textsuperscript{2} extensive nest search area located in the Qarlikturvik valley. We extrapolated the mean nest density in the wetlands of the Qarlikturvik valley to the wetlands of the study area (38.35 km\textsuperscript{2}). We transformed nest density to abundance of breeding individuals by multiplying it by a factor of two. We acknowledge that the opportunistic monitoring of these species likely underestimated their true nest density. However, considering the extensive sampling effort deployed annually within this area, we are confident to obtain a realistic order of magnitude for the number of nests present. Because duck sightings are frequent, yet only a few nests are found, we believe there may be non-breeding individuals. Therefore, we employed an additional method to estimate the overall duck populations without differentiating between breeding and non-breeding individuals. 
+                                \newpage
+        \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.5\linewidth]{figures/map_geese_colony_2017.pdf}
+        \caption{Map showing the region occupied by the snow goose colony in 2017 (green polygon) as an example. The perimeter was first defined from a helicopter surveys and then slightly adjusted to include all snow goose point counts where at least one breeding pair had been observed in that year (green dots). Snow goose point counts where no breeding geese were observed in that year are presented as red dots.}
+        \label{figure:sngo_goose_colony}
+        \end{figure}
+        \begin{figure}[ht]
+        \centering
+        \includegraphics[width=\linewidth]{figures/snow_goose_mesic_density.pdf}
+        \caption{Estimates of breeding goose density in mesic habitat of the Bylot Island study area using three independent methods: Nest sampling plot, Snow goose point count, Vertebrate count transect.}
+        \label{figure:sngo_interannual_variation}
+        \end{figure}
+        \newpage
+                                
+                \item[] \textit{\textbf{King eider and long-tailed duck}}\\
+                We estimated the abundance of both king eiders and long-tailed ducks based on the annual nest density of each species found in the 8 km\textsuperscript{2} extensive nest search area located in the Qarlikturvik valley. We extrapolated the mean nest density in the wetlands of the Qarlikturvik valley to the wetlands of the study area (38.35 km\textsuperscript{2}). We transformed nest density to abundance of breeding individuals by multiplying it by a factor of two. We acknowledge that the opportunistic monitoring of these species likely underestimated their true nest density. However, considering the extensive sampling effort deployed annually within this area, we are confident to obtain a realistic order of magnitude for the number of nests present. Because duck sightings are frequent, yet only a few nests are found, we believe there may be non-breeding individuals. Therefore, we employed an additional method to estimate the overall duck populations without differentiating between breeding and non-breeding individuals. 
 As an alternative approach, we estimated the abundance of ducks based on the indices of relative abundance (i.e., the number of individuals observed per 100 hours) presented by \citet{gauthier2024a}. We assumed that the ratios between relative and actual abundance are the same (i.e., similar detection probability) in duck and loon species. We therefore derived the absolute abundance of long-tailed ducks and king eiders from their relative abundances using the ratio between relative and absolute abundances of red-throated loons as a reference.
-        			
-        			
-        	\item[] \textit{\textbf{Rough-legged hawk, peregrine falcon and snowy owl}} \\
-        	We estimated the abundance of breeding rough-legged hawks, peregrine falcons and snowy owls based on systematic nest monitoring conducted throughout the study area for these species. To convert the number of nests into breeding abundance, we multiplied it by two. For snowy owls, we extended the time series from 1996 to 2011 based on a linear regression between nest density in the Qarlikturvik valley and nearby plateaus (Black and Southern plateaus) and nest density across the entire study area ($y= 0.68867x -0.00173$; R\textsuperscript{2}= 0.99; p < 0.0001, n= 10). We used the same approach for rough-legged hawks ($y=0.49851x$, R\textsuperscript{2}= 0.99, p < 0.0001, n= 8) to extend the time series from 2007 to 2012. We did not extend the time series for peregrine falcons because the correlation is not as strong (R\textsuperscript{2}= 0.44, p= 0.27, n=8).
-        	
-        	\item[] \textit{\textbf{Rock ptarmigan}}\\
-        	We estimated the abundance of rock ptarmigans based on the annual nest density measured in the 8 km\textsuperscript{2} extensive nest search area of the Qarlikturvik valley. While we acknowledge that the opportunistic monitoring of this species likely underestimates nest density, the extensive sampling effort deployed annually within this area gives us confidence in obtaining a realistic number of nests. We then extrapolate the density to the whole study area, without distinction between mesic, wetland and upland habitats (\textbf{Table \ref{table:species_relative_abundance_upland}}). Among the 6 nests found in the study area, 4 were located in mesic habitat, while one nest was found in a wetland and another in an upland habitat. To convert the number of nests into breeding abundance, we multiplied it by two.
-        	
-        	\item[] \textit{\textbf{Sandhill crane}}\\
-        	We estimated the mean abundance of sandhill cranes in the lowland zones of the study area based on a regression between nest density and the number of individuals observed per transect (\textbf{Figure \ref{figure:sacr}}). In this relationship, nest density and transect observations come from the 8 km\textsuperscript{2} area of the Qarlikturvik valley where extensive nest search is performed. We acknowledge that the opportunistic monitoring of this species likely underestimated the true nest density. However, considering the extensive sampling effort deployed annually within this area, we are confident in obtaining a realistic order of magnitude for the number of nests present. Number of individuals observed along transects in each lowland zone was converted into nest density using the regressions, and then in total number of individuals in each zone by multiplying by the area of the zone and a factor 2. We estimated the density in the upland zones by applying a correction factor to the annual mean density in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:species_relative_abundance_upland}}). 
+                                
+                                
+                \item[] \textit{\textbf{Rough-legged hawk, peregrine falcon and snowy owl}} \\
+                We estimated the abundance of breeding rough-legged hawks, peregrine falcons and snowy owls based on systematic nest monitoring conducted throughout the study area for these species. To convert the number of nests into breeding abundance, we multiplied it by two. For snowy owls, we extended the time series from 1996 to 2011 based on a linear regression between nest density in the Qarlikturvik valley and nearby plateaus (Black and Southern plateaus) and nest density across the entire study area ($y= 0.68867x -0.00173$; R\textsuperscript{2}= 0.99; p < 0.0001, n= 10). We used the same approach for rough-legged hawks ($y=0.49851x$, R\textsuperscript{2}= 0.99, p < 0.0001, n= 8) to extend the time series from 2007 to 2012. We did not extend the time series for peregrine falcons because the correlation is not as strong (R\textsuperscript{2}= 0.44, p= 0.27, n=8).
+                
+                \item[] \textit{\textbf{Rock ptarmigan}}\\
+                We estimated the abundance of rock ptarmigans based on the annual nest density measured in the 8 km\textsuperscript{2} extensive nest search area of the Qarlikturvik valley. While we acknowledge that the opportunistic monitoring of this species likely underestimates nest density, the extensive sampling effort deployed annually within this area gives us confidence in obtaining a realistic number of nests. We then extrapolate the density to the whole study area, without distinction between mesic, wetland and upland habitats (\textbf{Table \ref{table:table_species_relative_abundance_upland}}). Among the 6 nests found in the study area, 4 were located in mesic habitat, while one nest was found in a wetland and another in an upland habitat. To convert the number of nests into breeding abundance, we multiplied it by two.
+                
+                \item[] \textit{\textbf{Sandhill crane}}\\
+                We estimated the mean abundance of sandhill cranes in the lowland zones of the study area based on a regression between nest density and the number of individuals observed per transect (\textbf{Figure \ref{figure:sacr}}). In this relationship, nest density and transect observations come from the 8 km\textsuperscript{2} area of the Qarlikturvik valley where extensive nest search is performed. We acknowledge that the opportunistic monitoring of this species likely underestimated the true nest density. However, considering the extensive sampling effort deployed annually within this area, we are confident in obtaining a realistic order of magnitude for the number of nests present. Number of individuals observed along transects in each lowland zone was converted into nest density using the regressions, and then in total number of individuals in each zone by multiplying by the area of the zone and a factor 2. We estimated the density in the upland zones by applying a correction factor to the annual mean density in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:table_species_relative_abundance_upland}}). 
+                
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\linewidth]{figures/sandhill_crane_nest_transects.pdf} 
 \caption{Linear regression between the nest density of sandhill cranes and the number of individuals observed per transect (nest density = 1.12 x number of individuals per transect; regression was forced to pass through the origin). The fit (R\textsuperscript{2} and p value) of the regression (red line) with the empirical data from the Qarlikturvik valley is presented (blue dots). Data points represent annual values.}
 \label{figure:sacr}
 \end{figure}
-
-        	\item[] \textit{\textbf{American golden-plover and black-bellied plover}}\\
-        	We applied a distance sampling approach to the observations of American golden-plovers made along vertebrate count transects to estimate the abundance of individuals in the mesic habitat of the study area between 2014 and 2023. We used perpendicular distance between detected individuals and transect (n= 1015) to estimate a detection function with the \textit{ds} function from the \textit{Distance} package \citep{miller2019}. We applied a truncation distance of 150 m (i.e., maximum distance on either side of the observer where observations have been considered). We selected the model with the lowest AIC, which included a "hn" key and a single "cos" adjustment term. We excluded observations of more than four individuals, as these likely indicated groups of non-breeders passing through the area. We did not estimate abundance in wetland habitat because American golden-plovers nest almost exclusively in mesic habitat \citep{parmelee1967}. We estimated the abundance in the upland zones (i.e., plateaus) by applying a correction factor to the abundance in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:species_relative_abundance_upland}}).
-        	
+                \item[] \textit{\textbf{American golden-plover and black-bellied plover}}\\
+                We applied a distance sampling approach to the observations of American golden-plovers made along vertebrate count transects to estimate the abundance of individuals in the mesic habitat of the study area between 2014 and 2023. We used perpendicular distance between detected individuals and transect (n= 1015) to estimate a detection function with the \textit{ds} function from the \textit{Distance} package \citep{miller2019}. We applied a truncation distance of 150 m (i.e., maximum distance on either side of the observer where observations have been considered). We selected the model with the lowest AIC, which included a "hn" key and a single "cos" adjustment term. We excluded observations of more than four individuals, as these likely indicated groups of non-breeders passing through the area. We did not estimate abundance in wetland habitat because American golden-plovers nest almost exclusively in mesic habitat \citep{parmelee1967}. We estimated the abundance in the upland zones (i.e., plateaus) by applying a correction factor to the abundance in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:table_species_relative_abundance_upland}}).
+                
 To determine the abundance of black-bellied plovers, we used the mean number of black-bellied plovers and American golden-plovers observed per transect as an index of relative abundance. We assumed that the ratios of between relative and actual abundance are the same (i.e., similar detection probability) among those species. This assumption is realistic as those species present similarities in size, color, and reproductive behavior. We therefore derived the absolute abundance of black-bellied plovers from their relative abundance using the ratio between relative and absolute abundances of American golden-plover as a reference.
-
 As an alternative approach to determine black-bellied plover abundance, we used the same approach as previously described, but with the indices of relative abundance presented by \citet{gauthier2024a}, which was derived from incidental daily observations.
-
-        	\item[] \textit{\textbf{Common-ringed plover}}\\
-        	To estimate the abundance of common-ringed plovers in the study area, we relied on the total number of nests recorded annually from 2015 to 2017, during which the primary nesting sites underwent intensive sampling. We multiplied the total nest count by two to represent the abundance of breeding individuals.
-        	
-        	\item[] \textit{\textbf{Lapland longspur and Baird’s sandpiper}}\\
-        	We estimated the mean abundance of Lapland longspur in the different lowland zones of the study area based on a regression between nest density and the number of individuals observed per transect (\textbf{Figure \ref{figure:lalo_basa}}). For Baird’s sandpiper, we employed a similar approach, but instead of using the mean number of individuals observed per transect, we used the mean proportion of transects where at least one individual was detected. We made this adjustment because this species was less frequently observed. In this relationship, nest density for these two species came from the intensive nest sampling conducted within the core 2 km\textsuperscript{2} area of the Qarlikturvik valley and observations of individuals from transects carried out in the larger 8 km\textsuperscript{2} area in which the core area was located. This approach allowed us to incorporate a larger sample size from the transects while focusing on a measure of nest density determined systematically. Transects observations in lowland were then converted into nest density using the regressions, and then in total number of individuals by multiplying by the area and a factor 2. We estimated the density of both species in the upland zones by applying a correction factor to the annual mean density in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:species_relative_abundance_upland}}). We acknowledge that the regression for Baird’s sandpiper is weak; however, it offers some refinement compared to assuming a uniform density throughout the study area. 
-        	
-        	\begin{figure}[H]
-        	\begin{subfigure}{0.5\textwidth}
-        	\includegraphics[width=0.95\linewidth]{figures/lapland_longspur_nest_transect.pdf} 
-        	\caption{}
-        	\end{subfigure}
-        	\begin{subfigure}{0.5\textwidth}
-        	\includegraphics[width=0.95\linewidth]{figures/bairds_sandpiper_nest_transect.pdf}
-        	\caption{}
-        	\end{subfigure}
-        	\caption{a) Linear regression between the nest density of Lapland longspurs and the number of individuals observed per transect (nest density= 2.3422 x number of individuals per transect; regression was forced through the origin). The fit (R\textsuperscript{2} and p value) of the regression (red line) with the empirical data from the Qarlikturvik valley is presented (blue dots). Data points represent annual values. b) Linear regression between the nest density of Baird’s sandpiper and the proportion of transect with at least one individual observed (nest density= 34.9248 x proportion of transects with at least one individual; regression was forced through the origin). The fit (R\textsuperscript{2} and p value) of the regression (red line) with the empirical data from the Qarlikturvik valley is presented (blue dots). Data points represent annual values.}
-        	\label{figure:lalo_basa}
-        	\end{figure} 
-
-        	\item[] \textit{\textbf{Other passerines and sandpipers}}\\
-        	We estimated the abundance of other passerines (horned lark, American pipit, and snow bunting) in the lowland zones of the study area with the regression equation between number of individuals per transect and nest density of the Lapland longspur (see section 3.9). We assumed here a similar detection probability for all species. We used the same approach for other sandpiper species (white-rumped sandpiper, pectoral sandpiper, buff-breasted sandpiper, red knot, ruddy turnstone and red phalarope) based on the regression equation for the Baird's sandpiper (see section 3.9). For all these species, we estimated the density in the upland zones by applying a correction factor to the mean density in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:species_relative_abundance_upland}}). Nest density was then converted in number of individuals by multiplying by the area and a factor 2.
+                \item[] \textit{\textbf{Common-ringed plover}}\\
+                To estimate the abundance of common-ringed plovers in the study area, we relied on the total number of nests recorded annually from 2015 to 2017, during which the primary nesting sites underwent intensive sampling. We multiplied the total nest count by two to represent the abundance of breeding individuals.
+                
+                \item[] \textit{\textbf{Lapland longspur and Baird’s sandpiper}}\\
+                We estimated the mean abundance of Lapland longspur in the different lowland zones of the study area based on a regression between nest density and the number of individuals observed per transect (\textbf{Figure \ref{figure:lalo_basa}}). For Baird’s sandpiper, we employed a similar approach, but instead of using the mean number of individuals observed per transect, we used the mean proportion of transects where at least one individual was detected. We made this adjustment because this species was less frequently observed. In this relationship, nest density for these two species came from the intensive nest sampling conducted within the core 2 km\textsuperscript{2} area of the Qarlikturvik valley and observations of individuals from transects carried out in the larger 8 km\textsuperscript{2} area in which the core area was located. This approach allowed us to incorporate a larger sample size from the transects while focusing on a measure of nest density determined systematically. Transects observations in lowland were then converted into nest density using the regressions, and then in total number of individuals by multiplying by the area and a factor 2. We estimated the density of both species in the upland zones by applying a correction factor to the annual mean density in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:table_species_relative_abundance_upland}}). We acknowledge that the regression for Baird’s sandpiper is weak; however, it offers some refinement compared to assuming a uniform density throughout the study area. 
+                
+                \begin{figure}[H]
+                \begin{subfigure}{0.5\textwidth}
+                \includegraphics[width=0.95\linewidth]{figures/lapland_longspur_nest_transect.pdf} 
+                \caption{}
+                \end{subfigure}
+                \begin{subfigure}{0.5\textwidth}
+                \includegraphics[width=0.95\linewidth]{figures/bairds_sandpiper_nest_transect.pdf}
+                \caption{}
+                \end{subfigure}
+                \caption{a) Linear regression between the nest density of Lapland longspurs and the number of individuals observed per transect (nest density= 2.3422 x number of individuals per transect; regression was forced through the origin). The fit (R\textsuperscript{2} and p value) of the regression (red line) with the empirical data from the Qarlikturvik valley is presented (blue dots). Data points represent annual values. b) Linear regression between the nest density of Baird’s sandpiper and the proportion of transect with at least one individual observed (nest density= 34.9248 x proportion of transects with at least one individual; regression was forced through the origin). The fit (R\textsuperscript{2} and p value) of the regression (red line) with the empirical data from the Qarlikturvik valley is presented (blue dots). Data points represent annual values.}
+                \label{figure:lalo_basa}
+                \end{figure} 
+                \item[] \textit{\textbf{Other passerines and sandpipers}}\\
+                We estimated the abundance of other passerines (horned lark, American pipit, and snow bunting) in the lowland zones of the study area with the regression equation between number of individuals per transect and nest density of the Lapland longspur (see section \textit{\textbf{Lapland longspur and Baird’s sandpiper}}). We assumed here a similar detection probability for all species. We used the same approach for other sandpiper species (white-rumped sandpiper, pectoral sandpiper, buff-breasted sandpiper, red knot, ruddy turnstone and red phalarope) based on the regression equation for the Baird's sandpiper (see section \textit{\textbf{Lapland longspur and Baird’s sandpiper}}). For all these species, we estimated the density in the upland zones by applying a correction factor to the mean density in lowland zones. This correction factor was determined based on the relative abundance ratio between the upland and lowland zones (\textbf{Table \ref{table:table_species_relative_abundance_upland}}). Nest density was then converted in number of individuals by multiplying by the area and a factor 2.
 As an alternative approach, we estimated the abundance of other passerines and sandpipers based on the indices of relative abundance (i.e., the number of individuals observed per 100 hours) presented by \citet{gauthier2024a}. We assumed that the ratios between relative and actual abundance are the same (i.e., similar detection probability) among both passerine and sandpiper species. We therefore derived the absolute abundance of other passerine and sandpiper species from their relative abundances using respectively, the ratios between relative and absolute abundances of Lapland longspur (passerines) and Baird’s sandpiper (sandpipers) as references.
-
-        	\item[] \textit{\textbf{Long-tailed jaeger}}\\
-        	We determined the annual nest density of long-tailed jaegers from the systematic nest sampling between 2004 and 2023 on the southern side of the glacial river in the Qarlikturvik valley. We determined nest density by dividing the annual number of nests recorded by the area of the surveyed zone (33 km\textsuperscript{2}). As long-tailed jaegers typically nest in mesic habitat \citep{andersson1971}, we multiplied the area occupied by mesic habitat across the study area by the nest density obtained in the surveyed zone and by two to obtain the total abundance of breeding individuals.
-        	
-        	\item[] \textit{\textbf{Parasitic jaeger}}\\
-        	Based on the opportunistic nest monitoring of parasitic jaegers across the study area, an average of 3.75 nests is found annually, a small number considering that parasitic jaegers were frequently observed at the study site \citep{gauthier2024a}. This suggests that there may be non-breeding individuals present at the study site, or alternatively, individuals may regularly travel long distances, potentially from outside the study area, to forage during the breeding season. Due to limited data availability for estimating the abundance of non-breeding parasitic jaegers, we relied on the maximum number of adults banded during a single year (17 individuals in 2009; Therrien, unpublished data) as the minimum abundance on the study area. This corresponds to a density of 0.04 individuals/km\textsuperscript{2}. For comparison, \citet{taylor1974} measured a density of 0.06 individual/km\textsuperscript{2} on Bathurst Island.
-        	
-        	\item[] \textit{\textbf{Common raven}}\\
-        	Despite the intensive nest searches for raptors in upland zones, we never found more than one common raven nest each year, a small number considering the frequent raven observations at the study site \citep{gauthier2024a}. This indicates the potential presence of non-breeding individuals or individuals that breed outside the study area but use it for foraging. Therefore, we opted for alternative approaches based on individual counts to estimate the abundance of both breeding and non-breeding ravens. 
+                \item[] \textit{\textbf{Long-tailed jaeger}}\\
+                We determined the annual nest density of long-tailed jaegers from the systematic nest sampling between 2004 and 2023 on the southern side of the glacial river in the Qarlikturvik valley. We determined nest density by dividing the annual number of nests recorded by the area of the surveyed zone (33 km\textsuperscript{2}). As long-tailed jaegers typically nest in mesic habitat \citep{andersson1971}, we multiplied the area occupied by mesic habitat across the study area by the nest density obtained in the surveyed zone and by two to obtain the total abundance of breeding individuals.
+                
+                \item[] \textit{\textbf{Parasitic jaeger}}\\
+                Based on the opportunistic nest monitoring of parasitic jaegers across the study area, an average of 3.75 nests is found annually, a small number considering that parasitic jaegers were frequently observed at the study site \citep{gauthier2024a}. This suggests that there may be non-breeding individuals present at the study site, or alternatively, individuals may regularly travel long distances, potentially from outside the study area, to forage during the breeding season. Due to limited data availability for estimating the abundance of non-breeding parasitic jaegers, we relied on the maximum number of adults banded during a single year (17 individuals in 2009; Therrien, unpublished data) as the minimum abundance on the study area. This corresponds to a density of 0.04 individuals/km\textsuperscript{2}. For comparison, \citet{taylor1974} measured a density of 0.06 individual/km\textsuperscript{2} on Bathurst Island.
+                
+                \item[] \textit{\textbf{Common raven}}\\
+                Despite the intensive nest searches for raptors in upland zones, we never found more than one common raven nest each year, a small number considering the frequent raven observations at the study site \citep{gauthier2024a}. This indicates the potential presence of non-breeding individuals or individuals that breed outside the study area but use it for foraging. Therefore, we opted for alternative approaches based on individual counts to estimate the abundance of both breeding and non-breeding ravens. 
 As a first approach, we based our estimate of ravens on the number of glaucous gulls observed per transect. We assumed that the ratios between relative and actual abundance are the same (i.e., similar detection probability) among those species. This assumption is reasonable as those species present similarities in size and foraging strategy. We therefore derived the absolute abundance of common ravens from their relative abundance using the ratio between relative and absolute abundances of glaucous gulls as a reference.  
 Independently, we estimated the abundance of common ravens with the same approach but using the indices of relative abundance presented by \citet{gauthier2024a}, which was derived from incidental daily observations, rather than observations from the transects.
-
         \item[] \textit{\textbf{Brown and collared lemming}}\\
         Between 1995 and 2003, we used the density estimates derived from the snap-trapping indices obtained in late July in each habitat. Between 2004 and 2007, annual abundance of each lemming species was based on the late-July density estimates on trapping grid in wet and mesic habitats. However, starting from 2008, estimates were derived from the mean density recorded in mid-July and mid-August, except for two instances: 2019 and 2021. In 2019, due to an exceptionally early snowmelt and thus an early decline in lemmings during the summer, we only retained value from mid-July. In 2021, we relied solely on data gathered in August because it was the only trapping period carried out that year. To scale the estimated densities from the wet and mesic grids to the entire study area, we used the proportions of mesic habitats (64\%) and wet habitats (10\%) measured within the study area.
         
-        	\item[] \textit{\textbf{Arctic hare}}\\
-        	Arctic hares are primarily observed in the upland zones of the study area, where sampling effort is limited. We thus derived abundance of hares from the estimated abundance of Arctic foxes based on indices of relative abundance presented in \citep{gauthier2024a}, which were derived from incidental daily observations. We doubled the density of Arctic hares in the upland zones (i.e., plateaus), as twice as many individuals were observed per hour of fieldwork there compared to lowland zones (\textbf{Table \ref{table:species_relative_abundance_upland}}). However, it is worth noting that assuming a similar detection probability between foxes and hares might lead to an overestimation of hare detection probability due to behavioral differences between the species. Therefore, we most likely underestimate the actual abundance of Arctic hares in the study area.
-        	
-        	\item[] \textit{\textbf{Ermine}}\\
-        	We estimated the annual abundance of ermines by transforming the annual index of relative abundance provided in \citet{bolduc2023} into individual density. Annual values ranged from 0, indicating no ermine sighting, to 2.88, which signifies that nearly all observers observed at least one family group during their field season. We independtly obtained measures of minimum (0.02 ind./km\textsuperscript{2}) and maximum (0.4 ind./km\textsuperscript{2}) ermine density, which were determined from estimates of individual home range obtained from radio-tracking data, observations on Bylot Island, and existing literature \citep{legagneux2012, bilodeau2013}. We associated the minimum and maximum scores of relative abundance with the minimum and maximum density of individuals, respectively. Ultimately, we calculated the ermine density by linearly interpolating between these two density extremes using the annual index of relative abundance.
-        	
-        	\item[] \textit{\textbf{Arctic fox}}\\
-        	We estimated the abundance of Arctic foxes in the study area based on their estimated home range size inside and outside the goose colony. We used the data and methodologies outlined in \citet{dulude2023} to estimate home range size. However, here, we did not account for annual variations in lemming density as presented in \citet{dulude2023} in order to obtain mean fox home range. Given that foxes are territorial and exhibit an average spatial overlap with adjacent territories of 18\% \citep{clermont2021}, we converted home range size into individual density using the following formula: $\text{\textit{density of individuals}}= \frac{2}{0.82\times \text{\textit{home range}}}$. We used two as numerator because we assumed each territory was held by a pair of fox, either breeding or non-breeding fox pair, without accounting for potential nomadic or transient individuals. We used values of 12.26 km\textsuperscript{2} to represent the mean home range of foxes within the goose colony and 20.02 km\textsuperscript{2} for foxes outside the goose colony. We estimated the mean density of foxes in each zone of the study area according to the mean proportion of the zone covered by the goose colony. We derived the mean annual proportion of each zone covered by the goose colony from the colony outline between 2010 and 2023. We estimated a mean density of 0.14 individuals/km\textsuperscript{2} for the study area. Previously, the minimum density of foxes in the study area was estimated to be between 0.03 and 0.13 individuals per km\textsuperscript{2} based on camera traps \citep{royerboutin2015}. 
-		\newpage
-        		\end{enumerate}
-        		
-        		\newgeometry{top=0.5cm, bottom=1.5cm, left=0.5cm, right=0.5cm}
+                \item[] \textit{\textbf{Arctic hare}}\\
+                Arctic hares are primarily observed in the upland zones of the study area, where sampling effort is limited. We thus derived abundance of hares from the estimated abundance of Arctic foxes based on indices of relative abundance presented in \citep{gauthier2024a}, which were derived from incidental daily observations. We doubled the density of Arctic hares in the upland zones (i.e., plateaus), as twice as many individuals were observed per hour of fieldwork there compared to lowland zones (\textbf{Table \ref{table:table_species_relative_abundance_upland}}). However, it is worth noting that assuming a similar detection probability between foxes and hares might lead to an overestimation of hare detection probability due to behavioral differences between the species. Therefore, we most likely underestimate the actual abundance of Arctic hares in the study area.
+                
+                \item[] \textit{\textbf{Ermine}}\\
+                We estimated the annual abundance of ermines by transforming the annual index of relative abundance provided in \citet{bolduc2023} into individual density. Annual values ranged from 0, indicating no ermine sighting, to 2.88, which signifies that nearly all observers observed at least one family group during their field season. We independtly obtained measures of minimum (0.02 ind./km\textsuperscript{2}) and maximum (0.4 ind./km\textsuperscript{2}) ermine density, which were determined from estimates of individual home range obtained from radio-tracking data, observations on Bylot Island, and existing literature \citep{legagneux2012, bilodeau2013}. We associated the minimum and maximum scores of relative abundance with the minimum and maximum density of individuals, respectively. Ultimately, we calculated the ermine density by linearly interpolating between these two density extremes using the annual index of relative abundance.
+                
+                \item[] \textit{\textbf{Arctic fox}}\\
+                We estimated the abundance of Arctic foxes in the study area based on their estimated home range size inside and outside the goose colony. We used the data and methodologies outlined in \citet{dulude2023} to estimate home range size. However, here, we did not account for annual variations in lemming density as presented in \citet{dulude2023} in order to obtain mean fox home range. Given that foxes are territorial and exhibit an average spatial overlap with adjacent territories of 18\% \citep{clermont2021}, we converted home range size into individual density using the following formula: $\text{\textit{density of individuals}}= \frac{2}{0.82\times \text{\textit{home range}}}$. We used two as numerator because we assumed each territory was held by a pair of fox, either breeding or non-breeding fox pair, without accounting for potential nomadic or transient individuals. We used values of 12.26 km\textsuperscript{2} to represent the mean home range of foxes within the goose colony and 20.02 km\textsuperscript{2} for foxes outside the goose colony. We estimated the mean density of foxes in each zone of the study area according to the mean proportion of the zone covered by the goose colony. We derived the mean annual proportion of each zone covered by the goose colony from the colony outline between 2010 and 2023. We estimated a mean density of 0.14 individuals/km\textsuperscript{2} for the study area. Previously, the minimum density of foxes in the study area was estimated to be between 0.03 and 0.13 individuals per km\textsuperscript{2} based on camera traps \citep{royerboutin2015}. 
+                \newpage
+                        \end{enumerate}
+                        
+                        \newgeometry{top=0.5cm, bottom=1.5cm, left=0.5cm, right=0.5cm}
 \begin{landscape}
-\input{tables/table_summary_methods.tex}
-%label-> table:summary_methods
+\input{tables/table_summary_methods_and_abundance.tex}
+%label-> table:table_summary_methods_and_abundance
 \end{landscape}
 \restoregeometry
 \newpage
-        		
-        		\subsubsection*{b. Taxonomy and systematics}
+\begin{figure}[h]
+\caption{Time series of the estimated annual adult abundance of vertebrate species on the southern plain of Bylot Island (389 km\textsuperscript{2}). Estimated abundance represents adult individuals, with the exception of lemmings, for which juveniles were also included in the estimate. Time series shorter than 5 years are not presented.}
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Cackling_goose.pdf}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Snow_goose.pdf}
+  \end{subfigure} 
+    \hfill
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Rough-legged_hawk.pdf}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Peregrine_falcon.pdf}
+  \end{subfigure}
+\end{figure}
+\newpage
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Snowy_owl.pdf}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/American_golden-plover.pdf}
+  \end{subfigure} 
+    \hfill
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Glaucous_gull.pdf}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Long-tailed_jaeger.pdf}
+  \end{subfigure}
+\end{figure}
+\newpage
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Nearctic_brown_lemming.pdf}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Nearctic_collared_lemming.pdf}
+  \end{subfigure} 
+    \hfill
+    \hfill
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{figures/species_temporal_series/Ermine.pdf}
+  \end{subfigure}
+\end{figure}
+\newpage
+\input{tables/table_expert_based_uncertainty.tex}
+%label-> table:table_expert_based_uncertainty
+\newpage
+                        
+                        \subsubsection*{b. Taxonomy and systematics}
        Bird scientific names were obtained from the IOC World Bird List 14.2 \citep{gill2024}. Mammal scientific names were obtained from the Mammal species of the world: a taxonomic and geographic reference \citep{wilson2005}. However, we considered here \textit{Mustela erminea richardsonii} as \textit{Mustela richardsonii} due to recent genetic analysis \citep{colella2021}.
-        		
-        		\subsubsection*{c. Permit history}
+                        
+                        \subsubsection*{c. Permit history}
       All research involving animals on Bylot Island has been approved by an institutional Animal Care Committee. In 1999, the study area became part of Sirmiliik National Park, managed by Parks Canada. Since then, all research activities in the park have been approved by a Joint Park Management Committee.
       
-      		\subsubsection*{d. Project personnel}
-      		\begin{enumerate}[label=\alph*.]
-      			\item[] \textit{\textbf{Principal and associated investigators}}\\
-      			Gilles Gauthier, Eric Reed, Jean-François Giroux, Dominique Berteaux, Joël Bêty, Josée Lefebvre, Dominique Gravel, Jean-François Therrien, Nicolas Lecomte, Dominique Fauteux, Pierre Legagneux \citep{gauthier2024b}
-      			\item[] \textit{\textbf{Students}}\\
-      			By combining animal and plant ecology, 24 doctoral theses and 56 master theses have been completed in relation to the Bylot Island South Plain study area \citep{gauthier2024b}.
-      		\end{enumerate}
+                \subsubsection*{d. Project personnel}
+                \begin{enumerate}[label=\alph*.]
+                        \item[] \textit{\textbf{Principal and associated investigators}}\\
+                        Gilles Gauthier, Eric Reed, Jean-François Giroux, Dominique Berteaux, Joël Bêty, Josée Lefebvre, Dominique Gravel, Jean-François Therrien, Nicolas Lecomte, Dominique Fauteux, Pierre Legagneux \citep{gauthier2024b}
+                        \item[] \textit{\textbf{Students}}\\
+                        By combining animal and plant ecology, 24 doctoral theses and 56 master theses have been completed in relation to the Bylot Island South Plain study area \citep{gauthier2024b}.
+                \end{enumerate}
 \newpage 
-
  \section*{\textcolor{Blue}{Class III. Data set status and accessibility}}
     \section*{A. Status}
- 		\subsection*{1. Latest update} 19th September 2024
+                \subsection*{1. Latest update} 30th September 2024
         \subsection*{2. Latest archive date} XXXXXX October 2024
         \subsection*{3. Metadata status} XXXXXX October 2024
         \subsection*{4. Data verification} The methods used to extract final species abundance estimates were subject to several rounds of revision by the principal investigators.
-
    \section*{B. Accessibility}
-    		\subsection*{1. Storage location and medium}
-Data are publicly available at \url{https://datadryad.org/}.\\[1.5em]
+                \subsection*{1. Storage location and medium}
+The data set is publicly available at \url{https://datadryad.org/}.\\[1.5em]
 Raw data and codes used to extract the presented data set are publicly available at \url{https://zenodo.org/}.
-    		 
+                 
         \subsection*{2. Contact persons}
         \begin{enumerate}[label=\alph*.]
-      			\item[] \textit{\textbf{Overall project}}\\
-      			Joël Bêty; \textit{\href{mailto:joel_bety@uqar.ca}{joel{\textunderscore}bety@uqar.ca}}; 418 723-1986 \#1701; 300 allée des Ursulines, Rimouski, Québec, Canada, G5L 3A1, Office B-002
-      			\item[] \textit{\textbf{Data and codes}}\\
-      			 Louis Moisan, \textit{\href{mailto:louis.moisan.bio@gmail.com}{louis.moisan.bio@gmail.com}}
-      		\end{enumerate}
-
-
-
-        	\subsection*{3. Copyright restrictions}
-        	None
-        	 
-        	\subsection*{4. Proprietary restrictions}
-        		\subsubsection*{a. Release date} None
-        		\subsubsection*{b. Citation}
-        		 Please cite this document when using the data.
-        		\subsubsection*{c. Disclaimer} None
-            		
-        	\subsection*{5. Costs}
-        	None	, the data can be used free of charge.		
+                        \item[] \textit{\textbf{Overall project}}\\
+                        Joël Bêty; \textit{\href{mailto:joel_bety@uqar.ca}{joel{\textunderscore}bety@uqar.ca}}; 418 723-1986 \#1701; 300 allée des Ursulines, Rimouski, Québec, Canada, G5L 3A1, Office B-002
+                        \item[] \textit{\textbf{Data and codes}}\\
+                         Louis Moisan, \textit{\href{mailto:louis.moisan.bio@gmail.com}{louis.moisan.bio@gmail.com}}
+                \end{enumerate}
+                \subsection*{3. Copyright restrictions}
+                None
+                 
+                \subsection*{4. Proprietary restrictions}
+                        \subsubsection*{a. Release date} None
+                        \subsubsection*{b. Citation}
+                         Please cite this document when using the data.
+                        \subsubsection*{c. Disclaimer} None
+                        
+                \subsection*{5. Costs}
+                None, the data can be used free of charge.          
 \newpage
     
  \section*{\textcolor{Blue}{Class IV. Data structural descriptors}}
     \section*{A. Data set file}
-    			\subsection*{1. Identity} 
-    			a. \texttt{BYLOT-species\_taxonomy.csv}\\
-     		b. \texttt{BYLOT-species\_abundance.csv}\\
-     		c. \texttt{BYLOT-species\_body\_mass.csv}\\
-    			d. \texttt{BYLOT-interannual\_variation\_nest\_density.csv}\\ 
-    			
-        		\subsection*{2. Size} 
-        		a. 35 records, not including header row (2.3 kB)\\
-        		b. 273 records, not including header row  (17.0 kB)\\
-        		c. 51 records, not including header row  (1.8 kB)\\
-        		d. 18 records, not including header row  (1.1 kB)
-        		
-        		\subsection*{3. Format and storage mode} All files are in a comma-separated value format (.csv). 
+                        \subsection*{1. Identity} 
+                        a. \texttt{BYLOT-species\_taxonomy.csv}\\
+                b. \texttt{BYLOT-species\_abundance.csv}\\
+                c. \texttt{BYLOT-species\_body\_mass.csv}\\
+                        d. \texttt{BYLOT-interannual\_variation\_nest\_density.csv}\\ 
+                        
+                        \subsection*{2. Size} 
+                        a. 35 records, not including header row (4.3 kB)\\
+                        b. 271 records, not including header row  (34.5 kB)\\
+                        c. 53 records, not including header row  (3.5 kB)\\
+                        d. 18 records, not including header row  (961 B)
+                        
+                        \subsection*{3. Format and storage mode} All files are in a comma-separated value format (.csv). 
       
-        		\subsection*{4. Header information} 
-        			\subsubsection*{a. \texttt{BYLOT-species\_taxonomy.csv}}
-        			\texttt{functional\_group}; \texttt{scientific\_name}; \texttt{species}; \texttt{annual\_cycle\_strategy}
-        			
-        			\subsubsection*{b. \texttt{BYLOT-species\_abundance.csv}}
-        			\texttt{species}; \texttt{year}; \texttt{status}; \texttt{method}; \texttt{abundance}
-        			
-        			\subsubsection*{c. \texttt{BYLOT-species\_body\_mass.csv}}
-        			\texttt{species}; \texttt{source}; \texttt{body\_mass\_g}
-        			
-        			\subsubsection*{d. \texttt{BYLOT-interannual\_variation\_nest\_density.csv}}
-        			\texttt{species}; \texttt{zone}; \texttt{mean\_nest\_density\_km2}; \texttt{sd\_nest\_density\_km2}; \texttt{sample\_size\_nest\_density\_km2}
-        		
-        		\subsection*{5. Alphanumeric attributes} Mixed
-        		
-        		\subsection*{6. Special characters/fields} Unavailable values are indicated by NA.
-        		
-        		\subsection*{7. Authentication procedures}
-        		Sums of the numeric columns: \\
-        		b. \texttt{BYLOT-species\_abundance.csv}: abundance= 2291027\\
-        		c. \texttt{BYLOT-species\_body\_mass.csv}: body\_mass\_g= 46223\\
-        		d. \texttt{BYLOT-interannual\_variation\_nest\_density.csv}: mean\_nest\_density\_km2= 19.991; sd\_nest\_density\_km2= 10.539; sample\_size\_nest\_density\_km2= 185
-        		
-
+                        \subsection*{4. Header information} 
+                                \subsubsection*{a. \texttt{BYLOT-species\_taxonomy.csv}}
+                                \texttt{class}; \texttt{order}; \texttt{family}; \texttt{genus}; \texttt{species\_scientific}; \texttt{species\_en}; \texttt{species\_fr}; \texttt{species\_code}; \texttt{functional\_group}; \texttt{migratory\_status}
+                                
+                                \subsubsection*{b. \texttt{BYLOT-species\_abundance.csv}}
+                                \texttt{species\_en}; \texttt{year}; \texttt{breeding\_status}; \texttt{abundance}; \texttt{method\_description}; \texttt{method\_quality}
+                                
+                                \subsubsection*{c. \texttt{BYLOT-species\_body\_mass.csv}}
+                                \texttt{species\_en}; \texttt{site};\texttt{mean\_body\_mass\_g}; \texttt{sample\_size}; \texttt{reference}
+                                
+                                \subsubsection*{d. \texttt{BYLOT-interannual\_variation\_nest\_density.csv}}
+                                \texttt{species\_en}; \texttt{zone}; \texttt{mean\_nest\_density\_km2}; \texttt{sd\_nest\_density\_km2}; \texttt{number\_years}
+                        
+                        \subsection*{5. Alphanumeric attributes} Mixed
+                        
+                        \subsection*{6. Special characters/fields} Unavailable values are indicated by NA.
+                        
+                        \subsection*{7. Authentication procedures}
+                        Sums of the numeric columns: \\
+                        b. \texttt{BYLOT-species\_abundance.csv}: abundance= 2293389\\
+                        c. \texttt{BYLOT-species\_body\_mass.csv}: body\_mass\_g= 49617; sample\_size= 13902\\
+                        d. \texttt{BYLOT-interannual\_variation\_nest\_density.csv}: mean\_nest\_density\_km2= 19.991; sd\_nest\_density\_km2= 10.539; sample\_size\_nest\_density\_km2= 185
+                        
     \section*{B. Variable information}
-    		\subsection*{1. Variable identity} See Table \ref{table:summary_variables}
-        \subsection*{2. Variable definition} See Table \ref{table:summary_variables}
-        \subsection*{3. Units of measurement} See Table \ref{table:summary_variables}
+                \subsection*{1. Variable identity} See Table \ref{table:table_variables_definition}
+        \subsection*{2. Variable definition} See Table \ref{table:table_variables_definition}
+        \subsection*{3. Units of measurement} See Table \ref{table:table_variables_definition}
+        \newpage
         
-        \input{tables/table_summary_variables.tex}
-       
+        \input{tables/table_variables_definition.tex}
+       \newpage
         
         \subsection*{4. Data type}
-        		\begin{enumerate}[label=\alph*.]
-            		\item Storage type: Integer, floating point, character, string, etc.
-            		\item List and definition of variable codes: Description of any codes associated with variables
-            		\item Range for numeric values: Minimum, maximum
-            		\item Missing value codes: Description of how missing values are represented in data set
-            		\item Precision: Number of significant digits
-            \end{enumerate}
+                    \subsubsection*{a. Storage type} See Table \ref{table:table_variables_format}
+                    \subsubsection*{b. List and definition of variable codes} See Table \ref{table:table_variables_format}
+                    \subsubsection*{c. Range for numeric values} See Table \ref{table:table_variables_format}
+                    \subsubsection*{d. Missing value codes} Unavailable values are indicated by NA.
+                    \subsubsection*{e. Number of digits} See Table \ref{table:table_variables_format}
+            \newpage
             
-            
-        \subsection*{5. Data format}
-        		\begin{enumerate}[label=\alph*.]
-        			\item Fixed, variable length
-            		\item Columns: Start column, end column
-            		\item Optional number of decimal places
-        		\end{enumerate}
-
+           \input{tables/table_variables_format.tex}
+%label-> table:table_variables_format
+			\newpage
         
  \section*{C. Data anomalies: Description of missing data, anomalous data, calibration errors, etc.}
- 
- \newpage
+  If abundance of a given species has not been calculated for a series of years, but rather as a general average, then NA has been assigned as "year".
  
  \section*{\textcolor{Blue}{Class V. Supplemental descriptors}}
     \section*{A. Data acquisition}
-    \begin{enumerate}
-       \item Data forms or acquisition methods: Description or examples of data forms, automated data loggers, digitizing procedures, etc.
-       \item Location of completed data forms
-       \item Data entry verification procedures: Procedures employed to verify that digital data set is free of errors
-    \end{enumerate}
+    		\subsection*{1. Data forms or acquisition methods}
+   		See Section \textbf{2. Experimental or sampling design} 
+   		\subsection*{2. Location of completed data forms}
+        Raw data and codes used to extract the data set and the current document are publicly available at \url{https://zenodo.org/}.
+        \subsection*{3. Data entry verification procedures}
+       	The methods used to extract final species abundance estimates were subject to several rounds of revision by the authors.
+       	
+    \section*{B. Quality assurance/quality control procedures}
+    Final abundance estimate were revised by the authors.
 
-    \section*{B. Quality assurance/quality control procedures}Identification and treatment of outliers, description of quality assessments, calibration of reference standards, equipment performance results, etc.
-    \section*{C. Related materials} References and locations of maps, photographs, videos, GIS data layers, physical specimens, field notebooks, comments, etc.
-    \section*{D. Computer programs and data-processing algorithms}
-    		\begin{enumerate}
-    			\item \textbf{Program}: R version 4.3.2 (2023-10-31)
-    			\item \textbf{Operating system}: x86\_64-pc-linux-gnu (64-bit) with Ubuntu 22.04.3 LTS
-    			\item \textbf{Packages}: dplyr, tidyr, sf, stringr, xtable, Distance, ggplot2, lme4, AICcmodavg, scales, ggmap
-    			\item \textbf{Codes}: All raw data and codes are publicly available at \url{https://github.com/chaireBioNorth/BYLOT_species_abundance_dataset.git}
-    		\end{enumerate}
-    		
-    \section*{E. Archiving}
-    		\begin{enumerate}
-    		 \item \textbf{Archival procedures}: Data will be archived on Dryad upon acceptance for publication
-        	 \item \textbf{Redundant archival sites}: n/a
-    		\end{enumerate}
+    \section*{C. Computer programs and data-processing algorithms}
+         \subsection*{1. Program} R version 4.3.2 (2023-10-31)
+         \subsection*{2. Operating system} Data preparation was performed on x86\_64-pc-linux-gnu (64-bit) with Ubuntu 22.04.3 LTS
+         \subsection*{3. Packages} dplyr \citep{dplyr}, tidyr \citep{tidyr}, sf \citep{sf}, stringr \citep{stringr}, xtable \citep{xtable}, Distance \citep{Distance}, ggplot2 \citep{ggplot2}, lme4 \citep{lme4}, AICcmodavg \citep{AICcmodavg}, scales\citep{scales}, ggmap \citep{ggmap}
+         \subsection*{4. Codes} Raw data and codes used to extract the presented data set are publicly available at \url{https://zenodo.org/}.
+                
+    \section*{D. Archiving}
+         \subsection*{1. Archival procedures} Data are publicly available at \url{https://datadryad.org/}.
+         \subsection*{2. Redundant archival sites} None
+            
        
-    \section*{F. Publications and results: Electronic reprints, lists of publications resulting from or related to the study, graphical/statistical data representations, etc.}
-\textbf{List of publications that include data from the data set}:
-		\begin{enumerate}
-			\item 
-		\end{enumerate}
-    
-   \section*{G. History of data set usage}
-  		\begin{enumerate}
-  			\item \textbf{Data request history}: n/a
-        		\item \textbf{Data set update history}: n/a
-        		\item \textbf{Review history}: n/a
-       		\item \textbf{Questions and comments from secondary users}: n/a
-  		\end{enumerate}
-       
-
-
+    \section*{E. Publications and results}
+The presented estimates of species abundance have not been integrated in publications to date. Previous estimates of species abundance on the souther plain of Bylot Island were presented by \citet{legagneux2012}, however, the temporal series presented here is longer, the methods are more refined and the taxonomic resolution is higher.
+   
+   \section*{F. History of data set usage}
+       \subsection*{1.Data request history} None
+       \subsection*{2.Data set update history} None
+       \subsection*{3.Review history}  None
+       \subsection*{4.Questions and comments from secondary users} None
+   
+   \section*{Acknowledgements}
+We are deeply appreciative of the extensive data gathered over the decades by generations students and researchers during their fieldwork at the Bylot Island research station, which made this project possible. Our gratitude also extends to the Center of Northern Studies for providing research facilities, as well as to the Polar Continental Shelf Program and Sirmilik National Park (Parks Canada) for their logistical support throughout the years. Additionally, we would like to express our special thanks to the Mittimatalik community and the Mittimatalik Hunters and Trappers Organization for their ongoing support of ecological monitoring on Bylot Island and for permitting us to conduct research on their land.
+   
 \clearpage
 \bibliography{references}
-
 \end{document}

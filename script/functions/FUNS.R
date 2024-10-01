@@ -23,7 +23,7 @@ source("script/functions/nested_functions/spatial_extrapolation_species_density.
 # Extract species density by doing a rule of three with the relative proportion of observation among the selected species in each zone and the known species density of one of the species
 source("script/functions/nested_functions/estimate_density_from_reference_species.R")
 
-#Extract species density in selected zones and years based on the selected parameter of the detection function (see script/data_cleaning/09_extract_american_golden_plover_distance & 10_extract_detection_function_american_golden_plover)
+#Extract species density in selected zones and years based on the selected parameter of the detection function (see script/1_data_cleaning/09_extract_american_golden_plover_distance & 10_extract_detection_function_american_golden_plover)
 source("script/functions/standalone_functions/extract_density_distance_sampling.R")
 
 #---------------------------------------------------------#

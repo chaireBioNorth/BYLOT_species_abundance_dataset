@@ -21,7 +21,7 @@ extend_temporal_series_from_single_zone_nest_missing_coords <- function(
   
 #--- Extract density from nest found in each zone
 sp_density <- nest_data %>% 
-  dplyr::filter(species ==sp) %>% 
+  dplyr::filter(species ==sp, year%in% year_list) %>% 
   group_by(species, zone, year) %>% 
   dplyr::summarise(nb_nest= n()) %>% 
   dplyr::left_join(study_area %>% dplyr::select(zone, area_km2) %>% sf::st_drop_geometry()) %>% 

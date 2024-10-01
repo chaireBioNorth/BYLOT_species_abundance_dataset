@@ -1,0 +1,28 @@
+data.file,variable.identity,storage.type,definition.variable.codes,range,number.digits
+a.,class,string,NA,NA,NA
+a.,order,string,NA,NA,NA
+a.,family,string,NA,NA,NA
+a.,genus,string,NA,NA,NA
+a.,species_scientific,string,NA,NA,NA
+a.,species_en,string,NA,NA,NA
+a.,species_fr,string,NA,NA,NA
+a.,functional_group,string,NA,NA,NA
+a.,migratory_status,string,resident: Individuals performing movements within the study area throughout the annual cycle.; partial migrant: A combination of resident and migratory and/or individuals performing long-distance foraging trips outside the study area during the non-breeding period.; migrant: Individuals performing seasonal and highly synchronous movements between the study area and a distant non-breeding ground.,NA,NA
+b.,species_en,string,NA,NA,NA
+b.,year,integer,"If abundance has not been calculated for a given series of years, but rather as a general average, then NA has been assigned.",,0
+b.,breeding_status,string,undetermined: Individuals present on the study area during the breeding period (June to August) that might have breed or not.; breeding: Individuals present in the study area during the breeding period (June to August) and having attempted and/or completed breeding.,NA,NA
+b.,abundance,integer,NA,,0
+b.,method_description,string,NA,NA,NA
+b.,method_quality,string,"very low: Sampling might not encompasses prime nesting habitat, excludes transient migratory individuals or includes potential non-breeding individuals. If abundance is derived from the abundance estimate of another species based relative abundance, detection probabilities may differ.; low: Abundance is derived from the estimate of another species based on indices of relative abundance.; moderate: Small to intermediate scale sampling with spatial extrapolation.; high: Large scale intensive sampling, with some spatial extrapolation in a few cases.",NA,NA
+c.,species_en,string,NA,NA,NA
+c.,site,string,"bylot: Southern plain of Bylot Island, Nunavut, Canada.; undetermined: Data were not retrieved from original publications.",NA,NA
+c.,mean_body_mass_g,integer,NA,,0
+c.,sample_size,integer,NA,,0
+c.,reference,string,NA,NA,NA
+d.,species_en,string,NA,NA,NA
+d.,zone,string,"qarlikturvik (2x1 km plot): Intensive search plot (2 km2) for Lapland Longspur and Baird's sandpiper nests on the south side of the glacial river in the Qarlikturvik valley.;
+qarlikturvik (4x2 km plot): Intensive search plot (2 km2) for Sandhill crane, Long-tailed duck, King eider and Rock ptarmigan nests on the south side of the glacial river in the Qarlikturvik valley.;
+qarlikturvik valley:Intensive search area (33 km2) for long-tailed jaeger nests on the south side of the glacial river in the Qarlikturvik valley.; whole study area: Entire study area (389 km2) located on the southern plain of Bylot Island.",NA,NA
+d.,mean_nest_density_km2,numeric,NA,,3
+d.,sd_nest_density_km2,numeric,NA,,3
+d.,number_years,integer,NA,,0

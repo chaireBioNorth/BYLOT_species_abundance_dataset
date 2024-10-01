@@ -1,4 +1,4 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,7 +9,13 @@
 M.~Andersson.
 \newblock Breeding behaviour of the long-tailed skua stercorarius longicaudus
   (vieillot).
-\newblock \emph{Ornis Scandinavica}, pages 35--54, 1971.
+\newblock \emph{Ornis Scandinavica}, 2\penalty0 (1):\penalty0 35--54, 1971.
+
+\bibitem[Bates et~al.(2015)Bates, M{\"a}chler, Bolker, and Walker]{lme4}
+D.~Bates, M.~M{\"a}chler, B.~Bolker, and S.~Walker.
+\newblock Fitting linear mixed-effects models using lme4.
+\newblock \emph{Journal of Statistical Software}, 67\penalty0 (1):\penalty0
+  1--48, 2015.
 
 \bibitem[Beardsell et~al.(2016)Beardsell, Gauthier, Therrien, and
   B{\^e}ty]{beardsell2016}
@@ -23,7 +29,7 @@ A.~Beardsell, G.~Gauthier, J.-F. Therrien, and J.~B{\^e}ty.
 F.~Bilodeau.
 \newblock Effet du couvert nival, de la nourriture et de la pr{\'e}dation
   hivernale sur la dynamique de population des lemmings.
-\newblock 2013.
+\newblock Master's thesis, Universit{\'e} Laval, Québec, Québec, 2013.
 
 \bibitem[Bolduc et~al.(2023)Bolduc, Fauteux, Gagnon, Gauthier, B{\^e}ty, and
   Legagneux]{bolduc2023}
@@ -35,7 +41,7 @@ D.~Bolduc, D.~Fauteux, C.~A. Gagnon, G.~Gauthier, J.~B{\^e}ty, and
 \bibitem[Brown and Heske(1990)]{brown1990}
 J.~H. Brown and E.~J. Heske.
 \newblock Temporal changes in a chihuahuan desert rodent community.
-\newblock \emph{Oikos}, pages 290--302, 1990.
+\newblock \emph{Oikos}, 59\penalty0 (3):\penalty0 290--302, 1990.
 
 \bibitem[Christin et~al.(2015)Christin, St-Laurent, and Berteaux]{christin2015}
 S.~Christin, M.-H. St-Laurent, and D.~Berteaux.
@@ -65,6 +71,12 @@ J.~P. Colella, L.~M. Frederick, S.~L. Talbot, and J.~A. Cook.
 \newblock \emph{Diversity and Distributions}, 27\penalty0 (4):\penalty0
   747--762, 2021.
 
+\bibitem[Dahl et~al.(2019)Dahl, Scott, Roosen, Magnusson, and Swinton]{xtable}
+D.~B. Dahl, D.~Scott, C.~Roosen, A.~Magnusson, and J.~Swinton.
+\newblock \emph{xtable: Export Tables to LaTeX or HTML}, 2019.
+\newblock URL \url{https://CRAN.R-project.org/package=xtable}.
+\newblock R package version 1.8-4.
+
 \bibitem[Dahood et~al.(2020)Dahood, de~Mutsert, and Watters]{dahood2020}
 A.~Dahood, K.~de~Mutsert, and G.~M. Watters.
 \newblock Evaluating antarctic marine protected area scenarios using a dynamic
@@ -91,12 +103,13 @@ F.~Dulude-de Broin, J.~Clermont, A.~Beardsell, L.-P. Ouellet, P.~Legagneux,
   J.~B{\^e}ty, and D.~Berteaux.
 \newblock Predator home range size mediates indirect interactions between prey
   species in an arctic vertebrate community.
-\newblock \emph{Journal of Animal Ecology}, 2023.
+\newblock \emph{Journal of Animal Ecology}, 92\penalty0 (12):\penalty0
+  2373--2385, 2023.
 
 \bibitem[Fauteux et~al.(2015)Fauteux, Gauthier, and Berteaux]{fauteux2015}
 D.~Fauteux, G.~Gauthier, and D.~Berteaux.
-\newblock Seasonal demography of a cyclic lemming population in the c anadian a
-  rctic.
+\newblock Seasonal demography of a cyclic lemming population in the canadian
+  arctic.
 \newblock \emph{Journal of Animal Ecology}, 84\penalty0 (5):\penalty0
   1412--1422, 2015.
 
@@ -180,7 +193,8 @@ G.~Gauthier, M.-C. Cadieux, D.~Berteaux, J.~B{\^e}ty, D.~Fauteux, P.~Legagneux,
   E.~L{\'e}vesque, and C.-A. Gagnon.
 \newblock Long-term study of the tundra food web at a hotspot of arctic
   biodiversity, the bylot island field station.
-\newblock \emph{Arctic Science}, \penalty0 (ja), 2024{\natexlab{b}}.
+\newblock \emph{Arctic Science}, 10\penalty0 (1):\penalty0 108--124,
+  2024{\natexlab{b}}.
 
 \bibitem[Gill et~al.(2024)Gill, Donsker, and Rasmussen]{gill2024}
 F.~Gill, D.~Donsker, and P.~Rasmussen.
@@ -210,12 +224,9 @@ N.~Gruyer, G.~Gauthier, and D.~Berteaux.
 
 \bibitem[Hubbell(2001)]{hubbell2001}
 S.~P. Hubbell.
-\newblock \emph{The Unified Neutral Theory of Biodiversity and Biogeography
-  (MPB-32)}.
+\newblock \emph{The Unified Neutral Theory of Biodiversity and Biogeography}.
 \newblock Princeton University Press, Princeton, 2001.
 \newblock ISBN 9781400837526.
-\newblock \doi{doi:10.1515/9781400837526}.
-\newblock URL \url{https://doi.org/10.1515/9781400837526}.
 
 \bibitem[Hutchison et~al.(2020)Hutchison, Guichard, Legagneux, Gauthier,
   B{\^e}ty, Berteaux, Fauteux, and Gravel]{hutchison2020}
@@ -229,11 +240,15 @@ C.~Hutchison, F.~Guichard, P.~Legagneux, G.~Gauthier, J.~B{\^e}ty, D.~Berteaux,
 \bibitem[Ims et~al.(2013)Ims, Ehrich, Forbes, Huntley, Walker, and
   Wookey]{ims2013}
 R.~Ims, D.~Ehrich, B.~Forbes, B.~Huntley, D.~Walker, and P.~A. Wookey.
-\newblock Arctic biodiversity assessment. status and trends in arctic
-  biodiversity.: Terrestrial ecosystems.--chapter 12.
-\newblock In \emph{Arctic Biodiversity Assessment. Status and trends in Arctic
-  biodiversity.}, page 384. Conservation of Arctic Flora and Fauna (CAFF),
-  2013.
+\newblock Terrestrial ecosystems (chapter 12).
+\newblock In H.~Meltoffe, A.~B. Josefson, and D.~Payer, editors, \emph{Arctic
+  Biodiversity Assessment: Status and trends in Arctic biodiversity}, pages
+  385--440. Conservation of Arctic Flora and Fauna (CAFF), 2013.
+
+\bibitem[Kahle and Wickham(2013)]{ggmap}
+D.~Kahle and H.~Wickham.
+\newblock ggmap: Spatial visualization with ggplot2.
+\newblock \emph{The R Journal}, 5\penalty0 (1):\penalty0 144--161, 2013.
 
 \bibitem[Kemp et~al.(1990)Kemp, Harvey, and O'neill]{kemp1990}
 W.~Kemp, S.~Harvey, and K.~O'neill.
@@ -247,9 +262,14 @@ R.~Klassen.
 \newblock Geological Survey of Canada, 1993.
 
 \bibitem[Krebs et~al.(2003)Krebs, Danell, Angerbj{\"o}rn, Agrell, Berteaux,
-  Br{\aa}then, Danell, Erlinge, Fedorov, Fredga, et~al.]{krebs2003}
+  Br{\aa}then, Danell, Erlinge, Fedorov, Fredga, Hj{\"a}lt{\'e}n, H{\"o}gstedt,
+  J{\'o}nsd{\'o}ttir, Kenney, Kjell{\'e}n, Nordin, Roininen, Svensson,
+  Tannerfeldt, and Wiklund]{krebs2003}
 C.~J. Krebs, K.~Danell, A.~Angerbj{\"o}rn, J.~Agrell, D.~Berteaux, K.~A.
-  Br{\aa}then, {\"O}.~Danell, S.~Erlinge, V.~Fedorov, K.~Fredga, et~al.
+  Br{\aa}then, {\"O}.~Danell, S.~Erlinge, V.~Fedorov, K.~Fredga,
+  J.~Hj{\"a}lt{\'e}n, G.~H{\"o}gstedt, I.~S. J{\'o}nsd{\'o}ttir, A.~J. Kenney,
+  N.~Kjell{\'e}n, T.~Nordin, H.~Roininen, M.~Svensson, M.~Tannerfeldt, and
+  C.~Wiklund.
 \newblock Terrestrial trophic dynamics in the canadian arctic.
 \newblock \emph{Canadian journal of Zoology}, 81\penalty0 (5):\penalty0
   827--843, 2003.
@@ -258,7 +278,7 @@ C.~J. Krebs, K.~Danell, A.~Angerbj{\"o}rn, J.~Agrell, D.~Berteaux, K.~A.
 S.~Lai, J.~B{\^e}ty, and D.~Berteaux.
 \newblock Spatio--temporal hotspots of satellite--tracked arctic foxes reveal a
   large detection range in a mammalian predator.
-\newblock \emph{Movement ecology}, 3\penalty0 (1):\penalty0 1--10, 2015.
+\newblock \emph{Movement ecology}, 3\penalty0 (37):\penalty0 1--10, 2015.
 
 \bibitem[Lai et~al.(2022)Lai, Warret~Rodrigues, Gallant, Roth, and
   Berteaux]{lai2022}
@@ -269,9 +289,12 @@ S.~Lai, C.~Warret~Rodrigues, D.~Gallant, J.~D. Roth, and D.~Berteaux.
   2022.
 
 \bibitem[Lamarre et~al.(2021)Lamarre, Gauthier, Lanctot, Saalfeld, Love, Reed,
-  Johnson, Liebezeit, McGuire, Russell, et~al.]{lamarre2021}
+  Johnson, Liebezeit, McGuire, Russell, Nol, Koloski, Sanders, McKinnon, Smith,
+  Flemming, Lecomte, Giroux, Bauer, Emmenegger, and B{\^e}ty]{lamarre2021}
 J.-F. Lamarre, G.~Gauthier, R.~B. Lanctot, S.~T. Saalfeld, O.~P. Love, E.~Reed,
-  O.~W. Johnson, J.~Liebezeit, R.~McGuire, M.~Russell, et~al.
+  O.~W. Johnson, J.~Liebezeit, R.~McGuire, M.~Russell, E.~Nol, L.~Koloski,
+  F.~Sanders, L.~McKinnon, P.~A. Smith, S.~A. Flemming, N.~Lecomte, M.~A.
+  Giroux, S.~Bauer, T.~Emmenegger, and J.~B{\^e}ty.
 \newblock Timing of breeding site availability across the north-american arctic
   partly determines spring migration schedule in a long-distance neotropical
   migrant.
@@ -282,7 +305,8 @@ J.-F. Lamarre, G.~Gauthier, R.~B. Lanctot, S.~T. Saalfeld, O.~P. Love, E.~Reed,
 D.-J. L{\'e}andri-Breton, J.-F. Lamarre, and J.~B{\^e}ty.
 \newblock Seasonal variation in migration strategies used to cross ecological
   barriers in a nearctic migrant wintering in africa.
-\newblock \emph{Journal of Avian Biology}, 50\penalty0 (6), 2019.
+\newblock \emph{Journal of Avian Biology}, 50\penalty0 (6):\penalty0 e02101,
+  2019.
 
 \bibitem[Lecomte et~al.(2008)Lecomte, Gauthier, and Giroux]{lecomte2008}
 N.~Lecomte, G.~Gauthier, and J.-F. Giroux.
@@ -291,22 +315,24 @@ N.~Lecomte, G.~Gauthier, and J.-F. Giroux.
 \newblock \emph{Oecologia}, 155:\penalty0 33--41, 2008.
 
 \bibitem[Legagneux et~al.(2012)Legagneux, Gauthier, Berteaux, B{\^e}ty,
-  Cadieux, Bilodeau, Bolduc, McKinnon, Tarroux, Therrien,
-  et~al.]{legagneux2012}
+  Cadieux, Bilodeau, Bolduc, McKinnon, Tarroux, Therrien, Morisette, and
+  Krebs]{legagneux2012}
 P.~Legagneux, G.~Gauthier, D.~Berteaux, J.~B{\^e}ty, M.-C. Cadieux,
-  F.~Bilodeau, E.~Bolduc, L.~McKinnon, A.~Tarroux, J.-F. Therrien, et~al.
+  F.~Bilodeau, E.~Bolduc, L.~McKinnon, A.~Tarroux, J.-F. Therrien,
+  L.~Morisette, and C.~J. Krebs.
 \newblock Disentangling trophic relationships in a high arctic tundra ecosystem
   through food web modeling.
 \newblock \emph{Ecology}, 93\penalty0 (7):\penalty0 1707--1716, 2012.
 
 \bibitem[Legagneux et~al.(2014)Legagneux, Gauthier, Lecomte, Schmidt, Reid,
-  Cadieux, Berteaux, Bety, Krebs, Ims, et~al.]{legagneux2014}
+  Cadieux, Berteaux, Bety, Krebs, Ims, Yoccoz, Morrison, Leroux, Loreau, and
+  Gravel]{legagneux2014}
 P.~Legagneux, G.~Gauthier, N.~Lecomte, N.~M. Schmidt, D.~Reid, M.~Cadieux,
-  D.~Berteaux, J.~Bety, C.~Krebs, R.~Ims, et~al.
+  D.~Berteaux, J.~Bety, C.~Krebs, R.~Ims, N.~G. Yoccoz, R.~I.~G. Morrison,
+  S.~J. Leroux, M.~Loreau, and D.~Gravel.
 \newblock Arctic ecosystem structure and functioning shaped by climate and
   herbivore body size.
-\newblock \emph{Nature Climate Change}, 4\penalty0 (5):\penalty0 379--383,
-  2014.
+\newblock \emph{Nature Climate Change}, 4:\penalty0 379--383, 2014.
 
 \bibitem[Lepage et~al.(1996)Lepage, Gauthier, and Reed]{lepage1996}
 D.~Lepage, G.~Gauthier, and A.~Reed.
@@ -316,9 +342,11 @@ D.~Lepage, G.~Gauthier, and A.~Reed.
   1866--1875, 1996.
 
 \bibitem[Lindenmayer et~al.(2012)Lindenmayer, Likens, Andersen, Bowman, Bull,
-  Burns, Dickman, Hoffmann, Keith, Liddell, et~al.]{lindenmayer2012}
+  Burns, Dickman, Hoffmann, Keith, Liddell, Lowe, Metcalfe, Phinn,
+  Russel-smith, Thurgate, and Wardle]{lindenmayer2012}
 D.~B. Lindenmayer, G.~E. Likens, A.~Andersen, D.~Bowman, C.~M. Bull, E.~Burns,
-  C.~R. Dickman, A.~A. Hoffmann, D.~A. Keith, M.~J. Liddell, et~al.
+  C.~R. Dickman, A.~A. Hoffmann, D.~A. Keith, M.~J. Liddell, A.~J. Lowe, D.~J.
+  Metcalfe, S.~R. Phinn, J.~Russel-smith, N.~Thurgate, and G.~M. Wardle.
 \newblock Value of long-term ecological studies.
 \newblock \emph{Austral Ecology}, 37\penalty0 (7):\penalty0 745--757, 2012.
 
@@ -336,6 +364,13 @@ A.~E. Magurran, S.~R. Baillie, S.~T. Buckland, J.~M. Dick, D.~A. Elston, E.~M.
 \newblock \emph{Trends in ecology \& evolution}, 25\penalty0 (10):\penalty0
   574--582, 2010.
 
+\bibitem[Mazerolle(2023)]{AICcmodavg}
+M.~J. Mazerolle.
+\newblock \emph{AICcmodavg: Model selection and multimodel inference based on
+  (Q)AIC(c)}, 2023.
+\newblock URL \url{https://cran.r-project.org/package=AICcmodavg}.
+\newblock R package version 2.3.3.
+
 \bibitem[McCann et~al.(2005)McCann, Rasmussen, and Umbanhowar]{mccann2005}
 K.~S. McCann, J.~Rasmussen, and J.~Umbanhowar.
 \newblock The dynamics of spatially coupled food webs.
@@ -344,10 +379,9 @@ K.~S. McCann, J.~Rasmussen, and J.~Umbanhowar.
 \bibitem[Miller et~al.(2019)Miller, Rexstad, Thomas, Marshall, and
   Laake]{miller2019}
 D.~L. Miller, E.~Rexstad, L.~Thomas, L.~Marshall, and J.~L. Laake.
-\newblock Distance sampling in {R}.
+\newblock Distance sampling in r.
 \newblock \emph{Journal of Statistical Software}, 89\penalty0 (1):\penalty0
   1--28, 2019.
-\newblock \doi{10.18637/jss.v089.i01}.
 
 \bibitem[Moisan et~al.(2023)Moisan, Gravel, Legagneux, Gauthier,
   L{\'e}andri-Breton, Somveille, Therrien, Lamarre, and B{\^e}ty]{moisan2023}
@@ -359,9 +393,11 @@ L.~Moisan, D.~Gravel, P.~Legagneux, G.~Gauthier, D.-J. L{\'e}andri-Breton,
   2023.
 
 \bibitem[Okey et~al.(2004)Okey, Banks, Born, Bustamante, Calvopi{\~n}a, Edgar,
-  Espinoza, Fari{\~n}a, Garske, Reck, et~al.]{okey2004}
+  Espinoza, Fari{\~n}a, Garske, Reck, Salazar, Shepherd, Toral-Granda, and
+  Wallem]{okey2004}
 T.~A. Okey, S.~Banks, A.~F. Born, R.~H. Bustamante, M.~Calvopi{\~n}a, G.~J.
-  Edgar, E.~Espinoza, J.~M. Fari{\~n}a, L.~E. Garske, G.~K. Reck, et~al.
+  Edgar, E.~Espinoza, J.~M. Fari{\~n}a, L.~E. Garske, G.~K. Reck, S.~Salazar,
+  S.~Shepherd, V.~Toral-Granda, and P.~Wallem.
 \newblock A trophic model of a gal{\'a}pagos subtidal rocky reef for evaluating
   fisheries and conservation strategies.
 \newblock \emph{Ecological Modelling}, 172\penalty0 (2-4):\penalty0 383--401,
@@ -375,10 +411,15 @@ D.~F. Parmelee, H.~Stephens, and R.~H. Schmidt.
 
 \bibitem[Payer et~al.(2013)Payer, Josefson, and Fjeldsa]{payer2013}
 D.~C. Payer, A.~B. Josefson, and J.~Fjeldsa.
-\newblock Arctic biodiversity assessment. status and trends in arctic
-  biodiversity.: Species diversity in the arctic.--chapter 2.
-\newblock In \emph{Arctic Biodiversity Assessment. Status and trends in Arctic
-  biodiversity.}, page~66. Conservation of Arctic Flora and Fauna (CAFF), 2013.
+\newblock Species diversity in the arctic (chapter 2).
+\newblock In H.~Meltoffe, A.~B. Josefson, and D.~Payer, editors, \emph{Arctic
+  Biodiversity Assessment: Status and trends in Arctic biodiversity}, pages
+  67--77. Conservation of Arctic Flora and Fauna (CAFF), 2013.
+
+\bibitem[Pebesma et~al.(2018)]{sf}
+E.~J. Pebesma et~al.
+\newblock Simple features for r: standardized support for spatial vector data.
+\newblock \emph{The R Journal}, 10\penalty0 (1):\penalty0 439--446, 2018.
 
 \bibitem[Philippi et~al.(1998)Philippi, Dixon, and Taylor]{philippi1998}
 T.~E. Philippi, P.~M. Dixon, and B.~E. Taylor.
@@ -386,11 +427,16 @@ T.~E. Philippi, P.~M. Dixon, and B.~E. Taylor.
 \newblock \emph{Ecological applications}, 8\penalty0 (2):\penalty0 300--308,
   1998.
 
+\bibitem[Plag{\'a}nyi(2007)]{plaganyi2007}
+{\'E}.~E. Plag{\'a}nyi.
+\newblock \emph{Models for an ecosystem approach to fisheries}.
+\newblock Food and Agriculture Organization of the united nations, 2007.
+
 \bibitem[Reed et~al.(2002)Reed, Hughes, and Boyd]{reed2002}
-A.~Reed, R.~Hughes, and H.~Boyd.
+A.~Reed, R.~J. Hughes, and H.~Boyd.
 \newblock Patterns of distribution and abundance of greater snow geese on bylot
   island, nunavut, canada 1983-1998.
-\newblock \emph{Wildfowl}, 53\penalty0 (53):\penalty0 53--65, 2002.
+\newblock \emph{Wildfowl}, 53:\penalty0 53--65, 2002.
 
 \bibitem[Robillard et~al.(2018)Robillard, Gauthier, Therrien, and
   B{\^e}ty]{robillard2018}
@@ -402,9 +448,10 @@ A.~Robillard, G.~Gauthier, J.-F. Therrien, and J.~B{\^e}ty.
 
 \bibitem[Royer-Boutin(2015)]{royerboutin2015}
 P.~Royer-Boutin.
-\newblock \emph{Effets des cycles de lemmings sur le succ{\`e}s de nidification
-  d'oiseaux diff{\'e}rant par leur taille corporelle et leur comportement}.
-\newblock PhD thesis, Universit{\'e} du Qu{\'e}bec {\`a} Rimouski, 2015.
+\newblock Effets des cycles de lemmings sur le succ{\`e}s de nidification
+  d'oiseaux diff{\'e}rant par leur taille corporelle et leur comportement.
+\newblock Master's thesis, Universit{\'e} du Qu{\'e}bec {\`a} Rimouski,
+  Rimouski, Québec, 2015.
 
 \bibitem[Seyer et~al.(2019)Seyer, Gauthier, Bernatchez, and
   Therrien]{seyer2019}
@@ -437,6 +484,40 @@ J.-F. Therrien, G.~Gauthier, and J.~B{\^e}ty.
 \newblock Survival and reproduction of adult snowy owls tracked by satellite.
 \newblock \emph{The Journal of Wildlife Management}, 76\penalty0 (8):\penalty0
   1562--1567, 2012.
+
+\bibitem[Wickham(2016)]{ggplot2}
+H.~Wickham.
+\newblock \emph{ggplot2: Elegant Graphics for Data Analysis}.
+\newblock Springer-Verlag New York, 2016.
+\newblock ISBN 978-3-319-24277-4.
+\newblock URL \url{https://ggplot2.tidyverse.org}.
+
+\bibitem[Wickham(2023)]{stringr}
+H.~Wickham.
+\newblock \emph{stringr: Simple, Consistent Wrappers for Common String
+  Operations}, 2023.
+\newblock URL \url{https://CRAN.R-project.org/package=stringr}.
+\newblock R package version 1.5.1.
+
+\bibitem[Wickham et~al.(2023{\natexlab{a}})Wickham, François, Henry, Müller,
+  and Vaughan]{dplyr}
+H.~Wickham, R.~François, L.~Henry, K.~Müller, and D.~Vaughan.
+\newblock \emph{dplyr: A Grammar of Data Manipulation}, 2023{\natexlab{a}}.
+\newblock URL \url{https://CRAN.R-project.org/package=dplyr}.
+\newblock R package version 1.1.4.
+
+\bibitem[Wickham et~al.(2023{\natexlab{b}})Wickham, Pedersen, and
+  Seidel]{scales}
+H.~Wickham, T.~L. Pedersen, and D.~Seidel.
+\newblock \emph{scales: Scale Functions for Visualization}, 2023{\natexlab{b}}.
+\newblock URL \url{https://CRAN.R-project.org/package=scales}.
+\newblock R package version 1.3.0.
+
+\bibitem[Wickham et~al.(2024)Wickham, Vaughan, and Girlich]{tidyr}
+H.~Wickham, D.~Vaughan, and M.~Girlich.
+\newblock \emph{tidyr: Tidy Messy Data}, 2024.
+\newblock URL \url{https://CRAN.R-project.org/package=tidyr}.
+\newblock R package version 1.3.1.
 
 \bibitem[Wilman et~al.(2014)Wilman, Belmaker, Simpson, de~la Rosa, Rivadeneira,
   and Jetz]{wilman2014}

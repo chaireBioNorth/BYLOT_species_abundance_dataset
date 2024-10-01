@@ -1,0 +1,29 @@
+data.file,variable.identity,variable.definition,units
+a.,class,"Taxonomic class  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
+a.,order,"Taxonomic order  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
+a.,family,"Taxonomic family  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
+a.,genus,"Taxonomic genus  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
+a.,species_scientific,"Taxonomic species  for birds (Gill et al., 2024) and mammals species (Wilson, 2005). We used Mustela richardsonii instead of Mustela erminea richardsonii due to recent genetic analysis (Colella et al., 2021).",NA
+a.,species_en,Common names of species in English.,NA
+a.,species_fr,Common names of species in French.,NA
+a.,functional_group,Functional group for each species. The classification of species into functional groups is based on Moisan et al. (2023).,NA
+a.,migratory_status,"Migratory status of each species (i.e., resident, partially migratory or migratory). The classification of species migratory status is based on Gauthier et al., (2011)  and Moisan et al. (2023).",NA
+b.,species_en,Common names of species in English.,NA
+b.,year,"Year corresponding to the estimate of annual abundance. If abundance has not been calculated for a given series of years, but rather as a general average, then NA has been assigned.",years
+b.,breeding_status,Reproductive status of the individuals.,NA
+b.,abundance,"Estimate of the annual number of individuals found within the 389 km2 study area located on the southern part of Bylot Island during the breeding season (May to August). This includes both breeding and non-breeding individuals that stay in the study area for a significant period of time, and excludes non-breeding individuals that stop for only a few days during their migration. The estimates only consider adults, with the exception of lemmings, for which no distinction has been made between juveniles and adults.",individuals
+b.,method_description,Brief overview of the method used to estimate the species abundance.,NA
+b.,method_quality," Qualitative measure of the method quality based on data available, method used for extrapolation (if necessary),
+and in some cases, from the fit of statistical models to estimate density.",NA
+c.,species_en,Common names of species in English.,NA
+c.,site,Site where individual body mass measurements were taken.,NA
+c.,mean_body_mass_g,Mean individual body mass.,grams
+c.,sample_size,Number of individuals measured.,NA
+c.,reference,Reference from which estimate of mean body mass were derived.,NA
+d.,species_en,Common names of species in English.,NA
+d.,zone,Sampled zone of the study area (see figure 2 and 3).,NA
+d.,mean_nest_density_km2,"Estimate of the mean annual nest density measured within the corresponding zone
+of the study area.",nests per square kilometer
+d.,sd_nest_density_km2,"Standard deviation of the annual nest density measured within the corresponding
+zone of the study area.",nests per square kilometer
+d.,number_years,Number of years consider in the calculation of the nest density.,years
