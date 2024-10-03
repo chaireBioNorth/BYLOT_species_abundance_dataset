@@ -7,7 +7,7 @@ a.,species_scientific,"Taxonomic species  for birds (Gill et al., 2024) and mamm
 a.,species_en,Common names of species in English.,NA
 a.,species_fr,Common names of species in French.,NA
 a.,functional_group,Functional group for each species. The classification of species into functional groups is based on Moisan et al. (2023).,NA
-a.,migratory_status,"Migratory status of each species (i.e., resident, partially migratory or migratory). The classification of species migratory status is based on Gauthier et al., (2011)  and Moisan et al. (2023).",NA
+a.,migratory_status,"Migratory status of each species. The classification of species migratory status is based on Gauthier et al., (2011)  and Moisan et al. (2023).",NA
 b.,species_en,Common names of species in English.,NA
 b.,year,"Year corresponding to the estimate of annual abundance. If abundance has not been calculated for a given series of years, but rather as a general average, then NA has been assigned.",years
 b.,breeding_status,Reproductive status of the individuals.,NA
@@ -18,7 +18,7 @@ and in some cases, from the fit of statistical models to estimate density.",NA
 c.,species_en,Common names of species in English.,NA
 c.,site,Site where individual body mass measurements were taken.,NA
 c.,mean_body_mass_g,Mean individual body mass.,grams
-c.,sample_size,Number of individuals measured.,NA
+c.,sample_size,Number of individuals measured.,individuals
 c.,reference,Reference from which estimate of mean body mass were derived.,NA
 d.,species_en,Common names of species in English.,NA
 d.,zone,Sampled zone of the study area (see figure 2 and 3).,NA

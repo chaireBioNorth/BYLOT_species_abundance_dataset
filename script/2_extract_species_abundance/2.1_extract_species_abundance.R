@@ -108,7 +108,7 @@ pdf(file= "MetadataS1/figures/cackling_goose_nest_exponential.pdf")
 plot(all_cack_nests$year, all_cack_nests$nb_nest, 
      xlab= "Years",
      ylab= "Number of nests",
-     main= "cackling goose",
+     main= "Cackling goose",
      cex= 1.5, pch= 16, col= "steelblue4", cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5)+
   lines(c(1996: 2023), exp(predict(cack_model, list(year=c(1996:2023)))), col = "red", lwd= 3)
 dev.off()
@@ -157,7 +157,7 @@ kiei_ltdu_nest <- get_nest_density(
   zone_list= "4x2km plot",
   year_list= sampling_year[sampling_year$species == "long tailed duck" & sampling_year$zone == "4x2km plot" & sampling_year$sampled=="yes",]$year)
 
-#Calculate mean density in the 4x2 plot (8km2 plot)
+#Calculate mean density in the 8km2 plot
 kiei_ltdu_density <- kiei_ltdu_nest %>% 
   dplyr::group_by(species, zone) %>% 
   dplyr::summarise(ind_density_km2= mean(ind_density_km2),
@@ -173,6 +173,7 @@ kiei_ltdu <- kiei_ltdu_density %>%
     breeding_status= "breeding",
     method= "nest sampling (extrapolation habitat)") %>% 
   dplyr::select(species, zone, year, ind_density_km2, breeding_status, method)
+
 
 #---Alternative approach based on Gauhtier et al., 2023 indexes
 kiei_ltdu_alt <-relative_abundance_gauthier %>% 

@@ -27,23 +27,22 @@ sp_monitoring <- sp_taxonomy %>%
 
 #--- Extract standardize and extract a tex table
 table_year_monitoring <- sp_monitoring %>% 
-  dplyr::mutate(zone= dplyr::recode(zone, "camp 1"= "qarlikturvik valley","trapping grids"= "qarlikturvik (trapping grids)", "2x1km plot"= "qarlikturvik (2x1 km plot)", "4x2km plot"= "qarlikturvik (4x2 km plot)","black plateau"= "black plateau", "south plateau"= "south plateau", "study area"= "whole study area")) %>% 
+  dplyr::mutate(zone= dplyr::recode(zone, "qarlikturvik valley"= "Qarlikturvik valley","camp 1"= "South Qarlikturvik valley","trapping grids"= "Qarlikturvik (trapping grids)", "camp 2"= "Camp 2","2x1km plot"= "Qarlikturvik (2 km2 plot)", "4x2km plot"= "Qarlikturvik (8 km2 plot)","black plateau"= "Black plateau", "south plateau"= "South plateau", "study area"= "Whole study area")) %>% 
   dplyr::mutate(number_years= paste("(", number_years, ")", sep="")) %>% 
   dplyr::rename(Species= species_en, Zone= zone, Years= year, `Number of years`= number_years, Monitoring= monitoring) %>% 
-  dplyr::select(Species, Zone, Years, `Number of years`, Monitoring) %>% 
-  dplyr::arrange(Zone) 
+  dplyr::select(Species, Zone, Years, `Number of years`, Monitoring)
 
 # Convert the zone variable to a factor with the custom order
-table_year_monitoring$Zone <- as.character(factor(table_year_monitoring$Zone, levels = c("qarlikturvik (trapping grids)","qarlikturvik (2x1 km plot)","qarlikturvik (4x2 km plot)","qarlikturvik valley","camp 2","whole study area")))
+table_year_monitoring$Zone <- as.character(factor(table_year_monitoring$Zone, levels = c("Qarlikturvik (trapping grids)","Qarlikturvik (2 km2 plot)","Qarlikturvik (8 km2 plot)","South Qarlikturvik valley" ,"Qarlikturvik valley","Camp 2","Whole study area")))
 
 #Change qarlikturvik snowy owl for qarlikturvik, black and south plateaus
-table_year_monitoring[table_year_monitoring$Species == "Snowy owl" & table_year_monitoring$Zone == "qarlikturvik valley",]$Zone <- "qarlikt., black & south plat."
+table_year_monitoring[table_year_monitoring$Species == "Snowy owl" & table_year_monitoring$Zone == "Qarlikturvik valley",]$Zone <- "Qarlikt., Black & South plat."
 #same for rough-legged hawk and rough legged hawk
-table_year_monitoring[table_year_monitoring$Species == "Peregrine falcon" & table_year_monitoring$Zone == "qarlikturvik valley",]$Zone <- "qarlikt., black & south plat."
-table_year_monitoring[table_year_monitoring$Species == "Rough-legged hawk" & table_year_monitoring$Zone == "qarlikturvik valley",]$Zone <- "qarlikt., black & south plat."
+table_year_monitoring[table_year_monitoring$Species == "Peregrine falcon" & table_year_monitoring$Zone == "Qarlikturvik valley",]$Zone <- "Qarlikt., Black & South plat."
+table_year_monitoring[table_year_monitoring$Species == "Rough-legged hawk" & table_year_monitoring$Zone == "Qarlikturvik valley",]$Zone <- "Qarlikt., Black & South plat."
 
-# Reorder rows based on the zone variable
-table_year_monitoring <- table_year_monitoring[order(table_year_monitoring$Zone), ]
+#function to bold column header
+bold <-  function(x) {paste('{\\textbf{',x,'}}', sep ='')}
 
 #as tex
 table_year_monitoring_latex <- xtable(table_year_monitoring, caption = "Summary of vertebrate species monitoring in the Bylot Island study area. In this paper, we excluded certain years for specific species due to reduced sampling efforts. As a result, duration of times series presented here may differ slightly from those in Gauthier et al. (2024b).",
@@ -56,5 +55,6 @@ print(table_year_monitoring_latex,
       align="rXXXXXX",
       size="\\fontsize{8pt}{10pt}\\selectfont",
       file = "MetadataS1/tables/table_species_year_monitoring.tex",
+      sanitize.colnames.function=bold,
       caption.placement = "top")
 

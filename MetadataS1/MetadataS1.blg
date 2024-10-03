@@ -23,47 +23,46 @@ Repeated entry---line 713 of file references.bib
  : @article{gauthier2015
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Distance"
 Warning--there's a number but no series in parmelee1967
-You've used 73 entries,
+You've used 74 entries,
             2773 wiz_defined-function locations,
-            1033 strings with 21616 characters,
-and the built_in function-call counts, 41572 in all, are:
-= -- 3484
-> -- 3382
-< -- 23
-+ -- 1138
-- -- 1062
-* -- 3893
-:= -- 6641
-add.period$ -- 230
-call.type$ -- 73
-change.case$ -- 558
-chr.to.int$ -- 70
-cite$ -- 147
-duplicate$ -- 1480
-empty$ -- 2755
-format.name$ -- 1146
-if$ -- 8370
+            1036 strings with 21782 characters,
+and the built_in function-call counts, 41940 in all, are:
+= -- 3518
+> -- 3403
+< -- 24
++ -- 1145
+- -- 1068
+* -- 3914
+:= -- 6697
+add.period$ -- 234
+call.type$ -- 74
+change.case$ -- 563
+chr.to.int$ -- 71
+cite$ -- 149
+duplicate$ -- 1495
+empty$ -- 2787
+format.name$ -- 1155
+if$ -- 8450
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 65
-newline$ -- 381
-num.names$ -- 296
-pop$ -- 1055
+newline$ -- 387
+num.names$ -- 300
+pop$ -- 1068
 preamble$ -- 1
-purify$ -- 497
+purify$ -- 501
 quote$ -- 0
-skip$ -- 1242
+skip$ -- 1257
 stack$ -- 0
-substring$ -- 1420
-swap$ -- 100
+substring$ -- 1422
+swap$ -- 101
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 773
+type$ -- 784
 warning$ -- 1
-while$ -- 317
+while$ -- 320
 width$ -- 0
-write$ -- 963
+write$ -- 977
 (There were 5 error messages)

@@ -64,6 +64,10 @@ addtorow$pos <- list(0, 0)
 addtorow$command <- c("& \\multicolumn{2}{c}{Individuals/hour} \\\\\n",
                       "Species & Upland & Lowland & Ratio \\\\\n")
 
+
+#function to bold column header
+bold <-  function(x) {paste('{\\textbf{',x,'}}', sep ='')}
+
 print(table_latex,
       hline.after = c(-1, 0, nrow(table)),
       include.rownames = FALSE,
@@ -74,5 +78,6 @@ print(table_latex,
       align="rXXXXXX",
       size="\\fontsize{10pt}{10pt}\\selectfont",
       file = "MetadataS1/tables/table_species_relative_abundance_upland.tex",
+      sanitize.colnames.function=bold,
       caption.placement = "top")
 
