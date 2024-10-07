@@ -1,9 +1,9 @@
 data.file,variable.identity,variable.definition,units
-a.,class,"Taxonomic class  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
-a.,order,"Taxonomic order  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
-a.,family,"Taxonomic family  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
-a.,genus,"Taxonomic genus  for birds (Gill et al., 2024) and mammals species (Wilson, 2005).",NA
-a.,species_scientific,"Taxonomic species  for birds (Gill et al., 2024) and mammals species (Wilson, 2005). We used Mustela richardsonii instead of Mustela erminea richardsonii due to recent genetic analysis (Colella et al., 2021).",NA
+a.,class,"Taxonomic class  for birds (Gill et al., 2024) and mammals species (Upham et al., 2024).",NA
+a.,order,"Taxonomic order  for birds (Gill et al., 2024) and mammals species (Upham et al., 2024).",NA
+a.,family,"Taxonomic family  for birds (Gill et al., 2024) and mammals species (Upham et al., 2024).",NA
+a.,genus,"Taxonomic genus  for birds (Gill et al., 2024) and mammals species (Upham et al., 2024).",NA
+a.,species_scientific,"Taxonomic species  for birds (Gill et al., 2024) and mammals species (Upham et al., 2024).",NA
 a.,species_en,Common names of species in English.,NA
 a.,species_fr,Common names of species in French.,NA
 a.,functional_group,Functional group for each species. The classification of species into functional groups is based on Moisan et al. (2023).,NA

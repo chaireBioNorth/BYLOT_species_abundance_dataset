@@ -25,7 +25,7 @@ sp_taxonomy <- read.csv("DataS1/BYLOT-species_taxonomy.csv") %>%
 abundance <- read.csv("DataS1/BYLOT-species_abundance.csv") %>% 
   dplyr::mutate(year= ifelse(is.na(year), "mean", year),
                 species= gsub("'","", gsub("-"," ",tolower(species_en)))) %>%
-  dplyr::group_by(species, method_description) %>% 
+  dplyr::group_by(species, method_description, breeding_status) %>% 
   dplyr::summarise(min= min(abundance), max= max(abundance), mean= as.character(round(mean(abundance), digits=0)), sd= as.character(round(sd(abundance), digits= 0)), n= n()) %>% 
   dplyr::ungroup() %>% 
   dplyr::mutate(n= ifelse(n==1, NA, n), min= ifelse(min==max, NA, min), max= ifelse(max==min, NA, max))
@@ -47,6 +47,11 @@ table <- table %>%
                 species= factor(species, levels= sp_taxonomy$species)) %>% 
   dplyr::arrange(species, year)
 
+#Add * for abundance estimate that represent breeding individuals
+table <- table %>% 
+  dplyr::mutate(across(c(min, max, mean), ~ifelse(breeding_status== "breeding", paste0(., "*"), as.character(.)))) %>% 
+  dplyr::mutate(across(c(min, max, mean), ~gsub("NA*",NA,.)))
+
 #format table
 table <- table %>% 
   dplyr::select(species_en, period, method_description, method_quality, justification, min, max, mean, sd, n) %>% 
@@ -62,7 +67,7 @@ table <- table %>%
 
 
 #as tex
-table_latex <- xtable(table, caption = "Summary of the lowest, highest, mean and standard deviation of the estimated abundance of each vertebrate species in the vertebrate community of the southern plain of Bylot Island (389 km2). In some cases, two independent approaches have been used to estimate the abundance of the same species as a proxy for uncertainty. We provide a qualitative measure of the method quality based on data available, method used for extrapolation (if necessary), and in some cases, from the fit of statistical models to estimate density.",
+table_latex <- xtable(table, caption = "Summary of the lowest, highest, mean and standard deviation of the estimated abundance of each vertebrate species in the vertebrate community of the southern plain of Bylot Island (389 km2). In some cases, two independent approaches have been used to estimate the abundance of the same species as a proxy for uncertainty. We provide a qualitative measure of the method quality based on data available, method used for extrapolation (if necessary), and in some cases, from the fit of statistical models to estimate density. The star (*) refers to the estimate of breeding individuals only.",
                       label= "table:table_summary_methods_and_abundance",
                       align= c("p{0.00\\textwidth}", 
                                "|p{0.10\\textwidth}|", #species

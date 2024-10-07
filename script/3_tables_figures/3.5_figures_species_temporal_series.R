@@ -17,7 +17,7 @@ sp_abundance <- read.csv("DataS1/BYLOT-species_abundance.csv") %>%
 
 #defined order of graphs
 sp_order <- c("Cackling goose","Snow goose","Rough-legged hawk","Peregrine falcon", "Snowy owl","American golden-plover",
-  "Glaucous gull","Long-tailed jaeger","Nearctic brown lemming", "Nearctic collared lemming", "Ermine")
+  "Glaucous gull","Long-tailed jaeger","Nearctic brown lemming", "Nearctic collared lemming", "American ermine")
 
 letters <- c("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K")
 

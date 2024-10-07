@@ -664,7 +664,7 @@ n = length(df_ermine$Year)
 
 # create df to store the abundances
 df_data_final <- data.frame(
-  species = rep('ermine', n),
+  species = rep('american ermine', n),
   zone = rep('qarlikturvik valley', n),
   year = df_ermine$Year,
   ind_density_km2 = df_ermine$Ermine_estimated_abundance,

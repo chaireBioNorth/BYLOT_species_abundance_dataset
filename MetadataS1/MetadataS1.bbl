@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{73}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -70,13 +70,6 @@ J.~E. Cohen, T.~Jonsson, and S.~R. Carpenter.
   abundance, and body size.
 \newblock \emph{Proceedings of the national academy of sciences}, 100\penalty0
   (4):\penalty0 1781--1786, 2003.
-
-\bibitem[Colella et~al.(2021)Colella, Frederick, Talbot, and Cook]{colella2021}
-J.~P. Colella, L.~M. Frederick, S.~L. Talbot, and J.~A. Cook.
-\newblock Extrinsically reinforced hybrid speciation within holarctic ermine
-  (mustela spp.) produces an insular endemic.
-\newblock \emph{Diversity and Distributions}, 27\penalty0 (4):\penalty0
-  747--762, 2021.
 
 \bibitem[Dahl et~al.(2019)Dahl, Scott, Roosen, Magnusson, and Swinton]{xtable}
 D.~B. Dahl, D.~Scott, C.~Roosen, A.~Magnusson, and J.~Swinton.
@@ -492,6 +485,12 @@ J.-F. Therrien, G.~Gauthier, and J.~B{\^e}ty.
 \newblock \emph{The Journal of Wildlife Management}, 76\penalty0 (8):\penalty0
   1562--1567, 2012.
 
+\bibitem[Upham et~al.(2024)Upham, Burgin, Widness, Liphardt, Parker, Becker,
+  Rochon, Huckaby, and Zijlstra]{MammalDiversityDatabase}
+N.~Upham, C.~Burgin, J.~Widness, S.~Liphardt, C.~Parker, M.~Becker, I.~Rochon,
+  D.~Huckaby, and J.~Zijlstra.
+\newblock Mammal diversity database, 2024.
+
 \bibitem[Wickham(2016)]{ggplot2}
 H.~Wickham.
 \newblock \emph{ggplot2: Elegant Graphics for Data Analysis}.
@@ -533,11 +532,5 @@ H.~Wilman, J.~Belmaker, J.~Simpson, C.~de~la Rosa, M.~M. Rivadeneira, and
 \newblock Eltontraits 1.0: Species-level foraging attributes of the world's
   birds and mammals: Ecological archives e095-178.
 \newblock \emph{Ecology}, 95\penalty0 (7):\penalty0 2027--2027, 2014.
-
-\bibitem[Wilson(2005)]{wilson2005}
-D.~Wilson.
-\newblock \emph{Mammal species of the world: a taxonomic and geographic
-  reference}.
-\newblock Johns Hopkins University Press, 2005.
 
 \end{thebibliography}

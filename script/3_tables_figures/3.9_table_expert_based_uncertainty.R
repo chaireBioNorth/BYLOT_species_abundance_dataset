@@ -25,10 +25,10 @@ table <- read.csv("data/metadata/expert_based_uncertainty.csv") %>%
 #Add above header row
 addtorow <- list()
 addtorow$pos <- list(0, 0)
-addtorow$command <- c("& &\\multicolumn{3}{c}{Annual abundance (ind.)} \\\\\n",
+addtorow$command <- c("& &\\multicolumn{3}{c}{Annual abundance (individuals)} \\\\\n",
                       "Species & Period & Lowest & Highest & Mean \\\\\n")
 #as tex
-table_latex <- xtable(table, caption = "Considering the absence of confidence intervals in our abundance estimates, we present below uncertainty intervals on estimated abundance values derived from field expert impressions. The intervals presented represent the minimum and maximum values between which the experts believe the actual abundance values should lie. When annual abundance has been estimated for several years (time series) we present intervals over the minimum and maximum abundance values encountered during the given time series. For other species, the uncertainty interval is estimated on the mean abundance.")
+table_latex <- xtable(table, caption = "Due to the absence of confidence intervals in our abundance estimates, we present uncertainty intervals based on field expert impressions. These intervals reflect the interval within which experts believe the actual abundance lies. Experts derived these intervals by considering the given abundance estimate, estimates for other species for comparaison, and their field expertise. For species with time series data (several years of estimates), the intervals are presented for the lowest and highest abundance reached within the given time series. For species without time series, the intervals are based on the mean abundance.")
 print(table_latex,
       include.rownames = FALSE,
       tabular.environment = "tabularx",
