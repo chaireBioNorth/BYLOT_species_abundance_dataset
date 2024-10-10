@@ -13,18 +13,18 @@ library(tidyr)
 #spatial data manipulation
 library(sf)
 
-#--- Extract list of the zone of the study area
+#--- Extract the list of the zones of the study area
 zone_list <- sf::st_read("data/raw/shapefiles/study_area.shp") %>% 
-  dplyr::filter(zone != "goose_colony") %>% 
-  sf::st_drop_geometry() %>% 
-  dplyr::select(zone) %>% 
-  unlist() %>% 
+  dplyr::filter(zone != "goose_colony") %>% # remove the goose colony area
+  sf::st_drop_geometry() %>% #remove associate spatial coordinates
+  dplyr::select(zone) %>%  # keep only column zone
+  unlist() %>% # extract as a vector
   as.vector()
 
 #--- Import raw table of species year monitoring
 sp_monitoring <- read.csv("data/metadata/systematic_nest_monitoring_raw.csv")
 
-#extract a list with year of sampling for each species
+#--- Extract a list sampling year for each species
 year_sampling <- stringr::str_split(sp_monitoring$year, ",")
 #Divide into multiple parts if species have been sampled non-continuously
 year_sampling <- lapply(year_sampling, function(x) stringr::str_split(x, "-"))
@@ -38,14 +38,17 @@ for (sp in names(year_sampling)){
 
 #create an empty data frame to store the output
 year_sampling_df <- data.frame()
+
 #For each list with more than one year extend the interval of years by integer
 for (list in 1:length(year_sampling)){
   for (sublist in 1:length(year_sampling[[list]])){
     if(length(year_sampling[[list]][[sublist]]) > 1){
       year_sampling[[list]][[sublist]] <- year_sampling[[list]][[sublist]][[1]]: year_sampling[[list]][[sublist]][[2]]}
+    
     #if list contain only a single value just transform to numeric
     if(length(year_sampling[[list]][[sublist]]) == 1){
       year_sampling[[list]][[sublist]] <- as.numeric(year_sampling[[list]][[sublist]])}
+    
     #transform into a data frame
     years <- unlist(year_sampling[[list]][[sublist]])
     year_sampling_df <- year_sampling_df %>% 
@@ -53,7 +56,7 @@ for (list in 1:length(year_sampling)){
   }
 }
 
-#--- if sampled throughout study assign all zones for this year
+#--- if sampled throughout the study area, consider that zones have been sampled for given year
 for (i in 1:nrow(year_sampling_df)){
   if(year_sampling_df$zone[i]== "study area"){
 divide_study_area <-  data.frame(species= year_sampling_df$species[i], zone= zone_list, year= year_sampling_df$year[i])

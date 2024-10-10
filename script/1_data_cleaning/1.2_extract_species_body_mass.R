@@ -1,7 +1,7 @@
 #Title: Extract mean species body mass measured directly on Bylot Island or from the literature
 #Author: Louis Moisan
-#Date: NA
-#Last update: June 11 2024
+#Date: summer 2024
+#Last update: October 10 2024
 
 #-----------------#
 #### Libraries ####
@@ -30,7 +30,7 @@ birds_bm <-  read.table(file = "data/raw/body_mass/birds_body_mass.txt", header 
   dplyr::select(Scientific, BodyMass.Value, BodyMass.Source) %>% 
   dplyr::rename(species_scientific= Scientific, mean_body_mass_g= BodyMass.Value, reference= BodyMass.Source)
 
-#filter to keep species from Bylot
+#filter to keep only species from Bylot
 birds_bylot <- birds_bm %>% 
   dplyr::filter(species_scientific %in% sp_taxonomy$species_scientific)
 
@@ -46,16 +46,17 @@ mammals_bm <-  read.table(file = "data/raw/body_mass/mammals_body_mass.txt", hea
   dplyr::select(Scientific, BodyMass.Value, BodyMass.Source) %>% 
   dplyr::rename(species_scientific= Scientific, mean_body_mass_g= BodyMass.Value, reference= BodyMass.Source)
 
-#filter species of bylot
+#filter to keep only species from Bylot
 mammals_bylot <- mammals_bm %>% 
   dplyr::filter(species_scientific %in% sp_taxonomy$species_scientific)
 
 #--- Combined birds and mammals
 wilman_2014 <- rbind(birds_bylot, mammals_bylot)
 
-#Which species are not included
+#Identify which species are not included
 sp_taxonomy$species_scientific[which(sp_taxonomy$species_scientific %in%wilman_2014$species_scientific == FALSE)]
-#create a vector with the different species names
+
+#Create a vector with the species names that present a different taxonomy
 sp_add_scientific <- c("Chen caerulescens","Bubo scandiaca", "Grus canadensis","Tryngites subruficollis", "Mustela erminea")
 
 #Add species to the data frame

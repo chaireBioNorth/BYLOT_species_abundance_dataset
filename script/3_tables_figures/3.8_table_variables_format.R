@@ -28,8 +28,6 @@ sum(variation_nest_density$sd_nest_density_km2)
 sum(variation_nest_density$number_years)
 
 
-
-
 #Assign range values
 table[table$variable.identity == "year",]$range <- paste0(min(as.numeric(species_abundance$year), na.rm = T), "-", max(as.numeric(species_abundance$year), na.rm = T))
 

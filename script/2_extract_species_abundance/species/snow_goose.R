@@ -3,25 +3,9 @@
 #Date: NA
 #Last update: 31 May 2024
 
-#------------------#
-#### Librairies ####
-#------------------#
-#General data manipulation
-library(dplyr) 
-library(tidyr)
-#Spatial data manipulation
-library(sf)
-sf::sf_use_s2(FALSE)
-#Visualization
-library(ggplot2)
-
-
 #-------------------#
 #### Import data ####
 #-------------------#
-#Study area
-study_area <- sf::st_read("data/raw/shapefiles/study_area.shp") 
-
 #Goose colony outline 2010-2023
 goose_colony_2010_2023 <- study_area %>% 
   sf::st_drop_geometry() %>% 
@@ -76,7 +60,6 @@ transects_sngo <- transects_2010_2013_sngo %>%
 transects_sngo_wet <- transects_sngo %>% 
   dplyr::filter(habitat== "wetland")
   
-
 #Point counts
 sngo_point <- sf::st_read("data/raw/shapefiles/sampling/snow_goose_point_counts_2010_2023.shp")
 #Identify point counts that are located in wet habitat
@@ -248,12 +231,26 @@ goose_abundance_1999_2009 <- goose_abundance_all %>%
 sngo <- goose_abundance_2010_2023 %>% 
   rbind(goose_abundance_1999_2009)
 
+#For information:
 #Canadian Wildlife service survey on Bylot
 # 1993: 55 000 breeding adults and 0.89 nesting success = 61 798 ind
 # 1998: 37 575 breeding adults and 0.79 nesting success = 47 563 ind
 # 2003: 36 885 breeding adults and 0.82 nesting success = 44 981 ind
 # 2008: 29 822 breeding adults and 0.74 nesting success = 40 300 ind
 
+#------------------------------------#
+#### Format data as other species ####
+#------------------------------------#
+snow_goose <-  sngo %>% 
+  dplyr::mutate(species= "snow goose",
+                zone= "study area",
+                breeding_status= "breeding",
+                method= "nest sampling",
+                ind_density_km2=  abundance/study_area[study_area$zone== "study area",]$area_km2) %>% 
+dplyr::select(species, zone, year, ind_density_km2, breeding_status, method)
+
+snow_goose[snow_goose$year %in% c(2010:2019, 2022, 2023),]$method <- "combined methods"
+snow_goose[snow_goose$year %in% c(1999:2009),]$method <- "nest sampling (extrapolation colony)"
 
 
 #-----------------------------------------#

@@ -128,4 +128,9 @@ fox_density[fox_density$goose_colony == "inside colony", ]$area_km2 <- in_colony
       #add empty column  for standard deviation since it is based on predicted model values
       dplyr::mutate(sd_ind_density_km2= NA)
     
-    
+
+# Format as other data frame
+arctic_fox <- arfo %>% 
+      dplyr::filter(zone== "study area") %>% 
+      dplyr::mutate(breeding_status= "undetermined", method= "individual home range") %>% 
+      dplyr::select(-sd_ind_density_km2)

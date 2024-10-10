@@ -102,3 +102,10 @@ lemming <- final_dens %>%
 
 #Remove row with NA as estimated density
 lemming <- lemming[complete.cases(lemming[, "ind_density_km2"]), ]
+
+#Format as other data frames
+lemming <- lemming %>% 
+  dplyr::filter(zone =="study area") %>% 
+  dplyr::mutate(breeding_status= "undetermined", method= "trapping") %>% 
+  dplyr::select(-sd_ind_density_km2) 
+
