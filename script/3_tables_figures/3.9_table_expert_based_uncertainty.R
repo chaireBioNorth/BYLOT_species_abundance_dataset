@@ -22,10 +22,6 @@ table <- read.csv("data/metadata/expert_based_uncertainty.csv") %>%
   dplyr::select(Species, Period, `Lowest abundance`,`Highest abundance`,`Mean abundance`) %>% 
   dplyr::mutate(Period= ifelse(is.na(Period), "Mean abundance",Period))
 
-#Reorder rows
-table <- table[match(sp_taxonomy$species_en, table$Species), ]
-
-
 #Add above header row
 addtorow <- list()
 addtorow$pos <- list(0, 0)

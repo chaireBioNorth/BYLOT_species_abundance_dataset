@@ -119,7 +119,7 @@ mesic_density_transects <-
   transects_sngo[which((transects_sngo$transect %in% transects_sngo_wet$transect)==FALSE),] %>% 
   #Assign within the goose range
   sf::st_intersection(study_area %>% dplyr::filter(zone=="goose_colony")) %>%
-  dplyr::filter(year ==year.1, nb_ind>0) %>% 
+  dplyr::filter(year ==year.1) %>% 
   sf::st_drop_geometry() %>% 
   dplyr::select(year, transect, nb_ind, area_km2) %>% 
   dplyr::group_by(year) %>% 
@@ -131,7 +131,7 @@ mesic_density_points<-
   sngo_point[which((sngo_point$point %in% points_sngo_wet$point)==FALSE),] %>% 
   #Assign within the goose range
   sf::st_intersection(study_area %>% dplyr::filter(zone=="goose_colony")) %>%
-  dplyr::filter(year ==year.1, n_oie_125>0) %>% 
+  dplyr::filter(year ==year.1) %>% 
   sf::st_drop_geometry() %>% 
   dplyr::select(year, point, n_oie_125, area_km2) %>% 
   dplyr::group_by(year) %>% 
