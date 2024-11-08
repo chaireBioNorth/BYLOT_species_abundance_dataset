@@ -24,8 +24,9 @@ study_area <- sf::st_read("data/raw/shapefiles/study_area.shp")
 sampling_year <- read.csv("data/metadata/systematic_nest_monitoring_clean.csv")
 
 #nests
-nest_data <-  sf::st_read("data/raw/shapefiles/sampling/nests_2004-2023.shp")
+nest_data <-  sf::st_read("data/raw/shapefiles/sampling/nests_2004-2023.shp") 
 nest_data_csv <- read.csv("data/raw/sampling/nests_2004-2023.csv")
+
 
 #transects
 transect_data <- sf::st_read("data/raw/shapefiles/sampling/vertebrate_count_transects_2010_2023.shp") %>% 

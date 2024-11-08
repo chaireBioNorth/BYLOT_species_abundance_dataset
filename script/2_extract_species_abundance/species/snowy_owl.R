@@ -25,7 +25,7 @@ snowy_owl_extend <- extend_temporal_series_from_single_zone_nest(
   zone_sf=study_area,
   sp= "snowy owl",
   #Extract complete list of year for which monitoring was done in qarlikturvik valley
-  year_list= sampling_year[sampling_year$species == "snowy owl" & sampling_year$zone == "camp 1" & sampling_year$sampled=="yes",]$year,
+  year_list= sampling_year[sampling_year$species == "snowy owl" & sampling_year$zone == "qarlikturvik valley" & sampling_year$sampled=="yes",]$year,
   #Extract list of year for which sampling was done at the scale of study area and in the qarlikturvik valley
   year_compare= sampling_year[sampling_year$species == "snowy owl" & sampling_year$zone == "study area" & sampling_year$sampled=="yes",]$year,
   zone_ref= c("camp 1", "black plateau", "south plateau")) %>% 

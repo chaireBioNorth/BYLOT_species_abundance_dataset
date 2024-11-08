@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  25 OCT 2024 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  8 NOV 2024 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,19 +727,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-3.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-<figures/food_web.pdf, id=115, 426.79132pt x 256.0748pt>
+<figures/food_web.pdf, id=112, 426.79132pt x 256.0748pt>
 File: figures/food_web.pdf Graphic file (type pdf)
 <use figures/food_web.pdf>
 Package pdftex.def Info: figures/food_web.pdf  used on input line 92.
@@ -749,6 +743,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 [4 <./figures/food_web.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+03.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Underfull \hbox (badness 10000) in paragraph at lines 103--107
 
  []
@@ -784,12 +783,12 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [11]
-<figures/zones_study_area.pdf, id=373, 511.9125pt x 710.655pt>
+<figures/zones_study_area.pdf, id=371, 511.9125pt x 710.655pt>
 File: figures/zones_study_area.pdf Graphic file (type pdf)
 <use figures/zones_study_area.pdf>
 Package pdftex.def Info: figures/zones_study_area.pdf  used on input line 164.
 (pdftex.def)             Requested size: 364.19667pt x 505.58789pt.
-<figures/qarlikturvik_valley.pdf, id=374, 568.1225pt x 511.9125pt>
+<figures/qarlikturvik_valley.pdf, id=372, 568.1225pt x 511.9125pt>
 File: figures/qarlikturvik_valley.pdf Graphic file (type pdf)
 <use figures/qarlikturvik_valley.pdf>
 Package pdftex.def Info: figures/qarlikturvik_valley.pdf  used on input line 17
@@ -818,7 +817,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 [17]
-<figures/transects.pdf, id=463, 511.9125pt x 710.655pt>
+<figures/transects.pdf, id=461, 511.9125pt x 710.655pt>
 File: figures/transects.pdf Graphic file (type pdf)
 <use figures/transects.pdf>
 Package pdftex.def Info: figures/transects.pdf  used on input line 215.
@@ -834,21 +833,21 @@ Overfull \hbox (0.50237pt too wide) in alignment at lines 30--30
  []
 
 ) [19]
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
 
  []
 
 [20] [21]
-<figures/cackling_goose_nest_exponential.pdf, id=574, 505.89pt x 505.89pt>
+<figures/cackling_goose_nest_exponential.pdf, id=572, 505.89pt x 505.89pt>
 File: figures/cackling_goose_nest_exponential.pdf Graphic file (type pdf)
 <use figures/cackling_goose_nest_exponential.pdf>
 Package pdftex.def Info: figures/cackling_goose_nest_exponential.pdf  used on i
-nput line 257.
+nput line 258.
 (pdftex.def)             Requested size: 273.14923pt x 273.15337pt.
 
 
@@ -861,58 +860,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./figures/cackling_goose_nest_exponential.pdf>]
-<figures/map_geese_colony_2017.pdf, id=605, 284.06125pt x 511.9125pt>
+<figures/map_geese_colony_2017.pdf, id=603, 284.06125pt x 511.9125pt>
 File: figures/map_geese_colony_2017.pdf Graphic file (type pdf)
 <use figures/map_geese_colony_2017.pdf>
 Package pdftex.def Info: figures/map_geese_colony_2017.pdf  used on input line 
-267.
+268.
 (pdftex.def)             Requested size: 227.62206pt x 410.21794pt.
-<figures/snow_goose_mesic_density.pdf, id=606, 511.9125pt x 284.06125pt>
+<figures/snow_goose_mesic_density.pdf, id=604, 511.9125pt x 284.06125pt>
 File: figures/snow_goose_mesic_density.pdf Graphic file (type pdf)
 <use figures/snow_goose_mesic_density.pdf>
 Package pdftex.def Info: figures/snow_goose_mesic_density.pdf  used on input li
-ne 274.
+ne 275.
 (pdftex.def)             Requested size: 455.24411pt x 252.6143pt.
  [24 <./figures/map_geese_colony_2017.pdf>]
 Underfull \vbox (badness 1360) has occurred while \output is active []
 
  [25 <./figures/snow_goose_mesic_density.pdf>]
-<figures/sandhill_crane_nest_transects.pdf, id=629, 505.89pt x 505.89pt>
-File: figures/sandhill_crane_nest_transects.pdf Graphic file (type pdf)
-<use figures/sandhill_crane_nest_transects.pdf>
-Package pdftex.def Info: figures/sandhill_crane_nest_transects.pdf  used on inp
-ut line 296.
-(pdftex.def)             Requested size: 227.62206pt x 227.62523pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-Underfull \vbox (badness 3240) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./figures/sandhill_crane_nest_transects.pdf>]
-<figures/lapland_longspur_nest_transect.pdf, id=659, 505.89pt x 505.89pt>
+ [27]
+<figures/lapland_longspur_nest_transect.pdf, id=649, 505.89pt x 505.89pt>
 File: figures/lapland_longspur_nest_transect.pdf Graphic file (type pdf)
 <use figures/lapland_longspur_nest_transect.pdf>
 Package pdftex.def Info: figures/lapland_longspur_nest_transect.pdf  used on in
-put line 313.
+put line 308.
 (pdftex.def)             Requested size: 216.24025pt x 216.23933pt.
-<figures/bairds_sandpiper_nest_transect.pdf, id=660, 505.89pt x 505.89pt>
+<figures/bairds_sandpiper_nest_transect.pdf, id=650, 505.89pt x 505.89pt>
 File: figures/bairds_sandpiper_nest_transect.pdf Graphic file (type pdf)
 <use figures/bairds_sandpiper_nest_transect.pdf>
 Package pdftex.def Info: figures/bairds_sandpiper_nest_transect.pdf  used on in
-put line 317.
+put line 312.
 (pdftex.def)             Requested size: 216.24025pt x 216.23933pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 312--320
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 307--315
 []$[]$ $[]$ 
  []
 
-
+[28 <./figures/lapland_longspur_nest_transect.pdf> <./figures/bairds_sandpiper_
+nest_transect.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-[29 <./figures/lapland_longspur_nest_transect.pdf> <./figures/bairds_sandpiper_
-nest_transect.pdf>]
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
@@ -1063,11 +1054,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-[]|\T1/lmr/m/n/8 NA (1996-
- []
-
-
 Underfull \hbox (badness 1019) in paragraph at lines 39--40
 []|\T1/lmr/m/n/8 10 (2012-2019,
  []
@@ -1148,6 +1134,11 @@ Overfull \hbox (0.5742pt too wide) in paragraph at lines 65--65
  []
 
 
+Underfull \hbox (badness 2418) in paragraph at lines 65--65
+[]|\T1/lmr/m/n/8 Uncertain re-la-tion be-tween nest
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|\T1/lmr/m/n/8 White-rumped
  []
@@ -1190,6 +1181,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
 Overfull \hbox (0.5742pt too wide) in paragraph at lines 101--101
 []|\T1/lmr/m/n/8 moderate| 
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 101--101
+[]|\T1/lmr/m/n/8 Uncertain re-la-tion be-tween nest
  []
 
 
@@ -1236,36 +1232,36 @@ Overfull \hbox (0.5742pt too wide) in paragraph at lines 115--115
 
 
 ] [34] [35]) [36]
-<figures/species_temporal_series/Cackling_goose.pdf, id=752, 284.06125pt x 226.
+<figures/species_temporal_series/Cackling_goose.pdf, id=741, 284.06125pt x 226.
 8475pt>
 File: figures/species_temporal_series/Cackling_goose.pdf Graphic file (type pdf
 )
 <use figures/species_temporal_series/Cackling_goose.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Cackling_goose.pdf  us
-ed on input line 364.
+ed on input line 359.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/Snow_goose.pdf, id=753, 284.06125pt x 226.8475
+<figures/species_temporal_series/Snow_goose.pdf, id=742, 284.06125pt x 226.8475
 pt>
 File: figures/species_temporal_series/Snow_goose.pdf Graphic file (type pdf)
 <use figures/species_temporal_series/Snow_goose.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Snow_goose.pdf  used o
-n input line 367.
+n input line 362.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/Rough-legged_hawk.pdf, id=754, 284.06125pt x 2
+<figures/species_temporal_series/Rough-legged_hawk.pdf, id=743, 284.06125pt x 2
 26.8475pt>
 File: figures/species_temporal_series/Rough-legged_hawk.pdf Graphic file (type 
 pdf)
 <use figures/species_temporal_series/Rough-legged_hawk.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Rough-legged_hawk.pdf 
- used on input line 372.
+ used on input line 367.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/Peregrine_falcon.pdf, id=755, 284.06125pt x 22
+<figures/species_temporal_series/Peregrine_falcon.pdf, id=744, 284.06125pt x 22
 6.8475pt>
 File: figures/species_temporal_series/Peregrine_falcon.pdf Graphic file (type p
 df)
 <use figures/species_temporal_series/Peregrine_falcon.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Peregrine_falcon.pdf  
-used on input line 375.
+used on input line 370.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
  [37
 
@@ -1273,63 +1269,63 @@ used on input line 375.
  <./figures/species_temporal_series/Cackling_goose.pdf> <./figures/species_temp
 oral_series/Snow_goose.pdf> <./figures/species_temporal_series/Rough-legged_haw
 k.pdf> <./figures/species_temporal_series/Peregrine_falcon.pdf>]
-<figures/species_temporal_series/Snowy_owl.pdf, id=786, 284.06125pt x 226.8475p
+<figures/species_temporal_series/Snowy_owl.pdf, id=775, 284.06125pt x 226.8475p
 t>
 File: figures/species_temporal_series/Snowy_owl.pdf Graphic file (type pdf)
 <use figures/species_temporal_series/Snowy_owl.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Snowy_owl.pdf  used on
- input line 382.
+ input line 377.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/American_golden-plover.pdf, id=787, 284.06125p
+<figures/species_temporal_series/American_golden-plover.pdf, id=776, 284.06125p
 t x 226.8475pt>
 File: figures/species_temporal_series/American_golden-plover.pdf Graphic file (
 type pdf)
 <use figures/species_temporal_series/American_golden-plover.pdf>
 Package pdftex.def Info: figures/species_temporal_series/American_golden-plover
-.pdf  used on input line 385.
+.pdf  used on input line 380.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/Glaucous_gull.pdf, id=788, 284.06125pt x 226.8
+<figures/species_temporal_series/Glaucous_gull.pdf, id=777, 284.06125pt x 226.8
 475pt>
 File: figures/species_temporal_series/Glaucous_gull.pdf Graphic file (type pdf)
 
 <use figures/species_temporal_series/Glaucous_gull.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Glaucous_gull.pdf  use
-d on input line 390.
+d on input line 385.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/Long-tailed_jaeger.pdf, id=789, 284.06125pt x 
+<figures/species_temporal_series/Long-tailed_jaeger.pdf, id=778, 284.06125pt x 
 226.8475pt>
 File: figures/species_temporal_series/Long-tailed_jaeger.pdf Graphic file (type
  pdf)
 <use figures/species_temporal_series/Long-tailed_jaeger.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Long-tailed_jaeger.pdf
-  used on input line 393.
+  used on input line 388.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
  [38 <./figures/species_temporal_series/Snowy_owl.pdf> <./figures/species_tempo
 ral_series/American_golden-plover.pdf> <./figures/species_temporal_series/Glauc
 ous_gull.pdf> <./figures/species_temporal_series/Long-tailed_jaeger.pdf>]
-<figures/species_temporal_series/Nearctic_brown_lemming.pdf, id=819, 284.06125p
+<figures/species_temporal_series/Nearctic_brown_lemming.pdf, id=808, 284.06125p
 t x 226.8475pt>
 File: figures/species_temporal_series/Nearctic_brown_lemming.pdf Graphic file (
 type pdf)
 <use figures/species_temporal_series/Nearctic_brown_lemming.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Nearctic_brown_lemming
-.pdf  used on input line 400.
+.pdf  used on input line 395.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/Nearctic_collared_lemming.pdf, id=820, 284.061
+<figures/species_temporal_series/Nearctic_collared_lemming.pdf, id=809, 284.061
 25pt x 226.8475pt>
 File: figures/species_temporal_series/Nearctic_collared_lemming.pdf Graphic fil
 e (type pdf)
 <use figures/species_temporal_series/Nearctic_collared_lemming.pdf>
 Package pdftex.def Info: figures/species_temporal_series/Nearctic_collared_lemm
-ing.pdf  used on input line 403.
+ing.pdf  used on input line 398.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
-<figures/species_temporal_series/American_ermine.pdf, id=821, 284.06125pt x 226
+<figures/species_temporal_series/American_ermine.pdf, id=810, 284.06125pt x 226
 .8475pt>
 File: figures/species_temporal_series/American_ermine.pdf Graphic file (type pd
 f)
 <use figures/species_temporal_series/American_ermine.pdf>
 Package pdftex.def Info: figures/species_temporal_series/American_ermine.pdf  u
-sed on input line 408.
+sed on input line 403.
 (pdftex.def)             Requested size: 204.85846pt x 163.60352pt.
  [39 <./figures/species_temporal_series/Nearctic_brown_lemming.pdf> <./figures/
 species_temporal_series/Nearctic_collared_lemming.pdf> <./figures/species_tempo
@@ -1340,14 +1336,14 @@ Underfull \hbox (badness 10000) in alignment at lines 53--53
  []
 
 ) [40] [41] [42] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 464--468
+Underfull \hbox (badness 10000) in paragraph at lines 458--462
 
  []
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 478.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 472.
 
-Overfull \hbox (30.61679pt too wide) in paragraph at lines 479--480
+Overfull \hbox (30.61679pt too wide) in paragraph at lines 473--474
 []\T1/lmtt/m/n/12 class\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 order\T1/lmr/m/n/12 ; \
 T1/lmtt/m/n/12 family\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 genus\T1/lmr/m/n/12 ; \T1
 /lmtt/m/n/12 species_scientific\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 species_en\T1/l
@@ -1356,7 +1352,7 @@ code\T1/lmr/m/n/12 ;
  []
 
 
-Overfull \hbox (8.55731pt too wide) in paragraph at lines 482--483
+Overfull \hbox (8.55731pt too wide) in paragraph at lines 476--477
 []\T1/lmtt/m/n/12 species_en\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 year\T1/lmr/m/n/12
  ; \T1/lmtt/m/n/12 breeding_status\T1/lmr/m/n/12 ; \T1/lmtt/m/n/12 abundance\T1
 /lmr/m/n/12 ; \T1/lmtt/m/n/12 method_description\T1/lmr/m/n/12 ; \T1/lmtt/m/n/1
@@ -1364,9 +1360,9 @@ Overfull \hbox (8.55731pt too wide) in paragraph at lines 482--483
  []
 
 [44]
-Overfull \hbox (19.80583pt too wide) in paragraph at lines 495--499
+Overfull \hbox (19.80583pt too wide) in paragraph at lines 489--493
 \T1/lmr/m/n/12 d. \T1/lmtt/m/n/12 BYLOT-interannual_variation_nest_density.csv\
-T1/lmr/m/n/12 : mean_nest_density_km2= 19.991;
+T1/lmr/m/n/12 : mean_nest_density_km2= 20.447;
  []
 
 [45] (./tables/table_variables_definition.tex
@@ -1455,7 +1451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
 
 Overfull \hbox (0.84758pt too wide) in paragraph at lines 55--55
-\T1/lmr/m/n/8 13.559| 
+\T1/lmr/m/n/8 14.088| 
  []
 
 
@@ -1469,22 +1465,22 @@ Overfull \hbox (1.96611pt too wide) in alignment at lines 4--63
  []
 
 [48]) [49]
-Overfull \hbox (8.7999pt too wide) in paragraph at lines 521--521
+Overfull \hbox (8.7999pt too wide) in paragraph at lines 515--515
 |\T1/lmr/bx/n/17.28 C. Data anoma-lies: De-scrip-tion of miss-ing data, anoma-
  []
 
 
-Overfull \hbox (3.57913pt too wide) in paragraph at lines 536--536
+Overfull \hbox (3.57913pt too wide) in paragraph at lines 530--530
 |\T1/lmr/bx/n/17.28 C. Com-puter pro-grams and data-processing al-go-rithms| 
  []
 
-[50]
-Overfull \hbox (10.97832pt too wide) in paragraph at lines 539--540
+
+Overfull \hbox (10.97832pt too wide) in paragraph at lines 533--534
 \T1/lmr/m/n/12 ([]Wick-ham[], []2016[]), lme4 ([]Bates et al.[], []2015[]), AIC
 -c-mo-davg ([]Maze-rolle[], []2023[]), scales([]Wickham
  []
 
-[51] [52] (./MetadataS1.bbl
+[50] [51] [52] (./MetadataS1.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53
@@ -1552,10 +1548,10 @@ Package rerunfilecheck Info: File `MetadataS1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16499 strings out of 480204
- 273675 string characters out of 5895010
- 758125 words of memory out of 5000000
- 33956 multiletter control sequences out of 15000+600000
+ 16491 strings out of 480204
+ 273323 string characters out of 5895010
+ 757944 words of memory out of 5000000
+ 33950 multiletter control sequences out of 15000+600000
  555679 words of font info for 82 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,10n,106p,2139b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1573,10 +1569,10 @@ ublic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
 /fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on MetadataS1.pdf (59 pages, 4575337 bytes).
+Output written on MetadataS1.pdf (59 pages, 4569988 bytes).
 PDF statistics:
- 1133 PDF objects out of 1200 (max. 8388607)
- 909 compressed objects within 10 object streams
- 152 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1112 PDF objects out of 1200 (max. 8388607)
+ 891 compressed objects within 9 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

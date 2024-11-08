@@ -1,6 +1,6 @@
 species,zone,year,number_years,monitoring
-snow goose,camp 2,"1999-2019, 2023",22,systematic
-snowy owl,qarlikturvik valley,"1996-2019, 2023",25,systematic
+snow goose,camp 2,"1999-2019, 2022-2023",23,systematic
+snowy owl,qarlikturvik valley,"1996-2019, 2022-2023",26,systematic
 nearctic brown lemming,trapping grids,"1995-2019, 2021-2022",27,systematic
 nearctic collared lemming,trapping grids,"1995-2019, 2021-2022",27,systematic
 peregrine falcon,qarlikturvik valley,"2007-2019, 2022",15,systematic
@@ -12,9 +12,9 @@ red throated loon,qarlikturvik valley,"2004-2019, 2022",17,systematic
 glaucous gull,qarlikturvik valley,"2004-2019, 2022",17,systematic
 long tailed jaeger,camp 1,"2004-2019, 2022",17,systematic
 parasitic jaeger,camp 1,"2004-2019, 2022",17,systematic
+sandhill crane,camp 1,"2004-2019, 2022",17,opportunistic
 lapland longspur,2x1km plot,"2005-2019, 2022-2023",17,systematic
 bairds sandpiper,2x1km plot,"2005-2019, 2022-2023",17,systematic
-sandhill crane,4x2km plot,"2005-2019, 2022",16,opportunistic
 long tailed duck,4x2km plot,"2005-2019, 2022",16,opportunistic
 king eider,4x2km plot,"2005-2019, 2022",16,opportunistic
 rock ptarmigan,4x2km plot,"2005-2019, 2022",16,opportunistic

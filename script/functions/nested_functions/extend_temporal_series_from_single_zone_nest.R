@@ -61,7 +61,7 @@ print(plot(sp_density_study_area$ind_density_km2~ sp_density_ref_filter$ind_dens
      xlab= "Density reference zone",
      ylab= "Density study area"))
 
-print(paste("Correlation for", sp, "between", unique(sp_density_ref_filter$zone), "and study area =", round(as.numeric(cor$estimate), digits = 2),",","p=", round(as.numeric(cor$p.value), digits=3),",","n=", nrow(sp_density_ref_filter),sep =" "),  nrow(sp_density_ref_filter))
+print(paste("Correlation for", sp, "between", unique(sp_density_ref_filter$zone), "and study area =", round(as.numeric(cor$estimate^2), digits = 2),",","p=", round(as.numeric(cor$p.value), digits=3),",","n=", nrow(sp_density_ref_filter),sep =" "),  nrow(sp_density_ref_filter))
 
 #Build linear model regression model
 model <- lm(sp_density_study_area$ind_density_km2~sp_density_ref_filter$ind_density_km2)

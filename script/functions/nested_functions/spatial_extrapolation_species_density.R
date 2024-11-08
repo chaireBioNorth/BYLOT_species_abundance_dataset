@@ -9,6 +9,8 @@ library(dplyr)
 #spatial data manipulation
 library(sf)
 sf_use_s2(FALSE)
+#adjust colors
+library(scales)
 
 #Dependencies on function created in other scripts
 source("script/functions/standalone_functions/number_ind_transects.R")
@@ -114,42 +116,34 @@ transect_obs <- transect_obs %>%
   
 #---------------------------------------------------------------#
 #### Regression nest density - number individual on transect #### 
-#---------------------------------------------------------------#
-# Use point (0,0) and mean nest density and mean number of indivual or mean proportion of transect with at least an individual to fit a regression
-reg_df <- data.frame(
-  nest_density_km2= c(0,mean(sp_density_local$nest_density_km2)),
-  value= c(0, transect_obs[transect_obs$zone == zone_reference_transect,]$value))
-  
+#-------------------------------------------------------------
+#Extract points with nest density and transects
+reg_df <- transect_obs_ref %>% 
+  dplyr::mutate(year= as.integer(year)) %>% 
+  dplyr::left_join(sp_density_local, by= "year") %>% 
+  dplyr::select(year, value, nest_density_km2)
+
 #Build the linear model
-model <- lm(nest_density_km2~value, data= reg_df)
-print(paste("nest density (nest/km2)", "=", as.character(round(model$coefficients[2], digits=4)),"x", transect_metric,"+",as.character(round(model$coefficients[1]), digits= 4),sep= " "))
+model <- lm(nest_density_km2~value -1 , data= reg_df)
+summary(model)
+print(paste("nest density (nest/km2)", "=", as.character(round(model$coefficients, digits=4)),"x", transect_metric))
+
 
 #----------------------------#
 #### Visualize regression ####
 #----------------------------#
-#Keep year with transect and nest data
-trans_obs_filter <- transect_obs_ref[transect_obs_ref$year %in% sp_density_local$year,]$value
-sp_density_local_filter <- sp_density_local[sp_density_local$year %in% transect_obs_ref$year,]$nest_density_km2
-
 #Predict values based on the regression model
-predictions <- predict(model, newdata =data.frame(value= trans_obs_filter))
-
-# Calculate R squared as index of fit
-R2 <- round(as.numeric(cor.test(sp_density_local_filter, predictions)$estimate), digits= 2)
-p <- round(as.numeric(cor.test(sp_density_local_filter, predictions)$p.value), digits=2)
+predictions <- predict(model, newdata =data.frame(value= reg_df$value))
 
 #plot
-plot(reg_df$nest_density_km2~ reg_df$value, col= "darkred", pch= 16, cex=0,
-     ylim = c(0,  max(sp_density_local$nest_density_km2)),
-     xlim=c(0,max(trans_obs_filter)),
+plot(reg_df$nest_density_km2~ reg_df$value, col= "steelblue", pch= 16, cex=2.5,
+     ylim = c(0,  max(reg_df$nest_density_km2)),
+     xlim=c(0,max(reg_df$value)),
      xlab= transect_metric,
      ylab= "nest density (nest/km²)",
-    main= sp,
-      #paste(sp," (", zone_reference_nest,")", sep= ""),
-     cex.lab=2, cex.axis=2, cex.main=2, cex.sub=2)+
-  abline(model, col= "darkred", lwd= 4)+
-  points(trans_obs_filter, sp_density_local_filter, col = "steelblue4", pch = 16, cex= 3)+
-  text(y = quantile(sp_density_local$nest_density_km2)[5], x = quantile(transect_obs_ref$value)[3], paste("R²=", R2, "p=",p ,sep =" "), cex= 2)
+    main= paste0(toupper(substring(sp, 1, 1)), substring(sp, 2)),
+     cex.lab=2, cex.axis=2, cex.main=2, cex.sub=2)+ 
+  abline(model, col= "red", lwd= 6)
 
 
 #---------------------------------------#
@@ -158,7 +152,7 @@ plot(reg_df$nest_density_km2~ reg_df$value, col= "darkred", pch= 16, cex=0,
 #Estimate density of in each zone with regression
 sp_density <- transect_obs %>% 
     dplyr::mutate(ind_density_km2=
-      (2*(value * as.numeric(model$coefficients[2]))) + as.numeric(model$coefficients[1])) %>%
+      (2*(value * as.numeric(model$coefficients)))) %>%
   #Replace NaN and Inf values with 0 when no observation on transects were made
   dplyr::mutate(ind_density_km2= ifelse(is.na(ind_density_km2) | is.infinite(ind_density_km2), 0, ind_density_km2)) %>% 
    #keep only columns of interest

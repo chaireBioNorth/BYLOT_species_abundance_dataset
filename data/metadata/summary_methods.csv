@@ -1,9 +1,9 @@
 species,period,method,method_description,method_quality,justification
 snow goose,1999-2009,nest sampling (extrapolation colony),Nest monitoring plots extrapolated to mean goose colony area,moderate,Relatively small sample size and uncertainty on goose colony area 
 snow goose,"2010-2019, 2022-2023",combined methods,"Intensive study area-wide monitoring based on a combination of methods (transects, point counts and nest monitoring plots) and annual colony outline",high,Multiple independent methods and annual colony outline
-snowy owl,1996-2011,nest sampling (extrapolation nests),"Extrapolation from intensive nest monitoring (111 km2, R2=0.99, p<0.0001, n=10)",high,Strong correlation with study area-wide nest density
+snowy owl,1996-2011,nest sampling (extrapolation nests),"Extrapolation from intensive nest monitoring (111 km2, R2=0.98, p<0.0001, n=10)",high,Strong correlation with study area-wide nest density
 snowy owl,"2012-2019, 2022-2023",nest sampling,Intensive study area-wide nest monitoring (389 km2),high,No extrapolation
-glaucous gull,2004-2016,nest sampling (extrapolation nests),"Extrapolation from intensive nest monitoring (111 km2, R2=0.84, p=0.16, n=4)",high,Strong correlation with study area-wide nest density
+glaucous gull,2004-2016,nest sampling (extrapolation nests),"Extrapolation from intensive nest monitoring (111 km2, R2=0.7, p=0.16, n=4)",high,Strong correlation with study area-wide nest density
 glaucous gull,"2017-2019, 2022",nest sampling,Intensive study area-wide nest monitoring (389 km2),high,No extrapolation
 peregrine falcon,"2013-2019, 2022",nest sampling,Intensive study area-wide nest monitoring (389 km2),high,No extrapolation
 rough legged hawk,2007-2012,nest sampling (extrapolation nests),"Extrapolation from intensive nest monitoring (111 km2, R2=0.99, p<0.0001, n=8)",high,Strong correlation with study area-wide nest density
@@ -22,9 +22,9 @@ tundra swan,"2017-2019, 2022",nest sampling,Intensive study area-wide nest monit
 common ringed plover,2015-2017,nest sampling,Nest monitoring on the main breeding sites,moderate,"Intensive monitoring, but not exhaustive to study area"
 black bellied plover,mean,transects (relative abundance),Derived from the abundance estimate of American golden-plover using transects observations,low,Derived from high quality estimate of another species
 black bellied plover,mean,incidental observations (relative abundance),Derived from the abundance estimate of American golden-plover using incidental observations,very low,"Derived from high quality estimate of another species, but potentially includes transient migratory individuals"
-lapland longspur,mean,nest sampling (extrapolation transects),"Extrapolation from intensive nest monitoring (2 km2) and transects observations (R2=0.62, p=0.1, n=8)",moderate,Uncertain relation with large scale indices
-bairds sandpiper,mean,nest sampling (extrapolation transects),"Extrapolation from intensive nest monitoring (2 km2) and transects observations (R2=0.38, p=0.35, n=8)",moderate,Uncertain relation with large scale indices
-sandhill crane,mean,nest sampling (extrapolation transects),"Extrapolation from intensive nest monitoring (8 km2) and transect observations (R2= 0.44 p= 0.32, n=8)",moderate,Uncertain relation with large scale indices
+lapland longspur,mean,nest sampling (extrapolation transects),Extrapolation from intensive nest monitoring (2 km2) and transects observations,moderate,Uncertain relation between nest density and transects observations
+bairds sandpiper,mean,nest sampling (extrapolation transects),Extrapolation from intensive nest monitoring (2 km2) and transects observations,moderate,Uncertain relation between nest density and transects observations
+sandhill crane,mean,nest sampling (extrapolation uniform),Intensive nest monitoring (33 km2) extrapolated to study area,moderate,Nest density is extrapolated uniformly across the study area
 king eider,mean,nest sampling (extrapolation habitat),"Intensive, but opportunistic nest monitoring (8 km2) extrapolated by habitat",very low,"Intensive, but opportunistic monitoring at relatively small spatial scale, but does not include potential non-breeding individuals"
 king eider,mean,incidental observations (relative abundance),Derived from the abundance estimate of red-throated loon using incidental observations,low,Derived from high quality estimate of another species
 long tailed duck,mean,nest sampling (extrapolation habitat),"Intensive, but opportunistic nest monitoring (8 km2) extrapolated by habitat",very low,"Intensive, but opportunistic monitoring at relatively small spatial scale, but does not include potential non-breeding individuals"

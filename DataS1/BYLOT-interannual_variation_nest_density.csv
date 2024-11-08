@@ -1,19 +1,19 @@
 "species_en","zone","mean_nest_density_km2","sd_nest_density_km2","number_years"
-"Baird's sandpiper","2x1km plot","5.000","3.558",17
-"Lapland longspur","2x1km plot","13.559","5.849",17
-"King eider","4x2km plot","0.115","0.138",16
-"Long-tailed duck","4x2km plot","0.092","0.138",16
-"Rock ptarmigan","4x2km plot","0.031","0.055",16
-"Sandhill crane","4x2km plot","0.161","0.087",16
-"Long-tailed jaeger","camp 1","0.362","0.380",17
-"Cackling goose","study area","0.177","0.064",5
-"Common raven","study area","0.003","0.003",8
-"Common Ringed plover","study area","0.070","0.012",3
-"Glaucous gull","study area","0.091","0.011",4
-"Pacific loon","study area","0.005","0.004",4
-"Parasitic jaeger","study area","0.010","0.004",12
-"Peregrine falcon","study area","0.053","0.007",8
-"Red-throated loon","study area","0.082","0.019",4
-"Rough-legged hawk","study area","0.157","0.151",8
-"Snowy owl","study area","0.022","0.058",10
-"Tundra swan","study area","0.001","0.001",4
+"Pacific loon","Whole study area","0.005","0.004",4
+"Red-throated loon","Whole study area","0.082","0.019",4
+"King eider","Qarlikturvik (4x2 km plot)","0.115","0.138",16
+"Long-tailed duck","Qarlikturvik (4x2 km plot)","0.092","0.138",16
+"Cackling goose","Whole study area","0.177","0.064",5
+"Tundra swan","Whole study area","0.001","0.001",4
+"Rough-legged hawk","Whole study area","0.157","0.151",8
+"Peregrine falcon","Whole study area","0.053","0.007",8
+"Snowy owl","Whole study area","0.022","0.058",10
+"Rock ptarmigan","Qarlikturvik (4x2 km plot)","0.031","0.055",16
+"Sandhill crane","Qarlikturvik valley","0.088","0.055",17
+"Common-ringed plover","Whole study area","0.070","0.012",3
+"Baird's sandpiper","Qarlikturvik (2x1 km plot)","5.000","3.558",17
+"Glaucous gull","Whole study area","0.091","0.011",4
+"Long-tailed jaeger","Qarlikturvik valley","0.362","0.380",17
+"Parasitic jaeger","Whole study area","0.010","0.004",12
+"Common raven","Whole study area","0.003","0.003",8
+"Lapland longspur","Qarlikturvik (2x1 km plot)","14.088","4.871",17

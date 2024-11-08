@@ -34,7 +34,6 @@ goose_colony <- sf::st_read("data/raw/shapefiles/study_area.shp") %>%
   dplyr::filter(year== 2017, zone== "goose_colony") %>% 
   sf::st_transform(3857)
 
-
 #color palette
 colors_palette <- c("#bd959d","#84a98c", "#94214b", "#463a49","#ad382b","#096377","#63141c", "#003049", "#d4af37", "white")
 
@@ -150,7 +149,7 @@ ggmap(map_qarlikturvik) +
                                alpha("#c9ada7",0.9),
                                alpha("#faedcd",0.9),
                                alpha("#bc6c25",0.9)),
-                     labels= c("Qarlikturvik valley\n-Rough-legged hawk\n-Snowy owl","South Qarlikturvik\n-Long-tailed jaeger","8 km2 plot\n-Sandhill crane\n-Long-tailed duck\n-King eider\n-Rock ptarmigan","2 km2  plot\n-Lapland longspur\n-Baird's sandpiper"))+
+                     labels= c("Qarlikturvik valley\n-Snowy owl\n-Rough-legged hawk\n-Peregrine falcon\n-Glaucous gull\n-Red-throated loon\n-Pacific loon\n-Cackling goose\n-Tundra swan","South Qarlikturvik\n-Long-tailed jaeger\n-Sandhill crane\n-Parasitic jaeger","8 km2 plot\n-Long-tailed duck\n-King eider\n-Rock ptarmigan","2 km2  plot\n-Lapland longspur\n-Baird's sandpiper"))+
   ggplot2::coord_sf(xlim = c(-8874000, -8921000), ylim = c(12167000, 12200000))+ # set the map lat/lon limits
   ggplot2::xlab("Longitude") + 
   ggplot2::ylab("Latitude")+
