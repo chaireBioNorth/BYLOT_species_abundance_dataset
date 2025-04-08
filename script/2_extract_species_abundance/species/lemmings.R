@@ -34,7 +34,6 @@ filtered_data <- df_lemming2 %>%
 # 2004 to 2007 -> period 3 is used
 # 2008 to 2018 and 2020 to 2022 -> mean between periods P2 and P3 is used
 # 2019 -> period P2 only is used
-# see document Document_interne_trappage_mortel_version (tables 5 and 6 for details)
 
 # Filter the data for the specified periods and years
 dens_lemming <- df_lemming2 %>% 

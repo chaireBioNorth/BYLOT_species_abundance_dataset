@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -391,6 +391,13 @@ L.~Moisan, D.~Gravel, P.~Legagneux, G.~Gauthier, D.-J. L{\'e}andri-Breton,
   network in the arctic.
 \newblock \emph{Frontiers in Ecology and Evolution}, 10:\penalty0 1077260,
   2023.
+
+\bibitem[Montgomerie et~al.(1983)Montgomerie, Cartar, McLaughlin, and
+  Lyon]{montgomerie1983}
+R.~D. Montgomerie, R.~V. Cartar, R.~L. McLaughlin, and B.~Lyon.
+\newblock Birds of sarcpa lake, melville peninsula, northwest territories:
+  breeding phenologies, densities and biogeography.
+\newblock \emph{Arctic}, 36\penalty0 (1):\penalty0 65--75, 1983.
 
 \bibitem[Okey et~al.(2004)Okey, Banks, Born, Bustamante, Calvopi{\~n}a, Edgar,
   Espinoza, Fari{\~n}a, Garske, Reck, Salazar, Shepherd, Toral-Granda, and

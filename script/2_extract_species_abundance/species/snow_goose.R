@@ -161,6 +161,18 @@ ggplot(data= mesic_density, aes(x= year, y= ind_density_km2, col= data))+
   theme_classic()
 ggsave(units= "cm",width = 18,height = 10,dpi= 500, "MetadataS1/figures/snow_goose_mesic_density.pdf")
 
+#--- Correlation between the estimate of each methods
+years_nest_sampling <- mesic_density[mesic_density$data== "Nest sampling plot",]$year
+years_observations <- mesic_density[mesic_density$data== "Vertebrate count transect",]$year
+years_common_sampling <- years_observations[which(years_observations %in% years_nest_sampling)]
+
+sngo_transects <- mesic_density[mesic_density$data== "Vertebrate count transect" & mesic_density$year %in% years_nest_sampling ,]$ind_density_km2
+sngo_point_counts <- mesic_density[mesic_density$data== "Snow goose point count" & mesic_density$year %in% years_nest_sampling ,]$ind_density_km2
+sngo_nests_sampling <- mesic_density[mesic_density$data== "Nest sampling plot" & mesic_density$year %in% years_observations ,]$ind_density_km2
+
+cor.test(x=sngo_transects, y=sngo_point_counts, method = 'spearman')
+cor.test(x=sngo_transects, y=sngo_nests_sampling, method = 'spearman')
+cor.test(x=sngo_nests_sampling, y=sngo_point_counts, method = 'spearman')
 
 #-------------------------------#
 #### Extract goose abundance ####

@@ -76,6 +76,7 @@ wilman_2014 <- wilman_2014 %>%
 #----------------------------------#
 #Mean of Arctic fox and ermine extracted from supplementary material of Legagneux, P., Gauthier, G., Berteaux, D., Bêty, J., Cadieux, M. C., Bilodeau, F., ... & Krebs, C. J. (2012). Disentangling trophic relationships in a High Arctic tundra ecosystem through food web modeling. Ecology, 93(7), 1707-1716.
 arfo_ermine <- tibble(species_scientific= c("Vulpes lagopus", "Mustela richardsonii"),
+                      site= "bylot",
                       reference= "Legagneux et al., 2012",
                       mean_body_mass_g= c(3300, 134),
                       sample_size= NA)
@@ -83,15 +84,17 @@ arfo_ermine <- tibble(species_scientific= c("Vulpes lagopus", "Mustela richardso
 #Extract for other species
 bylot_sp_body_mass <- read.csv("data/raw/body_mass/individual_body_mass_bylot.csv") %>%
   dplyr::left_join(sp_taxonomy, by="species") %>% 
-  dplyr::group_by(species_scientific, reference) %>% 
+  dplyr::group_by(species_scientific, site, reference) %>% 
   dplyr::summarise(mean_body_mass_g= mean(body_mass_g), sample_size= n()) %>% 
   dplyr::ungroup()
 
 #Combined bylot body mass measurements
 bylot_body_mass <- bylot_sp_body_mass %>% 
   rbind(arfo_ermine) %>% 
-  dplyr::mutate(site= "bylot") %>% 
   dplyr::select(species_scientific, site,  mean_body_mass_g, sample_size, reference)
+
+#Adjust sample size (n=236) for cackling goose based on Neufeld, 2021 (http://hdl.handle.net/1993/35933)
+bylot_body_mass[bylot_body_mass$species_scientific == "Branta hutchinsii",]$sample_size= 236
 
 
 #---------------------------------#
