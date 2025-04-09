@@ -15,7 +15,7 @@ library(ggspatial)
 #!!! Need a personal API key from google
 # https://developers.google.com/maps
 #You have to create a API key and then under "Key and identifiers" you should see your key with the possibility to click on "show key", copy paste the key in the function below
-ggmap::register_google(key = "AIzaSyDwudxtkEtx79AISvu5CedXQXZ2RfgFcO0", write = TRUE)
+ggmap::register_google(key = "", write = TRUE)
 
 # Define the bounding box (latitude and longitude) for your area of interest
 bbox <- c(left = -80.19, bottom = 72.75, right = -78.5, top = 73.3)
