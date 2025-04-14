@@ -24,45 +24,45 @@ Repeated entry---line 713 of file references.bib
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--there's a number but no series in parmelee1967
-You've used 74 entries,
+You've used 75 entries,
             2773 wiz_defined-function locations,
-            1039 strings with 21933 characters,
-and the built_in function-call counts, 42328 in all, are:
-= -- 3543
-> -- 3477
+            1043 strings with 22151 characters,
+and the built_in function-call counts, 42912 in all, are:
+= -- 3590
+> -- 3525
 < -- 23
-+ -- 1169
-- -- 1092
-* -- 3965
-:= -- 6761
-add.period$ -- 233
-call.type$ -- 74
-change.case$ -- 572
-chr.to.int$ -- 71
-cite$ -- 149
-duplicate$ -- 1491
-empty$ -- 2786
-format.name$ -- 1179
-if$ -- 8522
++ -- 1185
+- -- 1107
+* -- 4023
+:= -- 6854
+add.period$ -- 236
+call.type$ -- 75
+change.case$ -- 580
+chr.to.int$ -- 72
+cite$ -- 151
+duplicate$ -- 1512
+empty$ -- 2826
+format.name$ -- 1195
+if$ -- 8640
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 386
-num.names$ -- 300
-pop$ -- 1084
+missing$ -- 64
+newline$ -- 391
+num.names$ -- 304
+pop$ -- 1098
 preamble$ -- 1
-purify$ -- 509
+purify$ -- 516
 quote$ -- 0
-skip$ -- 1267
+skip$ -- 1284
 stack$ -- 0
-substring$ -- 1416
-swap$ -- 101
+substring$ -- 1436
+swap$ -- 102
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 789
+type$ -- 800
 warning$ -- 1
-while$ -- 320
+while$ -- 324
 width$ -- 0
-write$ -- 975
+write$ -- 988
 (There were 5 error messages)
