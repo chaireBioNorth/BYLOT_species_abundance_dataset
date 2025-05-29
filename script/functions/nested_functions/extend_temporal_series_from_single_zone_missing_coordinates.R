@@ -58,17 +58,21 @@ sp_density_ref_filter <- sp_density_ref %>%
   dplyr::filter(year %in% unique(sp_density_study_area$year)) %>% 
   dplyr::arrange(year)
   
-#Extract correlation coefficient and p value
-cor <- cor.test(sp_density_study_area$ind_density_km2, sp_density_ref_filter$ind_density_km2)
+#Extract correlation coefficient and p value (excluding 0,0 values)
+#Identify which years do not present 0,0 values
+index_non_zero <- which(sp_density_study_area$ind_density_km2 >0 | sp_density_ref_filter$ind_density_km2 >0)
+#Extract correlation coefficient and p value (without 0,0 values)
+cor <- cor.test(sp_density_study_area$ind_density_km2[index_non_zero], sp_density_ref_filter$ind_density_km2[index_non_zero])
+
 
 print(plot(sp_density_study_area$ind_density_km2~ sp_density_ref_filter$ind_density_km2,
      xlab= "Density reference zone",
      ylab= "Density study area"))
 
-print(paste("Correlation for", sp, "between", unique(sp_density_ref_filter$zone), "and study area =", round(as.numeric(cor$estimate^2), digits = 2),",","p=", round(as.numeric(cor$p.value), digits=3),",","n=", nrow(sp_density_ref_filter),sep =" "),  nrow(sp_density_ref_filter))
+print(paste("Correlation for", sp, "between", unique(sp_density_ref_filter$zone), "and study area =", round(as.numeric(cor$estimate^2), digits = 2),",","p=", round(as.numeric(cor$p.value), digits=3),",","n=", length(index_non_zero),sep =" "))
 
 #Build linear model regression model
-model <- lm(sp_density_study_area$ind_density_km2~sp_density_ref_filter$ind_density_km2)
+model <- lm(sp_density_study_area$ind_density_km2[index_non_zero]~sp_density_ref_filter$ind_density_km2[index_non_zero])
 
 print(paste("density at study area=", as.numeric(round(model$coefficients[2], digits= 5)), "x density at", unique(sp_density_ref_filter$zone), "+", as.numeric(round(model$coefficients[1], digits= 5)) ,sep=" "))
 

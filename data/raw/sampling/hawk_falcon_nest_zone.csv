@@ -1,526 +1,526 @@
-"","nest_id","species","year","zone"
-"1","BUPA_115","rough legged hawk",2018,"black plateau"
-"2","BUPA_139","rough legged hawk",2018,"black plateau"
-"4","BUPA_152","rough legged hawk",2018,"black plateau"
-"7","BUPA106","rough legged hawk",2012,"black plateau"
-"11","BUPA115","rough legged hawk",2019,"black plateau"
-"12","BUPA118","rough legged hawk",2012,"black plateau"
-"13","BUPA118","rough legged hawk",2019,"black plateau"
-"14","BUPA122","rough legged hawk",2012,"black plateau"
-"15","BUPA122","rough legged hawk",2019,"black plateau"
-"16","BUPA125","rough legged hawk",2019,"black plateau"
-"17","BUPA127","rough legged hawk",2012,"black plateau"
-"18","BUPA127","rough legged hawk",2019,"black plateau"
-"19","BUPA128","rough legged hawk",2012,"black plateau"
-"20","BUPA128","rough legged hawk",2019,"black plateau"
-"21","BUPA138","rough legged hawk",2019,"black plateau"
-"27","BUPA154","rough legged hawk",2019,"black plateau"
-"30","BUPA157","rough legged hawk",2019,"black plateau"
-"32","BUPA159","rough legged hawk",2019,"black plateau"
-"35","BUPA162","rough legged hawk",2019,"black plateau"
-"36","BUPA163","rough legged hawk",2019,"black plateau"
-"45","BUS01","rough legged hawk",2006,"black plateau"
-"47","BUS1","rough legged hawk",2004,"black plateau"
-"52","PEFA_AB01","peregrine falcon",2017,"black plateau"
-"57","PEFA01","peregrine falcon",2008,"black plateau"
-"58","PEFA01","peregrine falcon",2009,"black plateau"
-"59","PEFA01","peregrine falcon",2010,"black plateau"
-"60","PEFA01","peregrine falcon",2011,"black plateau"
-"62","PEFA01","peregrine falcon",2018,"black plateau"
-"63","PEFA02","peregrine falcon",2008,"black plateau"
-"66","PEFA02","peregrine falcon",2018,"black plateau"
-"67","PEFA03","peregrine falcon",2008,"black plateau"
-"70","PEFA04","peregrine falcon",2013,"black plateau"
-"71","PEFA104","peregrine falcon",2012,"black plateau"
-"72","PEFA104","peregrine falcon",2014,"black plateau"
-"73","PEFA104","peregrine falcon",2015,"black plateau"
-"74","PEFA104a","peregrine falcon",2019,"black plateau"
-"75","PEFA106","peregrine falcon",2019,"black plateau"
-"76","PEFA107","peregrine falcon",2019,"black plateau"
-"86","PEFAAB01","peregrine falcon",2016,"black plateau"
-"95","RLHA_AB02","rough legged hawk",2017,"black plateau"
-"102","RLHA01","rough legged hawk",2009,"black plateau"
-"105","RLHA01","rough legged hawk",2018,"black plateau"
-"110","RLHA02","rough legged hawk",2009,"black plateau"
-"118","RLHA03","rough legged hawk",2011,"black plateau"
-"123","RLHA04","rough legged hawk",2010,"black plateau"
-"124","RLHA04","rough legged hawk",2011,"black plateau"
-"128","RLHA05","rough legged hawk",2010,"black plateau"
-"129","RLHA05","rough legged hawk",2011,"black plateau"
-"133","RLHA06","rough legged hawk",2010,"black plateau"
-"134","RLHA06","rough legged hawk",2011,"black plateau"
-"137","RLHA07","rough legged hawk",2010,"black plateau"
-"138","RLHA07","rough legged hawk",2011,"black plateau"
-"142","RLHA08","rough legged hawk",2010,"black plateau"
-"144","RLHA08-NC","rough legged hawk",2016,"black plateau"
-"146","RLHA09","rough legged hawk",2010,"black plateau"
-"147","RLHA09-NC","rough legged hawk",2016,"black plateau"
-"149","RLHA10","rough legged hawk",2010,"black plateau"
-"150","RLHA10","rough legged hawk",2011,"black plateau"
-"151","RLHA10-KC","rough legged hawk",2016,"black plateau"
-"152","RLHA106","rough legged hawk",2014,"black plateau"
-"154","RLHA11","rough legged hawk",2010,"black plateau"
-"155","RLHA11","rough legged hawk",2011,"black plateau"
-"156","RLHA114","rough legged hawk",2014,"black plateau"
-"157","RLHA115","rough legged hawk",2014,"black plateau"
-"158","RLHA117","rough legged hawk",2015,"black plateau"
-"159","RLHA118","rough legged hawk",2014,"black plateau"
-"160","RLHA118","rough legged hawk",2015,"black plateau"
-"162","RLHA12","rough legged hawk",2011,"black plateau"
-"163","RLHA122","rough legged hawk",2014,"black plateau"
-"164","RLHA125","rough legged hawk",2014,"black plateau"
-"165","RLHA125","rough legged hawk",2015,"black plateau"
-"166","RLHA128","rough legged hawk",2015,"black plateau"
-"169","RLHA130","rough legged hawk",2014,"black plateau"
-"170","RLHA131","rough legged hawk",2015,"black plateau"
-"173","RLHA137","rough legged hawk",2014,"black plateau"
-"174","RLHA138","rough legged hawk",2014,"black plateau"
-"175","RLHA139","rough legged hawk",2014,"black plateau"
-"179","RLHA142","rough legged hawk",2014,"black plateau"
-"180","RLHA142","rough legged hawk",2015,"black plateau"
-"181","RLHA143","rough legged hawk",2014,"black plateau"
-"188","RLHA151","rough legged hawk",2015,"black plateau"
-"189","RLHA152","rough legged hawk",2015,"black plateau"
-"220","RLHAAB01","rough legged hawk",2016,"black plateau"
-"223","RLHAAB02","rough legged hawk",2016,"black plateau"
-"225","RLHAAB03","rough legged hawk",2016,"black plateau"
-"227","RLHAAB04","rough legged hawk",2016,"black plateau"
-"229","RLHAAB05","rough legged hawk",2016,"black plateau"
-"243","RLHADL01","rough legged hawk",2016,"black plateau"
-"256","FAPE-MP-01","peregrine falcon",2022,"black plateau"
-"259","PEFA-LM-01","peregrine falcon",2022,"black plateau"
-"261","RLHA-DB-01","rough legged hawk",2022,"black plateau"
-"262","RLHA-LM-01","rough legged hawk",2022,"black plateau"
-"108.12","RLHA02","rough legged hawk",2007,"camp 2"
-"196.1","RLHA21","rough legged hawk",2010,"camp 2"
-"242.12","RLHACCJ01","rough legged hawk",2016,"camp 2"
-"254.12","RLHAMZ01","rough legged hawk",2019,"camp 2"
-"39","BUPA308","rough legged hawk",2012,"camp 3 plateau"
-"40","BUPA329","rough legged hawk",2019,"camp 3 plateau"
-"41","BUPA332","rough legged hawk",2019,"camp 3 plateau"
-"54","PEFA_AB03","peregrine falcon",2017,"camp 3 plateau"
-"55","PEFA_AB04","peregrine falcon",2017,"camp 3 plateau"
-"68","PEFA03","peregrine falcon",2013,"camp 3 plateau"
-"77","PEFA301","peregrine falcon",2014,"camp 3 plateau"
-"79","PEFA303","peregrine falcon",2014,"camp 3 plateau"
-"80","PEFA303","peregrine falcon",2015,"camp 3 plateau"
-"89","PEFAAB04","peregrine falcon",2016,"camp 3 plateau"
-"90","PEFAABKB01","peregrine falcon",2019,"camp 3 plateau"
-"97","RLHA_AB04","rough legged hawk",2017,"camp 3 plateau"
-"98","RLHA_AB05","rough legged hawk",2017,"camp 3 plateau"
-"115","RLHA03","rough legged hawk",2007,"camp 3 plateau"
-"116","RLHA03","rough legged hawk",2009,"camp 3 plateau"
-"126","RLHA05","rough legged hawk",2007,"camp 3 plateau"
-"127","RLHA05","rough legged hawk",2008,"camp 3 plateau"
-"148","RLHA10","rough legged hawk",2008,"camp 3 plateau"
-"198","RLHA303","rough legged hawk",2014,"camp 3 plateau"
-"199","RLHA303","rough legged hawk",2015,"camp 3 plateau"
-"203","RLHA309","rough legged hawk",2014,"camp 3 plateau"
-"204","RLHA311","rough legged hawk",2014,"camp 3 plateau"
-"206","RLHA313","rough legged hawk",2015,"camp 3 plateau"
-"210","RLHA321","rough legged hawk",2015,"camp 3 plateau"
-"232","RLHAAB07","rough legged hawk",2016,"camp 3 plateau"
-"233","RLHAAB08","rough legged hawk",2016,"camp 3 plateau"
-"236","RLHAAB11","rough legged hawk",2016,"camp 3 plateau"
-"240","RLHAABKB01","rough legged hawk",2019,"camp 3 plateau"
-"241","RLHAABKB02","rough legged hawk",2019,"camp 3 plateau"
-"247","RLHAED03","rough legged hawk",2019,"camp 3 plateau"
-"248","RLHAED04","rough legged hawk",2019,"camp 3 plateau"
-"260","PEFA-TG-02","peregrine falcon",2022,"camp 3 plateau"
-"263","RLHA-TG-01","rough legged hawk",2022,"camp 3 plateau"
-"37","BUPA304","rough legged hawk",2012,"camp 3"
-"38","BUPA307","rough legged hawk",2012,"camp 3"
-"48","FAPE_304","peregrine falcon",2018,"camp 3"
-"56","PEFA_FLP01","peregrine falcon",2017,"camp 3"
-"78","PEFA302","peregrine falcon",2014,"camp 3"
-"92","PEFAED02","peregrine falcon",2019,"camp 3"
-"94","PEFAJB01","peregrine falcon",2016,"camp 3"
-"96","RLHA_AB03","rough legged hawk",2017,"camp 3"
-"99","RLHA_ED01","rough legged hawk",2017,"camp 3"
-"100","RLHA01","rough legged hawk",2007,"camp 3"
-"122","RLHA04","rough legged hawk",2009,"camp 3"
-"131","RLHA06","rough legged hawk",2007,"camp 3"
-"141","RLHA08","rough legged hawk",2008,"camp 3"
-"153","RLHA11","rough legged hawk",2008,"camp 3"
-"197","RLHA30","rough legged hawk",2011,"camp 3"
-"200","RLHA304","rough legged hawk",2014,"camp 3"
-"201","RLHA307","rough legged hawk",2014,"camp 3"
-"202","RLHA307","rough legged hawk",2015,"camp 3"
-"205","RLHA312","rough legged hawk",2015,"camp 3"
-"226","RLHAAB03","rough legged hawk",2019,"camp 3"
-"244","RLHAED01","rough legged hawk",2016,"camp 3"
-"251","RLHAJB02","rough legged hawk",2016,"camp 3"
-"253","RLHAMV01","rough legged hawk",2019,"camp 3"
-"257","PEFA-DG-01","peregrine falcon",2022,"camp 3"
-"6","BUPA_420","rough legged hawk",2018,"dufour"
-"43","BUPA404","rough legged hawk",2012,"dufour"
-"46","BUS02","rough legged hawk",2006,"dufour"
-"49","FAPE_402","peregrine falcon",2018,"dufour"
-"51","FAU01","peregrine falcon",2006,"dufour"
-"53","PEFA_AB02","peregrine falcon",2017,"dufour"
-"61","PEFA01","peregrine falcon",2013,"dufour"
-"64","PEFA02","peregrine falcon",2010,"dufour"
-"69","PEFA04","peregrine falcon",2008,"dufour"
-"81","PEFA402","peregrine falcon",2012,"dufour"
-"82","PEFA402","peregrine falcon",2014,"dufour"
-"83","PEFA402","peregrine falcon",2015,"dufour"
-"88","PEFAAB03","peregrine falcon",2016,"dufour"
-"91","PEFAED01","peregrine falcon",2019,"dufour"
-"132","RLHA06","rough legged hawk",2008,"dufour"
-"140","RLHA08","rough legged hawk",2007,"dufour"
-"143","RLHA08","rough legged hawk",2011,"dufour"
-"145","RLHA09","rough legged hawk",2007,"dufour"
-"192","RLHA18","rough legged hawk",2010,"dufour"
-"211","RLHA401","rough legged hawk",2014,"dufour"
-"212","RLHA401","rough legged hawk",2015,"dufour"
-"215","RLHA406","rough legged hawk",2014,"dufour"
-"216","RLHA406","rough legged hawk",2015,"dufour"
-"221","RLHAAB01","rough legged hawk",2018,"dufour"
-"234","RLHAAB09","rough legged hawk",2016,"dufour"
-"235","RLHAAB10","rough legged hawk",2016,"dufour"
-"245","RLHAED01","rough legged hawk",2019,"dufour"
-"246","RLHAED02","rough legged hawk",2019,"dufour"
-"249","RLHAED05","rough legged hawk",2019,"dufour"
-"252","RLHAJD01","rough legged hawk",2016,"dufour"
-"255","RLHASL01","rough legged hawk",2011,"dufour"
-"44.6","BUPA413","rough legged hawk",2019,"goose point"
-"50","FAPE_403","peregrine falcon",2018,"goose point"
-"65","PEFA02","peregrine falcon",2013,"goose point"
-"84","PEFA403","peregrine falcon",2014,"goose point"
-"85","PEFA404","peregrine falcon",2015,"goose point"
-"87","PEFAAB02","peregrine falcon",2016,"goose point"
-"93","PEFAJB01","peregrine falcon",2013,"goose point"
-"168.2","RLHA13","rough legged hawk",2011,"goose point"
-"193","RLHA19","rough legged hawk",2010,"goose point"
-"194","RLHA20","rough legged hawk",2010,"goose point"
-"195","RLHA205","rough legged hawk",2014,"goose point"
-"213.2","RLHA402","rough legged hawk",2014,"goose point"
-"214.2","RLHA402","rough legged hawk",2015,"goose point"
-"217","RLHA409","rough legged hawk",2014,"goose point"
-"218.6","RLHA410","rough legged hawk",2014,"goose point"
-"219.6","RLHA410","rough legged hawk",2015,"goose point"
-"237.6","RLHAAB12","rough legged hawk",2016,"goose point"
-"238","RLHAAB13","rough legged hawk",2016,"goose point"
-"239","RLHAAB14","rough legged hawk",2016,"goose point"
-"258","PEFA-GB-01","peregrine falcon",2022,"goose point"
-"120","RLHA04","rough legged hawk",2007,"malaview"
-"207.1","RLHA317","rough legged hawk",2014,"malaview"
-"208.5","RLHA318","rough legged hawk",2014,"malaview"
-"222.5","RLHAAB01","rough legged hawk",2019,"malaview"
-"231.2","RLHAAB06","rough legged hawk",2016,"malaview"
-"250.5","RLHAJB01","rough legged hawk",2016,"malaview"
-"22","BUPA140","rough legged hawk",2019,"south plateau"
-"23","BUPA141","rough legged hawk",2019,"south plateau"
-"26","BUPA149","rough legged hawk",2019,"south plateau"
-"29","BUPA156","rough legged hawk",2019,"south plateau"
-"34","BUPA161","rough legged hawk",2019,"south plateau"
-"107","RLHA01-YS","rough legged hawk",2017,"south plateau"
-"109","RLHA02","rough legged hawk",2008,"south plateau"
-"111","RLHA02","rough legged hawk",2010,"south plateau"
-"113","RLHA02-JV","rough legged hawk",2017,"south plateau"
-"119","RLHA03-NC","rough legged hawk",2016,"south plateau"
-"121","RLHA04","rough legged hawk",2008,"south plateau"
-"125","RLHA04-KC","rough legged hawk",2016,"south plateau"
-"130","RLHA05-KC","rough legged hawk",2016,"south plateau"
-"135","RLHA06-YS","rough legged hawk",2016,"south plateau"
-"136","RLHA07","rough legged hawk",2007,"south plateau"
-"176","RLHA14","rough legged hawk",2010,"south plateau"
-"177","RLHA140","rough legged hawk",2014,"south plateau"
-"178","RLHA141","rough legged hawk",2014,"south plateau"
-"182","RLHA144","rough legged hawk",2014,"south plateau"
-"185","RLHA149","rough legged hawk",2015,"south plateau"
-"186","RLHA15","rough legged hawk",2010,"south plateau"
-"187","RLHA150","rough legged hawk",2015,"south plateau"
-"190","RLHA16","rough legged hawk",2010,"south plateau"
-"191","RLHA17","rough legged hawk",2010,"south plateau"
-"3","BUPA_142","rough legged hawk",2018,"qarlikturvik valley"
-"5.1","BUPA_153/BUPA_135","rough legged hawk",2018,"qarlikturvik valley"
-"8.1","BUPA107","rough legged hawk",2012,"qarlikturvik valley"
-"9","BUPA110a","rough legged hawk",2019,"qarlikturvik valley"
-"10","BUPA111a","rough legged hawk",2019,"qarlikturvik valley"
-"24","BUPA146","rough legged hawk",2019,"qarlikturvik valley"
-"25.1","BUPA147a","rough legged hawk",2019,"qarlikturvik valley"
-"101","RLHA01","rough legged hawk",2008,"qarlikturvik valley"
-"103.1","RLHA01","rough legged hawk",2010,"qarlikturvik valley"
-"104.1","RLHA01","rough legged hawk",2011,"qarlikturvik valley"
-"106","RLHA01-YS","rough legged hawk",2016,"qarlikturvik valley"
-"112","RLHA02","rough legged hawk",2011,"qarlikturvik valley"
-"114.1","RLHA02-NC","rough legged hawk",2016,"qarlikturvik valley"
-"117","RLHA03","rough legged hawk",2010,"qarlikturvik valley"
-"139","RLHA07-KC","rough legged hawk",2016,"qarlikturvik valley"
-"161","RLHA12","rough legged hawk",2010,"qarlikturvik valley"
-"167","RLHA13","rough legged hawk",2010,"qarlikturvik valley"
-"171.1","RLHA135","rough legged hawk",2014,"qarlikturvik valley"
-"172","RLHA136","rough legged hawk",2014,"qarlikturvik valley"
-"183","RLHA146","rough legged hawk",2015,"qarlikturvik valley"
-"184.1","RLHA147","rough legged hawk",2015,"qarlikturvik valley"
-"3.1","BUPA_142","rough legged hawk",2018,"camp 1"
-"5.2","BUPA_153/BUPA_135","rough legged hawk",2018,"camp 1"
-"8.2","BUPA107","rough legged hawk",2012,"camp 1"
-"24.1","BUPA146","rough legged hawk",2019,"camp 1"
-"25.2","BUPA147a","rough legged hawk",2019,"camp 1"
-"101.1","RLHA01","rough legged hawk",2008,"camp 1"
-"103.2","RLHA01","rough legged hawk",2010,"camp 1"
-"104.2","RLHA01","rough legged hawk",2011,"camp 1"
-"106.1","RLHA01-YS","rough legged hawk",2016,"camp 1"
-"114.2","RLHA02-NC","rough legged hawk",2016,"camp 1"
-"117.1","RLHA03","rough legged hawk",2010,"camp 1"
-"171.2","RLHA135","rough legged hawk",2014,"camp 1"
-"172.1","RLHA136","rough legged hawk",2014,"camp 1"
-"183.1","RLHA146","rough legged hawk",2015,"camp 1"
-"184.2","RLHA147","rough legged hawk",2015,"camp 1"
-"1.1","BUPA_115","rough legged hawk",2018,"study area"
-"2.1","BUPA_139","rough legged hawk",2018,"study area"
-"3.2","BUPA_142","rough legged hawk",2018,"study area"
-"4.1","BUPA_152","rough legged hawk",2018,"study area"
-"5.3","BUPA_153/BUPA_135","rough legged hawk",2018,"study area"
-"6.1","BUPA_420","rough legged hawk",2018,"study area"
-"7.1","BUPA106","rough legged hawk",2012,"study area"
-"8.3","BUPA107","rough legged hawk",2012,"study area"
-"9.1","BUPA110a","rough legged hawk",2019,"study area"
-"10.1","BUPA111a","rough legged hawk",2019,"study area"
-"11.1","BUPA115","rough legged hawk",2019,"study area"
-"12.1","BUPA118","rough legged hawk",2012,"study area"
-"13.1","BUPA118","rough legged hawk",2019,"study area"
-"14.1","BUPA122","rough legged hawk",2012,"study area"
-"15.1","BUPA122","rough legged hawk",2019,"study area"
-"16.1","BUPA125","rough legged hawk",2019,"study area"
-"17.1","BUPA127","rough legged hawk",2012,"study area"
-"18.1","BUPA127","rough legged hawk",2019,"study area"
-"19.1","BUPA128","rough legged hawk",2012,"study area"
-"20.1","BUPA128","rough legged hawk",2019,"study area"
-"21.1","BUPA138","rough legged hawk",2019,"study area"
-"22.1","BUPA140","rough legged hawk",2019,"study area"
-"23.1","BUPA141","rough legged hawk",2019,"study area"
-"24.2","BUPA146","rough legged hawk",2019,"study area"
-"25.3","BUPA147a","rough legged hawk",2019,"study area"
-"26.1","BUPA149","rough legged hawk",2019,"study area"
-"27.1","BUPA154","rough legged hawk",2019,"study area"
-"29.1","BUPA156","rough legged hawk",2019,"study area"
-"30.1","BUPA157","rough legged hawk",2019,"study area"
-"32.1","BUPA159","rough legged hawk",2019,"study area"
-"34.1","BUPA161","rough legged hawk",2019,"study area"
-"35.1","BUPA162","rough legged hawk",2019,"study area"
-"36.1","BUPA163","rough legged hawk",2019,"study area"
-"37.1","BUPA304","rough legged hawk",2012,"study area"
-"38.1","BUPA307","rough legged hawk",2012,"study area"
-"39.1","BUPA308","rough legged hawk",2012,"study area"
-"40.1","BUPA329","rough legged hawk",2019,"study area"
-"41.1","BUPA332","rough legged hawk",2019,"study area"
-"43.1","BUPA404","rough legged hawk",2012,"study area"
-"44.7","BUPA413","rough legged hawk",2019,"study area"
-"45.1","BUS01","rough legged hawk",2006,"study area"
-"46.1","BUS02","rough legged hawk",2006,"study area"
-"47.1","BUS1","rough legged hawk",2004,"study area"
-"48.1","FAPE_304","peregrine falcon",2018,"study area"
-"49.1","FAPE_402","peregrine falcon",2018,"study area"
-"50.1","FAPE_403","peregrine falcon",2018,"study area"
-"51.1","FAU01","peregrine falcon",2006,"study area"
-"52.1","PEFA_AB01","peregrine falcon",2017,"study area"
-"53.1","PEFA_AB02","peregrine falcon",2017,"study area"
-"54.1","PEFA_AB03","peregrine falcon",2017,"study area"
-"55.1","PEFA_AB04","peregrine falcon",2017,"study area"
-"56.1","PEFA_FLP01","peregrine falcon",2017,"study area"
-"57.1","PEFA01","peregrine falcon",2008,"study area"
-"58.1","PEFA01","peregrine falcon",2009,"study area"
-"59.1","PEFA01","peregrine falcon",2010,"study area"
-"60.1","PEFA01","peregrine falcon",2011,"study area"
-"61.1","PEFA01","peregrine falcon",2013,"study area"
-"62.1","PEFA01","peregrine falcon",2018,"study area"
-"63.1","PEFA02","peregrine falcon",2008,"study area"
-"64.1","PEFA02","peregrine falcon",2010,"study area"
-"65.1","PEFA02","peregrine falcon",2013,"study area"
-"66.1","PEFA02","peregrine falcon",2018,"study area"
-"67.1","PEFA03","peregrine falcon",2008,"study area"
-"68.1","PEFA03","peregrine falcon",2013,"study area"
-"69.1","PEFA04","peregrine falcon",2008,"study area"
-"70.1","PEFA04","peregrine falcon",2013,"study area"
-"71.1","PEFA104","peregrine falcon",2012,"study area"
-"72.1","PEFA104","peregrine falcon",2014,"study area"
-"73.1","PEFA104","peregrine falcon",2015,"study area"
-"74.1","PEFA104a","peregrine falcon",2019,"study area"
-"75.1","PEFA106","peregrine falcon",2019,"study area"
-"76.1","PEFA107","peregrine falcon",2019,"study area"
-"77.1","PEFA301","peregrine falcon",2014,"study area"
-"78.1","PEFA302","peregrine falcon",2014,"study area"
-"79.1","PEFA303","peregrine falcon",2014,"study area"
-"80.1","PEFA303","peregrine falcon",2015,"study area"
-"81.1","PEFA402","peregrine falcon",2012,"study area"
-"82.1","PEFA402","peregrine falcon",2014,"study area"
-"83.1","PEFA402","peregrine falcon",2015,"study area"
-"84.1","PEFA403","peregrine falcon",2014,"study area"
-"85.1","PEFA404","peregrine falcon",2015,"study area"
-"86.1","PEFAAB01","peregrine falcon",2016,"study area"
-"87.1","PEFAAB02","peregrine falcon",2016,"study area"
-"88.1","PEFAAB03","peregrine falcon",2016,"study area"
-"89.1","PEFAAB04","peregrine falcon",2016,"study area"
-"90.1","PEFAABKB01","peregrine falcon",2019,"study area"
-"91.1","PEFAED01","peregrine falcon",2019,"study area"
-"92.1","PEFAED02","peregrine falcon",2019,"study area"
-"93.1","PEFAJB01","peregrine falcon",2013,"study area"
-"94.1","PEFAJB01","peregrine falcon",2016,"study area"
-"95.1","RLHA_AB02","rough legged hawk",2017,"study area"
-"96.1","RLHA_AB03","rough legged hawk",2017,"study area"
-"97.1","RLHA_AB04","rough legged hawk",2017,"study area"
-"98.1","RLHA_AB05","rough legged hawk",2017,"study area"
-"99.1","RLHA_ED01","rough legged hawk",2017,"study area"
-"100.1","RLHA01","rough legged hawk",2007,"study area"
-"101.2","RLHA01","rough legged hawk",2008,"study area"
-"102.1","RLHA01","rough legged hawk",2009,"study area"
-"103.3","RLHA01","rough legged hawk",2010,"study area"
-"104.3","RLHA01","rough legged hawk",2011,"study area"
-"105.1","RLHA01","rough legged hawk",2018,"study area"
-"106.2","RLHA01-YS","rough legged hawk",2016,"study area"
-"107.1","RLHA01-YS","rough legged hawk",2017,"study area"
-"108.13","RLHA02","rough legged hawk",2007,"study area"
-"109.1","RLHA02","rough legged hawk",2008,"study area"
-"110.1","RLHA02","rough legged hawk",2009,"study area"
-"111.1","RLHA02","rough legged hawk",2010,"study area"
-"112.1","RLHA02","rough legged hawk",2011,"study area"
-"113.1","RLHA02-JV","rough legged hawk",2017,"study area"
-"114.3","RLHA02-NC","rough legged hawk",2016,"study area"
-"115.1","RLHA03","rough legged hawk",2007,"study area"
-"116.1","RLHA03","rough legged hawk",2009,"study area"
-"117.2","RLHA03","rough legged hawk",2010,"study area"
-"118.1","RLHA03","rough legged hawk",2011,"study area"
-"119.1","RLHA03-NC","rough legged hawk",2016,"study area"
-"120.1","RLHA04","rough legged hawk",2007,"study area"
-"121.1","RLHA04","rough legged hawk",2008,"study area"
-"122.1","RLHA04","rough legged hawk",2009,"study area"
-"123.1","RLHA04","rough legged hawk",2010,"study area"
-"124.1","RLHA04","rough legged hawk",2011,"study area"
-"125.1","RLHA04-KC","rough legged hawk",2016,"study area"
-"126.1","RLHA05","rough legged hawk",2007,"study area"
-"127.1","RLHA05","rough legged hawk",2008,"study area"
-"128.1","RLHA05","rough legged hawk",2010,"study area"
-"129.1","RLHA05","rough legged hawk",2011,"study area"
-"130.1","RLHA05-KC","rough legged hawk",2016,"study area"
-"131.1","RLHA06","rough legged hawk",2007,"study area"
-"132.1","RLHA06","rough legged hawk",2008,"study area"
-"133.1","RLHA06","rough legged hawk",2010,"study area"
-"134.1","RLHA06","rough legged hawk",2011,"study area"
-"135.1","RLHA06-YS","rough legged hawk",2016,"study area"
-"136.1","RLHA07","rough legged hawk",2007,"study area"
-"137.1","RLHA07","rough legged hawk",2010,"study area"
-"138.1","RLHA07","rough legged hawk",2011,"study area"
-"139.1","RLHA07-KC","rough legged hawk",2016,"study area"
-"140.1","RLHA08","rough legged hawk",2007,"study area"
-"141.1","RLHA08","rough legged hawk",2008,"study area"
-"142.1","RLHA08","rough legged hawk",2010,"study area"
-"143.1","RLHA08","rough legged hawk",2011,"study area"
-"144.1","RLHA08-NC","rough legged hawk",2016,"study area"
-"145.1","RLHA09","rough legged hawk",2007,"study area"
-"146.1","RLHA09","rough legged hawk",2010,"study area"
-"147.1","RLHA09-NC","rough legged hawk",2016,"study area"
-"148.1","RLHA10","rough legged hawk",2008,"study area"
-"149.1","RLHA10","rough legged hawk",2010,"study area"
-"150.1","RLHA10","rough legged hawk",2011,"study area"
-"151.1","RLHA10-KC","rough legged hawk",2016,"study area"
-"152.1","RLHA106","rough legged hawk",2014,"study area"
-"153.1","RLHA11","rough legged hawk",2008,"study area"
-"154.1","RLHA11","rough legged hawk",2010,"study area"
-"155.1","RLHA11","rough legged hawk",2011,"study area"
-"156.1","RLHA114","rough legged hawk",2014,"study area"
-"157.1","RLHA115","rough legged hawk",2014,"study area"
-"158.1","RLHA117","rough legged hawk",2015,"study area"
-"159.1","RLHA118","rough legged hawk",2014,"study area"
-"160.1","RLHA118","rough legged hawk",2015,"study area"
-"161.1","RLHA12","rough legged hawk",2010,"study area"
-"162.1","RLHA12","rough legged hawk",2011,"study area"
-"163.1","RLHA122","rough legged hawk",2014,"study area"
-"164.1","RLHA125","rough legged hawk",2014,"study area"
-"165.1","RLHA125","rough legged hawk",2015,"study area"
-"166.1","RLHA128","rough legged hawk",2015,"study area"
-"167.1","RLHA13","rough legged hawk",2010,"study area"
-"168.3","RLHA13","rough legged hawk",2011,"study area"
-"169.1","RLHA130","rough legged hawk",2014,"study area"
-"170.1","RLHA131","rough legged hawk",2015,"study area"
-"171.3","RLHA135","rough legged hawk",2014,"study area"
-"172.2","RLHA136","rough legged hawk",2014,"study area"
-"173.1","RLHA137","rough legged hawk",2014,"study area"
-"174.1","RLHA138","rough legged hawk",2014,"study area"
-"175.1","RLHA139","rough legged hawk",2014,"study area"
-"176.1","RLHA14","rough legged hawk",2010,"study area"
-"177.1","RLHA140","rough legged hawk",2014,"study area"
-"178.1","RLHA141","rough legged hawk",2014,"study area"
-"179.1","RLHA142","rough legged hawk",2014,"study area"
-"180.1","RLHA142","rough legged hawk",2015,"study area"
-"181.1","RLHA143","rough legged hawk",2014,"study area"
-"182.1","RLHA144","rough legged hawk",2014,"study area"
-"183.2","RLHA146","rough legged hawk",2015,"study area"
-"184.3","RLHA147","rough legged hawk",2015,"study area"
-"185.1","RLHA149","rough legged hawk",2015,"study area"
-"186.1","RLHA15","rough legged hawk",2010,"study area"
-"187.1","RLHA150","rough legged hawk",2015,"study area"
-"188.1","RLHA151","rough legged hawk",2015,"study area"
-"189.1","RLHA152","rough legged hawk",2015,"study area"
-"190.1","RLHA16","rough legged hawk",2010,"study area"
-"191.1","RLHA17","rough legged hawk",2010,"study area"
-"192.1","RLHA18","rough legged hawk",2010,"study area"
-"193.1","RLHA19","rough legged hawk",2010,"study area"
-"194.1","RLHA20","rough legged hawk",2010,"study area"
-"195.1","RLHA205","rough legged hawk",2014,"study area"
-"196.2","RLHA21","rough legged hawk",2010,"study area"
-"197.1","RLHA30","rough legged hawk",2011,"study area"
-"198.1","RLHA303","rough legged hawk",2014,"study area"
-"199.1","RLHA303","rough legged hawk",2015,"study area"
-"200.1","RLHA304","rough legged hawk",2014,"study area"
-"201.1","RLHA307","rough legged hawk",2014,"study area"
-"202.1","RLHA307","rough legged hawk",2015,"study area"
-"203.1","RLHA309","rough legged hawk",2014,"study area"
-"204.1","RLHA311","rough legged hawk",2014,"study area"
-"205.1","RLHA312","rough legged hawk",2015,"study area"
-"206.1","RLHA313","rough legged hawk",2015,"study area"
-"207.2","RLHA317","rough legged hawk",2014,"study area"
-"208.6","RLHA318","rough legged hawk",2014,"study area"
-"210.1","RLHA321","rough legged hawk",2015,"study area"
-"211.1","RLHA401","rough legged hawk",2014,"study area"
-"212.1","RLHA401","rough legged hawk",2015,"study area"
-"213.3","RLHA402","rough legged hawk",2014,"study area"
-"214.3","RLHA402","rough legged hawk",2015,"study area"
-"215.1","RLHA406","rough legged hawk",2014,"study area"
-"216.1","RLHA406","rough legged hawk",2015,"study area"
-"217.1","RLHA409","rough legged hawk",2014,"study area"
-"218.7","RLHA410","rough legged hawk",2014,"study area"
-"219.7","RLHA410","rough legged hawk",2015,"study area"
-"220.1","RLHAAB01","rough legged hawk",2016,"study area"
-"221.1","RLHAAB01","rough legged hawk",2018,"study area"
-"222.6","RLHAAB01","rough legged hawk",2019,"study area"
-"223.1","RLHAAB02","rough legged hawk",2016,"study area"
-"225.1","RLHAAB03","rough legged hawk",2016,"study area"
-"226.1","RLHAAB03","rough legged hawk",2019,"study area"
-"227.1","RLHAAB04","rough legged hawk",2016,"study area"
-"229.1","RLHAAB05","rough legged hawk",2016,"study area"
-"231.3","RLHAAB06","rough legged hawk",2016,"study area"
-"232.1","RLHAAB07","rough legged hawk",2016,"study area"
-"233.1","RLHAAB08","rough legged hawk",2016,"study area"
-"234.1","RLHAAB09","rough legged hawk",2016,"study area"
-"235.1","RLHAAB10","rough legged hawk",2016,"study area"
-"236.1","RLHAAB11","rough legged hawk",2016,"study area"
-"237.7","RLHAAB12","rough legged hawk",2016,"study area"
-"238.1","RLHAAB13","rough legged hawk",2016,"study area"
-"239.1","RLHAAB14","rough legged hawk",2016,"study area"
-"240.1","RLHAABKB01","rough legged hawk",2019,"study area"
-"241.1","RLHAABKB02","rough legged hawk",2019,"study area"
-"242.13","RLHACCJ01","rough legged hawk",2016,"study area"
-"243.1","RLHADL01","rough legged hawk",2016,"study area"
-"244.1","RLHAED01","rough legged hawk",2016,"study area"
-"245.1","RLHAED01","rough legged hawk",2019,"study area"
-"246.1","RLHAED02","rough legged hawk",2019,"study area"
-"247.1","RLHAED03","rough legged hawk",2019,"study area"
-"248.1","RLHAED04","rough legged hawk",2019,"study area"
-"249.1","RLHAED05","rough legged hawk",2019,"study area"
-"250.6","RLHAJB01","rough legged hawk",2016,"study area"
-"251.1","RLHAJB02","rough legged hawk",2016,"study area"
-"252.1","RLHAJD01","rough legged hawk",2016,"study area"
-"253.1","RLHAMV01","rough legged hawk",2019,"study area"
-"254.13","RLHAMZ01","rough legged hawk",2019,"study area"
-"255.1","RLHASL01","rough legged hawk",2011,"study area"
-"256.1","FAPE-MP-01","peregrine falcon",2022,"study area"
-"257.1","PEFA-DG-01","peregrine falcon",2022,"study area"
-"258.1","PEFA-GB-01","peregrine falcon",2022,"study area"
-"259.1","PEFA-LM-01","peregrine falcon",2022,"study area"
-"260.1","PEFA-TG-02","peregrine falcon",2022,"study area"
-"261.1","RLHA-DB-01","rough legged hawk",2022,"study area"
-"262.1","RLHA-LM-01","rough legged hawk",2022,"study area"
-"263.1","RLHA-TG-01","rough legged hawk",2022,"study area"
+nest_id,species,year,zone
+BUPA_115,rough legged hawk,2018,black plateau
+BUPA_139,rough legged hawk,2018,black plateau
+BUPA_152,rough legged hawk,2018,black plateau
+BUPA106,rough legged hawk,2012,black plateau
+BUPA115,rough legged hawk,2019,black plateau
+BUPA118,rough legged hawk,2012,black plateau
+BUPA118,rough legged hawk,2019,black plateau
+BUPA122,rough legged hawk,2012,black plateau
+BUPA122,rough legged hawk,2019,black plateau
+BUPA125,rough legged hawk,2019,black plateau
+BUPA127,rough legged hawk,2012,black plateau
+BUPA127,rough legged hawk,2019,black plateau
+BUPA128,rough legged hawk,2012,black plateau
+BUPA128,rough legged hawk,2019,black plateau
+BUPA138,rough legged hawk,2019,black plateau
+BUPA154,rough legged hawk,2019,black plateau
+BUPA157,rough legged hawk,2019,black plateau
+BUPA159,rough legged hawk,2019,black plateau
+BUPA162,rough legged hawk,2019,black plateau
+BUPA163,rough legged hawk,2019,black plateau
+BUS01,rough legged hawk,2006,black plateau
+BUS1,rough legged hawk,2004,black plateau
+PEFA_AB01,peregrine falcon,2017,black plateau
+PEFA01,peregrine falcon,2008,black plateau
+PEFA01,peregrine falcon,2009,black plateau
+PEFA01,peregrine falcon,2010,black plateau
+PEFA01,peregrine falcon,2011,black plateau
+PEFA01,peregrine falcon,2018,black plateau
+PEFA02,peregrine falcon,2008,black plateau
+PEFA02,peregrine falcon,2018,black plateau
+PEFA03,peregrine falcon,2008,black plateau
+PEFA04,peregrine falcon,2013,black plateau
+PEFA104,peregrine falcon,2012,black plateau
+PEFA104,peregrine falcon,2014,black plateau
+PEFA104,peregrine falcon,2015,black plateau
+PEFA104a,peregrine falcon,2019,black plateau
+PEFA106,peregrine falcon,2019,black plateau
+PEFA107,peregrine falcon,2019,black plateau
+PEFAAB01,peregrine falcon,2016,black plateau
+RLHA_AB02,rough legged hawk,2017,black plateau
+RLHA01,rough legged hawk,2009,black plateau
+RLHA01,rough legged hawk,2018,black plateau
+RLHA02,rough legged hawk,2009,black plateau
+RLHA03,rough legged hawk,2011,black plateau
+RLHA04,rough legged hawk,2010,black plateau
+RLHA04,rough legged hawk,2011,black plateau
+RLHA05,rough legged hawk,2010,black plateau
+RLHA05,rough legged hawk,2011,black plateau
+RLHA06,rough legged hawk,2010,black plateau
+RLHA06,rough legged hawk,2011,black plateau
+RLHA07,rough legged hawk,2010,black plateau
+RLHA07,rough legged hawk,2011,black plateau
+RLHA08,rough legged hawk,2010,black plateau
+RLHA08-NC,rough legged hawk,2016,black plateau
+RLHA09,rough legged hawk,2010,black plateau
+RLHA09-NC,rough legged hawk,2016,black plateau
+RLHA10,rough legged hawk,2010,black plateau
+RLHA10,rough legged hawk,2011,black plateau
+RLHA10-KC,rough legged hawk,2016,black plateau
+RLHA106,rough legged hawk,2014,black plateau
+RLHA11,rough legged hawk,2010,black plateau
+RLHA11,rough legged hawk,2011,black plateau
+RLHA114,rough legged hawk,2014,black plateau
+RLHA115,rough legged hawk,2014,black plateau
+RLHA117,rough legged hawk,2015,black plateau
+RLHA118,rough legged hawk,2014,black plateau
+RLHA118,rough legged hawk,2015,black plateau
+RLHA12,rough legged hawk,2011,black plateau
+RLHA122,rough legged hawk,2014,black plateau
+RLHA125,rough legged hawk,2014,black plateau
+RLHA125,rough legged hawk,2015,black plateau
+RLHA128,rough legged hawk,2015,black plateau
+RLHA130,rough legged hawk,2014,black plateau
+RLHA131,rough legged hawk,2015,black plateau
+RLHA137,rough legged hawk,2014,black plateau
+RLHA138,rough legged hawk,2014,black plateau
+RLHA139,rough legged hawk,2014,black plateau
+RLHA142,rough legged hawk,2014,black plateau
+RLHA142,rough legged hawk,2015,black plateau
+RLHA143,rough legged hawk,2014,black plateau
+RLHA151,rough legged hawk,2015,black plateau
+RLHA152,rough legged hawk,2015,black plateau
+RLHAAB01,rough legged hawk,2016,black plateau
+RLHAAB02,rough legged hawk,2016,black plateau
+RLHAAB03,rough legged hawk,2016,black plateau
+RLHAAB04,rough legged hawk,2016,black plateau
+RLHAAB05,rough legged hawk,2016,black plateau
+RLHADL01,rough legged hawk,2016,black plateau
+FAPE-MP-01,peregrine falcon,2022,black plateau
+PEFA-LM-01,peregrine falcon,2022,black plateau
+RLHA-DB-01,rough legged hawk,2022,black plateau
+RLHA-LM-01,rough legged hawk,2022,black plateau
+RLHA02,rough legged hawk,2007,camp 2
+RLHA21,rough legged hawk,2010,camp 2
+RLHACCJ01,rough legged hawk,2016,camp 2
+RLHAMZ01,rough legged hawk,2019,camp 2
+BUPA308,rough legged hawk,2012,camp 3 plateau
+BUPA329,rough legged hawk,2019,camp 3 plateau
+BUPA332,rough legged hawk,2019,camp 3 plateau
+PEFA_AB03,peregrine falcon,2017,camp 3 plateau
+PEFA_AB04,peregrine falcon,2017,camp 3 plateau
+PEFA03,peregrine falcon,2013,camp 3 plateau
+PEFA301,peregrine falcon,2014,camp 3 plateau
+PEFA303,peregrine falcon,2014,camp 3 plateau
+PEFA303,peregrine falcon,2015,camp 3 plateau
+PEFAAB04,peregrine falcon,2016,camp 3 plateau
+PEFAABKB01,peregrine falcon,2019,camp 3 plateau
+RLHA_AB04,rough legged hawk,2017,camp 3 plateau
+RLHA_AB05,rough legged hawk,2017,camp 3 plateau
+RLHA03,rough legged hawk,2007,camp 3 plateau
+RLHA03,rough legged hawk,2009,camp 3 plateau
+RLHA05,rough legged hawk,2007,camp 3 plateau
+RLHA05,rough legged hawk,2008,camp 3 plateau
+RLHA10,rough legged hawk,2008,camp 3 plateau
+RLHA303,rough legged hawk,2014,camp 3 plateau
+RLHA303,rough legged hawk,2015,camp 3 plateau
+RLHA309,rough legged hawk,2014,camp 3 plateau
+RLHA311,rough legged hawk,2014,camp 3 plateau
+RLHA313,rough legged hawk,2015,camp 3 plateau
+RLHA321,rough legged hawk,2015,camp 3 plateau
+RLHAAB07,rough legged hawk,2016,camp 3 plateau
+RLHAAB08,rough legged hawk,2016,camp 3 plateau
+RLHAAB11,rough legged hawk,2016,camp 3 plateau
+RLHAABKB01,rough legged hawk,2019,camp 3 plateau
+RLHAABKB02,rough legged hawk,2019,camp 3 plateau
+RLHAED03,rough legged hawk,2019,camp 3 plateau
+RLHAED04,rough legged hawk,2019,camp 3 plateau
+PEFA-TG-02,peregrine falcon,2022,camp 3 plateau
+RLHA-TG-01,rough legged hawk,2022,camp 3 plateau
+BUPA304,rough legged hawk,2012,camp 3
+BUPA307,rough legged hawk,2012,camp 3
+FAPE_304,peregrine falcon,2018,camp 3
+PEFA_FLP01,peregrine falcon,2017,camp 3
+PEFA302,peregrine falcon,2014,camp 3
+PEFAED02,peregrine falcon,2019,camp 3
+PEFAJB01,peregrine falcon,2016,camp 3
+RLHA_AB03,rough legged hawk,2017,camp 3
+RLHA_ED01,rough legged hawk,2017,camp 3
+RLHA01,rough legged hawk,2007,camp 3
+RLHA04,rough legged hawk,2009,camp 3
+RLHA06,rough legged hawk,2007,camp 3
+RLHA08,rough legged hawk,2008,camp 3
+RLHA11,rough legged hawk,2008,camp 3
+RLHA30,rough legged hawk,2011,camp 3
+RLHA304,rough legged hawk,2014,camp 3
+RLHA307,rough legged hawk,2014,camp 3
+RLHA307,rough legged hawk,2015,camp 3
+RLHA312,rough legged hawk,2015,camp 3
+RLHAAB03,rough legged hawk,2019,camp 3
+RLHAED01,rough legged hawk,2016,camp 3
+RLHAJB02,rough legged hawk,2016,camp 3
+RLHAMV01,rough legged hawk,2019,camp 3
+PEFA-DG-01,peregrine falcon,2022,camp 3
+BUPA_420,rough legged hawk,2018,dufour
+BUPA404,rough legged hawk,2012,dufour
+BUS02,rough legged hawk,2006,dufour
+FAPE_402,peregrine falcon,2018,dufour
+FAU01,peregrine falcon,2006,dufour
+PEFA_AB02,peregrine falcon,2017,dufour
+PEFA01,peregrine falcon,2013,dufour
+PEFA02,peregrine falcon,2010,dufour
+PEFA04,peregrine falcon,2008,dufour
+PEFA402,peregrine falcon,2012,dufour
+PEFA402,peregrine falcon,2014,dufour
+PEFA402,peregrine falcon,2015,dufour
+PEFAAB03,peregrine falcon,2016,dufour
+PEFAED01,peregrine falcon,2019,dufour
+RLHA06,rough legged hawk,2008,dufour
+RLHA08,rough legged hawk,2007,dufour
+RLHA08,rough legged hawk,2011,dufour
+RLHA09,rough legged hawk,2007,dufour
+RLHA18,rough legged hawk,2010,dufour
+RLHA401,rough legged hawk,2014,dufour
+RLHA401,rough legged hawk,2015,dufour
+RLHA406,rough legged hawk,2014,dufour
+RLHA406,rough legged hawk,2015,dufour
+RLHAAB01,rough legged hawk,2018,dufour
+RLHAAB09,rough legged hawk,2016,dufour
+RLHAAB10,rough legged hawk,2016,dufour
+RLHAED01,rough legged hawk,2019,dufour
+RLHAED02,rough legged hawk,2019,dufour
+RLHAED05,rough legged hawk,2019,dufour
+RLHAJD01,rough legged hawk,2016,dufour
+RLHASL01,rough legged hawk,2011,dufour
+BUPA413,rough legged hawk,2019,goose point
+FAPE_403,peregrine falcon,2018,goose point
+PEFA02,peregrine falcon,2013,goose point
+PEFA403,peregrine falcon,2014,goose point
+PEFA404,peregrine falcon,2015,goose point
+PEFAAB02,peregrine falcon,2016,goose point
+PEFAJB01,peregrine falcon,2013,goose point
+RLHA13,rough legged hawk,2011,goose point
+RLHA19,rough legged hawk,2010,goose point
+RLHA20,rough legged hawk,2010,goose point
+RLHA205,rough legged hawk,2014,goose point
+RLHA402,rough legged hawk,2014,goose point
+RLHA402,rough legged hawk,2015,goose point
+RLHA409,rough legged hawk,2014,goose point
+RLHA410,rough legged hawk,2014,goose point
+RLHA410,rough legged hawk,2015,goose point
+RLHAAB12,rough legged hawk,2016,goose point
+RLHAAB13,rough legged hawk,2016,goose point
+RLHAAB14,rough legged hawk,2016,goose point
+PEFA-GB-01,peregrine falcon,2022,goose point
+RLHA04,rough legged hawk,2007,malaview
+RLHA317,rough legged hawk,2014,malaview
+RLHA318,rough legged hawk,2014,malaview
+RLHAAB01,rough legged hawk,2019,malaview
+RLHAAB06,rough legged hawk,2016,malaview
+RLHAJB01,rough legged hawk,2016,malaview
+BUPA140,rough legged hawk,2019,south plateau
+BUPA141,rough legged hawk,2019,south plateau
+BUPA149,rough legged hawk,2019,south plateau
+BUPA156,rough legged hawk,2019,south plateau
+BUPA161,rough legged hawk,2019,south plateau
+RLHA01-YS,rough legged hawk,2017,south plateau
+RLHA02,rough legged hawk,2008,south plateau
+RLHA02,rough legged hawk,2010,south plateau
+RLHA02-JV,rough legged hawk,2017,south plateau
+RLHA03-NC,rough legged hawk,2016,south plateau
+RLHA04,rough legged hawk,2008,south plateau
+RLHA04-KC,rough legged hawk,2016,south plateau
+RLHA05-KC,rough legged hawk,2016,south plateau
+RLHA06-YS,rough legged hawk,2016,south plateau
+RLHA07,rough legged hawk,2007,south plateau
+RLHA14,rough legged hawk,2010,south plateau
+RLHA140,rough legged hawk,2014,south plateau
+RLHA141,rough legged hawk,2014,south plateau
+RLHA144,rough legged hawk,2014,south plateau
+RLHA149,rough legged hawk,2015,south plateau
+RLHA15,rough legged hawk,2010,south plateau
+RLHA150,rough legged hawk,2015,south plateau
+RLHA16,rough legged hawk,2010,south plateau
+RLHA17,rough legged hawk,2010,south plateau
+BUPA_142,rough legged hawk,2018,qarlikturvik valley
+BUPA_153/BUPA_135,rough legged hawk,2018,qarlikturvik valley
+BUPA107,rough legged hawk,2012,qarlikturvik valley
+BUPA110a,rough legged hawk,2019,qarlikturvik valley
+BUPA111a,rough legged hawk,2019,qarlikturvik valley
+BUPA146,rough legged hawk,2019,qarlikturvik valley
+BUPA147a,rough legged hawk,2019,qarlikturvik valley
+RLHA01,rough legged hawk,2008,qarlikturvik valley
+RLHA01,rough legged hawk,2010,qarlikturvik valley
+RLHA01,rough legged hawk,2011,qarlikturvik valley
+RLHA01-YS,rough legged hawk,2016,qarlikturvik valley
+RLHA02,rough legged hawk,2011,qarlikturvik valley
+RLHA02-NC,rough legged hawk,2016,qarlikturvik valley
+RLHA03,rough legged hawk,2010,qarlikturvik valley
+RLHA07-KC,rough legged hawk,2016,qarlikturvik valley
+RLHA12,rough legged hawk,2010,qarlikturvik valley
+RLHA13,rough legged hawk,2010,qarlikturvik valley
+RLHA135,rough legged hawk,2014,qarlikturvik valley
+RLHA136,rough legged hawk,2014,qarlikturvik valley
+RLHA146,rough legged hawk,2015,qarlikturvik valley
+RLHA147,rough legged hawk,2015,qarlikturvik valley
+BUPA_142,rough legged hawk,2018,camp 1
+BUPA_153/BUPA_135,rough legged hawk,2018,camp 1
+BUPA107,rough legged hawk,2012,camp 1
+BUPA146,rough legged hawk,2019,camp 1
+BUPA147a,rough legged hawk,2019,camp 1
+RLHA01,rough legged hawk,2008,camp 1
+RLHA01,rough legged hawk,2010,camp 1
+RLHA01,rough legged hawk,2011,camp 1
+RLHA01-YS,rough legged hawk,2016,camp 1
+RLHA02-NC,rough legged hawk,2016,camp 1
+RLHA03,rough legged hawk,2010,camp 1
+RLHA135,rough legged hawk,2014,camp 1
+RLHA136,rough legged hawk,2014,camp 1
+RLHA146,rough legged hawk,2015,camp 1
+RLHA147,rough legged hawk,2015,camp 1
+BUPA_115,rough legged hawk,2018,study area
+BUPA_139,rough legged hawk,2018,study area
+BUPA_142,rough legged hawk,2018,study area
+BUPA_152,rough legged hawk,2018,study area
+BUPA_153/BUPA_135,rough legged hawk,2018,study area
+BUPA_420,rough legged hawk,2018,study area
+BUPA106,rough legged hawk,2012,study area
+BUPA107,rough legged hawk,2012,study area
+BUPA110a,rough legged hawk,2019,study area
+BUPA111a,rough legged hawk,2019,study area
+BUPA115,rough legged hawk,2019,study area
+BUPA118,rough legged hawk,2012,study area
+BUPA118,rough legged hawk,2019,study area
+BUPA122,rough legged hawk,2012,study area
+BUPA122,rough legged hawk,2019,study area
+BUPA125,rough legged hawk,2019,study area
+BUPA127,rough legged hawk,2012,study area
+BUPA127,rough legged hawk,2019,study area
+BUPA128,rough legged hawk,2012,study area
+BUPA128,rough legged hawk,2019,study area
+BUPA138,rough legged hawk,2019,study area
+BUPA140,rough legged hawk,2019,study area
+BUPA141,rough legged hawk,2019,study area
+BUPA146,rough legged hawk,2019,study area
+BUPA147a,rough legged hawk,2019,study area
+BUPA149,rough legged hawk,2019,study area
+BUPA154,rough legged hawk,2019,study area
+BUPA156,rough legged hawk,2019,study area
+BUPA157,rough legged hawk,2019,study area
+BUPA159,rough legged hawk,2019,study area
+BUPA161,rough legged hawk,2019,study area
+BUPA162,rough legged hawk,2019,study area
+BUPA163,rough legged hawk,2019,study area
+BUPA304,rough legged hawk,2012,study area
+BUPA307,rough legged hawk,2012,study area
+BUPA308,rough legged hawk,2012,study area
+BUPA329,rough legged hawk,2019,study area
+BUPA332,rough legged hawk,2019,study area
+BUPA404,rough legged hawk,2012,study area
+BUPA413,rough legged hawk,2019,study area
+BUS01,rough legged hawk,2006,study area
+BUS02,rough legged hawk,2006,study area
+BUS1,rough legged hawk,2004,study area
+FAPE_304,peregrine falcon,2018,study area
+FAPE_402,peregrine falcon,2018,study area
+FAPE_403,peregrine falcon,2018,study area
+FAU01,peregrine falcon,2006,study area
+PEFA_AB01,peregrine falcon,2017,study area
+PEFA_AB02,peregrine falcon,2017,study area
+PEFA_AB03,peregrine falcon,2017,study area
+PEFA_AB04,peregrine falcon,2017,study area
+PEFA_FLP01,peregrine falcon,2017,study area
+PEFA01,peregrine falcon,2008,study area
+PEFA01,peregrine falcon,2009,study area
+PEFA01,peregrine falcon,2010,study area
+PEFA01,peregrine falcon,2011,study area
+PEFA01,peregrine falcon,2013,study area
+PEFA01,peregrine falcon,2018,study area
+PEFA02,peregrine falcon,2008,study area
+PEFA02,peregrine falcon,2010,study area
+PEFA02,peregrine falcon,2013,study area
+PEFA02,peregrine falcon,2018,study area
+PEFA03,peregrine falcon,2008,study area
+PEFA03,peregrine falcon,2013,study area
+PEFA04,peregrine falcon,2008,study area
+PEFA04,peregrine falcon,2013,study area
+PEFA104,peregrine falcon,2012,study area
+PEFA104,peregrine falcon,2014,study area
+PEFA104,peregrine falcon,2015,study area
+PEFA104a,peregrine falcon,2019,study area
+PEFA106,peregrine falcon,2019,study area
+PEFA107,peregrine falcon,2019,study area
+PEFA301,peregrine falcon,2014,study area
+PEFA302,peregrine falcon,2014,study area
+PEFA303,peregrine falcon,2014,study area
+PEFA303,peregrine falcon,2015,study area
+PEFA402,peregrine falcon,2012,study area
+PEFA402,peregrine falcon,2014,study area
+PEFA402,peregrine falcon,2015,study area
+PEFA403,peregrine falcon,2014,study area
+PEFA404,peregrine falcon,2015,study area
+PEFAAB01,peregrine falcon,2016,study area
+PEFAAB02,peregrine falcon,2016,study area
+PEFAAB03,peregrine falcon,2016,study area
+PEFAAB04,peregrine falcon,2016,study area
+PEFAABKB01,peregrine falcon,2019,study area
+PEFAED01,peregrine falcon,2019,study area
+PEFAED02,peregrine falcon,2019,study area
+PEFAJB01,peregrine falcon,2013,study area
+PEFAJB01,peregrine falcon,2016,study area
+RLHA_AB02,rough legged hawk,2017,study area
+RLHA_AB03,rough legged hawk,2017,study area
+RLHA_AB04,rough legged hawk,2017,study area
+RLHA_AB05,rough legged hawk,2017,study area
+RLHA_ED01,rough legged hawk,2017,study area
+RLHA01,rough legged hawk,2007,study area
+RLHA01,rough legged hawk,2008,study area
+RLHA01,rough legged hawk,2009,study area
+RLHA01,rough legged hawk,2010,study area
+RLHA01,rough legged hawk,2011,study area
+RLHA01,rough legged hawk,2018,study area
+RLHA01-YS,rough legged hawk,2016,study area
+RLHA01-YS,rough legged hawk,2017,study area
+RLHA02,rough legged hawk,2007,study area
+RLHA02,rough legged hawk,2008,study area
+RLHA02,rough legged hawk,2009,study area
+RLHA02,rough legged hawk,2010,study area
+RLHA02,rough legged hawk,2011,study area
+RLHA02-JV,rough legged hawk,2017,study area
+RLHA02-NC,rough legged hawk,2016,study area
+RLHA03,rough legged hawk,2007,study area
+RLHA03,rough legged hawk,2009,study area
+RLHA03,rough legged hawk,2010,study area
+RLHA03,rough legged hawk,2011,study area
+RLHA03-NC,rough legged hawk,2016,study area
+RLHA04,rough legged hawk,2007,study area
+RLHA04,rough legged hawk,2008,study area
+RLHA04,rough legged hawk,2009,study area
+RLHA04,rough legged hawk,2010,study area
+RLHA04,rough legged hawk,2011,study area
+RLHA04-KC,rough legged hawk,2016,study area
+RLHA05,rough legged hawk,2007,study area
+RLHA05,rough legged hawk,2008,study area
+RLHA05,rough legged hawk,2010,study area
+RLHA05,rough legged hawk,2011,study area
+RLHA05-KC,rough legged hawk,2016,study area
+RLHA06,rough legged hawk,2007,study area
+RLHA06,rough legged hawk,2008,study area
+RLHA06,rough legged hawk,2010,study area
+RLHA06,rough legged hawk,2011,study area
+RLHA06-YS,rough legged hawk,2016,study area
+RLHA07,rough legged hawk,2007,study area
+RLHA07,rough legged hawk,2010,study area
+RLHA07,rough legged hawk,2011,study area
+RLHA07-KC,rough legged hawk,2016,study area
+RLHA08,rough legged hawk,2007,study area
+RLHA08,rough legged hawk,2008,study area
+RLHA08,rough legged hawk,2010,study area
+RLHA08,rough legged hawk,2011,study area
+RLHA08-NC,rough legged hawk,2016,study area
+RLHA09,rough legged hawk,2007,study area
+RLHA09,rough legged hawk,2010,study area
+RLHA09-NC,rough legged hawk,2016,study area
+RLHA10,rough legged hawk,2008,study area
+RLHA10,rough legged hawk,2010,study area
+RLHA10,rough legged hawk,2011,study area
+RLHA10-KC,rough legged hawk,2016,study area
+RLHA106,rough legged hawk,2014,study area
+RLHA11,rough legged hawk,2008,study area
+RLHA11,rough legged hawk,2010,study area
+RLHA11,rough legged hawk,2011,study area
+RLHA114,rough legged hawk,2014,study area
+RLHA115,rough legged hawk,2014,study area
+RLHA117,rough legged hawk,2015,study area
+RLHA118,rough legged hawk,2014,study area
+RLHA118,rough legged hawk,2015,study area
+RLHA12,rough legged hawk,2010,study area
+RLHA12,rough legged hawk,2011,study area
+RLHA122,rough legged hawk,2014,study area
+RLHA125,rough legged hawk,2014,study area
+RLHA125,rough legged hawk,2015,study area
+RLHA128,rough legged hawk,2015,study area
+RLHA13,rough legged hawk,2010,study area
+RLHA13,rough legged hawk,2011,study area
+RLHA130,rough legged hawk,2014,study area
+RLHA131,rough legged hawk,2015,study area
+RLHA135,rough legged hawk,2014,study area
+RLHA136,rough legged hawk,2014,study area
+RLHA137,rough legged hawk,2014,study area
+RLHA138,rough legged hawk,2014,study area
+RLHA139,rough legged hawk,2014,study area
+RLHA14,rough legged hawk,2010,study area
+RLHA140,rough legged hawk,2014,study area
+RLHA141,rough legged hawk,2014,study area
+RLHA142,rough legged hawk,2014,study area
+RLHA142,rough legged hawk,2015,study area
+RLHA143,rough legged hawk,2014,study area
+RLHA144,rough legged hawk,2014,study area
+RLHA146,rough legged hawk,2015,study area
+RLHA147,rough legged hawk,2015,study area
+RLHA149,rough legged hawk,2015,study area
+RLHA15,rough legged hawk,2010,study area
+RLHA150,rough legged hawk,2015,study area
+RLHA151,rough legged hawk,2015,study area
+RLHA152,rough legged hawk,2015,study area
+RLHA16,rough legged hawk,2010,study area
+RLHA17,rough legged hawk,2010,study area
+RLHA18,rough legged hawk,2010,study area
+RLHA19,rough legged hawk,2010,study area
+RLHA20,rough legged hawk,2010,study area
+RLHA205,rough legged hawk,2014,study area
+RLHA21,rough legged hawk,2010,study area
+RLHA30,rough legged hawk,2011,study area
+RLHA303,rough legged hawk,2014,study area
+RLHA303,rough legged hawk,2015,study area
+RLHA304,rough legged hawk,2014,study area
+RLHA307,rough legged hawk,2014,study area
+RLHA307,rough legged hawk,2015,study area
+RLHA309,rough legged hawk,2014,study area
+RLHA311,rough legged hawk,2014,study area
+RLHA312,rough legged hawk,2015,study area
+RLHA313,rough legged hawk,2015,study area
+RLHA317,rough legged hawk,2014,study area
+RLHA318,rough legged hawk,2014,study area
+RLHA321,rough legged hawk,2015,study area
+RLHA401,rough legged hawk,2014,study area
+RLHA401,rough legged hawk,2015,study area
+RLHA402,rough legged hawk,2014,study area
+RLHA402,rough legged hawk,2015,study area
+RLHA406,rough legged hawk,2014,study area
+RLHA406,rough legged hawk,2015,study area
+RLHA409,rough legged hawk,2014,study area
+RLHA410,rough legged hawk,2014,study area
+RLHA410,rough legged hawk,2015,study area
+RLHAAB01,rough legged hawk,2016,study area
+RLHAAB01,rough legged hawk,2018,study area
+RLHAAB01,rough legged hawk,2019,study area
+RLHAAB02,rough legged hawk,2016,study area
+RLHAAB03,rough legged hawk,2016,study area
+RLHAAB03,rough legged hawk,2019,study area
+RLHAAB04,rough legged hawk,2016,study area
+RLHAAB05,rough legged hawk,2016,study area
+RLHAAB06,rough legged hawk,2016,study area
+RLHAAB07,rough legged hawk,2016,study area
+RLHAAB08,rough legged hawk,2016,study area
+RLHAAB09,rough legged hawk,2016,study area
+RLHAAB10,rough legged hawk,2016,study area
+RLHAAB11,rough legged hawk,2016,study area
+RLHAAB12,rough legged hawk,2016,study area
+RLHAAB13,rough legged hawk,2016,study area
+RLHAAB14,rough legged hawk,2016,study area
+RLHAABKB01,rough legged hawk,2019,study area
+RLHAABKB02,rough legged hawk,2019,study area
+RLHACCJ01,rough legged hawk,2016,study area
+RLHADL01,rough legged hawk,2016,study area
+RLHAED01,rough legged hawk,2016,study area
+RLHAED01,rough legged hawk,2019,study area
+RLHAED02,rough legged hawk,2019,study area
+RLHAED03,rough legged hawk,2019,study area
+RLHAED04,rough legged hawk,2019,study area
+RLHAED05,rough legged hawk,2019,study area
+RLHAJB01,rough legged hawk,2016,study area
+RLHAJB02,rough legged hawk,2016,study area
+RLHAJD01,rough legged hawk,2016,study area
+RLHAMV01,rough legged hawk,2019,study area
+RLHAMZ01,rough legged hawk,2019,study area
+RLHASL01,rough legged hawk,2011,study area
+FAPE-MP-01,peregrine falcon,2022,study area
+PEFA-DG-01,peregrine falcon,2022,study area
+PEFA-GB-01,peregrine falcon,2022,study area
+PEFA-LM-01,peregrine falcon,2022,study area
+PEFA-TG-02,peregrine falcon,2022,study area
+RLHA-DB-01,rough legged hawk,2022,study area
+RLHA-LM-01,rough legged hawk,2022,study area
+RLHA-TG-01,rough legged hawk,2022,study area
